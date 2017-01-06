@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac Os on (map solve problems)</title>
+    <link>http://yantonov.com/categories/mac-os/index.xml</link>
+    <description>Recent content in Mac Os on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/mac-os/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Delete package (some-package.pkg) from Mac OS</title>
+      <link>http://yantonov.com/blog/2015/10/14/delete-package-some-package.pkg-from-mac-os/</link>
+      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/10/14/delete-package-some-package.pkg-from-mac-os/</guid>
+      <description>Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
+There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
+To automate the process i have wrote this script uninstall-pkg.sh
+#!/bin/sh # this script allow you to uninstall given pkg file # ATTENTIONS!</description>
+    </item>
+    
+    <item>
+      <title>Stand up every 20 minutes (mac os)</title>
+      <link>http://yantonov.com/blog/2015/02/27/stand-up-every-20-minutes-mac-os/</link>
+      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/02/27/stand-up-every-20-minutes-mac-os/</guid>
+      <description>Foreword : Inspired by excellent post
+Initial task: creating notification every 20 minutes can be decomposed into two parts:
+1. create notification
+2. scheduled launch
+First subtask can be solved using this trivial script.
+standup.sh:
+#!/bin/sh # stand up notification osascript -e &#39;display notification &amp;quot;Stand up&amp;quot; with title &amp;quot;Healthy programmer&amp;quot;&#39; say &amp;quot;Stand up&amp;quot;  Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
+Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
+    </item>
+    
+  </channel>
+</rss>

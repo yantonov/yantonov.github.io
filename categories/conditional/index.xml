@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conditional on (map solve problems)</title>
+    <link>http://yantonov.com/categories/conditional/index.xml</link>
+    <description>Recent content in Conditional on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/conditional/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>conditional get for rss hackers</title>
+      <link>http://yantonov.com/blog/2015/01/25/conditional-get-for-rss-hackers/</link>
+      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/01/25/conditional-get-for-rss-hackers/</guid>
+      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
+p.s. fyi header field definitions rfc2616</description>
+    </item>
+    
+  </channel>
+</rss>

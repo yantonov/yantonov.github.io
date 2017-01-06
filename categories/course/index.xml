@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course on (map solve problems)</title>
+    <link>http://yantonov.com/categories/course/index.xml</link>
+    <description>Recent content in Course on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/course/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Path to learn haskell</title>
+      <link>http://yantonov.com/blog/2015/02/21/path-to-learn-haskell/</link>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/02/21/path-to-learn-haskell/</guid>
+      <description>Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+    </item>
+    
+  </channel>
+</rss>

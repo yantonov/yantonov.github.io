@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on (map solve problems)</title>
+    <link>http://yantonov.com/categories/python/index.xml</link>
+    <description>Recent content in Python on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>install matplotlib on mac sierra</title>
+      <link>http://yantonov.com/blog/2017/01/05/install-matplotlib-on-mac-sierra/</link>
+      <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/01/05/install-matplotlib-on-mac-sierra/</guid>
+      <description>During matplotlib installation (for python3) some error may occured:
+&amp;lsquo;The following required packages can not be built:
+* freetype
+* png&amp;rsquo;
+Thats why some additional steps may be required:
+ install homebrew
+ install pkg-config
+brew install pkg-config  install freetype
+brew install freetype  install matplotlib
+pip3 install matplotlib   Enjoy!</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conflict Free Replicated Data Types on (map solve problems)</title>
+    <link>http://yantonov.com/categories/conflict-free-replicated-data-types/index.xml</link>
+    <description>Recent content in Conflict Free Replicated Data Types on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/conflict-free-replicated-data-types/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>crdt reading list</title>
+      <link>http://yantonov.com/blog/2015/08/02/crdt-reading-list/</link>
+      <pubDate>Sun, 02 Aug 2015 12:14:54 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/08/02/crdt-reading-list/</guid>
+      <description>CRDT reading list</description>
+    </item>
+    
+  </channel>
+</rss>

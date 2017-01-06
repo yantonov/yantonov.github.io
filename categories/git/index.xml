@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on (map solve problems)</title>
+    <link>http://yantonov.com/categories/git/index.xml</link>
+    <description>Recent content in Git on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>bye bye mercurial</title>
+      <link>http://yantonov.com/blog/2016/03/12/bye-bye-mercurial/</link>
+      <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2016/03/12/bye-bye-mercurial/</guid>
+      <description>Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
+P.s. here is a simple script aimed to convert hg repo to git,
+maybe it will be helpful</description>
+    </item>
+    
+    <item>
+      <title>List non latin file names in git</title>
+      <link>http://yantonov.com/blog/2014/12/07/list-non-latin-file-names-in-git/</link>
+      <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/12/07/list-non-latin-file-names-in-git/</guid>
+      <description>Imagine you have commited file which name contain non latin letters.
+git init test-repo cd test-repo echo &amp;quot;test&amp;quot; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;quot;initial commit&amp;quot;  Ok, lets list files changed at revision
+git log -p  Here you can see escaped file name, and obvious its hard to read.
+diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test  To handle this case there is config options &amp;lsquo;core.</description>
+    </item>
+    
+    <item>
+      <title>programmable completion for git and mercurial</title>
+      <link>http://yantonov.com/blog/2014/11/09/programmable-completion-for-git-and-mercurial/</link>
+      <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/11/09/programmable-completion-for-git-and-mercurial/</guid>
+      <description>Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</description>
+    </item>
+    
+    <item>
+      <title>Git rerere</title>
+      <link>http://yantonov.com/blog/2014/11/04/git-rerere/</link>
+      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/11/04/git-rerere/</guid>
+      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
+Let see how its works:
+# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
+    </item>
+    
+    <item>
+      <title>git log aliases</title>
+      <link>http://yantonov.com/blog/2014/10/31/git-log-aliases/</link>
+      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/10/31/git-log-aliases/</guid>
+      <description>Here are some usefull git aliases which i use on a daily basis:
+Output samples are generated using clojure repository
+List of one line commits
+ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  List of commits with changed files
+ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat  List of commits without colors
+lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;  Commits with dates
+ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  Commits with short dates</description>
+    </item>
+    
+  </channel>
+</rss>

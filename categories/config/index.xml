@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Config on (map solve problems)</title>
+    <link>http://yantonov.com/categories/config/index.xml</link>
+    <description>Recent content in Config on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/config/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>git log aliases</title>
+      <link>http://yantonov.com/blog/2014/10/31/git-log-aliases/</link>
+      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/10/31/git-log-aliases/</guid>
+      <description>Here are some usefull git aliases which i use on a daily basis:
+Output samples are generated using clojure repository
+List of one line commits
+ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  List of commits with changed files
+ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat  List of commits without colors
+lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;  Commits with dates
+ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  Commits with short dates</description>
+    </item>
+    
+  </channel>
+</rss>

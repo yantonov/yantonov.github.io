@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Export on (map solve problems)</title>
+    <link>http://yantonov.com/categories/export/index.xml</link>
+    <description>Recent content in Export on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/export/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Export files changed at revision from mercurial</title>
+      <link>http://yantonov.com/blog/2014/12/07/export-files-changed-at-revision-from-mercurial/</link>
+      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/12/07/export-files-changed-at-revision-from-mercurial/</guid>
+      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
+Mercurial vcs has archive command which let you to export selected files at given revision:
+hg archive --type files --rev $REVISION -I list_of_files  To list files changed at revision:
+hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39;  Here end of line character is used to handle the case of using space character in filename.</description>
+    </item>
+    
+  </channel>
+</rss>

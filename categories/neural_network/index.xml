@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural_network on (map solve problems)</title>
+    <link>http://yantonov.com/categories/neural_network/index.xml</link>
+    <description>Recent content in Neural_network on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/neural_network/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CS231n Convolutional neural networks for visual recognition</title>
+      <link>http://yantonov.com/blog/2015/03/29/cs231n-convolutional-neural-networks-for-visual-recognition/</link>
+      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/03/29/cs231n-convolutional-neural-networks-for-visual-recognition/</guid>
+      <description>Course Project Reports</description>
+    </item>
+    
+  </channel>
+</rss>

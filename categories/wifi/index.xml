@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wifi on (map solve problems)</title>
+    <link>http://yantonov.com/categories/wifi/index.xml</link>
+    <description>Recent content in Wifi on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/wifi/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Can not connect to hidden wifi (ubuntu 16.04 lts)</title>
+      <link>http://yantonov.com/blog/2016/12/10/can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</link>
+      <pubDate>Sat, 10 Dec 2016 21:38:41 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2016/12/10/can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</guid>
+      <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
+nmcli c up id &amp;lt;sid&amp;gt;  bug status</description>
+    </item>
+    
+  </channel>
+</rss>

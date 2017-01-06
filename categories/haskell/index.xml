@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Haskell on (map solve problems)</title>
+    <link>http://yantonov.com/categories/haskell/index.xml</link>
+    <description>Recent content in Haskell on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="/categories/haskell/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Path to learn haskell</title>
+      <link>http://yantonov.com/blog/2015/02/21/path-to-learn-haskell/</link>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/02/21/path-to-learn-haskell/</guid>
+      <description>Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+    </item>
+    
+    <item>
+      <title>Find the length of the loop</title>
+      <link>http://yantonov.com/blog/2015/02/21/find-the-length-of-the-loop/</link>
+      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2015/02/21/find-the-length-of-the-loop/</guid>
+      <description>One of the popular interivew tasks&amp;hellip;
+You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
+Here is straghtforward solution in haskell
+{- data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase  Complexity: time o(n), memory o(1)</description>
+    </item>
+    
+    <item>
+      <title>Church numerals</title>
+      <link>http://yantonov.com/blog/2014/11/13/church-numerals/</link>
+      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2014/11/13/church-numerals/</guid>
+      <description>Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
+Summary:
+type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</description>
+    </item>
+    
+  </channel>
+</rss>
