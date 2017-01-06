@@ -9,7 +9,7 @@
     <atom:link href="/categories/config/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>git log aliases</title>
+      <title>Git log aliases</title>
       <link>http://yantonov.com/blog/2014/10/31/git-log-aliases/</link>
       <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
       

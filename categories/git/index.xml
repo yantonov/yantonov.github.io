@@ -9,7 +9,7 @@
     <atom:link href="/categories/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>bye bye mercurial</title>
+      <title>Bye bye mercurial</title>
       <link>http://yantonov.com/blog/2016/03/12/bye-bye-mercurial/</link>
       <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
       
@@ -32,7 +32,7 @@ diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205
     </item>
     
     <item>
-      <title>programmable completion for git and mercurial</title>
+      <title>Programmable completion for git and mercurial</title>
       <link>http://yantonov.com/blog/2014/11/09/programmable-completion-for-git-and-mercurial/</link>
       <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
       
@@ -54,7 +54,7 @@ Let see how its works:
     </item>
     
     <item>
-      <title>git log aliases</title>
+      <title>Git log aliases</title>
       <link>http://yantonov.com/blog/2014/10/31/git-log-aliases/</link>
       <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
       

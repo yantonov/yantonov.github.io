@@ -10,11 +10,11 @@
     <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>buy octopress hello hugo</title>
-      <link>http://yantonov.com/blog/2017/01/06/buy-octopress-hello-hugo/</link>
+      <title>Bye octopress hello hugo</title>
+      <link>http://yantonov.com/blog/2017/01/06/bye-octopress-hello-hugo/</link>
       <pubDate>Fri, 06 Jan 2017 13:02:38 +0500</pubDate>
       
-      <guid>http://yantonov.com/blog/2017/01/06/buy-octopress-hello-hugo/</guid>
+      <guid>http://yantonov.com/blog/2017/01/06/bye-octopress-hello-hugo/</guid>
       <description>This tiny blog has just been migrated from octropress to hugo.
 Pros:
 1. service code and content (blog posts) are not mixed
@@ -27,7 +27,7 @@ Good day!</description>
     </item>
     
     <item>
-      <title>install matplotlib on mac sierra</title>
+      <title>Install matplotlib on mac sierra</title>
       <link>http://yantonov.com/blog/2017/01/05/install-matplotlib-on-mac-sierra/</link>
       <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
       
@@ -64,7 +64,7 @@ nmcli c up id &amp;lt;sid&amp;gt;  bug status</description>
     </item>
     
     <item>
-      <title>strange shift key behaviour when renaming files in ubuntu</title>
+      <title>Strange shift key behaviour when renaming files in ubuntu</title>
       <link>http://yantonov.com/blog/2016/05/10/strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</link>
       <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
       
@@ -76,7 +76,7 @@ Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp
     </item>
     
     <item>
-      <title>bye bye mercurial</title>
+      <title>Bye bye mercurial</title>
       <link>http://yantonov.com/blog/2016/03/12/bye-bye-mercurial/</link>
       <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
       
@@ -108,7 +108,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
     </item>
     
     <item>
-      <title>deep learning resouces</title>
+      <title>Deep learning resouces</title>
       <link>http://yantonov.com/blog/2015/09/13/deep-learning-resouces/</link>
       <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
       
@@ -117,7 +117,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
     </item>
     
     <item>
-      <title>crdt reading list</title>
+      <title>Crdt reading list</title>
       <link>http://yantonov.com/blog/2015/08/02/crdt-reading-list/</link>
       <pubDate>Sun, 02 Aug 2015 12:14:54 +0500</pubDate>
       
@@ -126,7 +126,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
     </item>
     
     <item>
-      <title>y combinator</title>
+      <title>Y combinator</title>
       <link>http://yantonov.com/blog/2015/06/07/y-combinator/</link>
       <pubDate>Sun, 07 Jun 2015 17:50:14 +0500</pubDate>
       
