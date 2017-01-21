@@ -9,6 +9,15 @@
     <atom:link href="/categories/functional-programming/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>functional programming related podcasts</title>
+      <link>http://yantonov.com/blog/2017/01/21/functional-programming-related-podcasts/</link>
+      <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/01/21/functional-programming-related-podcasts/</guid>
+      <description>List of functional programming related podcasts. Happy listening!</description>
+    </item>
+    
+    <item>
       <title>Church numerals</title>
       <link>http://yantonov.com/blog/2014/11/13/church-numerals/</link>
       <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
