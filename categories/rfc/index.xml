@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rfc on (map solve problems)</title>
-    <link>http://yantonov.com/categories/rfc/index.xml</link>
+    <link>http://yantonov.com/categories/rfc/</link>
     <description>Recent content in Rfc on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/rfc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Jan 2015 16:30:47 +0500</lastBuildDate>
+    <atom:link href="/categories/rfc/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Conditional get for rss hackers</title>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on (map solve problems)</title>
+    <link>http://yantonov.com/categories/css/</link>
+    <description>Recent content in Css on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Apr 2017 20:49:57 +0500</lastBuildDate>
+    <atom:link href="/categories/css/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lispy css</title>
+      <link>http://yantonov.com/blog/2017/04/13/lispy-css/</link>
+      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/04/13/lispy-css/</guid>
+      <description>Write css rules with lispy syntax using lass.</description>
+    </item>
+    
+  </channel>
+</rss>

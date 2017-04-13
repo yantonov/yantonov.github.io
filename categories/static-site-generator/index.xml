@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Static Site Generator on (map solve problems)</title>
-    <link>http://yantonov.com/categories/static-site-generator/index.xml</link>
+    <link>http://yantonov.com/categories/static-site-generator/</link>
     <description>Recent content in Static Site Generator on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/static-site-generator/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Jan 2017 13:02:38 +0500</lastBuildDate>
+    <atom:link href="/categories/static-site-generator/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Bye octopress, hello hugo</title>

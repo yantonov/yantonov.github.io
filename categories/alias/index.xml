@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alias on (map solve problems)</title>
-    <link>http://yantonov.com/categories/alias/index.xml</link>
+    <link>http://yantonov.com/categories/alias/</link>
     <description>Recent content in Alias on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/alias/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Oct 2014 00:10:22 +0500</lastBuildDate>
+    <atom:link href="/categories/alias/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git log aliases</title>

@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kalman Filter on (map solve problems)</title>
-    <link>http://yantonov.com/categories/kalman-filter/index.xml</link>
+    <link>http://yantonov.com/categories/kalman-filter/</link>
     <description>Recent content in Kalman Filter on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/kalman-filter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Mar 2017 05:19:56 +0500</lastBuildDate>
+    <atom:link href="/categories/kalman-filter/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>kalman filter</title>

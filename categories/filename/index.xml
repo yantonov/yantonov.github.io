@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filename on (map solve problems)</title>
-    <link>http://yantonov.com/categories/filename/index.xml</link>
+    <link>http://yantonov.com/categories/filename/</link>
     <description>Recent content in Filename on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/filename/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Dec 2014 23:32:31 +0500</lastBuildDate>
+    <atom:link href="/categories/filename/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>List non latin file names in git</title>

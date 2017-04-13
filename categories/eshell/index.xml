@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eshell on (map solve problems)</title>
-    <link>http://yantonov.com/categories/eshell/index.xml</link>
+    <link>http://yantonov.com/categories/eshell/</link>
     <description>Recent content in Eshell on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/eshell/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Nov 2014 22:52:36 +0500</lastBuildDate>
+    <atom:link href="/categories/eshell/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programmable completion for git and mercurial</title>

@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conflict Free Replicated Data Types on (map solve problems)</title>
-    <link>http://yantonov.com/categories/conflict-free-replicated-data-types/index.xml</link>
+    <link>http://yantonov.com/categories/conflict-free-replicated-data-types/</link>
     <description>Recent content in Conflict Free Replicated Data Types on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/conflict-free-replicated-data-types/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Aug 2015 12:14:54 +0500</lastBuildDate>
+    <atom:link href="/categories/conflict-free-replicated-data-types/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Crdt reading list</title>

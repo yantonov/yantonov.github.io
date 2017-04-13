@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wifi on (map solve problems)</title>
-    <link>http://yantonov.com/categories/wifi/index.xml</link>
+    <link>http://yantonov.com/categories/wifi/</link>
     <description>Recent content in Wifi on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/wifi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Dec 2016 21:38:41 +0500</lastBuildDate>
+    <atom:link href="/categories/wifi/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Can not connect to hidden wifi (ubuntu 16.04 lts)</title>

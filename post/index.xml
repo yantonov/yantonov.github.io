@@ -2,12 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on (map solve problems)</title>
-    <link>http://yantonov.com/post/index.xml</link>
+    <link>http://yantonov.com/post/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Mar 2017 05:19:56 +0500</lastBuildDate>
-    <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Apr 2017 20:49:57 +0500</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Lispy css</title>
+      <link>http://yantonov.com/blog/2017/04/13/lispy-css/</link>
+      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/04/13/lispy-css/</guid>
+      <description>Write css rules with lispy syntax using lass.</description>
+    </item>
     
     <item>
       <title>kalman filter</title>
@@ -159,15 +168,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       
       <guid>http://yantonov.com/blog/2015/04/12/functional-composition-and-transducers/</guid>
       <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
-    </item>
-    
-    <item>
-      <title>CS231n Convolutional neural networks for visual recognition</title>
-      <link>http://yantonov.com/blog/2015/03/29/cs231n-convolutional-neural-networks-for-visual-recognition/</link>
-      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
-      
-      <guid>http://yantonov.com/blog/2015/03/29/cs231n-convolutional-neural-networks-for-visual-recognition/</guid>
-      <description>Course Project Reports</description>
     </item>
     
   </channel>

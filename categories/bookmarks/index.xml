@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bookmarks on (map solve problems)</title>
-    <link>http://yantonov.com/categories/bookmarks/index.xml</link>
+    <link>http://yantonov.com/categories/bookmarks/</link>
     <description>Recent content in Bookmarks on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/bookmarks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Mar 2015 15:49:56 +0500</lastBuildDate>
+    <atom:link href="/categories/bookmarks/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CS229 Machine Learning</title>

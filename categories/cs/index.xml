@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cs on (map solve problems)</title>
-    <link>http://yantonov.com/categories/cs/index.xml</link>
+    <link>http://yantonov.com/categories/cs/</link>
     <description>Recent content in Cs on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/cs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2014 13:09:21 +0500</lastBuildDate>
+    <atom:link href="/categories/cs/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Multi-queue replacement algorithm for second level buffer caches</title>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on (map solve problems)</title>
+    <link>http://yantonov.com/categories/</link>
+    <description>Recent content in Categories on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Nov 2014 13:43:28 +0500</lastBuildDate>
+    <atom:link href="/categories/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>.Net</title>
+      <link>http://yantonov.com/categories/.net/</link>
+      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/.net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ai</title>
+      <link>http://yantonov.com/categories/ai/</link>
+      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>http://yantonov.com/categories/algorithm/</link>
+      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alias</title>
+      <link>http://yantonov.com/categories/alias/</link>
+      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/alias/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>http://yantonov.com/categories/angular/</link>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automation</title>
+      <link>http://yantonov.com/categories/automation/</link>
+      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/automation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://yantonov.com/categories/blog/</link>
+      <pubDate>Fri, 06 Jan 2017 13:02:38 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bookmark</title>
+      <link>http://yantonov.com/categories/bookmark/</link>
+      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/bookmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bookmarks</title>
+      <link>http://yantonov.com/categories/bookmarks/</link>
+      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/bookmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build</title>
+      <link>http://yantonov.com/categories/build/</link>
+      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cache</title>
+      <link>http://yantonov.com/categories/cache/</link>
+      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/cache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caching</title>
+      <link>http://yantonov.com/categories/caching/</link>
+      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/caching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Church Numerals</title>
+      <link>http://yantonov.com/categories/church-numerals/</link>
+      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/church-numerals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clojure</title>
+      <link>http://yantonov.com/categories/clojure/</link>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/clojure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cmd</title>
+      <link>http://yantonov.com/categories/cmd/</link>
+      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
+      
+      <guid>http://yantonov.com/categories/cmd/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

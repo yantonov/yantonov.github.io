@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Links on (map solve problems)</title>
-    <link>http://yantonov.com/categories/links/index.xml</link>
+    <link>http://yantonov.com/categories/links/</link>
     <description>Recent content in Links on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/links/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Oct 2015 15:49:22 +0500</lastBuildDate>
+    <atom:link href="/categories/links/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Distributed systems papers</title>

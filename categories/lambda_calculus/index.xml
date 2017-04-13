@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lambda_calculus on (map solve problems)</title>
-    <link>http://yantonov.com/categories/lambda_calculus/index.xml</link>
+    <link>http://yantonov.com/categories/lambda_calculus/</link>
     <description>Recent content in Lambda_calculus on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/lambda_calculus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Jun 2015 17:50:14 +0500</lastBuildDate>
+    <atom:link href="/categories/lambda_calculus/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Y combinator</title>

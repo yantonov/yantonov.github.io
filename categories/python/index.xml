@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Python on (map solve problems)</title>
-    <link>http://yantonov.com/categories/python/index.xml</link>
+    <link>http://yantonov.com/categories/python/</link>
     <description>Recent content in Python on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2017 22:38:37 +0500</lastBuildDate>
+    <atom:link href="/categories/python/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Install matplotlib on mac sierra</title>

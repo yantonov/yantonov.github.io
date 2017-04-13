@@ -2,11 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on (map solve problems)</title>
-    <link>http://yantonov.com/categories/podcast/index.xml</link>
+    <link>http://yantonov.com/categories/podcast/</link>
     <description>Recent content in Podcast on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Jan 2017 21:31:02 +0500</lastBuildDate>
+    <atom:link href="/categories/podcast/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>functional programming related podcasts</title>
