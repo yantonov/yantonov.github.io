@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Network on (map solve problems)</title>
+    <link>http://yantonov.com/categories/neural-network/</link>
+    <description>Recent content in Neural Network on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 May 2017 03:16:05 +0500</lastBuildDate>
+    <atom:link href="/categories/neural-network/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Neural turing machines</title>
+      <link>http://yantonov.com/blog/2017/05/03/neural-turing-machines/</link>
+      <pubDate>Wed, 03 May 2017 03:16:05 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/05/03/neural-turing-machines/</guid>
+      <description>https://arxiv.org/abs/1410.5401
+ We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
+    </item>
+    
+  </channel>
+</rss>
