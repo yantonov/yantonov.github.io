@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Watch on (map solve problems)</title>
+    <link>http://yantonov.com/categories/watch/</link>
+    <description>Recent content in Watch on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Sep 2017 14:34:45 +0500</lastBuildDate>
+    <atom:link href="/categories/watch/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Webpack has not enough watchers</title>
+      <link>http://yantonov.com/blog/2017/09/13/webpack-has-not-enough-watchers/</link>
+      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
+      
+      <guid>http://yantonov.com/blog/2017/09/13/webpack-has-not-enough-watchers/</guid>
+      <description>Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
+cat /proc/sys/fs/inotify/max_user_watches  Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.
+Ubuntu users (and possibly others):
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p  Source</description>
+    </item>
+    
+  </channel>
+</rss>
