@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://yantonov.com/blog/2017/12/08/velocity-conference-2017/</loc>
+    <lastmod>2017-12-08T19:28:08+05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yantonov.com/blog/2017/09/13/webpack-has-not-enough-watchers/</loc>
     <lastmod>2017-09-13T14:34:45+05:00</lastmod>
   </url>
@@ -204,7 +209,7 @@
   
   <url>
     <loc>http://yantonov.com/</loc>
-    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <lastmod>2017-12-08T19:28:08+05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -714,7 +719,7 @@
   
   <url>
     <loc>http://yantonov.com/post/</loc>
-    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <lastmod>2017-12-08T19:28:08+05:00</lastmod>
     <priority>0</priority>
   </url>
   
