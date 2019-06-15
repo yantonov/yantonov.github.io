@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scm on (map solve problems)</title>
+    <title>scm on (map solve problems)</title>
     <link>http://yantonov.com/categories/scm/</link>
-    <description>Recent content in Scm on (map solve problems)</description>
+    <description>Recent content in scm on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 12 Mar 2016 19:54:21 +0500</lastBuildDate>

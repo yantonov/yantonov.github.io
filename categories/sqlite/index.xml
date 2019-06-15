@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sqlite on (map solve problems)</title>
+    <title>sqlite on (map solve problems)</title>
     <link>http://yantonov.com/categories/sqlite/</link>
-    <description>Recent content in Sqlite on (map solve problems)</description>
+    <description>Recent content in sqlite on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Feb 2015 23:31:28 +0500</lastBuildDate>

@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python3 on (map solve problems)</title>
+    <title>python3 on (map solve problems)</title>
     <link>http://yantonov.com/categories/python3/</link>
-    <description>Recent content in Python3 on (map solve problems)</description>
+    <description>Recent content in python3 on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2017 22:38:37 +0500</lastBuildDate>
@@ -22,9 +21,9 @@
 Thats why some additional steps may be required:
  install homebrew
  install pkg-config
-brew install pkg-config  install freetype
-brew install freetype  install matplotlib
-pip3 install matplotlib   Enjoy!</description>
+brew install pkg-config   install freetype bash brew install freetype   install matplotlib
+pip3 install matplotlib  Enjoy!
+  </description>
     </item>
     
   </channel>

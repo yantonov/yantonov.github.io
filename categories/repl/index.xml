@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Repl on (map solve problems)</title>
+    <title>repl on (map solve problems)</title>
     <link>http://yantonov.com/categories/repl/</link>
-    <description>Recent content in Repl on (map solve problems)</description>
+    <description>Recent content in repl on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 03 Feb 2015 23:25:06 +0500</lastBuildDate>

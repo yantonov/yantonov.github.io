@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Structures on (map solve problems)</title>
+    <title>data structures on (map solve problems)</title>
     <link>http://yantonov.com/categories/data-structures/</link>
-    <description>Recent content in Data Structures on (map solve problems)</description>
+    <description>Recent content in data structures on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 21 Feb 2015 16:06:23 +0500</lastBuildDate>
