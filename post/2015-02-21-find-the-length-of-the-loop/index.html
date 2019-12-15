@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
-        Find the length of the loop - Pure theme for Hugo
+        Find the length of the loop - (map solve problems)
       </title>
     <head>
   <meta charset="utf-8">
@@ -28,7 +28,7 @@ You are given a head of a linked list. Its known list contains cycle. The goal i
 Here is straghtforward solution in haskell
 {-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len&#43;1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len &#43; 1) phase Complexity: time o(n), memory o(1)" />
   <meta name="generator" content="Hugo 0.61.0 with theme pure" />
-  <title>Find the length of the loop - Pure theme for Hugo</title>
+  <title>Find the length of the loop - (map solve problems)</title>
   
 
   <link rel="stylesheet" href="https://yantonov.com/css/style.css">
