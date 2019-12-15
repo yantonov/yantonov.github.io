@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Path to learn haskell - Pure theme for Hugo
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  " />
+  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <title>Path to learn haskell - Pure theme for Hugo</title>
+  
+
+  <link rel="stylesheet" href="https://example.com/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Path to learn haskell" />
+<meta property="og:description" content="Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/post/2015-02-21-path-to-learn-haskell/" />
+<meta property="article:published_time" content="2015-02-21T17:44:29+05:00" />
+<meta property="article:modified_time" content="2015-02-21T17:44:29+05:00" />
+<meta itemprop="name" content="Path to learn haskell">
+<meta itemprop="description" content="Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  ">
+<meta itemprop="datePublished" content="2015-02-21T17:44:29&#43;05:00" />
+<meta itemprop="dateModified" content="2015-02-21T17:44:29&#43;05:00" />
+<meta itemprop="wordCount" content="23">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Path to learn haskell"/>
+<meta name="twitter:description" content="Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  "/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/yantonov" target="_blank">
+            <img class="img-circle img-rotate" src="https://example.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">yantonov</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Yury Antonov</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Milky Way Galaxy</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="sidebar">
+  
+  
+    <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>RSS</span>
+    </div>
+    <div id="rss">
+      <a href="https://example.com/index.xml" type="application/rss+xml" target="_blank">
+        <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Categories</span>
+    </div>
+    <div class="categories">
+      <ul>
+        
+        <li>
+          <a href="/categories/.net"><span></span>.net (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ai"><span></span>ai (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/algorithm"><span></span>algorithm (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/alias"><span></span>alias (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/angular"><span></span>angular (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/automation"><span></span>automation (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/blog"><span></span>blog (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmark"><span></span>bookmark (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmarks"><span></span>bookmarks (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/build"><span></span>build (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cache"><span></span>cache (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/caching"><span></span>caching (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/church-numerals"><span></span>church-numerals (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/clojure"><span></span>clojure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cmd"><span></span>cmd (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/computer-vision"><span></span>computer-vision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/concurrency"><span></span>concurrency (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conditional"><span></span>conditional (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/config"><span></span>config (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conflict-free-replicated-data-types"><span></span>conflict-free-replicated-data-types (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/connection"><span></span>connection (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/consensus"><span></span>consensus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/course"><span></span>course (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cproj"><span></span>cproj (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/crdt"><span></span>crdt (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cs"><span></span>cs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/css"><span></span>css (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structure"><span></span>data-structure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structures"><span></span>data-structures (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/deep-learning"><span></span>deep-learning (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/delete-package"><span></span>delete-package (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/distributed-systems"><span></span>distributed-systems (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/dvcs"><span></span>dvcs (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs"><span></span>emacs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs-lisp"><span></span>emacs-lisp (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/encoding"><span></span>encoding (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/environment"><span></span>environment (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/eshell"><span></span>eshell (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/export"><span></span>export (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/feeds"><span></span>feeds (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/filename"><span></span>filename (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fprog"><span></span>fprog (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fun"><span></span>fun (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-programming"><span></span>functional-programming (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-test"><span></span>functional-test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/git"><span></span>git (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/golang"><span></span>golang (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/haskell"><span></span>haskell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/headers"><span></span>headers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/health"><span></span>health (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/healthy-programmer"><span></span>healthy-programmer (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/http"><span></span>http (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ide"><span></span>ide (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/interview"><span></span>interview (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ios"><span></span>ios (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/javascript"><span></span>javascript (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/kalman-filter"><span></span>kalman-filter (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/keyboard"><span></span>keyboard (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda-calculus"><span></span>lambda-calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda_calculus"><span></span>lambda_calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/leiningen"><span></span>leiningen (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/linked-list"><span></span>linked-list (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/links"><span></span>links (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lisp"><span></span>lisp (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/logic"><span></span>logic (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac"><span></span>mac (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac-os"><span></span>mac-os (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/machine_learning"><span></span>machine_learning (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/macos"><span></span>macos (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/matplotlib"><span></span>matplotlib (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/memory"><span></span>memory (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mercurial"><span></span>mercurial (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/merge"><span></span>merge (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ml"><span></span>ml (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/nautilus"><span></span>nautilus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural-network"><span></span>neural-network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural_network"><span></span>neural_network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/optimization"><span></span>optimization (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/packages"><span></span>packages (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/papers"><span></span>papers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/parallel"><span></span>parallel (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pattern-recognision"><span></span>pattern-recognision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pcomplete"><span></span>pcomplete (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pkg"><span></span>pkg (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/plugin"><span></span>plugin (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/podcast"><span></span>podcast (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/probability"><span></span>probability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/problem"><span></span>problem (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python"><span></span>python (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python3"><span></span>python3 (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/raft"><span></span>raft (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/react"><span></span>react (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/repl"><span></span>repl (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rerere"><span></span>rerere (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/review"><span></span>review (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rfc"><span></span>rfc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rss"><span></span>rss (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/scm"><span></span>scm (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/script"><span></span>script (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shell"><span></span>shell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shortcut"><span></span>shortcut (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/site-generator"><span></span>site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sln"><span></span>sln (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sqlite"><span></span>sqlite (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ssh"><span></span>ssh (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/stackoverflow"><span></span>stackoverflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static"><span></span>static (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static-site-generator"><span></span>static-site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/task"><span></span>task (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/terminal"><span></span>terminal (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/test"><span></span>test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/tip"><span></span>tip (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/trick"><span></span>trick (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/turing-machine"><span></span>turing-machine (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ubuntu"><span></span>ubuntu (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ui"><span></span>ui (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/usability"><span></span>usability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/user_experience"><span></span>user_experience (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ux"><span></span>ux (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vcs"><span></span>vcs (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vsc"><span></span>vsc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watch"><span></span>watch (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watchers"><span></span>watchers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/web"><span></span>web (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/webpack"><span></span>webpack (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/wifi"><span></span>wifi (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/workflow"><span></span>workflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/xamarin"><span></span>xamarin (1)</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+</div>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-21-path-to-learn-haskell/"
+    >Path to learn haskell</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-21-path-to-learn-haskell/" class="article-date">
+  <time datetime="2015-02-21 17:44:29 &#43;0500 &#43;05" itemprop="datePublished">2015-02-21</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+  <a class="article-category-link" href="/categories/fprog/"> fprog </a>
+  <a class="article-category-link" href="/categories/course/"> course </a>
+  <a class="article-category-link" href="/categories/bookmark/"> bookmark </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-21-path-to-learn-haskell/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:23words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Some haskell resources <a href="http://bitemyapp.com/posts/2014-12-31-functional-education.html">recommended</a> by @bytemyapp.</p>
+<ol>
+<li><a href="http://www.seas.upenn.edu/~cis194/spring13/">CIS 194: Introduction to Haskell (Spring 2013)</a></li>
+<li><a href="https://github.com/NICTA/course/">NICTA course</a></li>
+<li><a href="http://www.scs.stanford.edu/14sp-cs240h/">Stanford CS240h Spring 2014</a></li>
+<li><a href="https://github.com/bitemyapp/learnhaskell">Path to learning haskell</a></li>
+</ol>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://example.com/post/2015-02-21-path-to-learn-haskell/" title="Path to learn haskell" target="_blank" rel="external">https://example.com/post/2015-02-21-path-to-learn-haskell/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/yantonov" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://example.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/yantonov" target="_blank"><span class="text-dark">yantonov</span><small class="ml-1x">Yury Antonov</small></a></h3>
+        <div>machine learning addicted software engineer</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://example.com/post/2015-02-21-find-the-length-of-the-loop/" title="Find the length of the loop"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://example.com/post/2015-02-23-replicated-sqlite/"
+                    title="Replicated SQLite"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://example.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/yantonov" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2012  -
+    2019
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
+<script type="text/javascript"
+    src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="https://example.com/js/application.js"></script>
+<script type="text/javascript" src="https://example.com/js/plugin.js"></script>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/example.com\/',
+            CONTENT_URL: 'https:\/\/example.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://example.com/js/insight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+  </body>
+</html>

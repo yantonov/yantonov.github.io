@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/mac/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ssh/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/terminal/</loc>
+    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/algorithm/</loc>
+    <lastmod>2019-06-15T14:15:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/data-structure/</loc>
+    <lastmod>2019-06-15T14:15:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2019-06-15-k-minimum_values_sketch/</loc>
+    <lastmod>2019-06-15T14:15:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/probability/</loc>
+    <lastmod>2019-06-15T14:15:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/concurrency/</loc>
+    <lastmod>2017-12-13T22:56:24+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/haskell/</loc>
+    <lastmod>2017-12-13T22:56:24+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/parallel/</loc>
+    <lastmod>2017-12-13T22:56:24+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</loc>
+    <lastmod>2017-12-13T22:56:24+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-12-08-velocity_conf_2017/</loc>
+    <lastmod>2017-12-08T19:28:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/watch/</loc>
+    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/watchers/</loc>
+    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/web/</loc>
+    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/webpack/</loc>
+    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-09-13-webpack-not-enough-watchers/</loc>
+    <lastmod>2017-09-13T14:34:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/computer-vision/</loc>
+    <lastmod>2017-08-16T15:34:17+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-08-16-cvrp-2017-papers/</loc>
+    <lastmod>2017-08-16T15:34:17+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/pattern-recognision/</loc>
+    <lastmod>2017-08-16T15:34:17+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/memory/</loc>
+    <lastmod>2017-05-03T03:16:05+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/neural-network/</loc>
+    <lastmod>2017-05-03T03:16:05+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-05-03-neural_turing_machines/</loc>
+    <lastmod>2017-05-03T03:16:05+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/turing-machine/</loc>
+    <lastmod>2017-05-03T03:16:05+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/css/</loc>
+    <lastmod>2017-04-13T20:49:57+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/lisp/</loc>
+    <lastmod>2017-04-13T20:49:57+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-04-13-lass/</loc>
+    <lastmod>2017-04-13T20:49:57+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/kalman-filter/</loc>
+    <lastmod>2017-03-22T05:19:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-03-22-kalman-filter/</loc>
+    <lastmod>2017-03-22T05:19:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/functional-programming/</loc>
+    <lastmod>2017-01-21T21:31:02+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-01-21-functional-programming-related-podcasts/</loc>
+    <lastmod>2017-01-21T21:31:02+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/podcast/</loc>
+    <lastmod>2017-01-21T21:31:02+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/blog/</loc>
+    <lastmod>2017-01-06T13:02:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-01-06-bye-octopress-hello-hugo/</loc>
+    <lastmod>2017-01-06T13:02:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/site-generator/</loc>
+    <lastmod>2017-01-06T13:02:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/static/</loc>
+    <lastmod>2017-01-06T13:02:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/static-site-generator/</loc>
+    <lastmod>2017-01-06T13:02:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2017-01-05-install-matplotlib-on-macos-sierra/</loc>
+    <lastmod>2017-01-05T22:38:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/matplotlib/</loc>
+    <lastmod>2017-01-05T22:38:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/python/</loc>
+    <lastmod>2017-01-05T22:38:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/python3/</loc>
+    <lastmod>2017-01-05T22:38:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2016-12-10-cant-connect-to-hidden-wifi/</loc>
+    <lastmod>2016-12-10T21:38:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/connection/</loc>
+    <lastmod>2016-12-10T21:38:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/problem/</loc>
+    <lastmod>2016-12-10T21:38:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ubuntu/</loc>
+    <lastmod>2016-12-10T21:38:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/wifi/</loc>
+    <lastmod>2016-12-10T21:38:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</loc>
+    <lastmod>2016-07-31T11:29:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cache/</loc>
+    <lastmod>2016-07-31T11:29:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/caching/</loc>
+    <lastmod>2016-07-31T11:29:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/keyboard/</loc>
+    <lastmod>2016-05-10T08:45:32+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/nautilus/</loc>
+    <lastmod>2016-05-10T08:45:32+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/shortcut/</loc>
+    <lastmod>2016-05-10T08:45:32+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</loc>
+    <lastmod>2016-05-10T08:45:32+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2016-03-12-bye-bye-mercurial/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/dvcs/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/git/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/mercurial/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/scm/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/vsc/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/automation/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/delete-package/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-10-14-delete-pkg-from-mac-os/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/mac-os/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/packages/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/pkg/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/script/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/shell/</loc>
+    <lastmod>2015-10-14T15:46:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/distributed-systems/</loc>
+    <lastmod>2015-10-01T15:49:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-10-01-distributed-systems-papers/</loc>
+    <lastmod>2015-10-01T15:49:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/links/</loc>
+    <lastmod>2015-10-01T15:49:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/papers/</loc>
+    <lastmod>2015-10-01T15:49:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ai/</loc>
+    <lastmod>2015-09-13T15:29:49+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/deep-learning/</loc>
+    <lastmod>2015-09-13T15:29:49+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-09-13-deep-learning-resouces/</loc>
+    <lastmod>2015-09-13T15:29:49+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ml/</loc>
+    <lastmod>2015-09-13T15:29:49+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/conflict-free-replicated-data-types/</loc>
+    <lastmod>2015-08-02T12:14:54+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/crdt/</loc>
+    <lastmod>2015-08-02T12:14:54+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-08-02-crdt-reading-list/</loc>
+    <lastmod>2015-08-02T12:14:54+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/fprog/</loc>
+    <lastmod>2015-06-07T17:50:14+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/lambda_calculus/</loc>
+    <lastmod>2015-06-07T17:50:14+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-06-07-y-combinator/</loc>
+    <lastmod>2015-06-07T17:50:14+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-04-12-functional-composition-and-transducers/</loc>
+    <lastmod>2015-04-12T09:19:18+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/bookmark/</loc>
+    <lastmod>2015-03-29T15:56:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</loc>
+    <lastmod>2015-03-29T15:56:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/machine_learning/</loc>
+    <lastmod>2015-03-29T15:56:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/neural_network/</loc>
+    <lastmod>2015-03-29T15:56:41+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/bookmarks/</loc>
+    <lastmod>2015-03-29T15:49:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-03-29-cs229-machine-learning/</loc>
+    <lastmod>2015-03-29T15:49:56+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/health/</loc>
+    <lastmod>2015-02-27T00:33:33+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/healthy-programmer/</loc>
+    <lastmod>2015-02-27T00:33:33+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/macos/</loc>
+    <lastmod>2015-02-27T00:33:33+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-02-27-healthy-programmer/</loc>
+    <lastmod>2015-02-27T00:33:33+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/consensus/</loc>
+    <lastmod>2015-02-23T23:31:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/golang/</loc>
+    <lastmod>2015-02-23T23:31:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/raft/</loc>
+    <lastmod>2015-02-23T23:31:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-02-23-replicated-sqlite/</loc>
+    <lastmod>2015-02-23T23:31:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/sqlite/</loc>
+    <lastmod>2015-02-23T23:31:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/course/</loc>
+    <lastmod>2015-02-21T17:44:29+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-02-21-path-to-learn-haskell/</loc>
+    <lastmod>2015-02-21T17:44:29+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/data-structures/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-02-21-find-the-length-of-the-loop/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/fun/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/interview/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/linked-list/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/logic/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/task/</loc>
+    <lastmod>2015-02-21T16:06:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/clojure/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ide/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/leiningen/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/plugin/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/repl/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-02-03-ultra-leiningen-plugin/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/workflow/</loc>
+    <lastmod>2015-02-03T23:25:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/conditional/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-01-25-conditional-get-for-rss-hackers/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/feeds/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/headers/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/http/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/optimization/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/rfc/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/rss/</loc>
+    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/functional-test/</loc>
+    <lastmod>2015-01-24T13:38:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ios/</loc>
+    <lastmod>2015-01-24T13:38:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</loc>
+    <lastmod>2015-01-24T13:38:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/test/</loc>
+    <lastmod>2015-01-24T13:38:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ui/</loc>
+    <lastmod>2015-01-24T13:38:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/angular/</loc>
+    <lastmod>2015-01-19T00:50:46+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/javascript/</loc>
+    <lastmod>2015-01-19T00:50:46+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/react/</loc>
+    <lastmod>2015-01-19T00:50:46+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/review/</loc>
+    <lastmod>2015-01-19T00:50:46+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2015-01-19-unconventional-review/</loc>
+    <lastmod>2015-01-19T00:50:46+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cs/</loc>
+    <lastmod>2014-12-13T13:09:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</loc>
+    <lastmod>2014-12-13T13:09:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/encoding/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/filename/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-12-07-list-non-latin-file-names-in-git/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/tip/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/trick/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/vcs/</loc>
+    <lastmod>2014-12-07T23:32:31+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/export/</loc>
+    <lastmod>2014-12-07T22:59:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</loc>
+    <lastmod>2014-12-07T22:59:45+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-11-13-church-numerals/</loc>
+    <lastmod>2014-11-13T08:17:25+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/church-numerals/</loc>
+    <lastmod>2014-11-13T08:17:25+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/lambda-calculus/</loc>
+    <lastmod>2014-11-13T08:17:25+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/emacs/</loc>
+    <lastmod>2014-11-09T22:52:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/emacs-lisp/</loc>
+    <lastmod>2014-11-09T22:52:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/eshell/</loc>
+    <lastmod>2014-11-09T22:52:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/pcomplete/</loc>
+    <lastmod>2014-11-09T22:52:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</loc>
+    <lastmod>2014-11-09T22:52:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/environment/</loc>
+    <lastmod>2014-11-04T19:22:34+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</loc>
+    <lastmod>2014-11-04T19:22:34+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-11-04-git-rerere/</loc>
+    <lastmod>2014-11-04T14:26:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/merge/</loc>
+    <lastmod>2014-11-04T14:26:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/rerere/</loc>
+    <lastmod>2014-11-04T14:26:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/.net/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/build/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cmd/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/cproj/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-11-03-platform-specific-build-event/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/sln/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/xamarin/</loc>
+    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/alias/</loc>
+    <lastmod>2014-10-31T00:10:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/config/</loc>
+    <lastmod>2014-10-31T00:10:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-10-31-git-log-aliases/</loc>
+    <lastmod>2014-10-31T00:10:22+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/stackoverflow/</loc>
+    <lastmod>2014-10-28T21:08:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-10-28-stackoverflow-reputation/</loc>
+    <lastmod>2014-10-28T21:08:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/usability/</loc>
+    <lastmod>2014-10-28T21:08:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/user_experience/</loc>
+    <lastmod>2014-10-28T21:08:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/ux/</loc>
+    <lastmod>2014-10-28T21:08:23+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-10-27-mac-os-environment-variables/</loc>
+    <lastmod>2014-10-27T02:36:04+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/post/2014-10-27-hello-world/</loc>
+    <lastmod>2014-10-27T01:19:36+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/series/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>

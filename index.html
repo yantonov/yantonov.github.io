@@ -1,0 +1,2299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Pure theme for Hugo</title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  
+  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <title>Pure theme for Hugo</title>
+  
+
+  <link rel="alternate" type="application/rss+xml" href="https://example.com/index.xml" title="Pure theme for Hugo" />
+  <link rel="stylesheet" href="https://example.com/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Pure theme for Hugo" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://example.com/" />
+<meta property="og:updated_time" content="2019-12-15T19:04:37+05:00" />
+<meta itemprop="name" content="Pure theme for Hugo">
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Pure theme for Hugo"/>
+<meta name="twitter:description" content=""/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/yantonov" target="_blank">
+            <img class="img-circle img-rotate" src="https://example.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">yantonov</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Yury Antonov</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Milky Way Galaxy</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="sidebar">
+  
+  
+    <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>RSS</span>
+    </div>
+    <div id="rss">
+      <a href="https://example.com/index.xml" type="application/rss+xml" target="_blank">
+        <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Categories</span>
+    </div>
+    <div class="categories">
+      <ul>
+        
+        <li>
+          <a href="/categories/.net"><span></span>.net (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ai"><span></span>ai (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/algorithm"><span></span>algorithm (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/alias"><span></span>alias (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/angular"><span></span>angular (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/automation"><span></span>automation (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/blog"><span></span>blog (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmark"><span></span>bookmark (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmarks"><span></span>bookmarks (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/build"><span></span>build (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cache"><span></span>cache (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/caching"><span></span>caching (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/church-numerals"><span></span>church-numerals (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/clojure"><span></span>clojure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cmd"><span></span>cmd (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/computer-vision"><span></span>computer-vision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/concurrency"><span></span>concurrency (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conditional"><span></span>conditional (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/config"><span></span>config (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conflict-free-replicated-data-types"><span></span>conflict-free-replicated-data-types (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/connection"><span></span>connection (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/consensus"><span></span>consensus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/course"><span></span>course (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cproj"><span></span>cproj (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/crdt"><span></span>crdt (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cs"><span></span>cs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/css"><span></span>css (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structure"><span></span>data-structure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structures"><span></span>data-structures (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/deep-learning"><span></span>deep-learning (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/delete-package"><span></span>delete-package (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/distributed-systems"><span></span>distributed-systems (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/dvcs"><span></span>dvcs (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs"><span></span>emacs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs-lisp"><span></span>emacs-lisp (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/encoding"><span></span>encoding (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/environment"><span></span>environment (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/eshell"><span></span>eshell (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/export"><span></span>export (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/feeds"><span></span>feeds (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/filename"><span></span>filename (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fprog"><span></span>fprog (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fun"><span></span>fun (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-programming"><span></span>functional-programming (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-test"><span></span>functional-test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/git"><span></span>git (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/golang"><span></span>golang (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/haskell"><span></span>haskell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/headers"><span></span>headers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/health"><span></span>health (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/healthy-programmer"><span></span>healthy-programmer (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/http"><span></span>http (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ide"><span></span>ide (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/interview"><span></span>interview (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ios"><span></span>ios (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/javascript"><span></span>javascript (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/kalman-filter"><span></span>kalman-filter (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/keyboard"><span></span>keyboard (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda-calculus"><span></span>lambda-calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda_calculus"><span></span>lambda_calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/leiningen"><span></span>leiningen (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/linked-list"><span></span>linked-list (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/links"><span></span>links (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lisp"><span></span>lisp (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/logic"><span></span>logic (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac"><span></span>mac (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac-os"><span></span>mac-os (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/machine_learning"><span></span>machine_learning (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/macos"><span></span>macos (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/matplotlib"><span></span>matplotlib (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/memory"><span></span>memory (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mercurial"><span></span>mercurial (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/merge"><span></span>merge (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ml"><span></span>ml (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/nautilus"><span></span>nautilus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural-network"><span></span>neural-network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural_network"><span></span>neural_network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/optimization"><span></span>optimization (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/packages"><span></span>packages (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/papers"><span></span>papers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/parallel"><span></span>parallel (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pattern-recognision"><span></span>pattern-recognision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pcomplete"><span></span>pcomplete (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pkg"><span></span>pkg (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/plugin"><span></span>plugin (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/podcast"><span></span>podcast (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/probability"><span></span>probability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/problem"><span></span>problem (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python"><span></span>python (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python3"><span></span>python3 (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/raft"><span></span>raft (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/react"><span></span>react (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/repl"><span></span>repl (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rerere"><span></span>rerere (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/review"><span></span>review (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rfc"><span></span>rfc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rss"><span></span>rss (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/scm"><span></span>scm (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/script"><span></span>script (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shell"><span></span>shell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shortcut"><span></span>shortcut (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/site-generator"><span></span>site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sln"><span></span>sln (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sqlite"><span></span>sqlite (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ssh"><span></span>ssh (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/stackoverflow"><span></span>stackoverflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static"><span></span>static (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static-site-generator"><span></span>static-site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/task"><span></span>task (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/terminal"><span></span>terminal (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/test"><span></span>test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/tip"><span></span>tip (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/trick"><span></span>trick (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/turing-machine"><span></span>turing-machine (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ubuntu"><span></span>ubuntu (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ui"><span></span>ui (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/usability"><span></span>usability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/user_experience"><span></span>user_experience (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ux"><span></span>ux (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vcs"><span></span>vcs (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vsc"><span></span>vsc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watch"><span></span>watch (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watchers"><span></span>watchers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/web"><span></span>web (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/webpack"><span></span>webpack (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/wifi"><span></span>wifi (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/workflow"><span></span>workflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/xamarin"><span></span>xamarin (1)</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+</div>
+
+    
+    
+
+<main class="main" role="main">
+   
+  <div class="content article-list">
+    
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2019-12-15-how_to_remember_ssh_keys_on_mac_os/"
+    >How to remember ssh keys on mac os</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Got tired to enter ssh passphrases on mac os and want to know how easily force ssh-agent to remember ssh keys?
+Add this snippet to ~/.ssh/config file:
+Host * AddKeysToAgent yes UseKeychain yes Source</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2019-12-15-how_to_remember_ssh_keys_on_mac_os/" class="">
+  <time datetime="2019-12-15 19:04:37 &#43;0500 &#43;05" itemprop="datePublished">2019-12-15</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mac/"> mac </a>
+  <a class="article-category-link" href="/categories/ssh/"> ssh </a>
+  <a class="article-category-link" href="/categories/terminal/"> terminal </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2019-12-15-how_to_remember_ssh_keys_on_mac_os/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:34words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2019-06-15-k-minimum_values_sketch/"
+    >K-Minimum values sketch</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Simple probabilistic data structure used to count distinct values.
+source</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2019-06-15-k-minimum_values_sketch/" class="">
+  <time datetime="2019-06-15 14:15:36 &#43;0500 &#43;05" itemprop="datePublished">2019-06-15</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/probability/"> probability </a>
+  <a class="article-category-link" href="/categories/data-structure/"> data structure </a>
+  <a class="article-category-link" href="/categories/algorithm/"> algorithm </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2019-06-15-k-minimum_values_sketch/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:10words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-12-13-parallel_and_concurrenct_programming_in_haskell/"
+    >Parallel and concurrenct programming in haskell</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Here is html version of Simon Marlow's book &lsquo;Parallel and Concurrent Programming in Haskell&rsquo;.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-12-13-parallel_and_concurrenct_programming_in_haskell/" class="">
+  <time datetime="2017-12-13 22:56:24 &#43;0500 &#43;05" itemprop="datePublished">2017-12-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+  <a class="article-category-link" href="/categories/concurrency/"> concurrency </a>
+  <a class="article-category-link" href="/categories/parallel/"> parallel </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-12-13-parallel_and_concurrenct_programming_in_haskell/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:14words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-12-08-velocity_conf_2017/"
+    >Velocity conference 2017</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Slides and videos from the Velocity conference 2017.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-12-08-velocity_conf_2017/" class="">
+  <time datetime="2017-12-08 19:28:08 &#43;0500 &#43;05" itemprop="datePublished">2017-12-08</time>
+</a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-12-08-velocity_conf_2017/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:8words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-09-13-webpack-not-enough-watchers/"
+    >Webpack has not enough watchers</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
+cat /proc/sys/fs/inotify/max_user_watches Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &ndash;system.
+Ubuntu users (and possibly others):
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;&amp; sudo sysctl -p Source</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-09-13-webpack-not-enough-watchers/" class="">
+  <time datetime="2017-09-13 14:34:45 &#43;0500 &#43;05" itemprop="datePublished">2017-09-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/web/"> web </a>
+  <a class="article-category-link" href="/categories/webpack/"> webpack </a>
+  <a class="article-category-link" href="/categories/watch/"> watch </a>
+  <a class="article-category-link" href="/categories/watchers/"> watchers </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-09-13-webpack-not-enough-watchers/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:59words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-08-16-cvrp-2017-papers/"
+    >CVRP 2017 Papers</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Papers from CVRP 2017</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-08-16-cvrp-2017-papers/" class="">
+  <time datetime="2017-08-16 15:34:17 &#43;0500 &#43;05" itemprop="datePublished">2017-08-16</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/pattern-recognision/"> pattern recognision </a>
+  <a class="article-category-link" href="/categories/computer-vision/"> computer vision </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-08-16-cvrp-2017-papers/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:4words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-05-03-neural_turing_machines/"
+    >Neural turing machines</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">[https://arxiv.org/abs/1410.5401](Neural Turing Machines)
+ We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-05-03-neural_turing_machines/" class="">
+  <time datetime="2017-05-03 03:16:05 &#43;0500 &#43;05" itemprop="datePublished">2017-05-03</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/neural-network/"> neural network </a>
+  <a class="article-category-link" href="/categories/turing-machine/"> turing machine </a>
+  <a class="article-category-link" href="/categories/memory/"> memory </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-05-03-neural_turing_machines/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:74words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-04-13-lass/"
+    >Lispy css</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Write css rules with lispy syntax using lass.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-04-13-lass/" class="">
+  <time datetime="2017-04-13 20:49:57 &#43;0500 &#43;05" itemprop="datePublished">2017-04-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/lisp/"> lisp </a>
+  <a class="article-category-link" href="/categories/css/"> css </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-04-13-lass/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:8words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-03-22-kalman-filter/"
+    >kalman filter</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Concise explanation of Kalman filter</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-03-22-kalman-filter/" class="">
+  <time datetime="2017-03-22 05:19:56 &#43;0500 &#43;05" itemprop="datePublished">2017-03-22</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/kalman-filter/"> kalman filter </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-03-22-kalman-filter/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:5words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-01-21-functional-programming-related-podcasts/"
+    >functional programming related podcasts</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">List{:target=&rdquo;_blank&rdquo;} of functional programming related podcasts. Happy listening!</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-01-21-functional-programming-related-podcasts/" class="">
+  <time datetime="2017-01-21 21:31:02 &#43;0500 &#43;05" itemprop="datePublished">2017-01-21</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/podcast/"> podcast </a>
+  <a class="article-category-link" href="/categories/functional-programming/"> functional programming </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-01-21-functional-programming-related-podcasts/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:8words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-01-06-bye-octopress-hello-hugo/"
+    >Bye octopress, hello hugo</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">This tiny blog has just been migrated from octropress to hugo.
+Pros:
+ service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
+Cons: &hellip; cant see, at least now
+Good day!</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-01-06-bye-octopress-hello-hugo/" class="">
+  <time datetime="2017-01-06 13:02:38 &#43;0500 &#43;05" itemprop="datePublished">2017-01-06</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/blog/"> blog </a>
+  <a class="article-category-link" href="/categories/site-generator/"> site generator </a>
+  <a class="article-category-link" href="/categories/static-site-generator/"> static site generator </a>
+  <a class="article-category-link" href="/categories/static/"> static </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-01-06-bye-octopress-hello-hugo/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:61words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2017-01-05-install-matplotlib-on-macos-sierra/"
+    >Install matplotlib on mac sierra</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">During matplotlib installation (for python3) some error may occured:
+&lsquo;The following required packages can not be built:
+ freetype png&rsquo;  Thats why some additional steps may be required:
+  install homebrew
+  install pkg-config
+  brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2017-01-05-install-matplotlib-on-macos-sierra/" class="">
+  <time datetime="2017-01-05 22:38:37 &#43;0500 &#43;05" itemprop="datePublished">2017-01-05</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/python/"> python </a>
+  <a class="article-category-link" href="/categories/python3/"> python3 </a>
+  <a class="article-category-link" href="/categories/matplotlib/"> matplotlib </a>
+  <a class="article-category-link" href="/categories/mac/"> mac </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2017-01-05-install-matplotlib-on-macos-sierra/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:45words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2016-12-10-cant-connect-to-hidden-wifi/"
+    >Can not connect to hidden wifi (ubuntu 16.04 lts)</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
+nmcli c up id &lt;sid&gt; bug status</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2016-12-10-cant-connect-to-hidden-wifi/" class="">
+  <time datetime="2016-12-10 21:38:41 &#43;0500 &#43;05" itemprop="datePublished">2016-12-10</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/ubuntu/"> ubuntu </a>
+  <a class="article-category-link" href="/categories/wifi/"> wifi </a>
+  <a class="article-category-link" href="/categories/connection/"> connection </a>
+  <a class="article-category-link" href="/categories/problem/"> problem </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2016-12-10-cant-connect-to-hidden-wifi/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:30words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/"
+    >2Q a low overhead high performance buffer managemenent replacement algorithm</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Excellent article which shows how to apply pareto rule for caching strategies.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/" class="">
+  <time datetime="2016-07-31 11:29:56 &#43;0500 &#43;05" itemprop="datePublished">2016-07-31</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/cache/"> cache </a>
+  <a class="article-category-link" href="/categories/algorithm/"> algorithm </a>
+  <a class="article-category-link" href="/categories/caching/"> caching </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:12words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/"
+    >Strange shift key behaviour when renaming files in ubuntu</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
+ Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
+Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&gt; Text Entry)and the problem disappears.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/" class="">
+  <time datetime="2016-05-10 08:45:32 &#43;0500 &#43;05" itemprop="datePublished">2016-05-10</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/ubuntu/"> ubuntu </a>
+  <a class="article-category-link" href="/categories/shortcut/"> shortcut </a>
+  <a class="article-category-link" href="/categories/keyboard/"> keyboard </a>
+  <a class="article-category-link" href="/categories/nautilus/"> nautilus </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:76words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2016-03-12-bye-bye-mercurial/"
+    >Bye bye mercurial</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
+P.s. here is a simple script aimed to convert hg repo to git,
+maybe it will be helpful</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2016-03-12-bye-bye-mercurial/" class="">
+  <time datetime="2016-03-12 19:54:21 &#43;0500 &#43;05" itemprop="datePublished">2016-03-12</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mercurial/"> mercurial </a>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/vsc/"> vsc </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+  <a class="article-category-link" href="/categories/dvcs/"> dvcs </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2016-03-12-bye-bye-mercurial/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:51words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-10-14-delete-pkg-from-mac-os/"
+    >Delete package (some-package.pkg) from Mac OS</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
+There is no official way to uninstall package, but you can do it manually using &lsquo;pkgutil&rsquo; tool. There is some articles (you can google it) which described the process.
+To automate the process i have wrote this script uninstall-pkg.sh
+#!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-10-14-delete-pkg-from-mac-os/" class="">
+  <time datetime="2015-10-14 15:46:08 &#43;0500 &#43;05" itemprop="datePublished">2015-10-14</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mac/"> mac </a>
+  <a class="article-category-link" href="/categories/mac-os/"> mac os </a>
+  <a class="article-category-link" href="/categories/pkg/"> pkg </a>
+  <a class="article-category-link" href="/categories/packages/"> packages </a>
+  <a class="article-category-link" href="/categories/delete-package/"> delete package </a>
+  <a class="article-category-link" href="/categories/automation/"> automation </a>
+  <a class="article-category-link" href="/categories/shell/"> shell </a>
+  <a class="article-category-link" href="/categories/script/"> script </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-10-14-delete-pkg-from-mac-os/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:315words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-10-01-distributed-systems-papers/"
+    >Distributed systems papers</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">List of papers on distributed systems</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-10-01-distributed-systems-papers/" class="">
+  <time datetime="2015-10-01 15:49:22 &#43;0500 &#43;05" itemprop="datePublished">2015-10-01</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/distributed-systems/"> distributed systems </a>
+  <a class="article-category-link" href="/categories/papers/"> papers </a>
+  <a class="article-category-link" href="/categories/links/"> links </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-10-01-distributed-systems-papers/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:6words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-09-13-deep-learning-resouces/"
+    >Deep learning resouces</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-09-13-deep-learning-resouces/" class="">
+  <time datetime="2015-09-13 15:29:49 &#43;0500 &#43;05" itemprop="datePublished">2015-09-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/deep-learning/"> deep learning </a>
+  <a class="article-category-link" href="/categories/ai/"> ai </a>
+  <a class="article-category-link" href="/categories/ml/"> ml </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-09-13-deep-learning-resouces/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:216words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-08-02-crdt-reading-list/"
+    >Crdt reading list</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">CRDT reading list</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-08-02-crdt-reading-list/" class="">
+  <time datetime="2015-08-02 12:14:54 &#43;0500 &#43;05" itemprop="datePublished">2015-08-02</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/crdt/"> crdt </a>
+  <a class="article-category-link" href="/categories/conflict-free-replicated-data-types/"> conflict-free replicated data types </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-08-02-crdt-reading-list/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:3words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-06-07-y-combinator/"
+    >Y combinator</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Mike Vanier wrote great article about Y-combinator.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-06-07-y-combinator/" class="">
+  <time datetime="2015-06-07 17:50:14 &#43;0500 &#43;05" itemprop="datePublished">2015-06-07</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/lambda_calculus/"> lambda_calculus </a>
+  <a class="article-category-link" href="/categories/fprog/"> fprog </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-06-07-y-combinator/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:7words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-04-12-functional-composition-and-transducers/"
+    >Functional composition and transducers</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Another Rich Hickey's great talk about functional composition in general and transducers in particular.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-04-12-functional-composition-and-transducers/" class="">
+  <time datetime="2015-04-12 09:19:18 &#43;0500 &#43;05" itemprop="datePublished">2015-04-12</time>
+</a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-04-12-functional-composition-and-transducers/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:14words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/"
+    >CS231n Convolutional neural networks for visual recognition</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Course Project Reports</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/" class="">
+  <time datetime="2015-03-29 15:56:41 &#43;0500 &#43;05" itemprop="datePublished">2015-03-29</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/ai/"> ai </a>
+  <a class="article-category-link" href="/categories/neural_network/"> neural_network </a>
+  <a class="article-category-link" href="/categories/ml/"> ml </a>
+  <a class="article-category-link" href="/categories/machine_learning/"> machine_learning </a>
+  <a class="article-category-link" href="/categories/bookmark/"> bookmark </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:3words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-03-29-cs229-machine-learning/"
+    >CS229 Machine Learning</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Final Projects 2012
+Final Projects 2013
+Final Projects 2014</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-03-29-cs229-machine-learning/" class="">
+  <time datetime="2015-03-29 15:49:56 &#43;0500 &#43;05" itemprop="datePublished">2015-03-29</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/machine_learning/"> machine_learning </a>
+  <a class="article-category-link" href="/categories/ml/"> ml </a>
+  <a class="article-category-link" href="/categories/ai/"> ai </a>
+  <a class="article-category-link" href="/categories/bookmarks/"> bookmarks </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-03-29-cs229-machine-learning/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:9words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-27-healthy-programmer/"
+    >Stand up every 20 minutes (mac os)</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Foreword : Inspired by excellent post
+Initial task: creating notification every 20 minutes can be decomposed into two parts:
+ create notification scheduled launch  First subtask can be solved using this trivial script.
+standup.sh:
+#!/bin/sh  # stand up notification osascript -e &#39;display notification &#34;Stand up&#34; with title &#34;Healthy programmer&#34;&#39; say &#34;Stand up&#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
+Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-27-healthy-programmer/" class="">
+  <time datetime="2015-02-27 00:33:33 &#43;0500 &#43;05" itemprop="datePublished">2015-02-27</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/health/"> health </a>
+  <a class="article-category-link" href="/categories/healthy-programmer/"> healthy programmer </a>
+  <a class="article-category-link" href="/categories/macos/"> macos </a>
+  <a class="article-category-link" href="/categories/mac-os/"> mac os </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-27-healthy-programmer/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:138words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-23-replicated-sqlite/"
+    >Replicated SQLite</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
+It seems, its time to start learning go</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-23-replicated-sqlite/" class="">
+  <time datetime="2015-02-23 23:31:28 &#43;0500 &#43;05" itemprop="datePublished">2015-02-23</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/sqlite/"> sqlite </a>
+  <a class="article-category-link" href="/categories/raft/"> raft </a>
+  <a class="article-category-link" href="/categories/consensus/"> consensus </a>
+  <a class="article-category-link" href="/categories/golang/"> golang </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-23-replicated-sqlite/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:22words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-21-path-to-learn-haskell/"
+    >Path to learn haskell</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-21-path-to-learn-haskell/" class="">
+  <time datetime="2015-02-21 17:44:29 &#43;0500 &#43;05" itemprop="datePublished">2015-02-21</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+  <a class="article-category-link" href="/categories/fprog/"> fprog </a>
+  <a class="article-category-link" href="/categories/course/"> course </a>
+  <a class="article-category-link" href="/categories/bookmark/"> bookmark </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-21-path-to-learn-haskell/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:23words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-21-find-the-length-of-the-loop/"
+    >Find the length of the loop</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">One of the popular interivew tasks&hellip;
+You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
+Here is straghtforward solution in haskell
+{-data Node a instance Eq a =&gt; Eq (Node a) next :: Node a -&gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&gt; Node a -&gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&gt; Node node -&gt; Node node -&gt; Int -&gt; Phase -&gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-21-find-the-length-of-the-loop/" class="">
+  <time datetime="2015-02-21 16:06:23 &#43;0500 &#43;05" itemprop="datePublished">2015-02-21</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/interview/"> interview </a>
+  <a class="article-category-link" href="/categories/task/"> task </a>
+  <a class="article-category-link" href="/categories/problem/"> problem </a>
+  <a class="article-category-link" href="/categories/logic/"> logic </a>
+  <a class="article-category-link" href="/categories/linked-list/"> linked list </a>
+  <a class="article-category-link" href="/categories/data-structures/"> data structures </a>
+  <a class="article-category-link" href="/categories/fun/"> fun </a>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-21-find-the-length-of-the-loop/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:201words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-02-03-ultra-leiningen-plugin/"
+    >Ultra leiningen plugin</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">There is nice leiningen plugin named &ldquo;Ultra&rdquo; which can significantly improve your clojure&lsquo;s repl interaction.
+Main features:
+ colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-02-03-ultra-leiningen-plugin/" class="">
+  <time datetime="2015-02-03 23:25:06 &#43;0500 &#43;05" itemprop="datePublished">2015-02-03</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/clojure/"> clojure </a>
+  <a class="article-category-link" href="/categories/repl/"> repl </a>
+  <a class="article-category-link" href="/categories/plugin/"> plugin </a>
+  <a class="article-category-link" href="/categories/leiningen/"> leiningen </a>
+  <a class="article-category-link" href="/categories/ide/"> ide </a>
+  <a class="article-category-link" href="/categories/workflow/"> workflow </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-02-03-ultra-leiningen-plugin/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:33words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-01-25-conditional-get-for-rss-hackers/"
+    >Conditional get for rss hackers</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
+p.s. fyi header field definitions rfc2616</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-01-25-conditional-get-for-rss-hackers/" class="">
+  <time datetime="2015-01-25 16:30:47 &#43;0500 &#43;05" itemprop="datePublished">2015-01-25</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/http/"> http </a>
+  <a class="article-category-link" href="/categories/headers/"> headers </a>
+  <a class="article-category-link" href="/categories/conditional/"> conditional </a>
+  <a class="article-category-link" href="/categories/optimization/"> optimization </a>
+  <a class="article-category-link" href="/categories/rfc/"> rfc </a>
+  <a class="article-category-link" href="/categories/rss/"> rss </a>
+  <a class="article-category-link" href="/categories/feeds/"> feeds </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-01-25-conditional-get-for-rss-hackers/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:23words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-01-24-run-automation-instruments-script-from-the-command-line/"
+    >Run automation instruments script from the command line</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">To run ui test from command line you can use instruments app as described here.
+instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate Since xcode 6 Automation.tracetemplate can be found:
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate </div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/" class="">
+  <time datetime="2015-01-24 13:38:03 &#43;0500 &#43;05" itemprop="datePublished">2015-01-24</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/ios/"> ios </a>
+  <a class="article-category-link" href="/categories/ui/"> ui </a>
+  <a class="article-category-link" href="/categories/test/"> test </a>
+  <a class="article-category-link" href="/categories/automation/"> automation </a>
+  <a class="article-category-link" href="/categories/functional-test/"> functional test </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-01-24-run-automation-instruments-script-from-the-command-line/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:52words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2015-01-19-unconventional-review/"
+    >Unconventional review</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2015-01-19-unconventional-review/" class="">
+  <time datetime="2015-01-19 00:50:46 &#43;0500 &#43;05" itemprop="datePublished">2015-01-19</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/react/"> react </a>
+  <a class="article-category-link" href="/categories/angular/"> angular </a>
+  <a class="article-category-link" href="/categories/javascript/"> javascript </a>
+  <a class="article-category-link" href="/categories/review/"> review </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2015-01-19-unconventional-review/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:22words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/"
+    >Multi-queue replacement algorithm for second level buffer caches</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">I have read a nice article written by Yuanyian Zhou and James F. Philbin &ldquo;Multi-queue replacement algorithm for second level buffer caches&rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
+I highly recommend to read it.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/" class="">
+  <time datetime="2014-12-13 13:09:21 &#43;0500 &#43;05" itemprop="datePublished">2014-12-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/algorithm/"> algorithm </a>
+  <a class="article-category-link" href="/categories/cache/"> cache </a>
+  <a class="article-category-link" href="/categories/cs/"> cs </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:54words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-12-07-list-non-latin-file-names-in-git/"
+    >List non latin file names in git</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Imagine you have commited file which name contain non latin letters.
+git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
+git log -p Here you can see escaped file name, and obvious its hard to read.
+diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &lsquo;core.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-12-07-list-non-latin-file-names-in-git/" class="">
+  <time datetime="2014-12-07 23:32:31 &#43;0500 &#43;05" itemprop="datePublished">2014-12-07</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
+  <a class="article-category-link" href="/categories/dvcs/"> dvcs </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+  <a class="article-category-link" href="/categories/tip/"> tip </a>
+  <a class="article-category-link" href="/categories/trick/"> trick </a>
+  <a class="article-category-link" href="/categories/filename/"> filename </a>
+  <a class="article-category-link" href="/categories/encoding/"> encoding </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-12-07-list-non-latin-file-names-in-git/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:200words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-12-07-export-files-changed-at-revision-from-mercurial/"
+    >Export files changed at revision from mercurial</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
+Mercurial vcs has archive command which let you to export selected files at given revision:
+hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
+hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; Here end of line character is used to handle the case of using space character in filename.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/" class="">
+  <time datetime="2014-12-07 22:59:45 &#43;0500 &#43;05" itemprop="datePublished">2014-12-07</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mercurial/"> mercurial </a>
+  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+  <a class="article-category-link" href="/categories/export/"> export </a>
+  <a class="article-category-link" href="/categories/tip/"> tip </a>
+  <a class="article-category-link" href="/categories/trick/"> trick </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-12-07-export-files-changed-at-revision-from-mercurial/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:156words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-13-church-numerals/"
+    >Church numerals</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &ldquo;data&rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
+Summary:
+type Church a = (a -&gt; a) -&gt; a -&gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-13-church-numerals/" class="">
+  <time datetime="2014-11-13 08:17:25 &#43;0500 &#43;05" itemprop="datePublished">2014-11-13</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/church-numerals/"> church numerals </a>
+  <a class="article-category-link" href="/categories/lambda-calculus/"> lambda calculus </a>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+  <a class="article-category-link" href="/categories/functional-programming/"> functional programming </a>
+  <a class="article-category-link" href="/categories/fprog/"> fprog </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-13-church-numerals/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:190words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-09-programmable-completion-for-git-and-mercurial/"
+    >Programmable completion for git and mercurial</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/" class="">
+  <time datetime="2014-11-09 22:52:36 &#43;0500 &#43;05" itemprop="datePublished">2014-11-09</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/emacs/"> emacs </a>
+  <a class="article-category-link" href="/categories/emacs-lisp/"> emacs lisp </a>
+  <a class="article-category-link" href="/categories/lisp/"> lisp </a>
+  <a class="article-category-link" href="/categories/eshell/"> eshell </a>
+  <a class="article-category-link" href="/categories/pcomplete/"> pcomplete </a>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/mercurial/"> mercurial </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-09-programmable-completion-for-git-and-mercurial/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:589words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:3minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-04-path-variable-for-gui-programs-mac-os/"
+    >PATH variable for gui programs (Mac Os)</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Foreword:
+Sometimes you need to edit PATH variable.
+Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &lsquo;launchctl setenv PATH &lt;PATH_VALUE&gt;&rsquo;.
+So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
+Moreover, after update to Mac Os X 10.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/" class="">
+  <time datetime="2014-11-04 19:22:34 &#43;0500 &#43;05" itemprop="datePublished">2014-11-04</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mac/"> mac </a>
+  <a class="article-category-link" href="/categories/shell/"> shell </a>
+  <a class="article-category-link" href="/categories/environment/"> environment </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-04-path-variable-for-gui-programs-mac-os/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:412words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-04-git-rerere/"
+    >Git rerere</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
+Let see how its works:
+# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-04-git-rerere/" class="">
+  <time datetime="2014-11-04 14:26:21 &#43;0500 &#43;05" itemprop="datePublished">2014-11-04</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+  <a class="article-category-link" href="/categories/rerere/"> rerere </a>
+  <a class="article-category-link" href="/categories/merge/"> merge </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-04-git-rerere/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:701words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:4minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-03-platform-specific-build-event/"
+    >Platform specific build event</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
+To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
+&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir).</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-03-platform-specific-build-event/" class="">
+  <time datetime="2014-11-03 13:43:28 &#43;0500 &#43;05" itemprop="datePublished">2014-11-03</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/xamarin/"> xamarin </a>
+  <a class="article-category-link" href="/categories/cproj/"> cproj </a>
+  <a class="article-category-link" href="/categories/.net/"> .net </a>
+  <a class="article-category-link" href="/categories/sln/"> sln </a>
+  <a class="article-category-link" href="/categories/build/"> build </a>
+  <a class="article-category-link" href="/categories/cmd/"> cmd </a>
+  <a class="article-category-link" href="/categories/shell/"> shell </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-03-platform-specific-build-event/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:102words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-10-31-git-log-aliases/"
+    >Git log aliases</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Here are some usefull git aliases which i use on a daily basis:
+Output samples are generated using clojure repository
+List of one line commits
+ls = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&lt;%an&gt;%Creset'  List of commits with changed files
+ll = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&lt;%an&gt;%Creset' --decorate --numstat  List of commits without colors
+lnc = log --pretty=format:&quot;%h\\ %s\\ [%cn]&quot;  Commits with dates
+ldt = log --all --pretty=format:'%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&lt;%an&gt;%Creset'  Commits with short dates</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-10-31-git-log-aliases/" class="">
+  <time datetime="2014-10-31 00:10:22 &#43;0500 &#43;05" itemprop="datePublished">2014-10-31</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/alias/"> alias </a>
+  <a class="article-category-link" href="/categories/config/"> config </a>
+  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-10-31-git-log-aliases/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:145words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-10-28-stackoverflow-reputation/"
+    >Stackoverflow reputation problem</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Some time ago i wrote gist which described how to install ghc from source on ubuntu. Today i see question on stackoverflow.com connected with my gist. I have fixed gist immediately and think about leaving comment to person who had some difficulties with it. I log on using google account and try to leave comment and &hellip; i cant do it because my repuration is too low (this is just new account).</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-10-28-stackoverflow-reputation/" class="">
+  <time datetime="2014-10-28 21:08:23 &#43;0500 &#43;05" itemprop="datePublished">2014-10-28</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/stackoverflow/"> stackoverflow </a>
+  <a class="article-category-link" href="/categories/usability/"> usability </a>
+  <a class="article-category-link" href="/categories/ux/"> ux </a>
+  <a class="article-category-link" href="/categories/user_experience/"> user_experience </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-10-28-stackoverflow-reputation/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:96words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-10-27-mac-os-environment-variables/"
+    >Mac os environment variables</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
+To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
+export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal).</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-10-27-mac-os-environment-variables/" class="">
+  <time datetime="2014-10-27 02:36:04 &#43;0500 &#43;05" itemprop="datePublished">2014-10-27</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/mac/"> mac </a>
+  <a class="article-category-link" href="/categories/environment/"> environment </a>
+  <a class="article-category-link" href="/categories/shell/"> shell </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-10-27-mac-os-environment-variables/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:356words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:2minutes </span>
+      </p>
+    </article>
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-10-27-hello-world/"
+    >Hello world</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">hello world :-)</div>
+      <p class="article-meta"><span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-10-27-hello-world/" class="">
+  <time datetime="2014-10-27 01:19:36 &#43;0500 &#43;05" itemprop="datePublished">2014-10-27</time>
+</a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-10-27-hello-world/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:3words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:1minutes </span>
+      </p>
+    </article></div>
+  
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://example.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/yantonov" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2012  -
+    2019
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
+<script type="text/javascript"
+    src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="https://example.com/js/application.js"></script>
+<script type="text/javascript" src="https://example.com/js/plugin.js"></script>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/example.com\/',
+            CONTENT_URL: 'https:\/\/example.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://example.com/js/insight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+  </body>
+</html>

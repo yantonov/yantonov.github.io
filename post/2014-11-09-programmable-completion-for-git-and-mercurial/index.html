@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Programmable completion for git and mercurial - Pure theme for Hugo
+      </title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <meta name="description" content="Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
+  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <title>Programmable completion for git and mercurial - Pure theme for Hugo</title>
+  
+
+  <link rel="stylesheet" href="https://example.com/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Programmable completion for git and mercurial" />
+<meta property="og:description" content="Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/" />
+<meta property="article:published_time" content="2014-11-09T22:52:36+05:00" />
+<meta property="article:modified_time" content="2014-11-09T22:52:36+05:00" />
+<meta itemprop="name" content="Programmable completion for git and mercurial">
+<meta itemprop="description" content="Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.">
+<meta itemprop="datePublished" content="2014-11-09T22:52:36&#43;05:00" />
+<meta itemprop="dateModified" content="2014-11-09T22:52:36&#43;05:00" />
+<meta itemprop="wordCount" content="589">
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Programmable completion for git and mercurial"/>
+<meta name="twitter:description" content="Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation."/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/yantonov" target="_blank">
+            <img class="img-circle img-rotate" src="https://example.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">yantonov</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Yury Antonov</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Milky Way Galaxy</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="sidebar">
+  
+  
+    <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>RSS</span>
+    </div>
+    <div id="rss">
+      <a href="https://example.com/index.xml" type="application/rss+xml" target="_blank">
+        <i class="fa fa-rss-square fa-2x" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  
+  <div class="sidebar-content">
+    <div class="sidebar-header">
+      <span>Categories</span>
+    </div>
+    <div class="categories">
+      <ul>
+        
+        <li>
+          <a href="/categories/.net"><span></span>.net (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ai"><span></span>ai (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/algorithm"><span></span>algorithm (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/alias"><span></span>alias (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/angular"><span></span>angular (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/automation"><span></span>automation (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/blog"><span></span>blog (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmark"><span></span>bookmark (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/bookmarks"><span></span>bookmarks (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/build"><span></span>build (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cache"><span></span>cache (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/caching"><span></span>caching (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/church-numerals"><span></span>church-numerals (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/clojure"><span></span>clojure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cmd"><span></span>cmd (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/computer-vision"><span></span>computer-vision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/concurrency"><span></span>concurrency (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conditional"><span></span>conditional (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/config"><span></span>config (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/conflict-free-replicated-data-types"><span></span>conflict-free-replicated-data-types (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/connection"><span></span>connection (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/consensus"><span></span>consensus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/course"><span></span>course (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cproj"><span></span>cproj (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/crdt"><span></span>crdt (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/cs"><span></span>cs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/css"><span></span>css (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structure"><span></span>data-structure (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/data-structures"><span></span>data-structures (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/deep-learning"><span></span>deep-learning (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/delete-package"><span></span>delete-package (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/distributed-systems"><span></span>distributed-systems (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/dvcs"><span></span>dvcs (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs"><span></span>emacs (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/emacs-lisp"><span></span>emacs-lisp (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/encoding"><span></span>encoding (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/environment"><span></span>environment (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/eshell"><span></span>eshell (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/export"><span></span>export (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/feeds"><span></span>feeds (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/filename"><span></span>filename (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fprog"><span></span>fprog (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/fun"><span></span>fun (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-programming"><span></span>functional-programming (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/functional-test"><span></span>functional-test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/git"><span></span>git (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/golang"><span></span>golang (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/haskell"><span></span>haskell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/headers"><span></span>headers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/health"><span></span>health (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/healthy-programmer"><span></span>healthy-programmer (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/http"><span></span>http (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ide"><span></span>ide (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/interview"><span></span>interview (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ios"><span></span>ios (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/javascript"><span></span>javascript (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/kalman-filter"><span></span>kalman-filter (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/keyboard"><span></span>keyboard (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda-calculus"><span></span>lambda-calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lambda_calculus"><span></span>lambda_calculus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/leiningen"><span></span>leiningen (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/linked-list"><span></span>linked-list (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/links"><span></span>links (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/lisp"><span></span>lisp (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/logic"><span></span>logic (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac"><span></span>mac (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mac-os"><span></span>mac-os (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/machine_learning"><span></span>machine_learning (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/macos"><span></span>macos (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/matplotlib"><span></span>matplotlib (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/memory"><span></span>memory (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/mercurial"><span></span>mercurial (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/merge"><span></span>merge (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ml"><span></span>ml (3)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/nautilus"><span></span>nautilus (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural-network"><span></span>neural-network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/neural_network"><span></span>neural_network (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/optimization"><span></span>optimization (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/packages"><span></span>packages (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/papers"><span></span>papers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/parallel"><span></span>parallel (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pattern-recognision"><span></span>pattern-recognision (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pcomplete"><span></span>pcomplete (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/pkg"><span></span>pkg (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/plugin"><span></span>plugin (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/podcast"><span></span>podcast (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/probability"><span></span>probability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/problem"><span></span>problem (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python"><span></span>python (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/python3"><span></span>python3 (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/raft"><span></span>raft (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/react"><span></span>react (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/repl"><span></span>repl (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rerere"><span></span>rerere (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/review"><span></span>review (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rfc"><span></span>rfc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/rss"><span></span>rss (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/scm"><span></span>scm (5)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/script"><span></span>script (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shell"><span></span>shell (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/shortcut"><span></span>shortcut (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/site-generator"><span></span>site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sln"><span></span>sln (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/sqlite"><span></span>sqlite (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ssh"><span></span>ssh (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/stackoverflow"><span></span>stackoverflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static"><span></span>static (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/static-site-generator"><span></span>static-site-generator (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/task"><span></span>task (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/terminal"><span></span>terminal (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/test"><span></span>test (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/tip"><span></span>tip (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/trick"><span></span>trick (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/turing-machine"><span></span>turing-machine (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ubuntu"><span></span>ubuntu (2)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ui"><span></span>ui (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/usability"><span></span>usability (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/user_experience"><span></span>user_experience (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/ux"><span></span>ux (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vcs"><span></span>vcs (4)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/vsc"><span></span>vsc (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watch"><span></span>watch (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/watchers"><span></span>watchers (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/web"><span></span>web (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/webpack"><span></span>webpack (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/wifi"><span></span>wifi (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/workflow"><span></span>workflow (1)</a>
+        </li>
+        
+        <li>
+          <a href="/categories/xamarin"><span></span>xamarin (1)</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+  
+</div>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-09-programmable-completion-for-git-and-mercurial/"
+    >Programmable completion for git and mercurial</a
+  >
+</h1>
+
+      <div class="article-meta">
+        <span class="article-date">
+  <i class="icon icon-calendar-check"></i>
+<a href="https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/" class="article-date">
+  <time datetime="2014-11-09 22:52:36 &#43;0500 &#43;05" itemprop="datePublished">2014-11-09</time>
+</a>
+</span><span class="article-category">
+  <i class="icon icon-folder"></i>
+  <a class="article-category-link" href="/categories/emacs/"> emacs </a>
+  <a class="article-category-link" href="/categories/emacs-lisp/"> emacs lisp </a>
+  <a class="article-category-link" href="/categories/lisp/"> lisp </a>
+  <a class="article-category-link" href="/categories/eshell/"> eshell </a>
+  <a class="article-category-link" href="/categories/pcomplete/"> pcomplete </a>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/mercurial/"> mercurial </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/post/2014-11-09-programmable-completion-for-git-and-mercurial/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count:589words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count:3minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p>Some time ago i read excellent <a href="http://tsdh.wordpress.com/2013/05/31/eshell-completion-for-git-bzr-and-hg/">post</a> about emacs library <a href="http://www.emacswiki.org/emacs/ProgrammableCompletion">pcomplete</a>.</p>
+<p>The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.</p>
+<p>First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation. You may not want to start eshell, so call hg or git is not needed.</p>
+<p>Second problem - if you broke PATH variable (emacs cant find git or hg executable, or you install emacs before you install git or mercurial) than you got crash while starting emacs (not fatal but annoying emacs lisp errors).</p>
+<p>Thats why i add some modifications. I preserve &lsquo;precalculation&rsquo; of general command list for git and mercurial using this trivial snippet:</p>
+<p>cache-defuns.el</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp">(defun cached (f)
+  <span style="color:#e6db74">&#34;evaluate once and cache it&#34;</span>
+  (lexical-let ((value <span style="color:#66d9ef">nil</span>)
+                (fn f))
+    (lambda (<span style="color:#66d9ef">&amp;rest</span> args)
+      (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">eq</span> value <span style="color:#66d9ef">nil</span>)
+          (<span style="color:#66d9ef">progn</span>
+            (<span style="color:#66d9ef">setq</span> value (<span style="color:#a6e22e">funcall</span> fn))
+            value)
+        value))))
+
+(<span style="color:#a6e22e">provide</span> <span style="color:#e6db74">&#39;cache-defuns</span>)
+</code></pre></div><p>This snippet allow you to calculate function f once, and use its result at subsequent calls.</p>
+<p>Another modifications connected with bad PATH variable. I dont throw exception or write message at emacs minibuffer but at time of completion corresponding error message will be printed at eshell instead of autocomplete results. Of course situation of broken PATH is not typical and occured very rarely so described solution works well.</p>
+<p>Here you can find final code:</p>
+<p>emacs-rc-pcomplete.el</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">;;**** Git Completion</span>
+(defun pcmpl-git-commands ()
+  <span style="color:#e6db74">&#34;Return the most common git commands by parsing the git output.&#34;</span>
+  (interactive)
+  (with-temp-buffer
+    (call-process-shell-command <span style="color:#e6db74">&#34;git&#34;</span> <span style="color:#66d9ef">nil</span> (current-buffer) <span style="color:#66d9ef">nil</span> <span style="color:#e6db74">&#34;help&#34;</span> <span style="color:#e6db74">&#34;--all&#34;</span>)
+    (goto-char <span style="color:#ae81ff">0</span>)
+    (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">eq</span> (search-forward <span style="color:#e6db74">&#34;available git commands in&#34;</span>) <span style="color:#66d9ef">nil</span>)
+        <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;cant find git executable, check PATH varialbe&#34;</span>)
+      (<span style="color:#66d9ef">let</span> (commands)
+        (while (re-search-forward
+                <span style="color:#e6db74">&#34;^[[:blank:]]+\\([[:word:]-.]+\\)[[:blank:]]*\\([[:word:]-.]+\\)?&#34;</span>
+                <span style="color:#66d9ef">nil</span> <span style="color:#66d9ef">t</span>)
+          (push (match-string <span style="color:#ae81ff">1</span>) commands)
+          (when (match-string <span style="color:#ae81ff">2</span>)
+            (push (match-string <span style="color:#ae81ff">2</span>) commands)))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
+
+(defconst cached__pcmpl-git-commands (cached <span style="color:#e6db74">&#39;pcmpl-git-commands</span>)
+  <span style="color:#e6db74">&#34;Cached list of `git&#39; commands.&#34;</span>)
+
+(defvar pcmpl-git-ref-list-cmd <span style="color:#e6db74">&#34;git for-each-ref refs/ --format=&#39;%(refname)&#39;&#34;</span>
+  <span style="color:#e6db74">&#34;The `git&#39; command to run to get a list of refs.&#34;</span>)
+
+(defun pcmpl-git-get-refs (<span style="color:#66d9ef">type</span>)
+  <span style="color:#e6db74">&#34;Return a list of `git&#39; refs filtered by TYPE.&#34;</span>
+  (with-temp-buffer
+    (insert (shell-command-to-string pcmpl-git-ref-list-cmd))
+    (goto-char (point-min))
+    (<span style="color:#66d9ef">let</span> (refs)
+      (while (re-search-forward (concat <span style="color:#e6db74">&#34;^refs/&#34;</span> <span style="color:#66d9ef">type</span> <span style="color:#e6db74">&#34;/\\(.+\\)$&#34;</span>) <span style="color:#66d9ef">nil</span> <span style="color:#66d9ef">t</span>)
+        (push (match-string <span style="color:#ae81ff">1</span>) refs))
+      (<span style="color:#a6e22e">nreverse</span> refs))))
+
+(defun pcmpl-git-remotes ()
+  <span style="color:#e6db74">&#34;Return a list of remote repositories.&#34;</span>
+  (split-string (shell-command-to-string <span style="color:#e6db74">&#34;git remote&#34;</span>)))
+
+(defun pcomplete/git ()
+  <span style="color:#e6db74">&#34;Completion for `git&#39;.&#34;</span>
+  <span style="color:#75715e">;; Completion for the command argument.</span>
+  (pcomplete-here* (<span style="color:#a6e22e">funcall</span> cached__pcmpl-git-commands))
+  (cond
+   ((pcomplete-match <span style="color:#e6db74">&#34;help&#34;</span> <span style="color:#ae81ff">1</span>)
+    (pcomplete-here* (<span style="color:#a6e22e">funcall</span> cached__pcmpl-git-commands)))
+   ((pcomplete-match (regexp-opt <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;pull&#34;</span> <span style="color:#e6db74">&#34;push&#34;</span>)) <span style="color:#ae81ff">1</span>)
+    (pcomplete-here (pcmpl-git-remotes)))
+   <span style="color:#75715e">;; provide branch completion for the command `checkout&#39;.</span>
+   ((pcomplete-match <span style="color:#e6db74">&#34;checkout&#34;</span> <span style="color:#ae81ff">1</span>)
+    (pcomplete-here* (<span style="color:#a6e22e">append</span> (pcmpl-git-get-refs <span style="color:#e6db74">&#34;heads&#34;</span>)
+                             (pcmpl-git-get-refs <span style="color:#e6db74">&#34;tags&#34;</span>))))
+   (<span style="color:#66d9ef">t</span>
+    (while (pcomplete-here (pcomplete-entries))))))
+
+<span style="color:#75715e">;;**** Mercurial (hg) Completion</span>
+
+(defun pcmpl-hg-commands ()
+  <span style="color:#e6db74">&#34;Return the most common hg commands by parsing the hg output.&#34;</span>
+  (interactive)
+  (with-temp-buffer
+    (call-process-shell-command <span style="color:#e6db74">&#34;hg&#34;</span> <span style="color:#66d9ef">nil</span> (current-buffer) <span style="color:#66d9ef">nil</span> <span style="color:#e6db74">&#34;-v&#34;</span> <span style="color:#e6db74">&#34;help&#34;</span>)
+    (goto-char <span style="color:#ae81ff">0</span>)
+    (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">eq</span> (search-forward <span style="color:#e6db74">&#34;list of comxmands:&#34;</span> <span style="color:#66d9ef">nil</span> <span style="color:#66d9ef">t</span>) <span style="color:#66d9ef">nil</span>)
+        <span style="color:#f92672">&#39;</span>(<span style="color:#e6db74">&#34;cant find hg executable, check PATH variable&#34;</span>)
+      (<span style="color:#66d9ef">let</span> (commands
+            (bound (save-excursion
+                     (re-search-forward <span style="color:#e6db74">&#34;^[[:alpha:]]&#34;</span>)
+                     (forward-line <span style="color:#ae81ff">0</span>)
+                     (point))))
+        (while (re-search-forward
+                <span style="color:#e6db74">&#34;^[[:blank:]]\\([[:word:]]+\\(?:, [[:word:]]+\\)*\\)&#34;</span> bound <span style="color:#66d9ef">t</span>)
+          (<span style="color:#66d9ef">let</span> ((match (match-string <span style="color:#ae81ff">1</span>)))
+            (<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">not</span> (string-match <span style="color:#e6db74">&#34;,&#34;</span> match))
+                (push (match-string <span style="color:#ae81ff">1</span>) commands)
+              (dolist (c (split-string match <span style="color:#e6db74">&#34;, ?&#34;</span>))
+                (push c commands)))))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
+
+(defconst cached__pcmpl-hg-commands (cached <span style="color:#e6db74">&#39;pcmpl-hg-commands</span>))
+
+(defun pcomplete/hg ()
+  <span style="color:#e6db74">&#34;Completion for `hg&#39;.&#34;</span>
+  <span style="color:#75715e">;; Completion for the command argument.</span>
+  (pcomplete-here* (<span style="color:#a6e22e">funcall</span> cached__pcmpl-hg-commands))
+  (cond
+   ((pcomplete-match <span style="color:#e6db74">&#34;help&#34;</span> <span style="color:#ae81ff">1</span>)
+    (pcomplete-here* (<span style="color:#a6e22e">funcall</span> cached__pcmpl-hg-commands)))
+   (<span style="color:#66d9ef">t</span>
+    (while (pcomplete-here (pcomplete-entries))))))
+(<span style="color:#a6e22e">provide</span> <span style="color:#e6db74">&#39;emacs-rc-pcomplete</span>)
+</code></pre></div><p>Thanks <a href="http://tsdh.wordpress.com/">tsdh</a> and <a href="http://www.masteringemacs.org/">masteringemacs</a> for excellent posts and great explanation of emacs tricks. Recommend you to read this awesome blogs.</p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/" title="Programmable completion for git and mercurial" target="_blank" rel="external">https://example.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/yantonov" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="https://example.com/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/yantonov" target="_blank"><span class="text-dark">yantonov</span><small class="ml-1x">Yury Antonov</small></a></h3>
+        <div>machine learning addicted software engineer</div>
+      </div>
+    </figure>
+  </div>
+</div>
+    </div>
+  </article>
+<section id="comments">
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="https://example.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/" title="PATH variable for gui programs (Mac Os)"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            <li class="next">
+                <a href="https://example.com/post/2014-11-13-church-numerals/"
+                    title="Church numerals"><span>Newer&nbsp;&nbsp;</span><i
+                        class="icon icon-angle-right" aria-hidden="true"></i></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://example.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/yantonov" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2012  -
+    2019
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
+<script type="text/javascript"
+    src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="https://example.com/js/application.js"></script>
+<script type="text/javascript" src="https://example.com/js/plugin.js"></script>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/example.com\/',
+            CONTENT_URL: 'https:\/\/example.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://example.com/js/insight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+  </body>
+</html>
