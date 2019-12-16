@@ -464,6 +464,9 @@ Here is straghtforward solution in haskell
     </div>
   </article>
 <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -575,5 +578,17 @@ Here is straghtforward solution in haskell
     });
 </script>
 
+<script defer>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/yantonov.com\/post\/2015-02-21-find-the-length-of-the-loop\/';
+        this.page.identifier = 'yantonov';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'yantonov' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
   </body>
 </html>

@@ -541,6 +541,9 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     </div>
   </article>
 <section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
 </section>
 
 </div><nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -652,5 +655,17 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     });
 </script>
 
+<script defer>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/yantonov.com\/post\/2014-11-09-programmable-completion-for-git-and-mercurial\/';
+        this.page.identifier = 'yantonov';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'yantonov' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
   </body>
 </html>
