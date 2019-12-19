@@ -4,20 +4,48 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2019/12/2019-12-19-about_distributed_transactions/</loc>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</loc>
+    <loc>https://yantonov.com/categories/distributed-system/</loc>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/scalability/</loc>
+    <lastmod>2019-12-19T14:52:38+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</loc>
     <lastmod>2019-12-15T19:04:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -25,13 +53,6 @@
   
   <url>
     <loc>https://yantonov.com/categories/mac/</loc>
-    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/post/</loc>
     <lastmod>2019-12-15T19:04:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -66,7 +87,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2019-06-15-k-minimum_values_sketch/</loc>
+    <loc>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</loc>
     <lastmod>2019-06-15T14:15:36+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -101,14 +122,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</loc>
+    <loc>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</loc>
     <lastmod>2017-12-13T22:56:24+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-12-08-velocity_conf_2017/</loc>
+    <loc>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</loc>
     <lastmod>2017-12-08T19:28:08+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -143,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-09-13-webpack-not-enough-watchers/</loc>
+    <loc>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</loc>
     <lastmod>2017-09-13T14:34:45+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -157,7 +178,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-08-16-cvrp-2017-papers/</loc>
+    <loc>https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/</loc>
     <lastmod>2017-08-16T15:34:17+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -185,7 +206,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-05-03-neural_turing_machines/</loc>
+    <loc>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</loc>
     <lastmod>2017-05-03T03:16:05+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -213,7 +234,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-04-13-lass/</loc>
+    <loc>https://yantonov.com/2017/04/2017-04-13-lass/</loc>
     <lastmod>2017-04-13T20:49:57+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -227,7 +248,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-03-22-kalman-filter/</loc>
+    <loc>https://yantonov.com/2017/03/2017-03-22-kalman-filter/</loc>
     <lastmod>2017-03-22T05:19:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -241,7 +262,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</loc>
+    <loc>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -262,7 +283,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-01-06-bye-octopress-hello-hugo/</loc>
+    <loc>https://yantonov.com/2017/01/2017-01-06-bye-octopress-hello-hugo/</loc>
     <lastmod>2017-01-06T13:02:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -290,7 +311,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-01-05-install-matplotlib-on-macos-sierra/</loc>
+    <loc>https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/</loc>
     <lastmod>2017-01-05T22:38:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -318,7 +339,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2016-12-10-cant-connect-to-hidden-wifi/</loc>
+    <loc>https://yantonov.com/2016/12/2016-12-10-cant-connect-to-hidden-wifi/</loc>
     <lastmod>2016-12-10T21:38:41+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -353,7 +374,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</loc>
+    <loc>https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</loc>
     <lastmod>2016-07-31T11:29:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -395,14 +416,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</loc>
+    <loc>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</loc>
     <lastmod>2016-05-10T08:45:32+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2016-03-12-bye-bye-mercurial/</loc>
+    <loc>https://yantonov.com/2016/03/2016-03-12-bye-bye-mercurial/</loc>
     <lastmod>2016-03-12T19:54:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -458,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-10-14-delete-pkg-from-mac-os/</loc>
+    <loc>https://yantonov.com/2015/10/2015-10-14-delete-pkg-from-mac-os/</loc>
     <lastmod>2015-10-14T15:46:08+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -507,7 +528,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-10-01-distributed-systems-papers/</loc>
+    <loc>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</loc>
     <lastmod>2015-10-01T15:49:22+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -542,7 +563,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</loc>
+    <loc>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</loc>
     <lastmod>2015-09-13T15:29:49+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -570,7 +591,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-08-02-crdt-reading-list/</loc>
+    <loc>https://yantonov.com/2015/08/2015-08-02-crdt-reading-list/</loc>
     <lastmod>2015-08-02T12:14:54+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -591,14 +612,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-06-07-y-combinator/</loc>
+    <loc>https://yantonov.com/2015/06/2015-06-07-y-combinator/</loc>
     <lastmod>2015-06-07T17:50:14+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-04-12-functional-composition-and-transducers/</loc>
+    <loc>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</loc>
     <lastmod>2015-04-12T09:19:18+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -612,7 +633,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</loc>
+    <loc>https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</loc>
     <lastmod>2015-03-29T15:56:41+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -640,7 +661,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-03-29-cs229-machine-learning/</loc>
+    <loc>https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/</loc>
     <lastmod>2015-03-29T15:49:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -668,7 +689,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-02-27-healthy-programmer/</loc>
+    <loc>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</loc>
     <lastmod>2015-02-27T00:33:33+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -696,7 +717,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-02-23-replicated-sqlite/</loc>
+    <loc>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</loc>
     <lastmod>2015-02-23T23:31:28+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -717,7 +738,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</loc>
+    <loc>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</loc>
     <lastmod>2015-02-21T17:44:29+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -731,7 +752,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-02-21-find-the-length-of-the-loop/</loc>
+    <loc>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</loc>
     <lastmod>2015-02-21T16:06:23+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -808,7 +829,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-02-03-ultra-leiningen-plugin/</loc>
+    <loc>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</loc>
     <lastmod>2015-02-03T23:25:06+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -829,7 +850,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-01-25-conditional-get-for-rss-hackers/</loc>
+    <loc>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</loc>
     <lastmod>2015-01-25T16:30:47+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -892,7 +913,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</loc>
+    <loc>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</loc>
     <lastmod>2015-01-24T13:38:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -941,7 +962,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2015-01-19-unconventional-review/</loc>
+    <loc>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</loc>
     <lastmod>2015-01-19T00:50:46+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -955,7 +976,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</loc>
+    <loc>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</loc>
     <lastmod>2014-12-13T13:09:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -976,7 +997,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-12-07-list-non-latin-file-names-in-git/</loc>
+    <loc>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</loc>
     <lastmod>2014-12-07T23:32:31+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1011,14 +1032,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</loc>
+    <loc>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</loc>
     <lastmod>2014-12-07T22:59:45+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-11-13-church-numerals/</loc>
+    <loc>https://yantonov.com/2014/11/2014-11-13-church-numerals/</loc>
     <lastmod>2014-11-13T08:17:25+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1067,7 +1088,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</loc>
+    <loc>https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/</loc>
     <lastmod>2014-11-09T22:52:36+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1081,14 +1102,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</loc>
+    <loc>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</loc>
     <lastmod>2014-11-04T19:22:34+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-11-04-git-rerere/</loc>
+    <loc>https://yantonov.com/2014/11/2014-11-04-git-rerere/</loc>
     <lastmod>2014-11-04T14:26:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1137,7 +1158,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</loc>
+    <loc>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</loc>
     <lastmod>2014-11-03T13:43:28+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1172,7 +1193,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-10-31-git-log-aliases/</loc>
+    <loc>https://yantonov.com/2014/10/2014-10-31-git-log-aliases/</loc>
     <lastmod>2014-10-31T00:10:22+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1186,7 +1207,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-10-28-stackoverflow-reputation/</loc>
+    <loc>https://yantonov.com/2014/10/2014-10-28-stackoverflow-reputation/</loc>
     <lastmod>2014-10-28T21:08:23+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1214,14 +1235,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-10-27-mac-os-environment-variables/</loc>
+    <loc>https://yantonov.com/2014/10/2014-10-27-mac-os-environment-variables/</loc>
     <lastmod>2014-10-27T02:36:04+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2014-10-27-hello-world/</loc>
+    <loc>https://yantonov.com/2014/10/2014-10-27-hello-world/</loc>
     <lastmod>2014-10-27T01:19:36+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        (map solve problems)</title>
+    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  
+  <meta name="theme-color" content="#000000" />
+  
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  
+  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+  <title>(map solve problems)</title>
+  
+
+  <link rel="alternate" type="application/rss+xml" href="https://yantonov.com/posts/index.xml" title="(map solve problems)" />
+  <link rel="stylesheet" href="https://yantonov.com/css/style.css">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+  <meta property="og:title" content="Posts" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://yantonov.com/posts/" />
+<meta property="og:updated_time" content="2019-12-19T14:52:38+05:00" />
+<meta itemprop="name" content="Posts">
+<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Posts"/>
+<meta name="twitter:description" content=""/>
+
+  <!--[if lte IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+    <![endif]-->
+
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+  </head>
+  
+
+  <body class="main-center" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="https://github.com/yantonov" target="_blank">
+            <img class="img-circle img-rotate" src="https://yantonov.com/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">yantonov</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">Yury Antonov</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Milky Way Galaxy</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>enjoy~</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="https://yantonov.com/categories/.net/" class="category-list-link">.net</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ai/" class="category-list-link">ai</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/algorithm/" class="category-list-link">algorithm</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/alias/" class="category-list-link">alias</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/angular/" class="category-list-link">angular</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/automation/" class="category-list-link">automation</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/blog/" class="category-list-link">blog</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/bookmark/" class="category-list-link">bookmark</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/bookmarks/" class="category-list-link">bookmarks</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/build/" class="category-list-link">build</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/cache/" class="category-list-link">cache</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/caching/" class="category-list-link">caching</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/church-numerals/" class="category-list-link">church-numerals</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/clojure/" class="category-list-link">clojure</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/cmd/" class="category-list-link">cmd</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/computer-vision/" class="category-list-link">computer-vision</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/concurrency/" class="category-list-link">concurrency</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/conditional/" class="category-list-link">conditional</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/config/" class="category-list-link">config</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/conflict-free-replicated-data-types/" class="category-list-link">conflict-free-replicated-data-types</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/connection/" class="category-list-link">connection</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/consensus/" class="category-list-link">consensus</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/course/" class="category-list-link">course</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/cproj/" class="category-list-link">cproj</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/crdt/" class="category-list-link">crdt</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/cs/" class="category-list-link">cs</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/css/" class="category-list-link">css</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/data-structure/" class="category-list-link">data-structure</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/data-structures/" class="category-list-link">data-structures</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/deep-learning/" class="category-list-link">deep-learning</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/delete-package/" class="category-list-link">delete-package</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/distributed-system/" class="category-list-link">distributed-system</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/distributed-systems/" class="category-list-link">distributed-systems</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/dvcs/" class="category-list-link">dvcs</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/emacs/" class="category-list-link">emacs</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/emacs-lisp/" class="category-list-link">emacs-lisp</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/encoding/" class="category-list-link">encoding</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/environment/" class="category-list-link">environment</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/eshell/" class="category-list-link">eshell</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/export/" class="category-list-link">export</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/feeds/" class="category-list-link">feeds</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/filename/" class="category-list-link">filename</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/fprog/" class="category-list-link">fprog</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/fun/" class="category-list-link">fun</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/functional-programming/" class="category-list-link">functional-programming</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/functional-test/" class="category-list-link">functional-test</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/git/" class="category-list-link">git</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/golang/" class="category-list-link">golang</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/haskell/" class="category-list-link">haskell</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/headers/" class="category-list-link">headers</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/health/" class="category-list-link">health</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/healthy-programmer/" class="category-list-link">healthy-programmer</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/http/" class="category-list-link">http</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ide/" class="category-list-link">ide</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/interview/" class="category-list-link">interview</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ios/" class="category-list-link">ios</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/javascript/" class="category-list-link">javascript</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/kalman-filter/" class="category-list-link">kalman-filter</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/keyboard/" class="category-list-link">keyboard</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/lambda-calculus/" class="category-list-link">lambda-calculus</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/lambda_calculus/" class="category-list-link">lambda_calculus</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/leiningen/" class="category-list-link">leiningen</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/linked-list/" class="category-list-link">linked-list</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/links/" class="category-list-link">links</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/lisp/" class="category-list-link">lisp</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/logic/" class="category-list-link">logic</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/mac/" class="category-list-link">mac</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/mac-os/" class="category-list-link">mac-os</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/machine_learning/" class="category-list-link">machine_learning</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/macos/" class="category-list-link">macos</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/matplotlib/" class="category-list-link">matplotlib</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/memory/" class="category-list-link">memory</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/mercurial/" class="category-list-link">mercurial</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/merge/" class="category-list-link">merge</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ml/" class="category-list-link">ml</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/nautilus/" class="category-list-link">nautilus</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/neural-network/" class="category-list-link">neural-network</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/neural_network/" class="category-list-link">neural_network</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/optimization/" class="category-list-link">optimization</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/packages/" class="category-list-link">packages</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/papers/" class="category-list-link">papers</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/parallel/" class="category-list-link">parallel</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/pattern-recognision/" class="category-list-link">pattern-recognision</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/pcomplete/" class="category-list-link">pcomplete</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/pkg/" class="category-list-link">pkg</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/plugin/" class="category-list-link">plugin</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/probability/" class="category-list-link">probability</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/problem/" class="category-list-link">problem</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/python/" class="category-list-link">python</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/python3/" class="category-list-link">python3</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/raft/" class="category-list-link">raft</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/react/" class="category-list-link">react</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/repl/" class="category-list-link">repl</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/rerere/" class="category-list-link">rerere</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/review/" class="category-list-link">review</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/rfc/" class="category-list-link">rfc</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/rss/" class="category-list-link">rss</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/scalability/" class="category-list-link">scalability</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/scm/" class="category-list-link">scm</a><span class="category-list-count">5</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/script/" class="category-list-link">script</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/shell/" class="category-list-link">shell</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/shortcut/" class="category-list-link">shortcut</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/site-generator/" class="category-list-link">site-generator</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/sln/" class="category-list-link">sln</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/sqlite/" class="category-list-link">sqlite</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ssh/" class="category-list-link">ssh</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/stackoverflow/" class="category-list-link">stackoverflow</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/static/" class="category-list-link">static</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/static-site-generator/" class="category-list-link">static-site-generator</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/task/" class="category-list-link">task</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/terminal/" class="category-list-link">terminal</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/test/" class="category-list-link">test</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/tip/" class="category-list-link">tip</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/trick/" class="category-list-link">trick</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/turing-machine/" class="category-list-link">turing-machine</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ubuntu/" class="category-list-link">ubuntu</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ui/" class="category-list-link">ui</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/usability/" class="category-list-link">usability</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/user_experience/" class="category-list-link">user_experience</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ux/" class="category-list-link">ux</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/vcs/" class="category-list-link">vcs</a><span class="category-list-count">4</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/vsc/" class="category-list-link">vsc</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/watch/" class="category-list-link">watch</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/watchers/" class="category-list-link">watchers</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/web/" class="category-list-link">web</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/webpack/" class="category-list-link">webpack</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/wifi/" class="category-list-link">wifi</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/workflow/" class="category-list-link">workflow</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/xamarin/" class="category-list-link">xamarin</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2019/12/2019-12-19-about_distributed_transactions/" class="title">About distributed transactions</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-19 14:52:38 &#43;0500 &#43;05" itemprop="datePublished">2019-12-19</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/" class="title">How to remember ssh keys on mac os</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-12-15 19:04:37 &#43;0500 &#43;05" itemprop="datePublished">2019-12-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/" class="title">K-Minimum values sketch</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2019-06-15 14:15:36 &#43;0500 &#43;05" itemprop="datePublished">2019-06-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/" class="title">Parallel and concurrenct programming in haskell</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2017-12-13 22:56:24 &#43;0500 &#43;05" itemprop="datePublished">2017-12-13</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/" class="title">Velocity conference 2017</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2017-12-08 19:28:08 &#43;0500 &#43;05" itemprop="datePublished">2017-12-08</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<main class="main" role="main">
+    <article class="content article article-archives article-type-list" itemscope="">
+        <header class="article-header">
+            <h1 itemprop="title">Posts</h1>
+            <p class="text-muted">Total 45 articles</p>
+        </header>
+        <div class="article-body">
+            
+            
+                <section class="panel panel-default b-no">
+                    <div class="panel-heading" role="tab">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2019" aria-expanded="true">
+                                <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+                                &nbsp;2019
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2019" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="heading2019">
+                        <div class="panel-body">
+                            <div class="collection"><a href="https://yantonov.com/2019/12/2019-12-19-about_distributed_transactions/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2019-12-19 14:52:38 &#43;0500 &#43;05"
+        itemprop="datePublished">2019-12-19</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>About distributed transactions
+</a>
+            <a href="https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2019-12-15 19:04:37 &#43;0500 &#43;05"
+        itemprop="datePublished">2019-12-15</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>How to remember ssh keys on mac os
+</a>
+            <a href="https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2019-06-15 14:15:36 &#43;0500 &#43;05"
+        itemprop="datePublished">2019-06-15</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>K-Minimum values sketch
+</a>
+            
+                <section class="panel panel-default b-no">
+                    <div class="panel-heading" role="tab">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2017" aria-expanded="true">
+                                <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+                                &nbsp;2017
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2017" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="heading2017">
+                        <div class="panel-body">
+                            <div class="collection"> 
+                </div></div></div></section><a href="https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-12-13 22:56:24 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-12-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Parallel and concurrenct programming in haskell
+</a>
+            <a href="https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-12-08 19:28:08 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-12-08</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Velocity conference 2017
+</a>
+            <a href="https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-09-13 14:34:45 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-09-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Webpack has not enough watchers
+</a>
+            <a href="https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-08-16 15:34:17 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-08-16</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>CVRP 2017 Papers
+</a>
+            <a href="https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-05-03 03:16:05 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-05-03</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Neural turing machines
+</a>
+            <a href="https://yantonov.com/2017/04/2017-04-13-lass/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-04-13 20:49:57 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-04-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Lispy css
+</a>
+            <a href="https://yantonov.com/2017/03/2017-03-22-kalman-filter/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-03-22 05:19:56 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-03-22</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>kalman filter
+</a>
+            <a href="https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-01-21 21:31:02 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-01-21</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>functional programming related podcasts
+</a>
+            <a href="https://yantonov.com/2017/01/2017-01-06-bye-octopress-hello-hugo/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-01-06 13:02:38 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-01-06</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Bye octopress, hello hugo
+</a>
+            <a href="https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2017-01-05 22:38:37 &#43;0500 &#43;05"
+        itemprop="datePublished">2017-01-05</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Install matplotlib on mac sierra
+</a>
+            
+                <section class="panel panel-default b-no">
+                    <div class="panel-heading" role="tab">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2016" aria-expanded="true">
+                                <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+                                &nbsp;2016
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2016" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="heading2016">
+                        <div class="panel-body">
+                            <div class="collection"> 
+                </div></div></div></section><a href="https://yantonov.com/2016/12/2016-12-10-cant-connect-to-hidden-wifi/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2016-12-10 21:38:41 &#43;0500 &#43;05"
+        itemprop="datePublished">2016-12-10</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Can not connect to hidden wifi (ubuntu 16.04 lts)
+</a>
+            <a href="https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2016-07-31 11:29:56 &#43;0500 &#43;05"
+        itemprop="datePublished">2016-07-31</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>2Q a low overhead high performance buffer managemenent replacement algorithm
+</a>
+            <a href="https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2016-05-10 08:45:32 &#43;0500 &#43;05"
+        itemprop="datePublished">2016-05-10</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Strange shift key behaviour when renaming files in ubuntu
+</a>
+            <a href="https://yantonov.com/2016/03/2016-03-12-bye-bye-mercurial/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2016-03-12 19:54:21 &#43;0500 &#43;05"
+        itemprop="datePublished">2016-03-12</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Bye bye mercurial
+</a>
+            
+                <section class="panel panel-default b-no">
+                    <div class="panel-heading" role="tab">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2015" aria-expanded="true">
+                                <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+                                &nbsp;2015
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2015" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="heading2015">
+                        <div class="panel-body">
+                            <div class="collection"> 
+                </div></div></div></section><a href="https://yantonov.com/2015/10/2015-10-14-delete-pkg-from-mac-os/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-10-14 15:46:08 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-10-14</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Delete package (some-package.pkg) from Mac OS
+</a>
+            <a href="https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-10-01 15:49:22 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-10-01</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Distributed systems papers
+</a>
+            <a href="https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-09-13 15:29:49 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-09-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Deep learning resouces
+</a>
+            <a href="https://yantonov.com/2015/08/2015-08-02-crdt-reading-list/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-08-02 12:14:54 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-08-02</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Crdt reading list
+</a>
+            <a href="https://yantonov.com/2015/06/2015-06-07-y-combinator/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-06-07 17:50:14 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-06-07</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Y combinator
+</a>
+            <a href="https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-04-12 09:19:18 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-04-12</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Functional composition and transducers
+</a>
+            <a href="https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-03-29 15:56:41 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-03-29</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>CS231n Convolutional neural networks for visual recognition
+</a>
+            <a href="https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-03-29 15:49:56 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-03-29</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>CS229 Machine Learning
+</a>
+            <a href="https://yantonov.com/2015/02/2015-02-27-healthy-programmer/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-02-27 00:33:33 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-02-27</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Stand up every 20 minutes (mac os)
+</a>
+            <a href="https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-02-23 23:31:28 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-02-23</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Replicated SQLite
+</a>
+            <a href="https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-02-21 17:44:29 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-02-21</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Path to learn haskell
+</a>
+            <a href="https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-02-21 16:06:23 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-02-21</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Find the length of the loop
+</a>
+            <a href="https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-02-03 23:25:06 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-02-03</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Ultra leiningen plugin
+</a>
+            <a href="https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-01-25 16:30:47 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-01-25</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Conditional get for rss hackers
+</a>
+            <a href="https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-01-24 13:38:03 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-01-24</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Run automation instruments script from the command line
+</a>
+            <a href="https://yantonov.com/2015/01/2015-01-19-unconventional-review/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2015-01-19 00:50:46 &#43;0500 &#43;05"
+        itemprop="datePublished">2015-01-19</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Unconventional review
+</a>
+            
+                <section class="panel panel-default b-no">
+                    <div class="panel-heading" role="tab">
+                        <h3 class="panel-title">
+                            <a data-toggle="collapse" href="#collapse2014" aria-expanded="true">
+                                <i class="icon icon-calendar-plus text-active"></i><i class="icon icon-calendar-minus text"></i>
+                                &nbsp;2014
+                            </a>
+                        </h3>
+                    </div>
+                    <div id="collapse2014" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="heading2014">
+                        <div class="panel-body">
+                            <div class="collection"> 
+                </div></div></div></section><a href="https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-12-13 13:09:21 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-12-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Multi-queue replacement algorithm for second level buffer caches
+</a>
+            <a href="https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-12-07 23:32:31 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-12-07</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>List non latin file names in git
+</a>
+            <a href="https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-12-07 22:59:45 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-12-07</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Export files changed at revision from mercurial
+</a>
+            <a href="https://yantonov.com/2014/11/2014-11-13-church-numerals/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-11-13 08:17:25 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-11-13</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Church numerals
+</a>
+            <a href="https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-11-09 22:52:36 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-11-09</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Programmable completion for git and mercurial
+</a>
+            <a href="https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-11-04 19:22:34 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-11-04</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>PATH variable for gui programs (Mac Os)
+</a>
+            <a href="https://yantonov.com/2014/11/2014-11-04-git-rerere/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-11-04 14:26:21 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-11-04</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Git rerere
+</a>
+            <a href="https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-11-03 13:43:28 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-11-03</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Platform specific build event
+</a>
+            <a href="https://yantonov.com/2014/10/2014-10-31-git-log-aliases/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-10-31 00:10:22 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-10-31</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Git log aliases
+</a>
+            <a href="https://yantonov.com/2014/10/2014-10-28-stackoverflow-reputation/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-10-28 21:08:23 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-10-28</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Stackoverflow reputation problem
+</a>
+            <a href="https://yantonov.com/2014/10/2014-10-27-mac-os-environment-variables/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-10-27 02:36:04 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-10-27</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Mac os environment variables
+</a>
+            <a href="https://yantonov.com/2014/10/2014-10-27-hello-world/" class="collection-item" itemprop="url"  target="_blank" >
+    <time datetime="2014-10-27 01:19:36 &#43;0500 &#43;05"
+        itemprop="datePublished">2014-10-27</time>
+    <span>&nbsp;&nbsp;&nbsp;</span>Hello world
+</a>
+        </div>
+        </div></div></div></section>
+    </article>
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://yantonov.com/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/yantonov" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2017  -
+    2019
+    <div class="publishby">
+        Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/rust.min.js"></script>
+<script type="text/javascript"
+    src="https://cdn.staticfile.org/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
+<script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/javascript" src="https://yantonov.com/js/application.js"></script>
+<script type="text/javascript" src="https://yantonov.com/js/plugin.js"></script>
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'https:\/\/yantonov.com\/',
+            CONTENT_URL: 'https:\/\/yantonov.com\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="https://yantonov.com/js/insight.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+<script defer>
+    var disqus_config = function () {
+        this.page.url = 'https:\/\/yantonov.com\/posts\/';
+        this.page.identifier = 'yantonov';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = '//' + 'yantonov' + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+  </body>
+</html>
