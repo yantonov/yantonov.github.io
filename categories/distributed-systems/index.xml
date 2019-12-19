@@ -5,7 +5,7 @@
     <link>https://yantonov.com/categories/distributed-systems/</link>
     <description>Recent content in distributed systems on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Oct 2015 15:49:22 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 14:52:38 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/distributed-systems/index.xml" rel="self" type="application/rss+xml" />
     
@@ -188,7 +188,7 @@ maybe it will be helpful</description>
     </item>
     
     <item>
-      <title>Delete package (some-package.pkg) from Mac OS</title>
+      <title>Delete package from Mac OS</title>
       <link>https://yantonov.com/2015/10/2015-10-14-delete-pkg-from-mac-os/</link>
       <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
       
