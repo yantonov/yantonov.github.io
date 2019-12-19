@@ -5,10 +5,19 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 19 Dec 2019 14:52:38 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 19 Dec 2019 16:44:47 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>State of enterprise ML</title>
+      <link>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</link>
+      <pubDate>Thu, 19 Dec 2019 16:44:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</guid>
+      <description>The 2020 State of Enterprise Machine Learning report</description>
+    </item>
     
     <item>
       <title>About distributed transactions</title>
