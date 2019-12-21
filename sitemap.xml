@@ -4,20 +4,62 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2019-12-20T13:03:32+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/cache/</loc>
-    <lastmod>2019-12-20T13:03:32+05:00</lastmod>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/development/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/scm/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/trunk/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/vcs/</loc>
+    <lastmod>2019-12-21T23:18:26+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/cache/</loc>
     <lastmod>2019-12-20T13:03:32+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -39,13 +81,6 @@
   
   <url>
     <loc>https://yantonov.com/2019/12/2019-12-20-portable_file_system_cache_diagnostics_and_control/</loc>
-    <lastmod>2019-12-20T13:03:32+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
     <lastmod>2019-12-20T13:03:32+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -452,20 +487,6 @@
   
   <url>
     <loc>https://yantonov.com/categories/mercurial/</loc>
-    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/scm/</loc>
-    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/vcs/</loc>
     <lastmod>2016-03-12T19:54:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
