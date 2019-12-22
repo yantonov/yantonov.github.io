@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>Distributed consensus</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</link>
+      <pubDate>Sun, 22 Dec 2019 20:54:12 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
+      <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
+    </item>
+    
+    <item>
       <title>Resilience4j</title>
       <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
       <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
