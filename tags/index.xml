@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Resilience4j</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
+      <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-resilience4j/</guid>
+      <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
+Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
+    </item>
+    
+    <item>
       <title>Stacked diffs versus pull requests</title>
       <link>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</link>
       <pubDate>Sat, 21 Dec 2019 23:18:26 +0500</pubDate>
