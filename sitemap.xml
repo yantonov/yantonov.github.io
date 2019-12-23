@@ -1032,35 +1032,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/build/</loc>
-    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/cmd/</loc>
-    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/cproj/</loc>
-    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</loc>
-    <lastmod>2014-11-03T13:43:28+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/sln/</loc>
     <lastmod>2014-11-03T13:43:28+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>repl on (map solve problems)</title>
+    <link>https://yantonov.com/categories/repl/</link>
+    <description>Recent content in repl on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 03 Feb 2015 23:25:06 +0500</lastBuildDate>
+    
+        <atom:link href="https://yantonov.com/categories/repl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Strange shift key behaviour when renaming files in ubuntu</title>
+      <link>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</link>
+      <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</guid>
+      <description>There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
+ Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
+Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.</description>
+    </item>
+    
+    <item>
+      <title>Bye bye mercurial</title>
+      <link>https://yantonov.com/2016/03/2016-03-12-bye-bye-mercurial/</link>
+      <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2016/03/2016-03-12-bye-bye-mercurial/</guid>
+      <description>Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
+P.s. here is a simple script aimed to convert hg repo to git,
+maybe it will be helpful</description>
+    </item>
+    
+    <item>
+      <title>Delete package from Mac OS</title>
+      <link>https://yantonov.com/2015/10/2015-10-14-delete-pkg-from-mac-os/</link>
+      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/10/2015-10-14-delete-pkg-from-mac-os/</guid>
+      <description>Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
+There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
+To automate the process i have wrote this script uninstall-pkg.sh
+#!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!</description>
+    </item>
+    
+    <item>
+      <title>Distributed systems papers</title>
+      <link>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</link>
+      <pubDate>Thu, 01 Oct 2015 15:49:22 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</guid>
+      <description>List of papers on distributed systems</description>
+    </item>
+    
+    <item>
+      <title>Deep learning resouces</title>
+      <link>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</link>
+      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</guid>
+      <description>Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</description>
+    </item>
+    
+    <item>
+      <title>Crdt reading list</title>
+      <link>https://yantonov.com/2015/08/2015-08-02-crdt-reading-list/</link>
+      <pubDate>Sun, 02 Aug 2015 12:14:54 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/08/2015-08-02-crdt-reading-list/</guid>
+      <description>CRDT reading list</description>
+    </item>
+    
+    <item>
+      <title>Y combinator</title>
+      <link>https://yantonov.com/2015/06/2015-06-07-y-combinator/</link>
+      <pubDate>Sun, 07 Jun 2015 17:50:14 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/06/2015-06-07-y-combinator/</guid>
+      <description>Mike Vanier wrote great article about Y-combinator.</description>
+    </item>
+    
+    <item>
+      <title>Functional composition and transducers</title>
+      <link>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</link>
+      <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
+      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
+    </item>
+    
+    <item>
+      <title>CS231n Convolutional neural networks for visual recognition</title>
+      <link>https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</link>
+      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</guid>
+      <description>Course Project Reports</description>
+    </item>
+    
+    <item>
+      <title>CS229 Machine Learning</title>
+      <link>https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/</link>
+      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/</guid>
+      <description>Final Projects 2012
+Final Projects 2013
+Final Projects 2014</description>
+    </item>
+    
+    <item>
+      <title>Stand up every 20 minutes (mac os)</title>
+      <link>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</link>
+      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</guid>
+      <description>Foreword : Inspired by excellent post
+Initial task: creating notification every 20 minutes can be decomposed into two parts:
+ create notification scheduled launch  First subtask can be solved using this trivial script.
+standup.sh:
+#!/bin/sh  # stand up notification osascript -e &amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39; say &amp;#34;Stand up&amp;#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
+Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
+    </item>
+    
+    <item>
+      <title>Replicated SQLite</title>
+      <link>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</link>
+      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</guid>
+      <description>Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
+It seems, its time to start learning go</description>
+    </item>
+    
+    <item>
+      <title>Path to learn haskell</title>
+      <link>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</link>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</guid>
+      <description>Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+    </item>
+    
+    <item>
+      <title>Find the length of the loop</title>
+      <link>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</link>
+      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</guid>
+      <description>One of the popular interivew tasks&amp;hellip;
+You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
+Here is straghtforward solution in haskell
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+    </item>
+    
+    <item>
+      <title>Ultra leiningen plugin</title>
+      <link>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</link>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
+Main features:
+ colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
+    </item>
+    
+    <item>
+      <title>Conditional get for rss hackers</title>
+      <link>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</link>
+      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</guid>
+      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
+p.s. fyi header field definitions rfc2616</description>
+    </item>
+    
+    <item>
+      <title>Run automation instruments script from the command line</title>
+      <link>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</link>
+      <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</guid>
+      <description>To run ui test from command line you can use instruments app as described here.
+instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate Since xcode 6 Automation.tracetemplate can be found:
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate </description>
+    </item>
+    
+    <item>
+      <title>Unconventional review</title>
+      <link>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</link>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</guid>
+      <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
+    </item>
+    
+    <item>
+      <title>Multi-queue replacement algorithm for second level buffer caches</title>
+      <link>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
+      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</guid>
+      <description>I have read a nice article written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
+I highly recommend to read it.</description>
+    </item>
+    
+    <item>
+      <title>List non latin file names in git</title>
+      <link>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</link>
+      <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</guid>
+      <description>Imagine you have commited file which name contain non latin letters.
+git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
+git log -p Here you can see escaped file name, and obvious its hard to read.
+diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &amp;lsquo;core.</description>
+    </item>
+    
+  </channel>
+</rss>
