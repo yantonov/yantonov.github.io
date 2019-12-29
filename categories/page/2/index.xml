@@ -5,10 +5,20 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Dec 2019 00:54:49 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2019 12:39:07 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Can not connect to hidden wifi (ubuntu 16.04 lts)</title>
+      <link>https://yantonov.com/2016/12/2016-12-10-cant-connect-to-hidden-wifi/</link>
+      <pubDate>Sat, 10 Dec 2016 21:38:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2016/12/2016-12-10-cant-connect-to-hidden-wifi/</guid>
+      <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
+nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
+    </item>
     
     <item>
       <title>2Q a low overhead high performance buffer managemenent replacement algorithm</title>
@@ -204,16 +214,6 @@ instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT
       
       <guid>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</guid>
       <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
-    </item>
-    
-    <item>
-      <title>Multi-queue replacement algorithm for second level buffer caches</title>
-      <link>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
-      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</guid>
-      <description>I have read a nice article written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
-I highly recommend to read it.</description>
     </item>
     
   </channel>
