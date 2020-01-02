@@ -5,10 +5,20 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Dec 2019 12:39:07 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 22:07:01 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commit convensions</title>
+      <link>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</link>
+      <pubDate>Thu, 02 Jan 2020 22:07:01 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</guid>
+      <description>A couple of links about commit convensions:
+ commit generator Convensional commit specification  </description>
+    </item>
     
     <item>
       <title>8 bit css nes style framework</title>
@@ -202,20 +212,6 @@ Pros:
  service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
 Cons: &amp;hellip; cant see, at least now
 Good day!</description>
-    </item>
-    
-    <item>
-      <title>Install matplotlib on mac sierra</title>
-      <link>https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/</link>
-      <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/</guid>
-      <description>During matplotlib installation (for python3) some error may occured:
-&amp;lsquo;The following required packages can not be built:
- freetype png&amp;rsquo;  Thats why some additional steps may be required:
-  install homebrew
-  install pkg-config
-  brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</description>
     </item>
     
   </channel>
