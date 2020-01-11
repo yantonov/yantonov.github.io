@@ -5,10 +5,19 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 14:37:13 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 17:14:41 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>functional programming related podcasts</title>
+      <link>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</link>
+      <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
+    </item>
     
     <item>
       <title>Bye octopress, hello hugo</title>
@@ -210,16 +219,6 @@ Here is straghtforward solution in haskell
       <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
-    </item>
-    
-    <item>
-      <title>Conditional get for rss hackers</title>
-      <link>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</link>
-      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</guid>
-      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
-p.s. fyi header field definitions rfc2616</description>
     </item>
     
   </channel>

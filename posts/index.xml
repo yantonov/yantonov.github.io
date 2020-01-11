@@ -5,10 +5,19 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 14:37:13 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 17:14:41 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bridge from clojure to python</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</link>
+      <pubDate>Sat, 11 Jan 2020 17:14:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</guid>
+      <description>Here is the library that allows you to call python code from clojure.</description>
+    </item>
     
     <item>
       <title>JVM tuning guidelines</title>
@@ -199,15 +208,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       
       <guid>https://yantonov.com/2017/03/2017-03-22-kalman-filter/</guid>
       <description>Concise explanation of Kalman filter</description>
-    </item>
-    
-    <item>
-      <title>functional programming related podcasts</title>
-      <link>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</link>
-      <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
   </channel>
