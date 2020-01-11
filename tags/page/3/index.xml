@@ -5,10 +5,21 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 17:14:41 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 21:02:43 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ultra leiningen plugin</title>
+      <link>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</link>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
+Main features:
+ colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
+    </item>
     
     <item>
       <title>Conditional get for rss hackers</title>

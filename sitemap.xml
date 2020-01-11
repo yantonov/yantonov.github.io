@@ -4,20 +4,69 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-01-11T17:14:41+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</loc>
-    <lastmod>2020-01-11T17:14:41+05:00</lastmod>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/cd/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/continuous-delivery/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/deploy/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/development/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</loc>
     <lastmod>2020-01-11T17:14:41+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -31,13 +80,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/development/</loc>
-    <lastmod>2020-01-11T17:14:41+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/jvm/</loc>
     <lastmod>2020-01-11T17:14:41+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,21 +87,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-01-11T17:14:41+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/python/</loc>
-    <lastmod>2020-01-11T17:14:41+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-01-11T17:14:41+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -110,13 +138,6 @@
   <url>
     <loc>https://yantonov.com/categories/design/</loc>
     <lastmod>2019-12-29T12:39:07+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/deploy/</loc>
-    <lastmod>2019-12-29T00:54:49+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

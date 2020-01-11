@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Open source continuous delivery server written in go lang</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</link>
+      <pubDate>Sat, 11 Jan 2020 21:02:43 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</guid>
+      <description>Here is the site of the project.
+Custom pipelines can be defined as code.
+source</description>
+    </item>
+    
+    <item>
       <title>Bridge from clojure to python</title>
       <link>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</link>
       <pubDate>Sat, 11 Jan 2020 17:14:41 +0500</pubDate>
@@ -198,15 +209,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       
       <guid>https://yantonov.com/2017/04/2017-04-13-lass/</guid>
       <description>Write css rules with lispy syntax using lass.</description>
-    </item>
-    
-    <item>
-      <title>kalman filter</title>
-      <link>https://yantonov.com/2017/03/2017-03-22-kalman-filter/</link>
-      <pubDate>Wed, 22 Mar 2017 05:19:56 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/03/2017-03-22-kalman-filter/</guid>
-      <description>Concise explanation of Kalman filter</description>
     </item>
     
   </channel>
