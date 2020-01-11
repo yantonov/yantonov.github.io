@@ -5,10 +5,19 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jan 2020 22:07:01 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jan 2020 14:37:13 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>JVM tuning guidelines</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</link>
+      <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</guid>
+      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
+    </item>
     
     <item>
       <title>Commit convensions</title>
@@ -199,19 +208,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       
       <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
       <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
-    </item>
-    
-    <item>
-      <title>Bye octopress, hello hugo</title>
-      <link>https://yantonov.com/2017/01/2017-01-06-bye-octopress-hello-hugo/</link>
-      <pubDate>Fri, 06 Jan 2017 13:02:38 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/01/2017-01-06-bye-octopress-hello-hugo/</guid>
-      <description>This tiny blog has just been migrated from octropress to hugo.
-Pros:
- service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
-Cons: &amp;hellip; cant see, at least now
-Good day!</description>
     </item>
     
   </channel>
