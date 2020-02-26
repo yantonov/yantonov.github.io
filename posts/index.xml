@@ -5,10 +5,22 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 21:02:43 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 15:58:08 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fix flash drive block size</title>
+      <link>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</link>
+      <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
+      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+Moreover, partitions can not be removed using neigher gnome disk nor gparted.
+In that case you can use fdisk with privileged access:
+fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
+    </item>
     
     <item>
       <title>Open source continuous delivery server written in go lang</title>
@@ -201,15 +213,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       <guid>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</guid>
       <description>[https://arxiv.org/abs/1410.5401](Neural Turing Machines)
  We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
-    </item>
-    
-    <item>
-      <title>Lispy css</title>
-      <link>https://yantonov.com/2017/04/2017-04-13-lass/</link>
-      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/04/2017-04-13-lass/</guid>
-      <description>Write css rules with lispy syntax using lass.</description>
     </item>
     
   </channel>

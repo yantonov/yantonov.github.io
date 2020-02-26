@@ -5,10 +5,19 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 11 Jan 2020 21:02:43 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2020 15:58:08 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lispy css</title>
+      <link>https://yantonov.com/2017/04/2017-04-13-lass/</link>
+      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/04/2017-04-13-lass/</guid>
+      <description>Write css rules with lispy syntax using lass.</description>
+    </item>
     
     <item>
       <title>kalman filter</title>
@@ -205,18 +214,6 @@ It seems, its time to start learning go</description>
       <guid>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</guid>
       <description>Some haskell resources recommended by @bytemyapp.
  CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
-    </item>
-    
-    <item>
-      <title>Find the length of the loop</title>
-      <link>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</link>
-      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</guid>
-      <description>One of the popular interivew tasks&amp;hellip;
-You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
-Here is straghtforward solution in haskell
-{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
     </item>
     
   </channel>

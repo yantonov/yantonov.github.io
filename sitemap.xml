@@ -4,7 +4,49 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/error/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/flash/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/linux/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -46,20 +88,6 @@
   
   <url>
     <loc>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</loc>
-    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-01-11T21:02:43+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-01-11T21:02:43+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
