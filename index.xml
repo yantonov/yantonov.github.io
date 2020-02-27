@@ -5,10 +5,21 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 Feb 2020 15:58:08 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2020 18:56:37 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Copa</title>
+      <link>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</link>
+      <pubDate>Thu, 27 Feb 2020 18:56:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</guid>
+      <description>There is interesting end-to-end delay-based congestion control algorithm Copa.
+Here you can find the details.
+Facebook tried to use it and results seem very promising.</description>
+    </item>
     
     <item>
       <title>Fix flash drive block size</title>
@@ -203,16 +214,6 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       
       <guid>https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/</guid>
       <description>Papers from CVRP 2017</description>
-    </item>
-    
-    <item>
-      <title>Neural turing machines</title>
-      <link>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</link>
-      <pubDate>Wed, 03 May 2017 03:16:05 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</guid>
-      <description>[https://arxiv.org/abs/1410.5401](Neural Turing Machines)
- We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
     </item>
     
   </channel>

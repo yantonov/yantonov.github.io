@@ -4,7 +4,56 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/algo/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/congestion-control/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/network/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/tcp/</loc>
+    <lastmod>2020-02-27T18:56:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,20 +81,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/linux/</loc>
-    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-02-26T15:58:08+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-02-26T15:58:08+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
