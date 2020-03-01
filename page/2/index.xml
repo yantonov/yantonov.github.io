@@ -5,10 +5,19 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 27 Feb 2020 18:56:37 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2020 12:31:37 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CVRP 2017 Papers</title>
+      <link>https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/</link>
+      <pubDate>Wed, 16 Aug 2017 15:34:17 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/</guid>
+      <description>Papers from CVRP 2017</description>
+    </item>
     
     <item>
       <title>Neural turing machines</title>
@@ -204,16 +213,6 @@ Initial task: creating notification every 20 minutes can be decomposed into two 
 standup.sh:
 #!/bin/sh  # stand up notification osascript -e &amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39; say &amp;#34;Stand up&amp;#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
 Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
-    </item>
-    
-    <item>
-      <title>Replicated SQLite</title>
-      <link>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</link>
-      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</guid>
-      <description>Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
-It seems, its time to start learning go</description>
     </item>
     
   </channel>
