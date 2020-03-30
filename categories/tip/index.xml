@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Docker memory limit</title>
+      <link>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</link>
+      <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</guid>
+      <description>There are some options to control application memory consumption.
+Docker has a couple of flags to control application inside the container.
+ &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
+cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</description>
+    </item>
+    
+    <item>
       <title>Addict</title>
       <link>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</link>
       <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
@@ -204,18 +216,6 @@ source</description>
       
       <guid>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</guid>
       <description>Slides and videos from the Velocity conference 2017.</description>
-    </item>
-    
-    <item>
-      <title>Webpack has not enough watchers</title>
-      <link>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</link>
-      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</guid>
-      <description>Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
-cat /proc/sys/fs/inotify/max_user_watches Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.
-Ubuntu users (and possibly others):
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p Source</description>
     </item>
     
   </channel>

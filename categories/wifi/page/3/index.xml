@@ -11,6 +11,20 @@
     
     
     <item>
+      <title>Stand up every 20 minutes (mac os)</title>
+      <link>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</link>
+      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</guid>
+      <description>Foreword : Inspired by excellent post
+Initial task: creating notification every 20 minutes can be decomposed into two parts:
+ create notification scheduled launch  First subtask can be solved using this trivial script.
+standup.sh:
+#!/bin/sh  # stand up notification osascript -e &amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39; say &amp;#34;Stand up&amp;#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
+Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
+    </item>
+    
+    <item>
       <title>Replicated SQLite</title>
       <link>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</link>
       <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
