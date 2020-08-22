@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Parallel and concurrenct programming in haskell</title>
+      <link>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</link>
+      <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</guid>
+      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+    </item>
+    
+    <item>
       <title>Velocity conference 2017</title>
       <link>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</link>
       <pubDate>Fri, 08 Dec 2017 19:28:08 +0500</pubDate>
@@ -200,15 +209,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       
       <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
       <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
-    </item>
-    
-    <item>
-      <title>CS231n Convolutional neural networks for visual recognition</title>
-      <link>https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</link>
-      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/03/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</guid>
-      <description>Course Project Reports</description>
     </item>
     
   </channel>

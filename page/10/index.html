@@ -33,7 +33,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yantonov.com/" />
-<meta property="og:updated_time" content="2020-08-22T16:26:20+05:00" />
+<meta property="og:updated_time" content="2020-08-22T22:21:49+05:00" />
 <meta itemprop="name" content="(map solve problems)">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(map solve problems)"/>
@@ -159,7 +159,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/data-structures/" class="category-list-link">data-structures</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/deep-learning/" class="category-list-link">deep-learning</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/design/" class="category-list-link">design</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">7</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">8</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/distributed-systems/" class="category-list-link">distributed-systems</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/emacs/" class="category-list-link">emacs</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/encoding/" class="category-list-link">encoding</a><span class="category-list-count">1</span></li>
@@ -352,7 +352,7 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/rust/" class="tag-list-link">rust</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/scala/" class="tag-list-link">scala</a><span
@@ -375,6 +375,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/" class="title">Rust module system</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-08-22 22:21:49 &#43;0500 &#43;05" itemprop="datePublished">2020-08-22</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -415,16 +425,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/" class="title">Fix flash drive block size</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-26 15:58:08 &#43;0500 &#43;05" itemprop="datePublished">2020-02-26</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -440,6 +440,51 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2015/02/2015-02-21-find-the-length-of-the-loop/"
+    >Find the length of the loop</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        One of the popular interivew tasks&hellip;
+You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
+Here is straghtforward solution in haskell
+{-data Node a instance Eq a =&gt; Eq (Node a) next :: Node a -&gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&gt; Node a -&gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&gt; Node node -&gt; Node node -&gt; Int -&gt; Phase -&gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/" class="">
+  <time datetime="2015-02-21 16:06:23 &#43;0500 &#43;05" itemprop="datePublished">2015-02-21</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/interview/"> interview </a>
+  <a class="article-category-link" href="/categories/task/"> task </a>
+  <a class="article-category-link" href="/categories/problem/"> problem </a>
+  <a class="article-category-link" href="/categories/logic/"> logic </a>
+  <a class="article-category-link" href="/categories/linked-list/"> linked list </a>
+  <a class="article-category-link" href="/categories/data-structures/"> data structures </a>
+  <a class="article-category-link" href="/categories/fun/"> fun </a>
+  <a class="article-category-link" href="/categories/haskell/"> haskell </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2015/02/2015-02-21-find-the-length-of-the-loop/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 201words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -596,44 +641,6 @@ instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2015/01/2015-01-19-unconventional-review/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 22words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/"
-    >Multi-queue replacement algorithm for second level buffer caches</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        I have read a nice article written by Yuanyian Zhou and James F. Philbin &ldquo;Multi-queue replacement algorithm for second level buffer caches&rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
-I highly recommend to read it.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/" class="">
-  <time datetime="2014-12-13 13:09:21 &#43;0500 &#43;05" itemprop="datePublished">2014-12-13</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/algorithm/"> algorithm </a>
-  <a class="article-category-link" href="/categories/cache/"> cache </a>
-  <a class="article-category-link" href="/categories/cs/"> cs </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 54words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article></div>
