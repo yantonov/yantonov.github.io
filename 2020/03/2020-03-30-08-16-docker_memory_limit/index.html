@@ -1,41 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         Docker memory limit - (map solve problems)
       </title>
-    <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  
-  <meta name="theme-color" content="#000000" />
-  
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <meta name="description" content="There are some options to control application memory consumption.
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="There are some options to control application memory consumption.
 Docker has a couple of flags to control application inside the container.
  &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap &#43; non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number" />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
-  <title>Docker memory limit - (map solve problems)</title>
-  
-  
-  <link rel="stylesheet" href="https://yantonov.com/css/style.min.9aaa883ebea87c2fd2d087c069cb2736c5f6cb2d52460262cad27bb9f932afc8.css">
-  
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="Docker memory limit" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <title>Docker memory limit - (map solve problems)</title>
+    
+    
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Docker memory limit" />
 <meta property="og:description" content="There are some options to control application memory consumption.
 Docker has a couple of flags to control application inside the container.
  &ndash;memory flag defines non swap memory limit &ndash;memory-swap flag defines total memory limit (swap &#43; non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
@@ -62,16 +59,14 @@ Docker has a couple of flags to control application inside the container.
  &ndash;memory flag defines non swap memory limit &ndash;memory-swap flag defines total memory limit (swap &#43; non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number"/>
 
-  <!--[if lte IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-    <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
 
-  <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
   </head>
 
   
@@ -662,7 +657,7 @@ To check it</p>
     });
 </script>
 
-<script defer>
+<script>
     var disqus_config = function () {
         this.page.url = 'https:\/\/yantonov.com\/2020\/03\/2020-03-30-08-16-docker_memory_limit\/';
         this.page.identifier = 'yantonov';
@@ -674,5 +669,6 @@ To check it</p>
         (d.head || d.body).appendChild(s);
     })();
 </script>
+
   </body>
 </html>

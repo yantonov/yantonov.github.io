@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         Programmable completion for git and mercurial - (map solve problems)
       </title>
-    <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  
-  <meta name="theme-color" content="#000000" />
-  
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <meta name="description" content="Some time ago i read excellent post about emacs library pcomplete.
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
-  <title>Programmable completion for git and mercurial - (map solve problems)</title>
-  
-  
-  <link rel="stylesheet" href="https://yantonov.com/css/style.min.9aaa883ebea87c2fd2d087c069cb2736c5f6cb2d52460262cad27bb9f932afc8.css">
-  
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="Programmable completion for git and mercurial" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <title>Programmable completion for git and mercurial - (map solve problems)</title>
+    
+    
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Programmable completion for git and mercurial" />
 <meta property="og:description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
@@ -58,16 +55,14 @@ First problem - eager evaluation. General commands for git and mercurial are cal
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation."/>
 
-  <!--[if lte IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-    <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
 
-  <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
   </head>
 
   
@@ -755,7 +750,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     });
 </script>
 
-<script defer>
+<script>
     var disqus_config = function () {
         this.page.url = 'https:\/\/yantonov.com\/2014\/11\/2014-11-09-programmable-completion-for-git-and-mercurial\/';
         this.page.identifier = 'yantonov';
@@ -767,5 +762,6 @@ First problem - eager evaluation. General commands for git and mercurial are cal
         (d.head || d.body).appendChild(s);
     })();
 </script>
+
   </body>
 </html>

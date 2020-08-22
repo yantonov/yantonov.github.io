@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         Platform specific build event - (map solve problems)
       </title>
-    <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  
-  <meta name="theme-color" content="#000000" />
-  
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  <meta name="description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
 &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir)." />
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
-  <title>Platform specific build event - (map solve problems)</title>
-  
-  
-  <link rel="stylesheet" href="https://yantonov.com/css/style.min.9aaa883ebea87c2fd2d087c069cb2736c5f6cb2d52460262cad27bb9f932afc8.css">
-  
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="Platform specific build event" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <title>Platform specific build event - (map solve problems)</title>
+    
+    
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="Platform specific build event" />
 <meta property="og:description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
 &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)." />
@@ -58,16 +55,14 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
 To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
 &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)."/>
 
-  <!--[if lte IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-    <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
 
-  <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
   </head>
 
   
@@ -655,7 +650,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
     });
 </script>
 
-<script defer>
+<script>
     var disqus_config = function () {
         this.page.url = 'https:\/\/yantonov.com\/2014\/11\/2014-11-03-platform-specific-build-event\/';
         this.page.identifier = 'yantonov';
@@ -667,5 +662,6 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
         (d.head || d.body).appendChild(s);
     })();
 </script>
+
   </body>
 </html>

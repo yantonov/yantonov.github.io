@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         (map solve problems)</title>
-    <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="Cache-Control" content="no-transform" />
-  <meta http-equiv="Cache-Control" content="no-siteapp" />
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="format-detection" content="telephone=no,email=no,adress=no">
-  
-  <meta name="theme-color" content="#000000" />
-  
-  <meta http-equiv="window-target" content="_top" />
-  
-  
-  
-  <meta name="generator" content="Hugo 0.61.0 with theme pure" />
-  <title>(map solve problems)</title>
-  
-  <link rel="alternate" type="application/rss+xml" href="https://yantonov.com/index.xml" title="(map solve problems)" />
-  
-  <link rel="stylesheet" href="https://yantonov.com/css/style.min.9aaa883ebea87c2fd2d087c069cb2736c5f6cb2d52460262cad27bb9f932afc8.css">
-  
-  <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-  <meta property="og:title" content="(map solve problems)" />
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <title>(map solve problems)</title>
+    
+    <link rel="alternate" type="application/rss+xml" href="https://yantonov.com/index.xml" title="(map solve problems)" />
+    
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+    <meta property="og:title" content="(map solve problems)" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yantonov.com/" />
@@ -42,16 +39,14 @@
 <meta name="twitter:title" content="(map solve problems)"/>
 <meta name="twitter:description" content=""/>
 
-  <!--[if lte IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-    <![endif]-->
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
 
-  <!--[if lt IE 9]>
-      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
   </head>
 
   
@@ -460,9 +455,11 @@
 </h1>
 
       </div>
-      <div class="article-entry text-muted" itemprop="description">Recently I had a look at tofu library.
+      <div class="article-entry text-muted" itemprop="description">
+        Recently I had a look at tofu library.
 Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.
-But env module, for example looks overcomplicated but tecnhically provides reader monad. Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity. Why env contains any side effect specifics?</div>
+But env module, for example looks overcomplicated but tecnhically provides reader monad. Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity. Why env contains any side effect specifics?
+      </div>
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
@@ -501,10 +498,12 @@ But env module, for example looks overcomplicated but tecnhically provides reade
 </h1>
 
       </div>
-      <div class="article-entry text-muted" itemprop="description">There are some options to control application memory consumption.
+      <div class="article-entry text-muted" itemprop="description">
+        There are some options to control application memory consumption.
 Docker has a couple of flags to control application inside the container.
  &ndash;memory flag defines non swap memory limit &ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
-cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</div>
+cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number
+      </div>
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
@@ -541,9 +540,11 @@ cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in som
 </h1>
 
       </div>
-      <div class="article-entry text-muted" itemprop="description">There is a nice python library addict which is interesting for a couple of reasons.
+      <div class="article-entry text-muted" itemprop="description">
+        There is a nice python library addict which is interesting for a couple of reasons.
 First of all, it simplifies creating a nested dictionary (see readme).
-Secondly, it represents an another nice example of using python magic methods.</div>
+Secondly, it represents an another nice example of using python magic methods.
+      </div>
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
@@ -578,9 +579,11 @@ Secondly, it represents an another nice example of using python magic methods.</
 </h1>
 
       </div>
-      <div class="article-entry text-muted" itemprop="description">There is interesting end-to-end delay-based congestion control algorithm Copa.
+      <div class="article-entry text-muted" itemprop="description">
+        There is interesting end-to-end delay-based congestion control algorithm Copa.
 Here you can find the details.
-Facebook tried to use it and results seem very promising.</div>
+Facebook tried to use it and results seem very promising.
+      </div>
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
@@ -617,10 +620,12 @@ Facebook tried to use it and results seem very promising.</div>
 </h1>
 
       </div>
-      <div class="article-entry text-muted" itemprop="description">Let's suppose you want to format flash drive but while you are trying to start formatting you see an error like this &lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&rsquo;.
+      <div class="article-entry text-muted" itemprop="description">
+        Let's suppose you want to format flash drive but while you are trying to start formatting you see an error like this &lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
-fdisk /dev/sdX To show partition you can use &lsquo;p&rsquo; command, to remove partition - &lsquo;q&rsquo; command.</div>
+fdisk /dev/sdX To show partition you can use &lsquo;p&rsquo; command, to remove partition - &lsquo;q&rsquo; command.
+      </div>
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
