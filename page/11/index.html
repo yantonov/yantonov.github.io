@@ -36,7 +36,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yantonov.com/" />
-<meta property="og:updated_time" content="2020-03-30T08:16:41+05:00" />
+<meta property="og:updated_time" content="2020-08-22T16:26:20+05:00" />
 <meta itemprop="name" content="(map solve problems)">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(map solve problems)"/>
@@ -164,7 +164,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/data-structures/" class="category-list-link">data-structures</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/deep-learning/" class="category-list-link">deep-learning</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/design/" class="category-list-link">design</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">6</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">7</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/distributed-systems/" class="category-list-link">distributed-systems</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/emacs/" class="category-list-link">emacs</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/encoding/" class="category-list-link">encoding</a><span class="category-list-count">1</span></li>
@@ -332,6 +332,10 @@
                     class="tag-list-count">1</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/monad/" class="tag-list-link">monad</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/network/" class="tag-list-link">network</a><span
                     class="tag-list-count">1</span></li>
             
@@ -356,6 +360,14 @@
                     class="tag-list-count">1</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/scala/" class="tag-list-link">scala</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/tagless-final/" class="tag-list-link">tagless-final</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/tcp/" class="tag-list-link">tcp</a><span
                     class="tag-list-count">1</span></li>
             
@@ -368,6 +380,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2020/08/2020-08-22-16-26-tofu/" class="title">Tofu</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-08-22 16:26:20 &#43;0500 &#43;05" itemprop="datePublished">2020-08-22</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -408,16 +430,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/" class="title">Open source continuous delivery server written in go lang</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-01-11 21:02:43 &#43;0500 &#43;05" itemprop="datePublished">2020-01-11</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -433,6 +445,48 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2014/12/2014-12-07-list-non-latin-file-names-in-git/"
+    >List non latin file names in git</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">Imagine you have commited file which name contain non latin letters.
+git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
+git log -p Here you can see escaped file name, and obvious its hard to read.
+diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &lsquo;core.</div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/" class="">
+  <time datetime="2014-12-07 23:32:31 &#43;0500 &#43;05" itemprop="datePublished">2014-12-07</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
+  <a class="article-category-link" href="/categories/scm/"> scm </a>
+  <a class="article-category-link" href="/categories/tip/"> tip </a>
+  <a class="article-category-link" href="/categories/trick/"> trick </a>
+  <a class="article-category-link" href="/categories/filename/"> filename </a>
+  <a class="article-category-link" href="/categories/encoding/"> encoding </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/12/2014-12-07-list-non-latin-file-names-in-git/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 200words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -588,44 +642,6 @@ Moreover, after update to Mac Os X 10.</div>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 412words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 2minutes </span>
       </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2014/11/2014-11-04-git-rerere/"
-    >Git rerere</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
-Let see how its works:
-# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/2014/11/2014-11-04-git-rerere/" class="">
-  <time datetime="2014-11-04 14:26:21 &#43;0500 &#43;05" itemprop="datePublished">2014-11-04</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/git/"> git </a>
-  <a class="article-category-link" href="/categories/vcs/"> vcs </a>
-  <a class="article-category-link" href="/categories/scm/"> scm </a>
-  <a class="article-category-link" href="/categories/merge/"> merge </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/11/2014-11-04-git-rerere/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 701words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 4minutes </span>
-      </p>
     </article></div>
   
 <nav class="bar bar-footer clearfix" data-stick-bottom>
@@ -643,7 +659,7 @@ Let see how its works:
       </li>
     </ul>
     <div class="total-article bar-right">
-      Page:11/12
+      Page:11/13
     </div>
   </div>
 </nav>
