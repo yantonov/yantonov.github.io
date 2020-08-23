@@ -5,10 +5,22 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 Aug 2020 22:21:49 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2020 22:30:16 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Umbrella</title>
+      <link>https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/</link>
+      <pubDate>Sun, 23 Aug 2020 22:30:16 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/</guid>
+      <description>Here is a collection of typescript libraries for a various scenarios (functional programming, data structrures, various helpers, ui tools, canvas helpers and many others)..
+It a great example of granular libraries with clean code.
+definitely it can be used in production, and moreover this is an excellent bunch of examples to learn typescript.
+P.s. Thanks Vahid Kazemi for the link.</description>
+    </item>
     
     <item>
       <title>Rust module system</title>
@@ -209,16 +221,6 @@ written by Pat Helland [twitter]
       <description>Got tired to enter ssh passphrases on mac os and want to know how easily force ssh-agent to remember ssh keys?
 Add this snippet to ~/.ssh/config file:
 Host * AddKeysToAgent yes UseKeychain yes Source</description>
-    </item>
-    
-    <item>
-      <title>K-Minimum values sketch</title>
-      <link>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</link>
-      <pubDate>Sat, 15 Jun 2019 14:15:36 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</guid>
-      <description>Simple probabilistic data structure used to count distinct values.
-source</description>
     </item>
     
   </channel>

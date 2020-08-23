@@ -33,7 +33,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yantonov.com/" />
-<meta property="og:updated_time" content="2020-08-22T22:21:49+05:00" />
+<meta property="og:updated_time" content="2020-08-23T22:30:16+05:00" />
 <meta itemprop="name" content="(map solve problems)">
 <meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(map solve problems)"/>
@@ -159,7 +159,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/data-structures/" class="category-list-link">data-structures</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/deep-learning/" class="category-list-link">deep-learning</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/design/" class="category-list-link">design</a><span class="category-list-count">1</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">8</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/development/" class="category-list-link">development</a><span class="category-list-count">9</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/distributed-systems/" class="category-list-link">distributed-systems</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/emacs/" class="category-list-link">emacs</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/encoding/" class="category-list-link">encoding</a><span class="category-list-count">1</span></li>
@@ -307,12 +307,16 @@
                     class="tag-list-count">1</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/fp/" class="tag-list-link">fp</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/jvm/" class="tag-list-link">jvm</a><span
                     class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/library/" class="tag-list-link">library</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/limit/" class="tag-list-link">limit</a><span
@@ -366,6 +370,10 @@
             <li class="tag-list-item"><a href="https://yantonov.com/tags/tcp/" class="tag-list-link">tcp</a><span
                     class="tag-list-count">1</span></li>
             
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/typescript/" class="tag-list-link">typescript</a><span
+                    class="tag-list-count">1</span></li>
+            
         </ul>
 
     </div>
@@ -375,6 +383,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/" class="title">Umbrella</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2020-08-23 22:30:16 &#43;0500 &#43;05" itemprop="datePublished">2020-08-23</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -415,16 +433,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/02/2020-02-27-18-56-copa/" class="title">Copa</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-02-27 18:56:37 &#43;0500 &#43;05" itemprop="datePublished">2020-02-27</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -440,6 +448,46 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/"
+    >Programmable completion for git and mercurial</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/" class="">
+  <time datetime="2014-11-09 22:52:36 &#43;0500 &#43;05" itemprop="datePublished">2014-11-09</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/emacs/"> emacs </a>
+  <a class="article-category-link" href="/categories/lisp/"> lisp </a>
+  <a class="article-category-link" href="/categories/git/"> git </a>
+  <a class="article-category-link" href="/categories/mercurial/"> mercurial </a>
+</span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 589words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -602,43 +650,6 @@ ldt = log --all --pretty=format:'%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/10/2014-10-31-git-log-aliases/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 145words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2014/10/2014-10-28-stackoverflow-reputation/"
-    >Stackoverflow reputation problem</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Some time ago i wrote gist which described how to install ghc from source on ubuntu. Today i see question on stackoverflow.com connected with my gist. I have fixed gist immediately and think about leaving comment to person who had some difficulties with it. I log on using google account and try to leave comment and &hellip; i cant do it because my repuration is too low (this is just new account).
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/2014/10/2014-10-28-stackoverflow-reputation/" class="">
-  <time datetime="2014-10-28 21:08:23 &#43;0500 &#43;05" itemprop="datePublished">2014-10-28</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/stackoverflow/"> stackoverflow </a>
-  <a class="article-category-link" href="/categories/usability/"> usability </a>
-  <a class="article-category-link" href="/categories/ux/"> ux </a>
-</span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2014/10/2014-10-28-stackoverflow-reputation/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 96words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article></div>

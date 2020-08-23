@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>K-Minimum values sketch</title>
+      <link>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</link>
+      <pubDate>Sat, 15 Jun 2019 14:15:36 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</guid>
+      <description>Simple probabilistic data structure used to count distinct values.
+source</description>
+    </item>
+    
+    <item>
       <title>Parallel and concurrenct programming in haskell</title>
       <link>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</link>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
@@ -200,15 +210,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       
       <guid>https://yantonov.com/2015/06/2015-06-07-y-combinator/</guid>
       <description>Mike Vanier wrote great article about Y-combinator.</description>
-    </item>
-    
-    <item>
-      <title>Functional composition and transducers</title>
-      <link>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</link>
-      <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
   </channel>
