@@ -5,10 +5,20 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 31 Aug 2020 13:37:26 +0500</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2020 19:26:10 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>State of enterprise ML</title>
+      <link>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</link>
+      <pubDate>Thu, 19 Dec 2019 16:44:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</guid>
+      <description>The 2020 State of Enterprise Machine Learning report
+download</description>
+    </item>
     
     <item>
       <title>About distributed transactions</title>
@@ -208,15 +218,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       
       <guid>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</guid>
       <description>List of papers on distributed systems</description>
-    </item>
-    
-    <item>
-      <title>Deep learning resouces</title>
-      <link>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</link>
-      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</guid>
-      <description>Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</description>
     </item>
     
   </channel>

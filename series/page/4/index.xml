@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Git rerere</title>
+      <link>https://yantonov.com/2014/11/2014-11-04-git-rerere/</link>
+      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-04-git-rerere/</guid>
+      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
+Let see how its works:
+# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
+    </item>
+    
+    <item>
       <title>Platform specific build event</title>
       <link>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</link>
       <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
