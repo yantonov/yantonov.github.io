@@ -16,7 +16,9 @@
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.</description>
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible en viroment.
+In a couple of words:
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
     </item>
     
     <item>
