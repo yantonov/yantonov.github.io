@@ -5,10 +5,24 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Sep 2020 19:26:10 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 13 Sep 2020 10:26:27 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PATH variable for gui programs (Mac Os)</title>
+      <link>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</link>
+      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</guid>
+      <description>Foreword:
+Sometimes you need to edit PATH variable.
+Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
+So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
+Moreover, after update to Mac Os X 10.</description>
+    </item>
     
     <item>
       <title>Git rerere</title>

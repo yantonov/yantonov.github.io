@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>About form labels</title>
+      <link>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</link>
+      <pubDate>Sun, 13 Sep 2020 10:26:27 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</guid>
+      <description>Interesting article which explains the benefits of inlining labels inside form elements.
+source</description>
+    </item>
+    
+    <item>
       <title>Clean python setup</title>
       <link>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</link>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
@@ -208,16 +218,6 @@ Nice example of functional composition with pragmatic library with minimum numbe
       <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
 Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
  In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
-    </item>
-    
-    <item>
-      <title>Portable file system cache diagnostics and control</title>
-      <link>https://yantonov.com/2019/12/2019-12-20-portable_file_system_cache_diagnostics_and_control/</link>
-      <pubDate>Fri, 20 Dec 2019 13:03:32 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2019/12/2019-12-20-portable_file_system_cache_diagnostics_and_control/</guid>
-      <description>Nice tool to control and monitoring cache state.
-Source</description>
     </item>
     
   </channel>

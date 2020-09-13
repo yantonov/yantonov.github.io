@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Distributed systems papers</title>
+      <link>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</link>
+      <pubDate>Thu, 01 Oct 2015 15:49:22 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/10/2015-10-01-distributed-systems-papers/</guid>
+      <description>List of papers on distributed systems</description>
+    </item>
+    
+    <item>
       <title>Deep learning resouces</title>
       <link>https://yantonov.com/2015/09/2015-09-13-deep-learning-resouces/</link>
       <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
@@ -208,20 +217,6 @@ type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Chur
       <description>Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</description>
-    </item>
-    
-    <item>
-      <title>PATH variable for gui programs (Mac Os)</title>
-      <link>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</link>
-      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</guid>
-      <description>Foreword:
-Sometimes you need to edit PATH variable.
-Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
-GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
-So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
-Moreover, after update to Mac Os X 10.</description>
     </item>
     
   </channel>
