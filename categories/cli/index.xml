@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cli on (map solve problems)</title>
+    <link>https://yantonov.com/categories/cli/</link>
+    <description>Recent content in cli on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 21:50:44 +0500</lastBuildDate>
+    
+        <atom:link href="https://yantonov.com/categories/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Temporary email from command line</title>
+      <link>https://yantonov.com/2020/09/2020-09-15-21-50-temporary_email_from_command_line/</link>
+      <pubDate>Tue, 15 Sep 2020 21:50:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-15-21-50-temporary_email_from_command_line/</guid>
+      <description>tmpmail - command line tool which allows to create temporary mailbox and receive emails from the terminal.
+It uses 1secmail as a backend.
+Spend a couple of minutes to read concise, clean bash code.</description>
+    </item>
+    
+    <item>
+      <title>About form labels</title>
+      <link>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</link>
+      <pubDate>Sun, 13 Sep 2020 10:26:27 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</guid>
+      <description>Interesting article which explains the benefits of inlining labels inside form elements.
+source</description>
+    </item>
+    
+    <item>
+      <title>Clean python setup</title>
+      <link>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</link>
+      <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible en viroment.
+In a couple of words:
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
+    </item>
+    
+    <item>
+      <title>WebRTC for the curious</title>
+      <link>https://yantonov.com/2020/08/2020-08-31-13-37-webrtc_for_the_curious/</link>
+      <pubDate>Mon, 31 Aug 2020 13:37:26 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-31-13-37-webrtc_for_the_curious/</guid>
+      <description>Free book about webRTC.
+Github repository</description>
+    </item>
+    
+    <item>
+      <title>Nice alternative to mocks, generate stub implementation</title>
+      <link>https://yantonov.com/2020/08/2020-08-27-17-47-nice_alternative_to_mocks_generate_stub_implementation/</link>
+      <pubDate>Thu, 27 Aug 2020 17:47:15 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-27-17-47-nice_alternative_to_mocks_generate_stub_implementation/</guid>
+      <description>Here is nice go library named &amp;lsquo;moq&amp;rsquo; that helps you to easily test dependent code but without verbose mocks setup.
+The idea is to generate trivial implementations and just save all the calls as a list preserving all the arguments.
+Using this you can simply assert all the invariants and stop to write long mock setup.</description>
+    </item>
+    
+    <item>
+      <title>Umbrella</title>
+      <link>https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/</link>
+      <pubDate>Sun, 23 Aug 2020 22:30:16 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/</guid>
+      <description>Here is a collection of typescript libraries for a various scenarios (functional programming, data structrures, various helpers, ui tools, canvas helpers and many others)..
+It a great example of granular libraries with clean code.
+definitely it can be used in production, and moreover this is an excellent bunch of examples to learn typescript.
+P.s. Thanks Vahid Kazemi for the link.</description>
+    </item>
+    
+    <item>
+      <title>Rust module system</title>
+      <link>https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/</link>
+      <pubDate>Sat, 22 Aug 2020 22:21:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/</guid>
+      <description>Here is a great article about rust module system.
+Source</description>
+    </item>
+    
+    <item>
+      <title>Tofu</title>
+      <link>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</link>
+      <pubDate>Sat, 22 Aug 2020 16:26:20 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</guid>
+      <description>Recently I had a look at tofu library.
+Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.
+But env module, for example looks overcomplicated but tecnhically provides reader monad. Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity. Why env contains any side effect specifics?</description>
+    </item>
+    
+    <item>
+      <title>Docker memory limit</title>
+      <link>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</link>
+      <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</guid>
+      <description>There are some options to control application memory consumption.
+Docker has a couple of flags to control application inside the container.
+ &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
+cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</description>
+    </item>
+    
+    <item>
+      <title>Addict</title>
+      <link>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</link>
+      <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</guid>
+      <description>There is a nice python library addict which is interesting for a couple of reasons.
+First of all, it simplifies creating a nested dictionary (see readme).
+Secondly, it represents an another nice example of using python magic methods.</description>
+    </item>
+    
+    <item>
+      <title>Copa</title>
+      <link>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</link>
+      <pubDate>Thu, 27 Feb 2020 18:56:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</guid>
+      <description>There is interesting end-to-end delay-based congestion control algorithm Copa.
+Here you can find the details.
+Facebook tried to use it and results seem very promising.</description>
+    </item>
+    
+    <item>
+      <title>Fix flash drive block size</title>
+      <link>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</link>
+      <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
+      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+Moreover, partitions can not be removed using neigher gnome disk nor gparted.
+In that case you can use fdisk with privileged access:
+fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
+    </item>
+    
+    <item>
+      <title>Open source continuous delivery server written in go lang</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</link>
+      <pubDate>Sat, 11 Jan 2020 21:02:43 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</guid>
+      <description>Here is the site of the project.
+Custom pipelines can be defined as code.
+source</description>
+    </item>
+    
+    <item>
+      <title>Bridge from clojure to python</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</link>
+      <pubDate>Sat, 11 Jan 2020 17:14:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</guid>
+      <description>Here is the library that allows you to call python code from clojure.</description>
+    </item>
+    
+    <item>
+      <title>JVM tuning guidelines</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</link>
+      <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</guid>
+      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
+    </item>
+    
+    <item>
+      <title>Commit convensions</title>
+      <link>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</link>
+      <pubDate>Thu, 02 Jan 2020 22:07:01 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</guid>
+      <description>A couple of links about commit convensions:
+ commit generator Convensional commit specification  </description>
+    </item>
+    
+    <item>
+      <title>8 bit css nes style framework</title>
+      <link>https://yantonov.com/2019/12/2019-12-29-8-bit_css_nes-style_framework/</link>
+      <pubDate>Sun, 29 Dec 2019 12:39:07 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-29-8-bit_css_nes-style_framework/</guid>
+      <description>Here is nice collection of 8-bit ui controls.
+Framework based on css, so you can used it with any js code.
+Source.</description>
+    </item>
+    
+    <item>
+      <title>How to decrease rust binary size</title>
+      <link>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</link>
+      <pubDate>Sun, 29 Dec 2019 00:54:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</guid>
+      <description>Here are some instructions which help you decrease rust binary size.</description>
+    </item>
+    
+    <item>
+      <title>Distributed consensus</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</link>
+      <pubDate>Sun, 22 Dec 2019 20:54:12 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
+      <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
+    </item>
+    
+    <item>
+      <title>Resilience4j</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
+      <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-resilience4j/</guid>
+      <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
+Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
+    </item>
+    
+  </channel>
+</rss>

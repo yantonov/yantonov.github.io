@@ -4,27 +4,69 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-09-13T10:26:27+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</loc>
-    <lastmod>2020-09-13T10:26:27+05:00</lastmod>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2020-09-13T10:26:27+05:00</lastmod>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/cli/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/tags/development/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/email/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/09/2020-09-15-21-50-temporary_email_from_command_line/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/terminal/</loc>
+    <lastmod>2020-09-15T21:50:44+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</loc>
     <lastmod>2020-09-13T10:26:27+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -39,20 +81,6 @@
   
   <url>
     <loc>https://yantonov.com/categories/interface/</loc>
-    <lastmod>2020-09-13T10:26:27+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-09-13T10:26:27+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-09-13T10:26:27+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -648,13 +676,6 @@
   
   <url>
     <loc>https://yantonov.com/categories/ssh/</loc>
-    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/terminal/</loc>
     <lastmod>2019-12-15T19:04:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
