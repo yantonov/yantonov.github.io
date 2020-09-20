@@ -5,10 +5,21 @@
     <link>https://yantonov.com/categories/development/</link>
     <description>Recent content in development on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 03 Sep 2020 19:26:10 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2020 19:34:38 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Send notification to yandex station</title>
+      <link>https://yantonov.com/2020/09/2020-09-20-19-34-send_notification_to_yandex_station/</link>
+      <pubDate>Sun, 20 Sep 2020 19:34:38 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-20-19-34-send_notification_to_yandex_station/</guid>
+      <description>A couple of repositories which helps to send voice message to yandex station.
+Unfortunately it is impossible to do it using official api.
+ yashhik yandexstation  </description>
+    </item>
     
     <item>
       <title>Temporary email from command line</title>
@@ -208,16 +219,6 @@ Source.</description>
       
       <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
       <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
-    </item>
-    
-    <item>
-      <title>Resilience4j</title>
-      <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
-      <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2019/12/2019-12-22-resilience4j/</guid>
-      <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
-Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
     </item>
     
   </channel>
