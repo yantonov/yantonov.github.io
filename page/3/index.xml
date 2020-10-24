@@ -5,10 +5,21 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Sep 2020 19:34:38 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 15:03:37 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Strange shift key behaviour when renaming files in ubuntu</title>
+      <link>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</link>
+      <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</guid>
+      <description>There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
+ Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
+Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.</description>
+    </item>
     
     <item>
       <title>Bye bye mercurial</title>
@@ -206,18 +217,6 @@ I highly recommend to read it.</description>
 git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
 git log -p Here you can see escaped file name, and obvious its hard to read.
 diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &amp;lsquo;core.</description>
-    </item>
-    
-    <item>
-      <title>Export files changed at revision from mercurial</title>
-      <link>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</link>
-      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</guid>
-      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
-Mercurial vcs has archive command which let you to export selected files at given revision:
-hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
-hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename.</description>
     </item>
     
   </channel>

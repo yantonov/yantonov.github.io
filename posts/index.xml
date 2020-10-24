@@ -5,10 +5,20 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Sep 2020 19:34:38 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2020 15:03:37 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Leaning n classes from m &lt; n samples</title>
+      <link>https://yantonov.com/2020/10/2020-10-24-15-03-leaning_n_classes_from_m_less_n_samples/</link>
+      <pubDate>Sat, 24 Oct 2020 15:03:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/10/2020-10-24-15-03-leaning_n_classes_from_m_less_n_samples/</guid>
+      <description>Interesting and promissing approach to reduce number of samples during learning NN.
+Arxiv link.</description>
+    </item>
     
     <item>
       <title>Send notification to yandex station</title>
@@ -210,15 +220,6 @@ Source.</description>
       
       <guid>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</guid>
       <description>Here are some instructions which help you decrease rust binary size.</description>
-    </item>
-    
-    <item>
-      <title>Distributed consensus</title>
-      <link>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</link>
-      <pubDate>Sun, 22 Dec 2019 20:54:12 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
-      <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
     </item>
     
   </channel>

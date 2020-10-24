@@ -4,7 +4,49 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-09-20T19:34:38+05:00</lastmod>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/cs/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/10/2020-10-24-15-03-leaning_n_classes_from_m_less_n_samples/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/machine-learning/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -18,13 +60,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/api/</loc>
-    <lastmod>2020-09-20T19:34:38+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/</loc>
     <lastmod>2020-09-20T19:34:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,13 +80,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-09-20T19:34:38+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/2020/09/2020-09-20-19-34-send_notification_to_yandex_station/</loc>
     <lastmod>2020-09-20T19:34:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -60,13 +88,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/station/</loc>
-    <lastmod>2020-09-20T19:34:38+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-09-20T19:34:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1433,13 +1454,6 @@
   <url>
     <loc>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</loc>
     <lastmod>2015-01-19T00:50:46+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/cs/</loc>
-    <lastmod>2014-12-13T13:09:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

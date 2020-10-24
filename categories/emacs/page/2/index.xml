@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Distributed consensus</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</link>
+      <pubDate>Sun, 22 Dec 2019 20:54:12 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
+      <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
+    </item>
+    
+    <item>
       <title>Resilience4j</title>
       <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
       <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
@@ -206,17 +215,6 @@ nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
       
       <guid>https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</guid>
       <description>Excellent article which shows how to apply pareto rule for caching strategies.</description>
-    </item>
-    
-    <item>
-      <title>Strange shift key behaviour when renaming files in ubuntu</title>
-      <link>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</link>
-      <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2016/05/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</guid>
-      <description>There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
- Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
-Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.</description>
     </item>
     
   </channel>

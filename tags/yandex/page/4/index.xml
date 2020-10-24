@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Export files changed at revision from mercurial</title>
+      <link>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</link>
+      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</guid>
+      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
+Mercurial vcs has archive command which let you to export selected files at given revision:
+hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
+hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename.</description>
+    </item>
+    
+    <item>
       <title>Church numerals</title>
       <link>https://yantonov.com/2014/11/2014-11-13-church-numerals/</link>
       <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
