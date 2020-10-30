@@ -4,20 +4,62 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/bookmark/</loc>
-    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
+    <loc>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/context/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/dependency/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/development/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/bookmark/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,20 +87,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
-    <lastmod>2020-10-24T15:03:37+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/alice/</loc>
     <lastmod>2020-09-20T19:34:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -67,13 +95,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/api/</loc>
-    <lastmod>2020-09-20T19:34:38+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/development/</loc>
     <lastmod>2020-09-20T19:34:38+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

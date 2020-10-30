@@ -5,10 +5,19 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 24 Oct 2020 15:03:37 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 19:23:06 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to decrease rust binary size</title>
+      <link>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</link>
+      <pubDate>Sun, 29 Dec 2019 00:54:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</guid>
+      <description>Here are some instructions which help you decrease rust binary size.</description>
+    </item>
     
     <item>
       <title>Distributed consensus</title>
@@ -206,15 +215,6 @@ Good day!</description>
       <guid>https://yantonov.com/2016/12/2016-12-10-cant-connect-to-hidden-wifi/</guid>
       <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
 nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
-    </item>
-    
-    <item>
-      <title>2Q a low overhead high performance buffer managemenent replacement algorithm</title>
-      <link>https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</link>
-      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</guid>
-      <description>Excellent article which shows how to apply pareto rule for caching strategies.</description>
     </item>
     
   </channel>
