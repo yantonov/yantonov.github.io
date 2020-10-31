@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Multi-queue replacement algorithm for second level buffer caches</title>
+      <link>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
+      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</guid>
+      <description>I have read a nice article written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
+I highly recommend to read it.</description>
+    </item>
+    
+    <item>
       <title>List non latin file names in git</title>
       <link>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</link>
       <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>

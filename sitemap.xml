@@ -4,20 +4,83 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</loc>
-    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
+    <loc>https://yantonov.com/categories/architecture/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/composition/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/design/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/development/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/enheritance/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/10/2020-10-31-13-09-entity_component_system/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/gamedev/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</loc>
     <lastmod>2020-10-30T19:23:06+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -38,27 +101,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/development/</loc>
-    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
-    <lastmod>2020-10-30T19:23:06+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/categories/bookmark/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -73,14 +115,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/machine-learning/</loc>
+    <loc>https://yantonov.com/tags/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/machine-learning/</loc>
+    <loc>https://yantonov.com/categories/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
