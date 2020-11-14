@@ -5,10 +5,19 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 13:09:03 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 11:30:58 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unconventional review</title>
+      <link>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</link>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</guid>
+      <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
+    </item>
     
     <item>
       <title>Multi-queue replacement algorithm for second level buffer caches</title>
@@ -99,7 +108,7 @@ Let see how its works:
       <guid>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>

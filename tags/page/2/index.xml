@@ -5,10 +5,20 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 13:09:03 +0500</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2020 11:30:58 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Commit convensions</title>
+      <link>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</link>
+      <pubDate>Thu, 02 Jan 2020 22:07:01 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</guid>
+      <description>A couple of links about commit convensions:
+ commit generator Convensional commit specification  </description>
+    </item>
     
     <item>
       <title>8 bit css nes style framework</title>
@@ -57,7 +67,7 @@ Nice example of functional composition with pragmatic library with minimum numbe
       <guid>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</guid>
       <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
 Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
- In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
+ In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.</description>
     </item>
     
     <item>
@@ -121,7 +131,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</guid>
-      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -188,7 +198,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -202,20 +212,6 @@ Pros:
  service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
 Cons: &amp;hellip; cant see, at least now
 Good day!</description>
-    </item>
-    
-    <item>
-      <title>Install matplotlib on mac sierra</title>
-      <link>https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/</link>
-      <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/01/2017-01-05-install-matplotlib-on-macos-sierra/</guid>
-      <description>During matplotlib installation (for python3) some error may occured:
-&amp;lsquo;The following required packages can not be built:
- freetype png&amp;rsquo;  Thats why some additional steps may be required:
-  install homebrew
-  install pkg-config
-  brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</description>
     </item>
     
   </channel>

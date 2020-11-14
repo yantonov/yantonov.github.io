@@ -4,20 +4,76 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/architecture/</loc>
-    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
+    <loc>https://yantonov.com/tags/audio/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/drivers/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2020/11/2020-11-14-11-30-how_to_fix_lenovo_x1_carbon_8th_gen_sound_problem_on_windows_10/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/microphone/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/sound/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/troubleshooting/</loc>
+    <lastmod>2020-11-14T11:30:58+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/architecture/</loc>
     <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -60,20 +116,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/gamedev/</loc>
-    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
