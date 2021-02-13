@@ -596,7 +596,7 @@
       <div class="article-header">
         <h1 itemprop="name">
   <a
-    class="article-title"
+    class="article-date"
     href="/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_git_repository/"
     >Serve dotfiles directly from git repository</a
   >
@@ -773,8 +773,8 @@ Source (Lenovo forums page) link Drivers page (especially for 8th gen): link
       </div>
       <div class="article-entry text-muted" itemprop="description">
         Here is another approach to pass dependencies through deep call stack.
-In a couple of words: just return a function (wrapper around a function) from the nested code and pass the environment from the top level.
-Documentation.
+In a couple of words:
+ deeply nested code not executes immediately but returns a function for the later lazy evaluation; the correponding function accepts the required environment; at the top level call the function returned from the nested code and pass the environment to it. Documentation.  
       </div>
       <p class="article-meta">
 <span class="article-date">
@@ -794,7 +794,7 @@ Documentation.
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 37words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 57words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article></div>

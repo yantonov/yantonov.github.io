@@ -59,8 +59,8 @@ Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</de
       
       <guid>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</guid>
       <description>Here is another approach to pass dependencies through deep call stack.
-In a couple of words: just return a function (wrapper around a function) from the nested code and pass the environment from the top level.
-Documentation.</description>
+In a couple of words:
+ deeply nested code not executes immediately but returns a function for the later lazy evaluation; the correponding function accepts the required environment; at the top level call the function returned from the nested code and pass the environment to it. Documentation.  </description>
     </item>
     
     <item>
