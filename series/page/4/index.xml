@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>Conditional get for rss hackers</title>
+      <link>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</link>
+      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</guid>
+      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
+p.s. fyi header field definitions rfc2616</description>
+    </item>
+    
+    <item>
       <title>Run automation instruments script from the command line</title>
       <link>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</link>
       <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>

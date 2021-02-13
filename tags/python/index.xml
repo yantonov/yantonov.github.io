@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Serve dotfiles directly from git repository</title>
+      <link>https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_git_repository/</link>
+      <pubDate>Sat, 13 Feb 2021 19:59:18 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_git_repository/</guid>
+      <description>Here is an interesting article which explains another way to store dotfiles.
+In a couple of words:
+ store dotfiles into git clone git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links)  The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
+    </item>
+    
+    <item>
       <title>Academic salaries</title>
       <link>https://yantonov.com/2020/12/2020-12-15-22-36-academic_salaries/</link>
       <pubDate>Tue, 15 Dec 2020 22:36:54 +0100</pubDate>
@@ -214,15 +225,6 @@ fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to
       <description>Here is the site of the project.
 Custom pipelines can be defined as code.
 source</description>
-    </item>
-    
-    <item>
-      <title>Bridge from clojure to python</title>
-      <link>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</link>
-      <pubDate>Sat, 11 Jan 2020 17:14:41 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</guid>
-      <description>Here is the library that allows you to call python code from clojure.</description>
     </item>
     
   </channel>
