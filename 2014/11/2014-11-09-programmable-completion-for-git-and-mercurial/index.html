@@ -23,7 +23,7 @@
     <meta name="description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Programmable completion for git and mercurial - (map solve problems)</title>
     
     
@@ -43,13 +43,14 @@ First problem - eager evaluation. General commands for git and mercurial are cal
 <meta itemprop="description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.">
-<meta itemprop="datePublished" content="2014-11-09T22:52:36&#43;05:00" />
-<meta itemprop="dateModified" content="2014-11-09T22:52:36&#43;05:00" />
+<meta itemprop="datePublished" content="2014-11-09T22:52:36+05:00" />
+<meta itemprop="dateModified" content="2014-11-09T22:52:36+05:00" />
 <meta itemprop="wordCount" content="589">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Programmable completion for git and mercurial"/>
 <meta name="twitter:description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
@@ -542,7 +543,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
             <li>
                 <div class="item-inner">
                     <p class="item-title">
-                        <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_git_repository/" class="title">Serve dotfiles directly from git repository</a>
+                        <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/" class="title">Serve dotfiles directly from a git repository</a>
                     </p>
                     <p class="item-date">
                         <time datetime="2021-02-13 19:59:18 &#43;0100 CET" itemprop="datePublished">2021-02-13</time>
@@ -679,7 +680,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
           (push (match-string <span style="color:#ae81ff">1</span>) commands)
           (when (match-string <span style="color:#ae81ff">2</span>)
             (push (match-string <span style="color:#ae81ff">2</span>) commands)))
-        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;string&lt;</span>)))))
 
 (defconst cached__pcmpl-git-commands (cached <span style="color:#e6db74">&#39;pcmpl-git-commands</span>)
   <span style="color:#e6db74">&#34;Cached list of `git&#39; commands.&#34;</span>)
@@ -739,7 +740,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
                 (push (match-string <span style="color:#ae81ff">1</span>) commands)
               (dolist (c (split-string match <span style="color:#e6db74">&#34;, ?&#34;</span>))
                 (push c commands)))))
-        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;string&lt;</span>)))))
 
 (defconst cached__pcmpl-hg-commands (cached <span style="color:#e6db74">&#39;pcmpl-hg-commands</span>))
 
