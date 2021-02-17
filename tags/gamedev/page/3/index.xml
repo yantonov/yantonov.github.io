@@ -16,7 +16,7 @@
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -141,7 +141,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
       <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
       
       <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
+      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
     <item>
@@ -207,7 +207,7 @@ It seems, its time to start learning go</description>
       <description>One of the popular interivew tasks&amp;hellip;
 You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
 Here is straghtforward solution in haskell
-{- data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
     </item>
     
     <item>
@@ -216,7 +216,7 @@ Here is straghtforward solution in haskell
       <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
       
       <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
-      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;rsquo;s repl interaction.
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
     </item>

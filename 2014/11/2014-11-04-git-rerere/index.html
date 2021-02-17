@@ -23,7 +23,7 @@
     <meta name="description" content="There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
 Let see how its works:
 # create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere." />
-    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
     <title>Git rerere - (map solve problems)</title>
     
     
@@ -43,14 +43,13 @@ Let see how its works:
 <meta itemprop="description" content="There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
 Let see how its works:
 # create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.">
-<meta itemprop="datePublished" content="2014-11-04T14:26:21+05:00" />
-<meta itemprop="dateModified" content="2014-11-04T14:26:21+05:00" />
+<meta itemprop="datePublished" content="2014-11-04T14:26:21&#43;05:00" />
+<meta itemprop="dateModified" content="2014-11-04T14:26:21&#43;05:00" />
 <meta itemprop="wordCount" content="701">
 
 
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git rerere"/>
 <meta name="twitter:description" content="There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
 Let see how its works:
@@ -707,7 +706,7 @@ cat readme.txt
 <span style="color:#75715e"># means : &#34;test\nline1&#34;</span>
 </code></pre></div><p>This is pretty usefull for example, for package versions (pom files, project.clj), because such file fragments are strictly localized.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">...
-    <span style="color:#f92672">&lt;version&gt;</span>1.2.3<span style="color:#f92672">&lt;/version&gt;</span>
+    <span style="color:#f92672">&lt;version</span><span style="color:#f92672">&gt;</span>1.2.3<span style="color:#f92672">&lt;/version&gt;</span>
 ...
 </code></pre></div><p>Be caferul, this works for precisely same (charater by charater) conflicts and same files.
 And one more, resolved conflicts older than 60 days will be pruned automatically, so you do not have to worry about repository size.</p>

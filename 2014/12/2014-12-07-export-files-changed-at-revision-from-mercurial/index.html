@@ -24,7 +24,7 @@
 Mercurial vcs has archive command which let you to export selected files at given revision:
 hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
 hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename." />
-    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
     <title>Export files changed at revision from mercurial - (map solve problems)</title>
     
     
@@ -46,14 +46,13 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
 Mercurial vcs has archive command which let you to export selected files at given revision:
 hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
 hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; Here end of line character is used to handle the case of using space character in filename.">
-<meta itemprop="datePublished" content="2014-12-07T22:59:45+05:00" />
-<meta itemprop="dateModified" content="2014-12-07T22:59:45+05:00" />
+<meta itemprop="datePublished" content="2014-12-07T22:59:45&#43;05:00" />
+<meta itemprop="dateModified" content="2014-12-07T22:59:45&#43;05:00" />
 <meta itemprop="wordCount" content="156">
 
 
 
-<meta itemprop="keywords" content="" />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Export files changed at revision from mercurial"/>
 <meta name="twitter:description" content="Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
 Mercurial vcs has archive command which let you to export selected files at given revision:
@@ -666,7 +665,7 @@ DESTINATION<span style="color:#f92672">=</span>$2
     mkdir -p $DESTINATION
     hg archive --type files --rev $REVISION -I <span style="color:#66d9ef">$(</span>hg log -r $REVISION --template <span style="color:#e6db74">&#39;{files}\n&#39;</span> | sed <span style="color:#e6db74">&#39;s/\n / -I /g&#39;</span><span style="color:#66d9ef">)</span> $DESTINATION
 <span style="color:#66d9ef">else</span>
-    echo -e <span style="color:#e6db74">&#34;`basename </span>$0<span style="color:#e6db74">` revision outputdir&#34;</span>
+    echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">`basename </span>$0<span style="color:#e6db74">` revision outputdir</span><span style="color:#e6db74">&#34;</span>
     echo -e <span style="color:#e6db74">&#34;\twhere revision - revision number or hash&#34;</span>
     echo -e <span style="color:#e6db74">&#34;\toutputdir - destination directory (created if needed)&#34;</span>
 <span style="color:#66d9ef">fi</span>
