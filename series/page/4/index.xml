@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Ultra leiningen plugin</title>
+      <link>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</link>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;rsquo;s repl interaction.
+Main features:
+ colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
+    </item>
+    
+    <item>
       <title>Conditional get for rss hackers</title>
       <link>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</link>
       <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
@@ -129,7 +140,7 @@ Let see how its works:
       <guid>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>

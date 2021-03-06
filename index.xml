@@ -5,10 +5,21 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 13 Feb 2021 19:59:18 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 06 Mar 2021 21:57:43 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Docker error: error getting credentials</title>
+      <link>https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/</link>
+      <pubDate>Sat, 06 Mar 2021 21:57:43 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/</guid>
+      <description>Aaaah! Today I faced a strange error message from docker.
+ =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
+ In ~/.docker/config.json change credsStore to credStore Source</description>
+    </item>
     
     <item>
       <title>Serve dotfiles directly from a git repository</title>
@@ -111,9 +122,9 @@ source</description>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
- pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
     </item>
     
     <item>
@@ -210,21 +221,10 @@ Facebook tried to use it and results seem very promising.</description>
       <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
-      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+      <description>Let&amp;rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
-    </item>
-    
-    <item>
-      <title>Open source continuous delivery server written in go lang</title>
-      <link>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</link>
-      <pubDate>Sat, 11 Jan 2020 21:02:43 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</guid>
-      <description>Here is the site of the project.
-Custom pipelines can be defined as code.
-source</description>
     </item>
     
   </channel>

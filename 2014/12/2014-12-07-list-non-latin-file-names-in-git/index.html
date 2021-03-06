@@ -24,7 +24,7 @@
 git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
 git log -p Here you can see escaped file name, and obvious its hard to read.
 diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null &#43;&#43;&#43; &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 &#43;1 @@ &#43;test To handle this case there is config options &amp;lsquo;core." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>List non latin file names in git - (map solve problems)</title>
     
     
@@ -46,13 +46,14 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
 git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
 git log -p Here you can see escaped file name, and obvious its hard to read.
 diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null &#43;&#43;&#43; &quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 &#43;1 @@ &#43;test To handle this case there is config options &lsquo;core.">
-<meta itemprop="datePublished" content="2014-12-07T23:32:31&#43;05:00" />
-<meta itemprop="dateModified" content="2014-12-07T23:32:31&#43;05:00" />
+<meta itemprop="datePublished" content="2014-12-07T23:32:31+05:00" />
+<meta itemprop="dateModified" content="2014-12-07T23:32:31+05:00" />
 <meta itemprop="wordCount" content="200">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="List non latin file names in git"/>
 <meta name="twitter:description" content="Imagine you have commited file which name contain non latin letters.
 git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
@@ -224,6 +225,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             <li class="category-list-item"><a href="https://yantonov.com/categories/microservice/" class="category-list-link">microservice</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/nautilus/" class="category-list-link">nautilus</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/neural-network/" class="category-list-link">neural-network</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/optimization/" class="category-list-link">optimization</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/package/" class="category-list-link">package</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/parallel/" class="category-list-link">parallel</a><span class="category-list-count">1</span></li>
@@ -364,7 +366,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/docker/" class="tag-list-link">docker</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/dotfiles/" class="tag-list-link">dotfiles</a><span
@@ -388,7 +390,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/error/" class="tag-list-link">error</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/flash/" class="tag-list-link">flash</a><span
@@ -546,6 +548,16 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/" class="title">Docker error: error getting credentials</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-06 21:57:43 &#43;0100 CET" itemprop="datePublished">2021-03-06</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/" class="title">Serve dotfiles directly from a git repository</a>
                     </p>
                     <p class="item-date">
@@ -580,16 +592,6 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
                     </p>
                     <p class="item-date">
                         <time datetime="2020-10-31 13:09:03 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-31</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/" class="title">About passing dependencies through deep call stack</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-10-30 19:23:06 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-30</time>
                     </p>
                 </div>
             </li>

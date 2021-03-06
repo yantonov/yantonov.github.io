@@ -24,7 +24,7 @@
 There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
 To automate the process i have wrote this script uninstall-pkg.sh
 #!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!" />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Delete package from Mac OS - (map solve problems)</title>
     
     
@@ -46,13 +46,14 @@ To automate the process i have wrote this script uninstall-pkg.sh
 There is no official way to uninstall package, but you can do it manually using &lsquo;pkgutil&rsquo; tool. There is some articles (you can google it) which described the process.
 To automate the process i have wrote this script uninstall-pkg.sh
 #!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!">
-<meta itemprop="datePublished" content="2015-10-14T15:46:08&#43;05:00" />
-<meta itemprop="dateModified" content="2015-10-14T15:46:08&#43;05:00" />
+<meta itemprop="datePublished" content="2015-10-14T15:46:08+05:00" />
+<meta itemprop="dateModified" content="2015-10-14T15:46:08+05:00" />
 <meta itemprop="wordCount" content="315">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Delete package from Mac OS"/>
 <meta name="twitter:description" content="Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
 There is no official way to uninstall package, but you can do it manually using &lsquo;pkgutil&rsquo; tool. There is some articles (you can google it) which described the process.
@@ -224,6 +225,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             <li class="category-list-item"><a href="https://yantonov.com/categories/microservice/" class="category-list-link">microservice</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/nautilus/" class="category-list-link">nautilus</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/neural-network/" class="category-list-link">neural-network</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/optimization/" class="category-list-link">optimization</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/package/" class="category-list-link">package</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/parallel/" class="category-list-link">parallel</a><span class="category-list-count">1</span></li>
@@ -364,7 +366,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/docker/" class="tag-list-link">docker</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/dotfiles/" class="tag-list-link">dotfiles</a><span
@@ -388,7 +390,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/error/" class="tag-list-link">error</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/flash/" class="tag-list-link">flash</a><span
@@ -546,6 +548,16 @@ To automate the process i have wrote this script uninstall-pkg.sh
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/" class="title">Docker error: error getting credentials</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-06 21:57:43 &#43;0100 CET" itemprop="datePublished">2021-03-06</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/" class="title">Serve dotfiles directly from a git repository</a>
                     </p>
                     <p class="item-date">
@@ -580,16 +592,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
                     </p>
                     <p class="item-date">
                         <time datetime="2020-10-31 13:09:03 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-31</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/" class="title">About passing dependencies through deep call stack</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-10-30 19:23:06 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-30</time>
                     </p>
                 </div>
             </li>
@@ -666,23 +668,23 @@ PACKAGE_NAME<span style="color:#f92672">=</span>$1
 
 <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span>$PACKAGE_NAME<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
     echo <span style="color:#e6db74">&#34;[ERROR] - package is not defined&#34;</span>
-    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Usage: </span>$SCRIPT<span style="color:#e6db74"> &lt;package-name&gt;</span><span style="color:#e6db74">&#34;</span>
+    echo <span style="color:#e6db74">&#34;Usage: </span>$SCRIPT<span style="color:#e6db74"> &lt;package-name&gt;&#34;</span>
     exit <span style="color:#ae81ff">0</span>
 <span style="color:#66d9ef">fi</span>
 
 installed_packages<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>pkgutil --pkgs | grep $PACKAGE_NAME<span style="color:#e6db74">`</span>
 <span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span>$installed_packages<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span>; <span style="color:#66d9ef">then</span>
-    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">[ERROR] - package &#39;</span>$PACKAGE_NAME<span style="color:#e6db74">&#39; not found</span><span style="color:#e6db74">&#34;</span>
+    echo <span style="color:#e6db74">&#34;[ERROR] - package &#39;</span>$PACKAGE_NAME<span style="color:#e6db74">&#39; not found&#34;</span>
     exit <span style="color:#ae81ff">0</span>
 <span style="color:#66d9ef">fi</span>
 
 <span style="color:#66d9ef">for</span> p in <span style="color:#e6db74">`</span>pkgutil --pkgs | grep $PACKAGE_NAME<span style="color:#e6db74">`</span>; <span style="color:#66d9ef">do</span>
-    echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Delete package: &#39;</span>$p<span style="color:#e6db74">&#39; [y/n/other key to break] ?:</span><span style="color:#e6db74">&#34;</span>
+    echo <span style="color:#e6db74">&#34;Delete package: &#39;</span>$p<span style="color:#e6db74">&#39; [y/n/other key to break] ?:&#34;</span>
     read -n <span style="color:#ae81ff">1</span> selection
     echo <span style="color:#e6db74">&#34;&#34;</span>
     <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$selection<span style="color:#e6db74">&#34;</span> in
         y<span style="color:#f92672">)</span>
-            echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">[INFO] - Process package: &#39;</span>$p<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#34;</span>
+            echo <span style="color:#e6db74">&#34;[INFO] - Process package: &#39;</span>$p<span style="color:#e6db74">&#39;&#34;</span>
             volume<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>pkgutil --pkg-info $p | grep -E <span style="color:#e6db74">&#39;volume:&#39;</span> | cut -d <span style="color:#e6db74">&#39; &#39;</span> -f 2<span style="color:#e6db74">`</span>
             location<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>pkgutil --pkg-info $p | grep -E <span style="color:#e6db74">&#39;location:&#39;</span> | cut -d <span style="color:#e6db74">&#39; &#39;</span> -f 2<span style="color:#e6db74">`</span>
             package_path<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;</span>$volume$location<span style="color:#e6db74">&#34;</span>
@@ -696,13 +698,13 @@ installed_packages<span style="color:#f92672">=</span><span style="color:#e6db74
                 <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;</span>$file_cmd<span style="color:#e6db74">&#34;</span> in
                     y<span style="color:#f92672">)</span>
                         sudo rm -i $f
-                        echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">[INFO] - file &#39;</span>$f<span style="color:#e6db74">&#39; deleted.</span><span style="color:#e6db74">&#34;</span>
+                        echo <span style="color:#e6db74">&#34;[INFO] - file &#39;</span>$f<span style="color:#e6db74">&#39; deleted.&#34;</span>
                     ;;
                     n<span style="color:#f92672">)</span>
-                        echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">[INFO] - file &#39;</span>$f<span style="color:#e6db74">&#39; skipped</span><span style="color:#e6db74">&#34;</span>
+                        echo <span style="color:#e6db74">&#34;[INFO] - file &#39;</span>$f<span style="color:#e6db74">&#39; skipped&#34;</span>
                     ;;
                     *<span style="color:#f92672">)</span>
-                        echo <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">[INFO] - skip all files in package &#39;</span>$p<span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#34;</span>
+                        echo <span style="color:#e6db74">&#34;[INFO] - skip all files in package &#39;</span>$p<span style="color:#e6db74">&#39;&#34;</span>
                         break
                     ;;
                 <span style="color:#66d9ef">esac</span>

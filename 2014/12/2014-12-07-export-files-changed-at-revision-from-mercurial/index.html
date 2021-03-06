@@ -24,7 +24,7 @@
 Mercurial vcs has archive command which let you to export selected files at given revision:
 hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
 hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Export files changed at revision from mercurial - (map solve problems)</title>
     
     
@@ -46,13 +46,14 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
 Mercurial vcs has archive command which let you to export selected files at given revision:
 hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
 hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; Here end of line character is used to handle the case of using space character in filename.">
-<meta itemprop="datePublished" content="2014-12-07T22:59:45&#43;05:00" />
-<meta itemprop="dateModified" content="2014-12-07T22:59:45&#43;05:00" />
+<meta itemprop="datePublished" content="2014-12-07T22:59:45+05:00" />
+<meta itemprop="dateModified" content="2014-12-07T22:59:45+05:00" />
 <meta itemprop="wordCount" content="156">
 
 
 
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Export files changed at revision from mercurial"/>
 <meta name="twitter:description" content="Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
 Mercurial vcs has archive command which let you to export selected files at given revision:
@@ -224,6 +225,7 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
             <li class="category-list-item"><a href="https://yantonov.com/categories/microservice/" class="category-list-link">microservice</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/nautilus/" class="category-list-link">nautilus</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/neural-network/" class="category-list-link">neural-network</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/optimization/" class="category-list-link">optimization</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/package/" class="category-list-link">package</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/parallel/" class="category-list-link">parallel</a><span class="category-list-count">1</span></li>
@@ -364,7 +366,7 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/docker/" class="tag-list-link">docker</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/dotfiles/" class="tag-list-link">dotfiles</a><span
@@ -388,7 +390,7 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/error/" class="tag-list-link">error</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/flash/" class="tag-list-link">flash</a><span
@@ -546,6 +548,16 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/" class="title">Docker error: error getting credentials</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-03-06 21:57:43 &#43;0100 CET" itemprop="datePublished">2021-03-06</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/" class="title">Serve dotfiles directly from a git repository</a>
                     </p>
                     <p class="item-date">
@@ -580,16 +592,6 @@ hg log -r $REVISION --template &#39;{files}\n&#39; | sed &#39;s/\n / -I /g&#39; 
                     </p>
                     <p class="item-date">
                         <time datetime="2020-10-31 13:09:03 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-31</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/" class="title">About passing dependencies through deep call stack</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2020-10-30 19:23:06 &#43;0500 &#43;0500" itemprop="datePublished">2020-10-30</time>
                     </p>
                 </div>
             </li>
@@ -665,7 +667,7 @@ DESTINATION<span style="color:#f92672">=</span>$2
     mkdir -p $DESTINATION
     hg archive --type files --rev $REVISION -I <span style="color:#66d9ef">$(</span>hg log -r $REVISION --template <span style="color:#e6db74">&#39;{files}\n&#39;</span> | sed <span style="color:#e6db74">&#39;s/\n / -I /g&#39;</span><span style="color:#66d9ef">)</span> $DESTINATION
 <span style="color:#66d9ef">else</span>
-    echo -e <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">`basename </span>$0<span style="color:#e6db74">` revision outputdir</span><span style="color:#e6db74">&#34;</span>
+    echo -e <span style="color:#e6db74">&#34;`basename </span>$0<span style="color:#e6db74">` revision outputdir&#34;</span>
     echo -e <span style="color:#e6db74">&#34;\twhere revision - revision number or hash&#34;</span>
     echo -e <span style="color:#e6db74">&#34;\toutputdir - destination directory (created if needed)&#34;</span>
 <span style="color:#66d9ef">fi</span>
