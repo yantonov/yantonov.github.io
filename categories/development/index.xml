@@ -5,10 +5,20 @@
     <link>https://yantonov.com/categories/development/</link>
     <description>Recent content in development on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 13:09:03 +0500</lastBuildDate>
+    <lastBuildDate>Mon, 12 Apr 2021 10:59:36 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Forbid using a function in python</title>
+      <link>https://yantonov.com/2021/04/2021-04-12-10-59-forbid_using_a_function_in_python/</link>
+      <pubDate>Mon, 12 Apr 2021 10:59:36 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/04/2021-04-12-10-59-forbid_using_a_function_in_python/</guid>
+      <description>Here is an example of flake8 plugin that prevents using numpy random fn.
+A nice example of analyzing a source code in python.</description>
+    </item>
     
     <item>
       <title>Docker error: error getting credentials</title>
@@ -213,18 +223,6 @@ Secondly, it represents an another nice example of using python magic methods.</
       <description>There is interesting end-to-end delay-based congestion control algorithm Copa.
 Here you can find the details.
 Facebook tried to use it and results seem very promising.</description>
-    </item>
-    
-    <item>
-      <title>Fix flash drive block size</title>
-      <link>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</link>
-      <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
-      <description>Let&amp;rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
-Moreover, partitions can not be removed using neigher gnome disk nor gparted.
-In that case you can use fdisk with privileged access:
-fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
     </item>
     
   </channel>
