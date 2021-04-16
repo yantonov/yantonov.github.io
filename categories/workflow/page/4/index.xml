@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Path to learn haskell</title>
+      <link>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</link>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</guid>
+      <description>Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+    </item>
+    
+    <item>
       <title>Find the length of the loop</title>
       <link>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</link>
       <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
@@ -19,7 +29,7 @@
       <description>One of the popular interivew tasks&amp;hellip;
 You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
 Here is straghtforward solution in haskell
-{- data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
     </item>
     
     <item>
@@ -28,7 +38,7 @@ Here is straghtforward solution in haskell
       <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
       
       <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
-      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;rsquo;s repl interaction.
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
     </item>
@@ -153,7 +163,7 @@ Let see how its works:
       <guid>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>

@@ -5,10 +5,20 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Apr 2021 10:59:36 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Apr 2021 07:42:29 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Neural turing machines</title>
+      <link>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</link>
+      <pubDate>Wed, 03 May 2017 03:16:05 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/05/2017-05-03-neural_turing_machines/</guid>
+      <description>[https://arxiv.org/abs/1410.5401](Neural Turing Machines)
+ We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
+    </item>
     
     <item>
       <title>Lispy css</title>
@@ -34,7 +44,7 @@
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -159,7 +169,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
       <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
       
       <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
+      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
     <item>
@@ -204,16 +214,6 @@ Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents
       <guid>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</guid>
       <description>Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
 It seems, its time to start learning go</description>
-    </item>
-    
-    <item>
-      <title>Path to learn haskell</title>
-      <link>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</link>
-      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</guid>
-      <description>Some haskell resources recommended by @bytemyapp.
- CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
     </item>
     
   </channel>

@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>Github actions and windows</title>
+      <link>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</link>
+      <pubDate>Fri, 16 Apr 2021 07:42:29 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</guid>
+      <description>Be careful while using Github actions for Windows.
+By default Windows uses Powershell not bash, but you may prefer to explicitly choose bash as a shell.
+See Github action documentation
+You can find some details about using Powershell here</description>
+    </item>
+    
+    <item>
       <title>Forbid using a function in python</title>
       <link>https://yantonov.com/2021/04/2021-04-12-10-59-forbid_using_a_function_in_python/</link>
       <pubDate>Mon, 12 Apr 2021 10:59:36 +0200</pubDate>
@@ -132,9 +144,9 @@ source</description>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
- pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
     </item>
     
     <item>
@@ -212,17 +224,6 @@ cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in som
       <description>There is a nice python library addict which is interesting for a couple of reasons.
 First of all, it simplifies creating a nested dictionary (see readme).
 Secondly, it represents an another nice example of using python magic methods.</description>
-    </item>
-    
-    <item>
-      <title>Copa</title>
-      <link>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</link>
-      <pubDate>Thu, 27 Feb 2020 18:56:37 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</guid>
-      <description>There is interesting end-to-end delay-based congestion control algorithm Copa.
-Here you can find the details.
-Facebook tried to use it and results seem very promising.</description>
     </item>
     
   </channel>

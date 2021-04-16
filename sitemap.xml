@@ -4,14 +4,63 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2021-04-12T10:59:36+02:00</lastmod>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2021-04-12T10:59:36+02:00</lastmod>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/ci/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/github/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/software/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/windows/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,21 +80,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2021-04-12T10:59:36+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/python/</loc>
-    <lastmod>2021-04-12T10:59:36+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2021-04-12T10:59:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -248,14 +283,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/machine-learning/</loc>
+    <loc>https://yantonov.com/categories/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/machine-learning/</loc>
+    <loc>https://yantonov.com/tags/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
