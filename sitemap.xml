@@ -423,6 +423,13 @@
   </url>
   
   <url>
+    <loc>https://yantonov.com/categories/programming/</loc>
+    <lastmod>2020-09-03T19:26:10+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yantonov.com/tags/setup/</loc>
     <lastmod>2020-09-03T19:26:10+05:00</lastmod>
     <changefreq>monthly</changefreq>
