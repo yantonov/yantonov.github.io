@@ -80,6 +80,13 @@
   </url>
   
   <url>
+    <loc>https://yantonov.com/tags/automation/</loc>
+    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yantonov.com/tags/ci/</loc>
     <lastmod>2021-04-16T07:42:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -101,7 +108,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/software/</loc>
+    <loc>https://yantonov.com/categories/ops/</loc>
     <lastmod>2021-04-16T07:42:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -144,13 +151,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/error/</loc>
-    <lastmod>2021-03-06T21:57:43+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/ops/</loc>
     <lastmod>2021-03-06T21:57:43+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -318,14 +318,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/machine-learning/</loc>
+    <loc>https://yantonov.com/tags/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/machine-learning/</loc>
+    <loc>https://yantonov.com/categories/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -416,7 +416,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/tool/</loc>
+    <loc>https://yantonov.com/tags/tool/</loc>
     <lastmod>2020-09-15T21:50:44+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -801,13 +801,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/design/</loc>
-    <lastmod>2019-12-29T12:39:07+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</loc>
     <lastmod>2019-12-29T00:54:49+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -943,13 +936,6 @@
   <url>
     <loc>https://yantonov.com/tags/scalability/</loc>
     <lastmod>2019-12-19T14:52:38+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/automation/</loc>
-    <lastmod>2019-12-15T19:04:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1102,7 +1088,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/kalman-filter/</loc>
+    <loc>https://yantonov.com/tags/kalman-filter/</loc>
     <lastmod>2017-03-22T05:19:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1130,14 +1116,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/podcast/</loc>
+    <loc>https://yantonov.com/tags/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/podcast/</loc>
+    <loc>https://yantonov.com/categories/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1215,13 +1201,6 @@
   
   <url>
     <loc>https://yantonov.com/2016/07/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</loc>
-    <lastmod>2016-07-31T11:29:56+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/algorithm/</loc>
     <lastmod>2016-07-31T11:29:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1368,7 +1347,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/crdt/</loc>
+    <loc>https://yantonov.com/tags/crdt/</loc>
     <lastmod>2015-08-02T12:14:54+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
