@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>review on (map solve problems)</title>
+    <link>https://yantonov.com/tags/review/</link>
+    <description>Recent content in review on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 Jan 2015 00:50:46 +0500</lastBuildDate>
+    
+        <atom:link href="https://yantonov.com/tags/review/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Replicated SQLite</title>
+      <link>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</link>
+      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-23-replicated-sqlite/</guid>
+      <description>Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
+It seems, its time to start learning go</description>
+    </item>
+    
+    <item>
+      <title>Path to learn haskell</title>
+      <link>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</link>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-21-path-to-learn-haskell/</guid>
+      <description>Some haskell resources recommended by @bytemyapp.
+ CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+    </item>
+    
+    <item>
+      <title>Find the length of the loop</title>
+      <link>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</link>
+      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-21-find-the-length-of-the-loop/</guid>
+      <description>One of the popular interivew tasks&amp;hellip;
+You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
+Here is straghtforward solution in haskell
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+    </item>
+    
+    <item>
+      <title>Ultra leiningen plugin</title>
+      <link>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</link>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/02/2015-02-03-ultra-leiningen-plugin/</guid>
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
+Main features:
+ colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
+    </item>
+    
+    <item>
+      <title>Conditional get for rss hackers</title>
+      <link>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</link>
+      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-25-conditional-get-for-rss-hackers/</guid>
+      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
+p.s. fyi header field definitions rfc2616</description>
+    </item>
+    
+    <item>
+      <title>Run automation instruments script from the command line</title>
+      <link>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</link>
+      <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-24-run-automation-instruments-script-from-the-command-line/</guid>
+      <description>To run ui test from command line you can use instruments app as described here.
+instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate Since xcode 6 Automation.tracetemplate can be found:
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate </description>
+    </item>
+    
+    <item>
+      <title>Unconventional review</title>
+      <link>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</link>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/01/2015-01-19-unconventional-review/</guid>
+      <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
+    </item>
+    
+    <item>
+      <title>Multi-queue replacement algorithm for second level buffer caches</title>
+      <link>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
+      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</guid>
+      <description>I have read a nice article written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
+I highly recommend to read it.</description>
+    </item>
+    
+    <item>
+      <title>List non latin file names in git</title>
+      <link>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</link>
+      <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-07-list-non-latin-file-names-in-git/</guid>
+      <description>Imagine you have commited file which name contain non latin letters.
+git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
+git log -p Here you can see escaped file name, and obvious its hard to read.
+diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &amp;lsquo;core.</description>
+    </item>
+    
+    <item>
+      <title>Export files changed at revision from mercurial</title>
+      <link>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</link>
+      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/12/2014-12-07-export-files-changed-at-revision-from-mercurial/</guid>
+      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
+Mercurial vcs has archive command which let you to export selected files at given revision:
+hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
+hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename.</description>
+    </item>
+    
+    <item>
+      <title>Church numerals</title>
+      <link>https://yantonov.com/2014/11/2014-11-13-church-numerals/</link>
+      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-13-church-numerals/</guid>
+      <description>Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
+Summary:
+type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</description>
+    </item>
+    
+    <item>
+      <title>Programmable completion for git and mercurial</title>
+      <link>https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/</link>
+      <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/</guid>
+      <description>Some time ago i read excellent post about emacs library pcomplete.
+The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
+First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</description>
+    </item>
+    
+    <item>
+      <title>PATH variable for gui programs (Mac Os)</title>
+      <link>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</link>
+      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-04-path-variable-for-gui-programs-mac-os/</guid>
+      <description>Foreword:
+Sometimes you need to edit PATH variable.
+Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
+So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
+Moreover, after update to Mac Os X 10.</description>
+    </item>
+    
+    <item>
+      <title>Git rerere</title>
+      <link>https://yantonov.com/2014/11/2014-11-04-git-rerere/</link>
+      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-04-git-rerere/</guid>
+      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
+Let see how its works:
+# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
+    </item>
+    
+    <item>
+      <title>Platform specific build event</title>
+      <link>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</link>
+      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/11/2014-11-03-platform-specific-build-event/</guid>
+      <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
+To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+    </item>
+    
+    <item>
+      <title>Git log aliases</title>
+      <link>https://yantonov.com/2014/10/2014-10-31-git-log-aliases/</link>
+      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/10/2014-10-31-git-log-aliases/</guid>
+      <description>Here are some usefull git aliases which i use on a daily basis:
+Output samples are generated using clojure repository
+List of one line commits
+ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  List of commits with changed files
+ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat  List of commits without colors
+lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;  Commits with dates
+ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  Commits with short dates</description>
+    </item>
+    
+    <item>
+      <title>Stackoverflow reputation problem</title>
+      <link>https://yantonov.com/2014/10/2014-10-28-stackoverflow-reputation/</link>
+      <pubDate>Tue, 28 Oct 2014 21:08:23 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/10/2014-10-28-stackoverflow-reputation/</guid>
+      <description>Some time ago i wrote gist which described how to install ghc from source on ubuntu. Today i see question on stackoverflow.com connected with my gist. I have fixed gist immediately and think about leaving comment to person who had some difficulties with it. I log on using google account and try to leave comment and &amp;hellip; i cant do it because my repuration is too low (this is just new account).</description>
+    </item>
+    
+    <item>
+      <title>Mac os environment variables</title>
+      <link>https://yantonov.com/2014/10/2014-10-27-mac-os-environment-variables/</link>
+      <pubDate>Mon, 27 Oct 2014 02:36:04 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/10/2014-10-27-mac-os-environment-variables/</guid>
+      <description>Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
+To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
+export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal).</description>
+    </item>
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://yantonov.com/2014/10/2014-10-27-hello-world/</link>
+      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2014/10/2014-10-27-hello-world/</guid>
+      <description>hello world :-)</description>
+    </item>
+    
+  </channel>
+</rss>
