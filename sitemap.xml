@@ -52,6 +52,13 @@
   </url>
   
   <url>
+    <loc>https://yantonov.com/tags/rust/</loc>
+    <lastmod>2021-07-23T00:09:36+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yantonov.com/tags/rx/</loc>
     <lastmod>2021-07-23T00:09:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -103,13 +110,6 @@
   <url>
     <loc>https://yantonov.com/tags/windows/</loc>
     <lastmod>2021-04-16T07:42:29+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/development/</loc>
-    <lastmod>2021-04-12T10:59:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -248,7 +248,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/architecture/</loc>
+    <loc>https://yantonov.com/tags/architecture/</loc>
     <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -325,14 +325,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/machine-learning/</loc>
+    <loc>https://yantonov.com/categories/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/machine-learning/</loc>
+    <loc>https://yantonov.com/tags/machine-learning/</loc>
     <lastmod>2020-10-24T15:03:37+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -572,13 +572,6 @@
   <url>
     <loc>https://yantonov.com/2020/08/2020-08-23-22-30-thi-ng-umbrella/</loc>
     <lastmod>2020-08-23T22:30:16+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/rust/</loc>
-    <lastmod>2020-08-22T22:21:49+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -885,7 +878,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/scm/</loc>
+    <loc>https://yantonov.com/tags/scm/</loc>
     <lastmod>2019-12-21T23:18:26+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -899,14 +892,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/trunk/</loc>
+    <loc>https://yantonov.com/tags/trunk/</loc>
     <lastmod>2019-12-21T23:18:26+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/vcs/</loc>
+    <loc>https://yantonov.com/tags/vcs/</loc>
     <lastmod>2019-12-21T23:18:26+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1327,6 +1320,20 @@
   
   <url>
     <loc>https://yantonov.com/categories/mercurial/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/scm/</loc>
+    <lastmod>2016-03-12T19:54:21+05:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/vcs/</loc>
     <lastmod>2016-03-12T19:54:21+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
