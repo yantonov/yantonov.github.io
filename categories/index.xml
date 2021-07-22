@@ -5,10 +5,21 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Apr 2021 07:42:29 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jul 2021 00:09:36 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About rx observables</title>
+      <link>https://yantonov.com/2021/07/2021-07-23-00-09-about_rx_observables/</link>
+      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/07/2021-07-23-00-09-about_rx_observables/</guid>
+      <description>Information for reflection :)
+Here is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).
+Just check it and spend a couple of minutes to think about it.</description>
+    </item>
     
     <item>
       <title>Github actions and windows</title>
@@ -213,17 +224,6 @@ But env module, for example looks overcomplicated but tecnhically provides reade
 Docker has a couple of flags to control application inside the container.
  &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</description>
-    </item>
-    
-    <item>
-      <title>Addict</title>
-      <link>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</link>
-      <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</guid>
-      <description>There is a nice python library addict which is interesting for a couple of reasons.
-First of all, it simplifies creating a nested dictionary (see readme).
-Secondly, it represents an another nice example of using python magic methods.</description>
     </item>
     
   </channel>

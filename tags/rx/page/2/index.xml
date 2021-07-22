@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rx on (map solve problems)</title>
+    <link>https://yantonov.com/tags/rx/</link>
+    <description>Recent content in rx on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 23 Jul 2021 00:09:36 +0200</lastBuildDate>
+    
+        <atom:link href="https://yantonov.com/tags/rx/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Addict</title>
+      <link>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</link>
+      <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</guid>
+      <description>There is a nice python library addict which is interesting for a couple of reasons.
+First of all, it simplifies creating a nested dictionary (see readme).
+Secondly, it represents an another nice example of using python magic methods.</description>
+    </item>
+    
+    <item>
+      <title>Copa</title>
+      <link>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</link>
+      <pubDate>Thu, 27 Feb 2020 18:56:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-27-18-56-copa/</guid>
+      <description>There is interesting end-to-end delay-based congestion control algorithm Copa.
+Here you can find the details.
+Facebook tried to use it and results seem very promising.</description>
+    </item>
+    
+    <item>
+      <title>Fix flash drive block size</title>
+      <link>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</link>
+      <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
+      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+Moreover, partitions can not be removed using neigher gnome disk nor gparted.
+In that case you can use fdisk with privileged access:
+fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
+    </item>
+    
+    <item>
+      <title>Open source continuous delivery server written in go lang</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</link>
+      <pubDate>Sat, 11 Jan 2020 21:02:43 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/</guid>
+      <description>Here is the site of the project.
+Custom pipelines can be defined as code.
+source</description>
+    </item>
+    
+    <item>
+      <title>Bridge from clojure to python</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</link>
+      <pubDate>Sat, 11 Jan 2020 17:14:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/</guid>
+      <description>Here is the library that allows you to call python code from clojure.</description>
+    </item>
+    
+    <item>
+      <title>JVM tuning guidelines</title>
+      <link>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</link>
+      <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</guid>
+      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
+    </item>
+    
+    <item>
+      <title>Commit convensions</title>
+      <link>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</link>
+      <pubDate>Thu, 02 Jan 2020 22:07:01 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/01/2020-01-02-22-07-commit_convensions/</guid>
+      <description>A couple of links about commit convensions:
+ commit generator Convensional commit specification  </description>
+    </item>
+    
+    <item>
+      <title>8 bit css nes style framework</title>
+      <link>https://yantonov.com/2019/12/2019-12-29-8-bit_css_nes-style_framework/</link>
+      <pubDate>Sun, 29 Dec 2019 12:39:07 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-29-8-bit_css_nes-style_framework/</guid>
+      <description>Here is nice collection of 8-bit ui controls.
+Framework based on css, so you can used it with any js code.
+Source.</description>
+    </item>
+    
+    <item>
+      <title>How to decrease rust binary size</title>
+      <link>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</link>
+      <pubDate>Sun, 29 Dec 2019 00:54:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-29-how_to_decrease_rust_binary_size/</guid>
+      <description>Here are some instructions which help you decrease rust binary size.</description>
+    </item>
+    
+    <item>
+      <title>Distributed consensus</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</link>
+      <pubDate>Sun, 22 Dec 2019 20:54:12 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-distributed_consensus/</guid>
+      <description>Want to read about distributed consensus? Here is a great resource list about consensus in distributed systems, created by Heidi Howard.</description>
+    </item>
+    
+    <item>
+      <title>Resilience4j</title>
+      <link>https://yantonov.com/2019/12/2019-12-22-resilience4j/</link>
+      <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-22-resilience4j/</guid>
+      <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
+Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
+    </item>
+    
+    <item>
+      <title>Stacked diffs versus pull requests</title>
+      <link>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</link>
+      <pubDate>Sat, 21 Dec 2019 23:18:26 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</guid>
+      <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
+Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
+ In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
+    </item>
+    
+    <item>
+      <title>Portable file system cache diagnostics and control</title>
+      <link>https://yantonov.com/2019/12/2019-12-20-portable_file_system_cache_diagnostics_and_control/</link>
+      <pubDate>Fri, 20 Dec 2019 13:03:32 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-20-portable_file_system_cache_diagnostics_and_control/</guid>
+      <description>Nice tool to control and monitoring cache state.
+Source</description>
+    </item>
+    
+    <item>
+      <title>State of enterprise ML</title>
+      <link>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</link>
+      <pubDate>Thu, 19 Dec 2019 16:44:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-19-state_of_enterprise_ml/</guid>
+      <description>The 2020 State of Enterprise Machine Learning report
+download</description>
+    </item>
+    
+    <item>
+      <title>About distributed transactions</title>
+      <link>https://yantonov.com/2019/12/2019-12-19-about_distributed_transactions/</link>
+      <pubDate>Thu, 19 Dec 2019 14:52:38 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-19-about_distributed_transactions/</guid>
+      <description>A couple of articles about distributed transactions and scalability:
+  Online Event Processing Achieving consistency where distributed transactions have failed [link]
+written by Martin Kleppmann [twitter], Alastair R. Beresford [twitter], and Boerge Svingen [twitter]
+  Life beyond Distributed Transactions: an Apostate’s Opinion [link]
+written by Pat Helland [twitter]
+  </description>
+    </item>
+    
+    <item>
+      <title>How to remember ssh keys on mac os</title>
+      <link>https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</link>
+      <pubDate>Sun, 15 Dec 2019 19:04:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</guid>
+      <description>Got tired to enter ssh passphrases on mac os and want to know how easily force ssh-agent to remember ssh keys?
+Add this snippet to ~/.ssh/config file:
+Host * AddKeysToAgent yes UseKeychain yes Source</description>
+    </item>
+    
+    <item>
+      <title>K-Minimum values sketch</title>
+      <link>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</link>
+      <pubDate>Sat, 15 Jun 2019 14:15:36 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2019/06/2019-06-15-k-minimum_values_sketch/</guid>
+      <description>Simple probabilistic data structure used to count distinct values.
+source</description>
+    </item>
+    
+    <item>
+      <title>Parallel and concurrenct programming in haskell</title>
+      <link>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</link>
+      <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</guid>
+      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+    </item>
+    
+    <item>
+      <title>Velocity conference 2017</title>
+      <link>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</link>
+      <pubDate>Fri, 08 Dec 2017 19:28:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</guid>
+      <description>Slides and videos from the Velocity conference 2017.</description>
+    </item>
+    
+    <item>
+      <title>Webpack has not enough watchers</title>
+      <link>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</link>
+      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</guid>
+      <description>Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
+cat /proc/sys/fs/inotify/max_user_watches Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.
+Ubuntu users (and possibly others):
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p Source</description>
+    </item>
+    
+  </channel>
+</rss>
