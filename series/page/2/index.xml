@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Docker memory limit</title>
+      <link>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</link>
+      <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</guid>
+      <description>There are some options to control application memory consumption.
+Docker has a couple of flags to control application inside the container.
+ &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
+cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</description>
+    </item>
+    
+    <item>
       <title>Addict</title>
       <link>https://yantonov.com/2020/03/2020-03-01-12-31-addict/</link>
       <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
@@ -37,7 +49,7 @@ Facebook tried to use it and results seem very promising.</description>
       <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/</guid>
-      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+      <description>Let&amp;rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
@@ -69,7 +81,7 @@ source</description>
       <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/01/2020-01-11-14-37-jvm_tuning_guidelines/</guid>
-      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
+      <description>Here is the description of a bunch of JVM&amp;rsquo;s flags and some recommendations how to use them.</description>
     </item>
     
     <item>
@@ -129,7 +141,7 @@ Nice example of functional composition with pragmatic library with minimum numbe
       <guid>https://yantonov.com/2019/12/2019-12-21-stacked_diffs_versus_pull_requests/</guid>
       <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
 Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
- In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
+ In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.</description>
     </item>
     
     <item>
@@ -193,7 +205,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</guid>
-      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -203,18 +215,6 @@ source</description>
       
       <guid>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</guid>
       <description>Slides and videos from the Velocity conference 2017.</description>
-    </item>
-    
-    <item>
-      <title>Webpack has not enough watchers</title>
-      <link>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</link>
-      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</guid>
-      <description>Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
-cat /proc/sys/fs/inotify/max_user_watches Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.
-Ubuntu users (and possibly others):
-echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p Source</description>
     </item>
     
   </channel>

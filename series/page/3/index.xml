@@ -10,6 +10,18 @@
     
     
     <item>
+      <title>Webpack has not enough watchers</title>
+      <link>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</link>
+      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2017/09/2017-09-13-webpack-not-enough-watchers/</guid>
+      <description>Not enough watchers Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:
+cat /proc/sys/fs/inotify/max_user_watches Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.
+Ubuntu users (and possibly others):
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;&amp;amp; sudo sysctl -p Source</description>
+    </item>
+    
+    <item>
       <title>CVRP 2017 Papers</title>
       <link>https://yantonov.com/2017/08/2017-08-16-cvrp-2017-papers/</link>
       <pubDate>Wed, 16 Aug 2017 15:34:17 +0500</pubDate>
@@ -52,7 +64,7 @@
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/2017/01/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -177,7 +189,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
       <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
       
       <guid>https://yantonov.com/2015/04/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
+      <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
     <item>
@@ -198,20 +210,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       <description>Final Projects 2012
 Final Projects 2013
 Final Projects 2014</description>
-    </item>
-    
-    <item>
-      <title>Stand up every 20 minutes (mac os)</title>
-      <link>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</link>
-      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2015/02/2015-02-27-healthy-programmer/</guid>
-      <description>Foreword : Inspired by excellent post
-Initial task: creating notification every 20 minutes can be decomposed into two parts:
- create notification scheduled launch  First subtask can be solved using this trivial script.
-standup.sh:
-#!/bin/sh  # stand up notification osascript -e &amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39; say &amp;#34;Stand up&amp;#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
-Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
     </item>
     
   </channel>

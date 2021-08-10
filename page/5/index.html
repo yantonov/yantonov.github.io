@@ -20,12 +20,12 @@
     
     
     
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>(map solve problems)</title>
     
     <link rel="alternate" type="application/rss+xml" href="https://yantonov.com/index.xml" title="(map solve problems)" />
     
-    <link rel="stylesheet" href="https://yantonov.com/css/style.min.544edf4e480fd84dba4b535b9c42ace7af9a975d149b3f584c0e3a6f120cee55.css">
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -33,9 +33,10 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://yantonov.com/" />
-<meta property="og:updated_time" content="2021-07-23T00:09:36+02:00" />
+<meta property="og:updated_time" content="2021-08-10T02:15:23+02:00" />
 <meta itemprop="name" content="(map solve problems)">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(map solve problems)"/>
 <meta name="twitter:description" content=""/>
 
@@ -137,6 +138,7 @@
     <div class="widget-body">
         <ul class="category-list">
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">17</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/cs/" class="category-list-link">cs</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/health/" class="category-list-link">health</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">13</span></li>
@@ -281,7 +283,7 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/course/" class="tag-list-link">course</a><span
-                    class="tag-list-count">4</span></li>
+                    class="tag-list-count">5</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/crdt/" class="tag-list-link">crdt</a><span
@@ -541,6 +543,10 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/network/" class="tag-list-link">network</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/neural-netrowk/" class="tag-list-link">neural-netrowk</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -835,6 +841,16 @@
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/2021/08/2021-08-10-02-15-geometric_deep_learning/" class="title">Geometric deep learning</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2021-08-10 02:15:23 &#43;0200 CEST" itemprop="datePublished">2021-08-10</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/2021/07/2021-07-23-00-09-about_rx_observables/" class="title">About rx observables</a>
                     </p>
                     <p class="item-date">
@@ -872,16 +888,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/" class="title">Serve dotfiles directly from a git repository</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2021-02-13 19:59:18 &#43;0100 CET" itemprop="datePublished">2021-02-13</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -897,6 +903,48 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/2020/03/2020-03-30-08-16-docker_memory_limit/"
+    >Docker memory limit</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        There are some options to control application memory consumption.
+Docker has a couple of flags to control application inside the container.
+ &ndash;memory flag defines non swap memory limit &ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
+cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/" class="">
+  <time datetime="2020-03-30 08:16:41 &#43;0500 &#43;0500" itemprop="datePublished">2020-03-30</time>
+</a>
+</span>
+  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/docker/"> docker </a>
+    <a class="article-tag-link" href="/tags/memory/"> memory </a>
+    <a class="article-tag-link" href="/tags/limit/"> limit </a>
+    <a class="article-tag-link" href="/tags/ops/"> ops </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/03/2020-03-30-08-16-docker_memory_limit/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 91words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -932,8 +980,8 @@ Secondly, it represents an another nice example of using python magic methods.
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/03/2020-03-01-12-31-addict/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 38 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 38words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article>
     <article
@@ -973,8 +1021,8 @@ Facebook tried to use it and results seem very promising.
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/02/2020-02-27-18-56-copa/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 25 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 25words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article>
     <article
@@ -993,7 +1041,7 @@ Facebook tried to use it and results seem very promising.
 
       </div>
       <div class="article-entry text-muted" itemprop="description">
-        Let's suppose you want to format flash drive but while you are trying to start formatting you see an error like this &lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&rsquo;.
+        Let&rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &lsquo;p&rsquo; command, to remove partition - &lsquo;q&rsquo; command.
@@ -1014,8 +1062,8 @@ fdisk /dev/sdX To show partition you can use &lsquo;p&rsquo; command, to remove 
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/02/2020-02-26-15-58-fix_flash_drive_block_size/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 105 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 105words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article>
     <article
@@ -1058,49 +1106,8 @@ source
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/01/2020-01-11-21-02-open_source_continuous_delivery_server_written_in_go_lang/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 15 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/"
-    >Bridge from clojure to python</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        Here is the library that allows you to call python code from clojure.
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/" class="">
-  <time datetime="2020-01-11 17:14:41 &#43;0500 &#43;0500" itemprop="datePublished">2020-01-11</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/programming/"> programming </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/jvm/"> jvm </a>
-    <a class="article-tag-link" href="/tags/python/"> python </a>
-    <a class="article-tag-link" href="/tags/clojure/"> clojure </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/2020/01/2020-01-11-17-14-bridge_from_clojure_to_python/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 13 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 15words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 1minutes </span>
       </p>
     </article></div>
   
@@ -1139,7 +1146,6 @@ source
     <div class="publishby">
         Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>
-    
   </div>
 </footer>
 
@@ -1154,7 +1160,10 @@ source
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+<script>
+    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1196,7 +1205,6 @@ source
         hasInnerContainers: true,
     });
 </script>
-
 
   </body>
 </html>
