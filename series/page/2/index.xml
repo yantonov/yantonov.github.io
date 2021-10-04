@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Tofu</title>
+      <link>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</link>
+      <pubDate>Sat, 22 Aug 2020 16:26:20 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</guid>
+      <description>Recently I had a look at tofu library.
+Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.
+But env module, for example looks overcomplicated but tecnhically provides reader monad. Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity. Why env contains any side effect specifics?</description>
+    </item>
+    
+    <item>
       <title>Docker memory limit</title>
       <link>https://yantonov.com/2020/03/2020-03-30-08-16-docker_memory_limit/</link>
       <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
@@ -206,15 +217,6 @@ source</description>
       
       <guid>https://yantonov.com/2017/12/2017-12-13-parallel_and_concurrenct_programming_in_haskell/</guid>
       <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>Velocity conference 2017</title>
-      <link>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</link>
-      <pubDate>Fri, 08 Dec 2017 19:28:08 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2017/12/2017-12-08-velocity_conf_2017/</guid>
-      <description>Slides and videos from the Velocity conference 2017.</description>
     </item>
     
   </channel>

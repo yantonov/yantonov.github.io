@@ -5,10 +5,22 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 02:15:23 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 04 Oct 2021 12:33:47 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Github repositories that help you to prepare for the next interview</title>
+      <link>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</link>
+      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</guid>
+      <description>Here is the list of general/algo/system design questions:
+ coding-interview-university build-your-own-x tech-interview-handbook how-to-secure-anything javascript-algorithms how-web-works algorithms-javascript system-design-primer awesome-interview-questions olshansk-interview  Golang 11. learngo
+Javascript 12. clean-code-javascript 13. javascript-questions
+source</description>
+    </item>
     
     <item>
       <title>Geometric deep learning</title>
@@ -212,17 +224,6 @@ P.s. Thanks Vahid Kazemi for the link.</description>
       <guid>https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/</guid>
       <description>Here is a great article about rust module system.
 Source</description>
-    </item>
-    
-    <item>
-      <title>Tofu</title>
-      <link>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</link>
-      <pubDate>Sat, 22 Aug 2020 16:26:20 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/08/2020-08-22-16-26-tofu/</guid>
-      <description>Recently I had a look at tofu library.
-Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.
-But env module, for example looks overcomplicated but tecnhically provides reader monad. Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity. Why env contains any side effect specifics?</description>
     </item>
     
   </channel>

@@ -5,10 +5,21 @@
     <link>https://yantonov.com/tags/interview/</link>
     <description>Recent content in interview on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 21 Feb 2015 16:06:23 +0500</lastBuildDate>
+    <lastBuildDate>Mon, 04 Oct 2021 12:33:47 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/interview/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CS229 Machine Learning</title>
+      <link>https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/</link>
+      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2015/03/2015-03-29-cs229-machine-learning/</guid>
+      <description>Final Projects 2012
+Final Projects 2013
+Final Projects 2014</description>
+    </item>
     
     <item>
       <title>Stand up every 20 minutes (mac os)</title>
@@ -223,15 +234,6 @@ ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow
       <description>Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
 To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
 export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal).</description>
-    </item>
-    
-    <item>
-      <title>Hello world</title>
-      <link>https://yantonov.com/2014/10/2014-10-27-hello-world/</link>
-      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2014/10/2014-10-27-hello-world/</guid>
-      <description>hello world :-)</description>
     </item>
     
   </channel>
