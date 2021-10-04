@@ -17,6 +17,13 @@
   </url>
   
   <url>
+    <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -45,6 +52,13 @@
   </url>
   
   <url>
+    <loc>https://yantonov.com/categories/programming/</loc>
+    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://yantonov.com/tags/system-design/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -54,13 +68,6 @@
   <url>
     <loc>https://yantonov.com/tags/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2021-08-10T02:15:23+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -109,13 +116,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/observable/</loc>
-    <lastmod>2021-07-23T00:09:36+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/programming/</loc>
     <lastmod>2021-07-23T00:09:36+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
