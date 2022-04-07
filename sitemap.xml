@@ -4,20 +4,62 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/algorithm/</loc>
-    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/2022/04/2022-04-07-10-22-move_wsl_to_another_drive/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/ops/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/windows/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/wsl/</loc>
+    <lastmod>2022-04-07T10:22:12+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/algorithm/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -45,13 +87,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/categories/programming/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -60,13 +95,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/system-design/</loc>
-    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -165,20 +193,6 @@
   
   <url>
     <loc>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</loc>
-    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/ops/</loc>
-    <lastmod>2021-04-16T07:42:29+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/windows/</loc>
     <lastmod>2021-04-16T07:42:29+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

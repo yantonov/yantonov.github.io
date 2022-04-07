@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Move WSL to another drive</title>
+      <link>https://yantonov.com/2022/04/2022-04-07-10-22-move_wsl_to_another_drive/</link>
+      <pubDate>Thu, 07 Apr 2022 10:22:12 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2022/04/2022-04-07-10-22-move_wsl_to_another_drive/</guid>
+      <description>Here is a nice instruction how to migrate wsl to another drive.
+A couple of nuances:
+ When you export the image there is no need to define the version of WSL. But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter. To define the default user you should use the command that may vary depending on the os version.</description>
+    </item>
+    
+    <item>
       <title>Github repositories that help you to prepare for the next interview</title>
       <link>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</link>
       <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
@@ -177,9 +188,9 @@ source</description>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
- pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
     </item>
     
     <item>
@@ -213,16 +224,6 @@ Using this you can simply assert all the invariants and stop to write long mock 
 It a great example of granular libraries with clean code.
 definitely it can be used in production, and moreover this is an excellent bunch of examples to learn typescript.
 P.s. Thanks Vahid Kazemi for the link.</description>
-    </item>
-    
-    <item>
-      <title>Rust module system</title>
-      <link>https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/</link>
-      <pubDate>Sat, 22 Aug 2020 22:21:49 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2020/08/2020-08-22-22-21-rust_module_system/</guid>
-      <description>Here is a great article about rust module system.
-Source</description>
     </item>
     
   </channel>
