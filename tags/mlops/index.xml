@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mlops on (map solve problems)</title>
+    <link>https://yantonov.com/tags/mlops/</link>
+    <description>Recent content in mlops on (map solve problems)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 12 May 2022 10:39:49 +0200</lastBuildDate>
+    
+        <atom:link href="https://yantonov.com/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Usecase for git refs</title>
+      <link>https://yantonov.com/2022/05/2022-05-12-10-39-usecase_for_git_refs/</link>
+      <pubDate>Thu, 12 May 2022 10:39:49 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2022/05/2022-05-12-10-39-usecase_for_git_refs/</guid>
+      <description>Here you can read about
+ an excellent example of how to use git refs in practice. a nice way to track the experiments (ML related for example).  </description>
+    </item>
+    
+    <item>
+      <title>Link imbalance</title>
+      <link>https://yantonov.com/2022/05/2022-05-11-17-18-link_imbalance/</link>
+      <pubDate>Wed, 11 May 2022 17:18:48 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2022/05/2022-05-11-17-18-link_imbalance/</guid>
+      <description>Interesting reading about link imbalance:
+ Metastable Failures in Distributed Systems Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale  </description>
+    </item>
+    
+    <item>
+      <title>Move WSL to another drive</title>
+      <link>https://yantonov.com/2022/04/2022-04-07-10-22-move_wsl_to_another_drive/</link>
+      <pubDate>Thu, 07 Apr 2022 10:22:12 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2022/04/2022-04-07-10-22-move_wsl_to_another_drive/</guid>
+      <description>Here is a nice instruction how to migrate wsl to another drive.
+A couple of nuances:
+ When you export the image there is no need to define the version of WSL. But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter. To define the default user you should use the command that may vary depending on the os version.</description>
+    </item>
+    
+    <item>
+      <title>Github repositories that help you to prepare for the next interview</title>
+      <link>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</link>
+      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/10/2021-10-04-12-33-github_repositories_that_help_you_to_prepare_for_the_next_interview/</guid>
+      <description>Here is the list of general/algo/system design questions:
+ coding-interview-university build-your-own-x tech-interview-handbook how-to-secure-anything javascript-algorithms how-web-works algorithms-javascript system-design-primer awesome-interview-questions olshansk-interview  Golang 11. learngo
+Javascript 12. clean-code-javascript 13. javascript-questions
+source</description>
+    </item>
+    
+    <item>
+      <title>Geometric deep learning</title>
+      <link>https://yantonov.com/2021/08/2021-08-10-02-15-geometric_deep_learning/</link>
+      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/08/2021-08-10-02-15-geometric_deep_learning/</guid>
+      <description>Geometric deep learning course. This DL generalization allows transferring prior physical knowledge to NN architectures.
+Book at arxiv.org
+Full playlist (including tutorial and seminar records)</description>
+    </item>
+    
+    <item>
+      <title>About rx observables</title>
+      <link>https://yantonov.com/2021/07/2021-07-23-00-09-about_rx_observables/</link>
+      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/07/2021-07-23-00-09-about_rx_observables/</guid>
+      <description>Information for reflection :)
+Here is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).
+Just check it and spend a couple of minutes to think about it.</description>
+    </item>
+    
+    <item>
+      <title>Github actions and windows</title>
+      <link>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</link>
+      <pubDate>Fri, 16 Apr 2021 07:42:29 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/04/2021-04-16-07-42-github_actions_and_windows/</guid>
+      <description>Be careful while using Github actions for Windows.
+By default Windows uses Powershell not bash, but you may prefer to explicitly choose bash as a shell.
+See Github action documentation
+You can find some details about using Powershell here</description>
+    </item>
+    
+    <item>
+      <title>Forbid using a function in python</title>
+      <link>https://yantonov.com/2021/04/2021-04-12-10-59-forbid_using_a_function_in_python/</link>
+      <pubDate>Mon, 12 Apr 2021 10:59:36 +0200</pubDate>
+      
+      <guid>https://yantonov.com/2021/04/2021-04-12-10-59-forbid_using_a_function_in_python/</guid>
+      <description>Here is an example of flake8 plugin that prevents you from using numpy random fn.
+A nice example of analyzing a source code in python.</description>
+    </item>
+    
+    <item>
+      <title>Docker error: error getting credentials</title>
+      <link>https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/</link>
+      <pubDate>Sat, 06 Mar 2021 21:57:43 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2021/03/2021-03-06-21-57-docker_error_getting_credentials/</guid>
+      <description>Aaaah! Today I faced a strange error message from docker.
+ =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
+ In ~/.docker/config.json change credsStore to credStore Source</description>
+    </item>
+    
+    <item>
+      <title>Serve dotfiles directly from a git repository</title>
+      <link>https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/</link>
+      <pubDate>Sat, 13 Feb 2021 19:59:18 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2021/02/2021-02-13-19-59-serve_dotfiles_directly_from_a_git_repository/</guid>
+      <description>Here is an interesting article which explains another way to store dotfiles.
+In a couple of words:
+ store dotfiles into a git repository clone your git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links)  The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
+    </item>
+    
+    <item>
+      <title>Academic salaries</title>
+      <link>https://yantonov.com/2020/12/2020-12-15-22-36-academic_salaries/</link>
+      <pubDate>Tue, 15 Dec 2020 22:36:54 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2020/12/2020-12-15-22-36-academic_salaries/</guid>
+      <description>Interesting statistics about academic salaries
+Source</description>
+    </item>
+    
+    <item>
+      <title>How to fix Lenovo X1 Carbon 8th gen sound problem on Windows 10</title>
+      <link>https://yantonov.com/2020/11/2020-11-14-11-30-how_to_fix_lenovo_x1_carbon_8th_gen_sound_problem_on_windows_10/</link>
+      <pubDate>Sat, 14 Nov 2020 11:30:58 +0100</pubDate>
+      
+      <guid>https://yantonov.com/2020/11/2020-11-14-11-30-how_to_fix_lenovo_x1_carbon_8th_gen_sound_problem_on_windows_10/</guid>
+      <description>If you faced with a sound problem (the sound just disappeared), and nothing helps (general troubleshooting, updating drivers, uninstalling audio devices etc, you can try to install Lenovo drivers.
+Unfortunately it is not easy to find exactly this drivers. (the link to them is located at the second page of the corresponding topic at Levono forums)
+Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</description>
+    </item>
+    
+    <item>
+      <title>Entity component system</title>
+      <link>https://yantonov.com/2020/10/2020-10-31-13-09-entity_component_system/</link>
+      <pubDate>Sat, 31 Oct 2020 13:09:03 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/10/2020-10-31-13-09-entity_component_system/</guid>
+      <description>Entity–component–system (ECS) is an architectural pattern that is mostly used in game development. Main points:
+ every entity has unique id; every logic aspect is a component - raw data linked to the corresponding entity by id; system performs actions on entities having corresponding aspects/components; diffenent components can be stored separately; systems can track entities by using observer pattern.  More details can be found here.</description>
+    </item>
+    
+    <item>
+      <title>About passing dependencies through deep call stack</title>
+      <link>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</link>
+      <pubDate>Fri, 30 Oct 2020 19:23:06 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/10/2020-10-30-19-23-about_passing_dependencies_through_deep_call_stack/</guid>
+      <description>Here is another approach to pass dependencies through deep call stack.
+In a couple of words:
+ deeply nested code not executes immediately but returns a function for the later lazy evaluation; the correponding function accepts the required environment; at the top level call the function returned from the nested code and pass the environment to it. Documentation.  </description>
+    </item>
+    
+    <item>
+      <title>Leaning n classes from m &lt; n samples</title>
+      <link>https://yantonov.com/2020/10/2020-10-24-15-03-leaning_n_classes_from_m_less_n_samples/</link>
+      <pubDate>Sat, 24 Oct 2020 15:03:37 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/10/2020-10-24-15-03-leaning_n_classes_from_m_less_n_samples/</guid>
+      <description>Interesting and promissing approach to reduce number of samples during learning NN.
+Arxiv link.</description>
+    </item>
+    
+    <item>
+      <title>Send notification to yandex station</title>
+      <link>https://yantonov.com/2020/09/2020-09-20-19-34-send_notification_to_yandex_station/</link>
+      <pubDate>Sun, 20 Sep 2020 19:34:38 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-20-19-34-send_notification_to_yandex_station/</guid>
+      <description>A couple of repositories which helps to send voice message to yandex station.
+Unfortunately it is impossible to do it using official api.
+ yashhik yandexstation  </description>
+    </item>
+    
+    <item>
+      <title>Temporary email from command line</title>
+      <link>https://yantonov.com/2020/09/2020-09-15-21-50-temporary_email_from_command_line/</link>
+      <pubDate>Tue, 15 Sep 2020 21:50:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-15-21-50-temporary_email_from_command_line/</guid>
+      <description>tmpmail - command line tool which allows to create temporary mailbox and receive emails from the terminal.
+It uses 1secmail as a backend.
+Spend a couple of minutes to read concise, clean bash code.</description>
+    </item>
+    
+    <item>
+      <title>About form labels</title>
+      <link>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</link>
+      <pubDate>Sun, 13 Sep 2020 10:26:27 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-13-10-26-about_form_labels/</guid>
+      <description>Interesting article which explains the benefits of inlining labels inside form elements.
+source</description>
+    </item>
+    
+    <item>
+      <title>Clean python setup</title>
+      <link>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</link>
+      <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/09/2020-09-03-19-26-clean_python_setup/</guid>
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
+In a couple of words:
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
+    </item>
+    
+    <item>
+      <title>WebRTC for the curious</title>
+      <link>https://yantonov.com/2020/08/2020-08-31-13-37-webrtc_for_the_curious/</link>
+      <pubDate>Mon, 31 Aug 2020 13:37:26 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-31-13-37-webrtc_for_the_curious/</guid>
+      <description>Free book about webRTC.
+Github repository</description>
+    </item>
+    
+  </channel>
+</rss>

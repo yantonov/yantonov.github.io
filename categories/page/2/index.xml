@@ -5,10 +5,21 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 May 2022 17:18:48 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 12 May 2022 10:39:49 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Nice alternative to mocks, generate stub implementation</title>
+      <link>https://yantonov.com/2020/08/2020-08-27-17-47-nice_alternative_to_mocks_generate_stub_implementation/</link>
+      <pubDate>Thu, 27 Aug 2020 17:47:15 +0500</pubDate>
+      
+      <guid>https://yantonov.com/2020/08/2020-08-27-17-47-nice_alternative_to_mocks_generate_stub_implementation/</guid>
+      <description>Here is nice go library named &amp;lsquo;moq&amp;rsquo; that helps you to easily test dependent code but without verbose mocks setup.
+The idea is to generate trivial implementations and just save all the calls as a list preserving all the arguments.
+Using this you can simply assert all the invariants and stop to write long mock setup.</description>
+    </item>
     
     <item>
       <title>Umbrella</title>
@@ -210,17 +221,6 @@ written by Martin Kleppmann [twitter], Alastair R. Beresford [twitter], and Boer
   Life beyond Distributed Transactions: an Apostate’s Opinion [link]
 written by Pat Helland [twitter]
   </description>
-    </item>
-    
-    <item>
-      <title>How to remember ssh keys on mac os</title>
-      <link>https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</link>
-      <pubDate>Sun, 15 Dec 2019 19:04:37 +0500</pubDate>
-      
-      <guid>https://yantonov.com/2019/12/2019-12-15-how_to_remember_ssh_keys_on_mac_os/</guid>
-      <description>Got tired to enter ssh passphrases on mac os and want to know how easily force ssh-agent to remember ssh keys?
-Add this snippet to ~/.ssh/config file:
-Host * AddKeysToAgent yes UseKeychain yes Source</description>
     </item>
     
   </channel>
