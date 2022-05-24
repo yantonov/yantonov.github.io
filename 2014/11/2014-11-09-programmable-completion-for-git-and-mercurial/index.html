@@ -23,11 +23,11 @@
     <meta name="description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation." />
-    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
     <title>Programmable completion for git and mercurial - (map solve problems)</title>
     
     
-    <link rel="stylesheet" href="https://yantonov.com/css/style.min.7dc20efbc53647d41aa9ddea0c48e59300223d084e66ea0cbe7c30bd88903acc.css">
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.544edf4e480fd84dba4b535b9c42ace7af9a975d149b3f584c0e3a6f120cee55.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -43,14 +43,13 @@ First problem - eager evaluation. General commands for git and mercurial are cal
 <meta itemprop="description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
 First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.">
-<meta itemprop="datePublished" content="2014-11-09T22:52:36+05:00" />
-<meta itemprop="dateModified" content="2014-11-09T22:52:36+05:00" />
+<meta itemprop="datePublished" content="2014-11-09T22:52:36&#43;05:00" />
+<meta itemprop="dateModified" content="2014-11-09T22:52:36&#43;05:00" />
 <meta itemprop="wordCount" content="589">
 
 
 
-<meta itemprop="keywords" content="emacs,lisp,git,mercurial," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="emacs,lisp,git,mercurial," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Programmable completion for git and mercurial"/>
 <meta name="twitter:description" content="Some time ago i read excellent post about emacs library pcomplete.
 The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
@@ -973,8 +972,8 @@ First problem - eager evaluation. General commands for git and mercurial are cal
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 589words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Count: 3minutes </span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 589 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 3 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
@@ -1016,7 +1015,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
           (push (match-string <span style="color:#ae81ff">1</span>) commands)
           (when (match-string <span style="color:#ae81ff">2</span>)
             (push (match-string <span style="color:#ae81ff">2</span>) commands)))
-        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;string&lt;</span>)))))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
 
 (defconst cached__pcmpl-git-commands (cached <span style="color:#e6db74">&#39;pcmpl-git-commands</span>)
   <span style="color:#e6db74">&#34;Cached list of `git&#39; commands.&#34;</span>)
@@ -1076,7 +1075,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
                 (push (match-string <span style="color:#ae81ff">1</span>) commands)
               (dolist (c (split-string match <span style="color:#e6db74">&#34;, ?&#34;</span>))
                 (push c commands)))))
-        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;string&lt;</span>)))))
+        (<span style="color:#a6e22e">sort</span> commands <span style="color:#a6e22e">#&#39;</span><span style="color:#a6e22e">string&lt;</span>)))))
 
 (defconst cached__pcmpl-hg-commands (cached <span style="color:#e6db74">&#39;pcmpl-hg-commands</span>))
 
@@ -1101,7 +1100,8 @@ First problem - eager evaluation. General commands for git and mercurial are cal
       <a href="https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/" title="Programmable completion for git and mercurial" target="_blank" rel="external">https://yantonov.com/2014/11/2014-11-09-programmable-completion-for-git-and-mercurial/</a>
     </li>
     <li class="post-copyright-license">
-      <strong>License：</strong><a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN</a>
+      <strong>License: </strong>
+        
     </li>
   </ul>
 </blockquote>
@@ -1121,6 +1121,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     </figure>
   </div>
 </div>
+
     </div>
   </article>
 <section id="comments">
@@ -1160,6 +1161,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     </div>
 </nav>
 
+
 </main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
 <ul class="social-links">
     <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
@@ -1175,6 +1177,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     <div class="publishby">
         Theme by <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>base on<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
     </div>
+    
   </div>
 </footer>
 
@@ -1189,10 +1192,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-<script>
-    window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
-</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1235,18 +1235,21 @@ First problem - eager evaluation. General commands for git and mercurial are cal
     });
 </script>
 
+
 <script>
-    var disqus_config = function () {
-        this.page.url = 'https:\/\/yantonov.com\/2014\/11\/2014-11-09-programmable-completion-for-git-and-mercurial\/';
-        this.page.identifier = 'yantonov';
-    };
-    (function () {
-        var d = document, s = d.createElement('script');
-        s.src = '//' + 'yantonov' + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = '';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
 </script>
+
 
   </body>
 </html>
