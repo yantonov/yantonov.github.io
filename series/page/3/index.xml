@@ -36,7 +36,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
-      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -103,7 +103,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>

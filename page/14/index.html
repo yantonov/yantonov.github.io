@@ -20,7 +20,7 @@
     
     
     
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>(map solve problems)</title>
     
     <link rel="alternate" type="application/rss+xml" href="https://yantonov.com/index.xml" title="(map solve problems)" />
@@ -35,7 +35,8 @@
 <meta property="og:url" content="https://yantonov.com/" />
 <meta property="og:updated_time" content="2022-05-12T10:39:49+02:00" />
 <meta itemprop="name" content="(map solve problems)">
-<meta itemprop="description" content=""><meta name="twitter:card" content="summary"/>
+<meta itemprop="description" content="">
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="(map solve problems)"/>
 <meta name="twitter:description" content=""/>
 
@@ -1024,7 +1025,7 @@ It seems, its time to start learning go
         One of the popular interivew tasks&hellip;
 You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
 Here is straghtforward solution in haskell
-{-data Node a instance Eq a =&gt; Eq (Node a) next :: Node a -&gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&gt; Node a -&gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&gt; Node node -&gt; Node node -&gt; Int -&gt; Phase -&gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)
+{- data Node a instance Eq a =&gt; Eq (Node a) next :: Node a -&gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&gt; Node a -&gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&gt; Node node -&gt; Node node -&gt; Int -&gt; Phase -&gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)
       </div>
       <p class="article-meta">
 <span class="article-date">
@@ -1050,7 +1051,7 @@ Here is straghtforward solution in haskell
   </span>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2015-02-21-find-the-length-of-the-loop/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 201 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 202 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </p>
     </article>
@@ -1070,7 +1071,7 @@ Here is straghtforward solution in haskell
 
       </div>
       <div class="article-entry text-muted" itemprop="description">
-        There is nice leiningen plugin named &ldquo;Ultra&rdquo; which can significantly improve your clojure&lsquo;s repl interaction.
+        There is nice leiningen plugin named &ldquo;Ultra&rdquo; which can significantly improve your clojure&rsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  
       </div>
@@ -1195,7 +1196,7 @@ p.s. fyi header field definitions rfc2616
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 

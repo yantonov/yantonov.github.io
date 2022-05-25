@@ -23,7 +23,7 @@
     <meta name="description" content="Aaaah! Today I faced a strange error message from docker.
  =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
  In ~/.docker/config.json change credsStore to credStore Source" />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Docker error: error getting credentials - (map solve problems)</title>
     
     
@@ -43,13 +43,14 @@
 <meta itemprop="description" content="Aaaah! Today I faced a strange error message from docker.
  =&gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &quot;docker-credential-desktop.exe&quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
  In ~/.docker/config.json change credsStore to credStore Source">
-<meta itemprop="datePublished" content="2021-03-06T21:57:43&#43;01:00" />
-<meta itemprop="dateModified" content="2021-03-06T21:57:43&#43;01:00" />
+<meta itemprop="datePublished" content="2021-03-06T21:57:43+01:00" />
+<meta itemprop="dateModified" content="2021-03-06T21:57:43+01:00" />
 <meta itemprop="wordCount" content="73">
 
 
 
-<meta itemprop="keywords" content="docker,error," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="docker,error," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Docker error: error getting credentials"/>
 <meta name="twitter:description" content="Aaaah! Today I faced a strange error message from docker.
  =&gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &quot;docker-credential-desktop.exe&quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
@@ -1087,7 +1088,7 @@ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rp
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1139,7 +1140,7 @@ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rp
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'yantonov';
+    var disqus_shortname = '';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();

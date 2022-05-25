@@ -23,7 +23,7 @@
     <meta name="description" content="Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
 To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
 export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal)." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Mac os environment variables - (map solve problems)</title>
     
     
@@ -43,13 +43,14 @@ export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant us
 <meta itemprop="description" content="Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
 To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
 export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal).">
-<meta itemprop="datePublished" content="2014-10-27T02:36:04&#43;05:00" />
-<meta itemprop="dateModified" content="2014-10-27T02:36:04&#43;05:00" />
+<meta itemprop="datePublished" content="2014-10-27T02:36:04+05:00" />
+<meta itemprop="dateModified" content="2014-10-27T02:36:04+05:00" />
 <meta itemprop="wordCount" content="356">
 
 
 
-<meta itemprop="keywords" content="mac,environment,shell," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="mac,environment,shell," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Mac os environment variables"/>
 <meta name="twitter:description" content="Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
 To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
@@ -999,7 +1000,7 @@ Hhhhaaa, add this into .profile.</p>
 </code></pre></div><p>So final version of the script:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e"># patch PATH for terminal programs</span>
 <span style="color:#75715e"># check variable hasnt already patched</span>
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> $PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]</span><span style="color:#f92672">]</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]]</span>
 <span style="color:#66d9ef">then</span>
     export PATH<span style="color:#f92672">=</span>$ADDITIONAL_PATH:$PATH
 <span style="color:#66d9ef">fi</span>
@@ -1008,7 +1009,7 @@ Hhhhaaa, add this into .profile.</p>
 <span style="color:#75715e"># preserve old values</span>
 OLD_GUI_PATH<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>launchctl getenv PATH<span style="color:#e6db74">`</span>
 <span style="color:#75715e"># check if has not already patched</span>
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> $OLD_GUI_PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]</span><span style="color:#f92672">]</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $OLD_GUI_PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]]</span>
 <span style="color:#66d9ef">then</span>
     NEW_GUI_PATH<span style="color:#f92672">=</span>$ADDITIONAL_PATH:$OLD_GUI_PATH
     launchctl setenv PATH $NEW_GUI_PATH
@@ -1119,7 +1120,7 @@ Updated solution can be found <a href="/blog/2014/11/04/path-variable-for-gui-pr
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1171,7 +1172,7 @@ Updated solution can be found <a href="/blog/2014/11/04/path-variable-for-gui-pr
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'yantonov';
+    var disqus_shortname = '';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();

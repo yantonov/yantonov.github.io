@@ -26,7 +26,7 @@ Of course you edit .bash_profile, .bashrc, .profile or other scripts and this wo
 GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
 So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
 Moreover, after update to Mac Os X 10." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>PATH variable for gui programs (Mac Os) - (map solve problems)</title>
     
     
@@ -52,13 +52,14 @@ Of course you edit .bash_profile, .bashrc, .profile or other scripts and this wo
 GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &lsquo;launchctl setenv PATH &lt;PATH_VALUE&gt;&rsquo;.
 So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
 Moreover, after update to Mac Os X 10.">
-<meta itemprop="datePublished" content="2014-11-04T19:22:34&#43;05:00" />
-<meta itemprop="dateModified" content="2014-11-04T19:22:34&#43;05:00" />
-<meta itemprop="wordCount" content="412">
+<meta itemprop="datePublished" content="2014-11-04T19:22:34+05:00" />
+<meta itemprop="dateModified" content="2014-11-04T19:22:34+05:00" />
+<meta itemprop="wordCount" content="413">
 
 
 
-<meta itemprop="keywords" content="mac,shell,environment," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="mac,shell,environment," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="PATH variable for gui programs (Mac Os)"/>
 <meta name="twitter:description" content="Foreword:
 Sometimes you need to edit PATH variable.
@@ -983,7 +984,7 @@ Moreover, after update to Mac Os X 10."/>
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/2014-11-04-path-variable-for-gui-programs-mac-os/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 412 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 413 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
       </div>
     </div>
@@ -1016,7 +1017,7 @@ OLD_GUI_PATH<span style="color:#f92672">=</span><span style="color:#e6db74">`</s
 
 <span style="color:#75715e"># if initial path is empty fill it using /etc/paths, otherwise</span>
 <span style="color:#75715e"># you cant use apps in system directories</span>
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> -z <span style="color:#e6db74">&#34;</span>$OLD_GUI_PATH<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]</span><span style="color:#f92672">]</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> -z <span style="color:#e6db74">&#34;</span>$OLD_GUI_PATH<span style="color:#e6db74">&#34;</span> <span style="color:#f92672">]]</span>
 <span style="color:#66d9ef">then</span>
     OLD_GUI_PATH<span style="color:#f92672">=</span><span style="color:#e6db74">`</span>cat /etc/paths | tr <span style="color:#e6db74">&#34;\n&#34;</span> <span style="color:#e6db74">&#34;:&#34;</span> | sed <span style="color:#e6db74">&#39;s/:$//&#39;</span><span style="color:#e6db74">`</span>
 <span style="color:#66d9ef">fi</span>
@@ -1029,7 +1030,7 @@ OLD_GUI_PATH<span style="color:#f92672">=</span><span style="color:#e6db74">`</s
 source ~/.profile
 
 <span style="color:#75715e"># patch gui PATH varible</span>
-<span style="color:#66d9ef">if</span> <span style="color:#f92672">[</span><span style="color:#f92672">[</span> $OLD_GUI_PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]</span><span style="color:#f92672">]</span>
+<span style="color:#66d9ef">if</span> <span style="color:#f92672">[[</span> $OLD_GUI_PATH !<span style="color:#f92672">=</span> *$ADDITIONAL_PATH* <span style="color:#f92672">]]</span>
 <span style="color:#66d9ef">then</span>
     NEW_GUI_PATH<span style="color:#f92672">=</span>$ADDITIONAL_PATH:$OLD_GUI_PATH
     launchctl setenv PATH $NEW_GUI_PATH
@@ -1039,24 +1040,24 @@ source ~/.profile
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#75715e">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
 <span style="color:#75715e">&lt;!DOCTYPE plist PUBLIC &#34;-//Apple//DTD PLIST 1.0//EN&#34; &#34;http://www.apple.com/DTDs/PropertyList-1.0.dtd&#34;&gt;</span>
 <span style="color:#f92672">&lt;plist</span> <span style="color:#a6e22e">version=</span><span style="color:#e6db74">&#34;1.0&#34;</span><span style="color:#f92672">&gt;</span>
-<span style="color:#f92672">&lt;dict</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;key</span><span style="color:#f92672">&gt;</span>Label<span style="color:#f92672">&lt;/key&gt;</span>
-    <span style="color:#f92672">&lt;string</span><span style="color:#f92672">&gt;</span>com.example.gui.path.fix<span style="color:#f92672">&lt;/string&gt;</span>
-    <span style="color:#f92672">&lt;key</span><span style="color:#f92672">&gt;</span>ProgramArguments<span style="color:#f92672">&lt;/key&gt;</span>
-    <span style="color:#f92672">&lt;array</span><span style="color:#f92672">&gt;</span>
-        <span style="color:#f92672">&lt;string</span><span style="color:#f92672">&gt;</span>***PATH_TO_SCRIPT***/fix-gui-path.sh<span style="color:#f92672">&lt;/string&gt;</span>
+<span style="color:#f92672">&lt;dict&gt;</span>
+    <span style="color:#f92672">&lt;key&gt;</span>Label<span style="color:#f92672">&lt;/key&gt;</span>
+    <span style="color:#f92672">&lt;string&gt;</span>com.example.gui.path.fix<span style="color:#f92672">&lt;/string&gt;</span>
+    <span style="color:#f92672">&lt;key&gt;</span>ProgramArguments<span style="color:#f92672">&lt;/key&gt;</span>
+    <span style="color:#f92672">&lt;array&gt;</span>
+        <span style="color:#f92672">&lt;string&gt;</span>***PATH_TO_SCRIPT***/fix-gui-path.sh<span style="color:#f92672">&lt;/string&gt;</span>
     <span style="color:#f92672">&lt;/array&gt;</span>
-    <span style="color:#75715e">&lt;!--</span><span style="color:#75715e"> to avoid absolute path
+    <span style="color:#75715e">&lt;!-- to avoid absolute path
 </span><span style="color:#75715e">        &lt;string&gt;sh&lt;/string&gt;
-</span><span style="color:#75715e">        &lt;string&gt;</span><span style="color:#75715e">-</span><span style="color:#75715e">c&lt;/string&gt;
+</span><span style="color:#75715e">        &lt;string&gt;-c&lt;/string&gt;
 </span><span style="color:#75715e">        &lt;string&gt;&#34;$HOME/***RELATIVE_PATH***&lt;/string&gt;
-</span><span style="color:#75715e">    </span><span style="color:#75715e">--&gt;</span>
-    <span style="color:#f92672">&lt;key</span><span style="color:#f92672">&gt;</span>RunAtLoad<span style="color:#f92672">&lt;/key&gt;</span>
-    <span style="color:#f92672">&lt;true</span><span style="color:#f92672">/&gt;</span>
-    <span style="color:#f92672">&lt;key</span><span style="color:#f92672">&gt;</span>ExitTimeOut<span style="color:#f92672">&lt;/key&gt;</span>
-    <span style="color:#f92672">&lt;integer</span><span style="color:#f92672">&gt;</span>0<span style="color:#f92672">&lt;/integer&gt;</span>
-    <span style="color:#f92672">&lt;key</span><span style="color:#f92672">&gt;</span>ProcessType<span style="color:#f92672">&lt;/key&gt;</span>
-    <span style="color:#f92672">&lt;string</span><span style="color:#f92672">&gt;</span>Background<span style="color:#f92672">&lt;/string&gt;</span>
+</span><span style="color:#75715e">    --&gt;</span>
+    <span style="color:#f92672">&lt;key&gt;</span>RunAtLoad<span style="color:#f92672">&lt;/key&gt;</span>
+    <span style="color:#f92672">&lt;true/&gt;</span>
+    <span style="color:#f92672">&lt;key&gt;</span>ExitTimeOut<span style="color:#f92672">&lt;/key&gt;</span>
+    <span style="color:#f92672">&lt;integer&gt;</span>0<span style="color:#f92672">&lt;/integer&gt;</span>
+    <span style="color:#f92672">&lt;key&gt;</span>ProcessType<span style="color:#f92672">&lt;/key&gt;</span>
+    <span style="color:#f92672">&lt;string&gt;</span>Background<span style="color:#f92672">&lt;/string&gt;</span>
 <span style="color:#f92672">&lt;/dict&gt;</span>
 <span style="color:#f92672">&lt;/plist&gt;</span>
 </code></pre></div><p>where
@@ -1166,7 +1167,7 @@ Place this file into ~/Library/LaunchAgents/.</p>
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1218,7 +1219,7 @@ Place this file into ~/Library/LaunchAgents/.</p>
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'yantonov';
+    var disqus_shortname = '';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();

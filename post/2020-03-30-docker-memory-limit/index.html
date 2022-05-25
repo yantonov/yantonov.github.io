@@ -24,7 +24,7 @@
 Docker has a couple of flags to control application inside the container.
  &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap &#43; non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number" />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Docker memory limit - (map solve problems)</title>
     
     
@@ -46,13 +46,14 @@ cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in som
 Docker has a couple of flags to control application inside the container.
  &ndash;memory flag defines non swap memory limit &ndash;memory-swap flag defines total memory limit (swap &#43; non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number">
-<meta itemprop="datePublished" content="2020-03-30T08:16:41&#43;05:00" />
-<meta itemprop="dateModified" content="2020-03-30T08:16:41&#43;05:00" />
+<meta itemprop="datePublished" content="2020-03-30T08:16:41+05:00" />
+<meta itemprop="dateModified" content="2020-03-30T08:16:41+05:00" />
 <meta itemprop="wordCount" content="91">
 
 
 
-<meta itemprop="keywords" content="docker,memory,limit,ops," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="docker,memory,limit,ops," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Docker memory limit"/>
 <meta name="twitter:description" content="There are some options to control application memory consumption.
 Docker has a couple of flags to control application inside the container.
@@ -1095,7 +1096,7 @@ To check it</p>
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.0/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
     hljs.configure({
         tabReplace: '    ', 
@@ -1147,7 +1148,7 @@ To check it</p>
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'yantonov';
+    var disqus_shortname = '';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
