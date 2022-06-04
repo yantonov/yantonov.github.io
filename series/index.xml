@@ -10,6 +10,16 @@
     
     
     <item>
+      <title>About static types</title>
+      <link>https://yantonov.com/post/2022-06-04-about-static-types/</link>
+      <pubDate>Sat, 04 Jun 2022 20:04:06 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2022-06-04-about-static-types/</guid>
+      <description>A couple of notes about static and dynamic types
+ Literature review on the benefits of static types This is how science happens  </description>
+    </item>
+    
+    <item>
       <title>Usecase for git refs</title>
       <link>https://yantonov.com/post/2022-05-12-usecase-for-git-refs/</link>
       <pubDate>Thu, 12 May 2022 10:39:49 +0200</pubDate>
@@ -211,16 +221,6 @@ source</description>
       <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
  pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
-    </item>
-    
-    <item>
-      <title>WebRTC for the curious</title>
-      <link>https://yantonov.com/post/2020-08-31-webrtc-for-the-curious/</link>
-      <pubDate>Mon, 31 Aug 2020 13:37:26 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-08-31-webrtc-for-the-curious/</guid>
-      <description>Free book about webRTC.
-Github repository</description>
     </item>
     
   </channel>

@@ -5,10 +5,20 @@
     <link>https://yantonov.com/tags/</link>
     <description>Recent content in Tags on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 12 May 2022 10:39:49 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jun 2022 20:04:06 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WebRTC for the curious</title>
+      <link>https://yantonov.com/post/2020-08-31-webrtc-for-the-curious/</link>
+      <pubDate>Mon, 31 Aug 2020 13:37:26 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2020-08-31-webrtc-for-the-curious/</guid>
+      <description>Free book about webRTC.
+Github repository</description>
+    </item>
     
     <item>
       <title>Nice alternative to mocks, generate stub implementation</title>
@@ -207,20 +217,6 @@ Source</description>
       <guid>https://yantonov.com/post/2019-12-19-state-of-enterprise-ml/</guid>
       <description>The 2020 State of Enterprise Machine Learning report
 download</description>
-    </item>
-    
-    <item>
-      <title>About distributed transactions</title>
-      <link>https://yantonov.com/post/2019-12-19-about-distributed-transactions/</link>
-      <pubDate>Thu, 19 Dec 2019 14:52:38 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2019-12-19-about-distributed-transactions/</guid>
-      <description>A couple of articles about distributed transactions and scalability:
-  Online Event Processing Achieving consistency where distributed transactions have failed [link]
-written by Martin Kleppmann [twitter], Alastair R. Beresford [twitter], and Boerge Svingen [twitter]
-  Life beyond Distributed Transactions: an Apostate’s Opinion [link]
-written by Pat Helland [twitter]
-  </description>
     </item>
     
   </channel>
