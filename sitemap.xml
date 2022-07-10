@@ -4,7 +4,77 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/adr/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/architecture/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/nasd/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/programming/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/rfc/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/system-design/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,35 +87,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/categories/computer-science/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/programming/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2022-06-04T20:04:06+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -158,13 +200,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/nalsd/</loc>
-    <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/system-design/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -383,13 +418,6 @@
   <url>
     <loc>https://yantonov.com/tags/troubleshooting/</loc>
     <lastmod>2020-11-14T11:30:58+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/architecture/</loc>
-    <lastmod>2020-10-31T13:09:03+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1628,13 +1656,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/optimization/</loc>
-    <lastmod>2015-01-25T16:30:47+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/rfc/</loc>
     <lastmod>2015-01-25T16:30:47+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

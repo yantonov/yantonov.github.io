@@ -5,10 +5,21 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Jun 2022 20:04:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git rerere</title>
+      <link>https://yantonov.com/post/2014-11-04-git-rerere/</link>
+      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2014-11-04-git-rerere/</guid>
+      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
+Let see how its works:
+# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
+    </item>
     
     <item>
       <title>Platform specific build event</title>
@@ -18,7 +29,7 @@
       <guid>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>

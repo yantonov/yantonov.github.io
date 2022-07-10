@@ -5,10 +5,19 @@
     <link>https://yantonov.com/categories/programming/</link>
     <description>Recent content in programming on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Jun 2022 20:04:06 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About RFC\ADR\design docs</title>
+      <link>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</link>
+      <pubDate>Sun, 10 Jul 2022 14:04:28 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</guid>
+      <description>Nice article about the topic.</description>
+    </item>
     
     <item>
       <title>About static types</title>
@@ -211,17 +220,6 @@ Spend a couple of minutes to read concise, clean bash code.</description>
       <guid>https://yantonov.com/post/2020-09-13-about-form-labels/</guid>
       <description>Interesting article which explains the benefits of inlining labels inside form elements.
 source</description>
-    </item>
-    
-    <item>
-      <title>Clean python setup</title>
-      <link>https://yantonov.com/post/2020-09-03-clean-python-setup/</link>
-      <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-09-03-clean-python-setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
-In a couple of words:
- pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
     </item>
     
   </channel>

@@ -5,10 +5,20 @@
     <link>https://yantonov.com/tags/architecture/</link>
     <description>Recent content in architecture on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 13:09:03 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>State of enterprise ML</title>
+      <link>https://yantonov.com/post/2019-12-19-state-of-enterprise-ml/</link>
+      <pubDate>Thu, 19 Dec 2019 16:44:47 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2019-12-19-state-of-enterprise-ml/</guid>
+      <description>The 2020 State of Enterprise Machine Learning report
+download</description>
+    </item>
     
     <item>
       <title>About distributed transactions</title>
@@ -51,7 +61,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
-      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -118,7 +128,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -208,15 +218,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
       
       <guid>https://yantonov.com/post/2015-10-01-distributed-systems-papers/</guid>
       <description>List of papers on distributed systems</description>
-    </item>
-    
-    <item>
-      <title>Deep learning resouces</title>
-      <link>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</link>
-      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</guid>
-      <description>Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</description>
     </item>
     
   </channel>

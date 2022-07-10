@@ -5,10 +5,19 @@
     <link>https://yantonov.com/tags/rfc/</link>
     <description>Recent content in rfc on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 25 Jan 2015 16:30:47 +0500</lastBuildDate>
+    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/rfc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Deep learning resouces</title>
+      <link>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</link>
+      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</guid>
+      <description>Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</description>
+    </item>
     
     <item>
       <title>Crdt reading list</title>
@@ -34,7 +43,7 @@
       <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
+      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
     <item>
@@ -100,7 +109,7 @@ It seems, its time to start learning go</description>
       <description>One of the popular interivew tasks&amp;hellip;
 You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
 Here is straghtforward solution in haskell
-{- data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
     </item>
     
     <item>
@@ -109,7 +118,7 @@ Here is straghtforward solution in haskell
       <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2015-02-03-ultra-leiningen-plugin/</guid>
-      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;rsquo;s repl interaction.
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
     </item>
@@ -213,17 +222,6 @@ Of course you edit .bash_profile, .bashrc, .profile or other scripts and this wo
 GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
 So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
 Moreover, after update to Mac Os X 10.</description>
-    </item>
-    
-    <item>
-      <title>Git rerere</title>
-      <link>https://yantonov.com/post/2014-11-04-git-rerere/</link>
-      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2014-11-04-git-rerere/</guid>
-      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
-Let see how its works:
-# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
     </item>
     
   </channel>
