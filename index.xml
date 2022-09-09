@@ -5,10 +5,22 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 22:22:48 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>WSL network name cannot be found</title>
+      <link>https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/</link>
+      <pubDate>Fri, 09 Sep 2022 22:22:48 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/</guid>
+      <description>If you face this issue working with WSL, the root cause of the problem is invalid current directory.
+How to fix it:
+ open powershell select home directory   wsl -d DISTRO --cd ~ where DISTRO is the name of the distribution, that can be obtained
+ wsl -l Source</description>
+    </item>
     
     <item>
       <title>About RFC\ADR\design docs</title>
@@ -210,16 +222,6 @@ Unfortunately it is impossible to do it using official api.
       <description>tmpmail - command line tool which allows to create temporary mailbox and receive emails from the terminal.
 It uses 1secmail as a backend.
 Spend a couple of minutes to read concise, clean bash code.</description>
-    </item>
-    
-    <item>
-      <title>About form labels</title>
-      <link>https://yantonov.com/post/2020-09-13-about-form-labels/</link>
-      <pubDate>Sun, 13 Sep 2020 10:26:27 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-09-13-about-form-labels/</guid>
-      <description>Interesting article which explains the benefits of inlining labels inside form elements.
-source</description>
     </item>
     
   </channel>

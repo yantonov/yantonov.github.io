@@ -5,10 +5,24 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 10 Jul 2022 14:04:28 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 09 Sep 2022 22:22:48 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PATH variable for gui programs (Mac Os)</title>
+      <link>https://yantonov.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</link>
+      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</guid>
+      <description>Foreword:
+Sometimes you need to edit PATH variable.
+Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
+So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
+Moreover, after update to Mac Os X 10.</description>
+    </item>
     
     <item>
       <title>Git rerere</title>
@@ -29,7 +43,7 @@ Let see how its works:
       <guid>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>

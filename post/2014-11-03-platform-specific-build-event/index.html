@@ -22,8 +22,8 @@
     
     <meta name="description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir)." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir)." />
+    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
     <title>Platform specific build event - (map solve problems)</title>
     
     
@@ -34,7 +34,7 @@ To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute a
     <meta property="og:title" content="Platform specific build event" />
 <meta property="og:description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
-&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)." />
+&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!-- windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!-- *nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yantonov.com/post/2014-11-03-platform-specific-build-event/" />
 <meta property="article:published_time" content="2014-11-03T13:43:28+05:00" />
@@ -42,18 +42,19 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
 <meta itemprop="name" content="Platform specific build event">
 <meta itemprop="description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
-&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir).">
-<meta itemprop="datePublished" content="2014-11-03T13:43:28&#43;05:00" />
-<meta itemprop="dateModified" content="2014-11-03T13:43:28&#43;05:00" />
-<meta itemprop="wordCount" content="102">
+&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!-- windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!-- *nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir).">
+<meta itemprop="datePublished" content="2014-11-03T13:43:28+05:00" />
+<meta itemprop="dateModified" content="2014-11-03T13:43:28+05:00" />
+<meta itemprop="wordCount" content="104">
 
 
 
-<meta itemprop="keywords" content="xamarin,.net," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="xamarin,.net," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Platform specific build event"/>
 <meta name="twitter:description" content="Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:
-&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!--windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!--*nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)."/>
+&lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;&gt; &lt;!-- windows specifics --&gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &lt;/PostBuildEvent&gt; &lt;PostBuildEvent Condition=&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;&gt; &lt;!-- *nix, mac specifics --&gt; cp -f $(TargetPath) $(ProjectDir)."/>
 
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -154,7 +155,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
         <ul class="category-list">
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">19</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">2</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">16</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">41</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -852,7 +853,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/windows/" class="tag-list-link">windows</a><span
-                    class="tag-list-count">2</span></li>
+                    class="tag-list-count">3</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/workflow/" class="tag-list-link">workflow</a><span
@@ -860,7 +861,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/wsl/" class="tag-list-link">wsl</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/xamarin/" class="tag-list-link">xamarin</a><span
@@ -879,6 +880,16 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/" class="title">WSL network name cannot be found</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-09-09 22:22:48 &#43;0200 CEST" itemprop="datePublished">2022-09-09</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -916,16 +927,6 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
                     </p>
                     <p class="item-date">
                         <time datetime="2022-05-11 17:18:48 &#43;0200 CEST" itemprop="datePublished">2022-05-11</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/" class="title">Move WSL to another drive</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-04-07 10:22:12 &#43;0200 CEST" itemprop="datePublished">2022-04-07</time>
                     </p>
                 </div>
             </li>
@@ -978,7 +979,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/2014-11-03-platform-specific-build-event/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 102 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 104 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </div>
     </div>
@@ -986,16 +987,16 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
       <p>Sometimes you need to build .net solution/project on different platforms (for example while developing <a href="http://xamarin.com/" title="xamarin">xamarin</a> based application). In that case pre/post build events may contain platform specific instructions.</p>
 <p>To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsquo;OS&rsquo; variable, for example, like this:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;PostBuildEvent</span> <span style="color:#a6e22e">Condition=</span><span style="color:#e6db74">&#34; &#39;$(OS)&#39; == &#39;Windows_NT&#39; &#34;</span><span style="color:#f92672">&gt;</span>
-  <span style="color:#75715e">&lt;!--</span><span style="color:#75715e">  windows specifics </span><span style="color:#75715e">--&gt;</span>
+  <span style="color:#75715e">&lt;!--  windows specifics --&gt;</span>
   copy $(TargetPath)  $(ProjectDir)../Assemblies /Y
 <span style="color:#f92672">&lt;/PostBuildEvent&gt;</span>
 <span style="color:#f92672">&lt;PostBuildEvent</span> <span style="color:#a6e22e">Condition=</span><span style="color:#e6db74">&#34; &#39;$(OS)&#39; == &#39;Unix&#39; &#34;</span><span style="color:#f92672">&gt;</span>
-  <span style="color:#75715e">&lt;!--</span><span style="color:#75715e">  *nix, mac specifics  </span><span style="color:#75715e">--&gt;</span>
+  <span style="color:#75715e">&lt;!--  *nix, mac specifics  --&gt;</span>
   cp -f $(TargetPath) $(ProjectDir)../Assemblies
 <span style="color:#f92672">&lt;/PostBuildEvent&gt;</span>
 </code></pre></div><p>If OS macro is undefined, you can explicitly define it at project level (projectName.cproj) like this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;PropertyGroup</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;OS</span><span style="color:#f92672">&gt;</span>Unix<span style="color:#f92672">&lt;/OS&gt;</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;PropertyGroup&gt;</span>
+    <span style="color:#f92672">&lt;OS&gt;</span>Unix<span style="color:#f92672">&lt;/OS&gt;</span>
 <span style="color:#f92672">&lt;/PropertyGroup&gt;</span>
 </code></pre></div><p>Or pass as parameter to msbuild/xbuild tool (like this /property:name=value)</p>
 
@@ -1152,7 +1153,7 @@ To handle this situation you can use &lsquo;Condition&rsquo; attribute and &lsqu
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
+    var disqus_shortname = 'yantonov';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
