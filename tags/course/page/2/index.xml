@@ -5,10 +5,21 @@
     <link>https://yantonov.com/tags/course/</link>
     <description>Recent content in course on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Aug 2021 02:15:23 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 22:46:09 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/course/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Temporary email from command line</title>
+      <link>https://yantonov.com/post/2020-09-15-temporary-email-from-command-line/</link>
+      <pubDate>Tue, 15 Sep 2020 21:50:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2020-09-15-temporary-email-from-command-line/</guid>
+      <description>tmpmail - command line tool which allows to create temporary mailbox and receive emails from the terminal.
+It uses 1secmail as a backend.
+Spend a couple of minutes to read concise, clean bash code.</description>
+    </item>
     
     <item>
       <title>About form labels</title>
@@ -26,9 +37,9 @@ source</description>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-09-03-clean-python-setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
- pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
     </item>
     
     <item>
@@ -125,7 +136,7 @@ Facebook tried to use it and results seem very promising.</description>
       <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-02-26-fix-flash-drive-block-size/</guid>
-      <description>Let&amp;rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
@@ -157,7 +168,7 @@ source</description>
       <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</guid>
-      <description>Here is the description of a bunch of JVM&amp;rsquo;s flags and some recommendations how to use them.</description>
+      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
     </item>
     
     <item>
@@ -207,17 +218,6 @@ Source.</description>
       <guid>https://yantonov.com/post/2019-12-22-resilience4j/</guid>
       <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
 Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
-    </item>
-    
-    <item>
-      <title>Stacked diffs versus pull requests</title>
-      <link>https://yantonov.com/post/2019-12-21-stacked-diffs-versus-pull-requests/</link>
-      <pubDate>Sat, 21 Dec 2019 23:18:26 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2019-12-21-stacked-diffs-versus-pull-requests/</guid>
-      <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
-Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
- In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.</description>
     </item>
     
   </channel>

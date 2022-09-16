@@ -24,7 +24,7 @@
 git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
 git log -p Here you can see escaped file name, and obvious its hard to read.
 diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null &#43;&#43;&#43; &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 &#43;1 @@ &#43;test To handle this case there is config options &amp;lsquo;core." />
-    <meta name="generator" content="Hugo 0.78.2 with theme pure" />
+    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
     <title>List non latin file names in git - (map solve problems)</title>
     
     
@@ -46,14 +46,13 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
 git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
 git log -p Here you can see escaped file name, and obvious its hard to read.
 diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null &#43;&#43;&#43; &quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 &#43;1 @@ &#43;test To handle this case there is config options &lsquo;core.">
-<meta itemprop="datePublished" content="2014-12-07T23:32:31+05:00" />
-<meta itemprop="dateModified" content="2014-12-07T23:32:31+05:00" />
+<meta itemprop="datePublished" content="2014-12-07T23:32:31&#43;05:00" />
+<meta itemprop="dateModified" content="2014-12-07T23:32:31&#43;05:00" />
 <meta itemprop="wordCount" content="200">
 
 
 
-<meta itemprop="keywords" content="git,vcs,scm,tip,trick,filename,encoding," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="git,vcs,scm,tip,trick,filename,encoding," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="List non latin file names in git"/>
 <meta name="twitter:description" content="Imagine you have commited file which name contain non latin letters.
 git init test-repo cd test-repo echo &#34;test&#34; &gt; тест.тэхэтэ git add . git commit -m &#34;initial commit&#34; Ok, lets list files changed at revision
@@ -157,7 +156,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
@@ -305,7 +304,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/course/" class="tag-list-link">course</a><span
-                    class="tag-list-count">5</span></li>
+                    class="tag-list-count">6</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/crdt/" class="tag-list-link">crdt</a><span
@@ -321,7 +320,7 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/data-structures/" class="tag-list-link">data-structures</a><span
-                    class="tag-list-count">3</span></li>
+                    class="tag-list-count">4</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/deep-learning/" class="tag-list-link">deep-learning</a><span
@@ -887,6 +886,16 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/post/2022-09-16-advanced-data-structures-m-i-t-course/" class="title">Advanced data structures m i t course</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2022-09-16 22:46:09 &#43;0200 CEST" itemprop="datePublished">2022-09-16</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/" class="title">WSL network name cannot be found</a>
                     </p>
                     <p class="item-date">
@@ -921,16 +930,6 @@ diff --git &quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321
                     </p>
                     <p class="item-date">
                         <time datetime="2022-05-12 10:39:49 &#43;0200 CEST" itemprop="datePublished">2022-05-12</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2022-05-11-link-imbalance/" class="title">Link imbalance</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2022-05-11 17:18:48 &#43;0200 CEST" itemprop="datePublished">2022-05-11</time>
                     </p>
                 </div>
             </li>
@@ -1185,7 +1184,7 @@ index 0000000..9daeafb
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = 'yantonov';
+    var disqus_shortname = '';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();

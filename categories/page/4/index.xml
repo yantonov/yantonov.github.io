@@ -5,10 +5,22 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Sep 2022 22:22:48 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 22:46:09 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Delete package from Mac OS</title>
+      <link>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</link>
+      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</guid>
+      <description>Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
+There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
+To automate the process i have wrote this script uninstall-pkg.sh
+#!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!</description>
+    </item>
     
     <item>
       <title>Distributed systems papers</title>
@@ -52,7 +64,7 @@
       <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&amp;rsquo;s great talk about functional composition in general and transducers in particular.</description>
+      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
     </item>
     
     <item>
@@ -118,7 +130,7 @@ It seems, its time to start learning go</description>
       <description>One of the popular interivew tasks&amp;hellip;
 You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
 Here is straghtforward solution in haskell
-{- data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
     </item>
     
     <item>
@@ -127,7 +139,7 @@ Here is straghtforward solution in haskell
       <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2015-02-03-ultra-leiningen-plugin/</guid>
-      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;rsquo;s repl interaction.
+      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
 Main features:
  colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
     </item>
@@ -206,17 +218,6 @@ hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n /
       <description>Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
 Summary:
 type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</description>
-    </item>
-    
-    <item>
-      <title>Programmable completion for git and mercurial</title>
-      <link>https://yantonov.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</link>
-      <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</guid>
-      <description>Some time ago i read excellent post about emacs library pcomplete.
-The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
-First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</description>
     </item>
     
   </channel>

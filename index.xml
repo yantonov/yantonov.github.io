@@ -5,10 +5,19 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 09 Sep 2022 22:22:48 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 16 Sep 2022 22:46:09 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Advanced data structures m i t course</title>
+      <link>https://yantonov.com/post/2022-09-16-advanced-data-structures-m-i-t-course/</link>
+      <pubDate>Fri, 16 Sep 2022 22:46:09 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2022-09-16-advanced-data-structures-m-i-t-course/</guid>
+      <description>MIT course</description>
+    </item>
     
     <item>
       <title>WSL network name cannot be found</title>
@@ -211,17 +220,6 @@ Arxiv link.</description>
       <description>A couple of repositories which helps to send voice message to yandex station.
 Unfortunately it is impossible to do it using official api.
  yashhik yandexstation  </description>
-    </item>
-    
-    <item>
-      <title>Temporary email from command line</title>
-      <link>https://yantonov.com/post/2020-09-15-temporary-email-from-command-line/</link>
-      <pubDate>Tue, 15 Sep 2020 21:50:44 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-09-15-temporary-email-from-command-line/</guid>
-      <description>tmpmail - command line tool which allows to create temporary mailbox and receive emails from the terminal.
-It uses 1secmail as a backend.
-Spend a couple of minutes to read concise, clean bash code.</description>
     </item>
     
   </channel>

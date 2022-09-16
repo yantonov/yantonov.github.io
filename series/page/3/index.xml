@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>Stacked diffs versus pull requests</title>
+      <link>https://yantonov.com/post/2019-12-21-stacked-diffs-versus-pull-requests/</link>
+      <pubDate>Sat, 21 Dec 2019 23:18:26 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2019-12-21-stacked-diffs-versus-pull-requests/</guid>
+      <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
+Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
+ In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
+    </item>
+    
+    <item>
       <title>Portable file system cache diagnostics and control</title>
       <link>https://yantonov.com/post/2019-12-20-portable-file-system-cache-diagnostics-and-control/</link>
       <pubDate>Fri, 20 Dec 2019 13:03:32 +0500</pubDate>
@@ -70,7 +81,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
-      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -137,7 +148,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -206,18 +217,6 @@ Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp
       <description>Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
 P.s. here is a simple script aimed to convert hg repo to git,
 maybe it will be helpful</description>
-    </item>
-    
-    <item>
-      <title>Delete package from Mac OS</title>
-      <link>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</link>
-      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</guid>
-      <description>Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
-There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
-To automate the process i have wrote this script uninstall-pkg.sh
-#!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!</description>
     </item>
     
   </channel>

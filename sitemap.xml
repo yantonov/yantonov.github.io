@@ -4,34 +4,62 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2022-09-09T22:22:48+02:00</lastmod>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2022-09-16-advanced-data-structures-m-i-t-course/</loc>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2022-09-09T22:22:48+02:00</lastmod>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/ops/</loc>
-    <lastmod>2022-09-09T22:22:48+02:00</lastmod>
+    <loc>https://yantonov.com/categories/computer-science/</loc>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/course/</loc>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/data-structures/</loc>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2022-09-09T22:22:48+02:00</lastmod>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/ops/</loc>
     <lastmod>2022-09-09T22:22:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -115,13 +143,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/computer-science/</loc>
-    <lastmod>2022-06-04T20:04:06+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/types/</loc>
     <lastmod>2022-06-04T20:04:06+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -164,13 +185,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/data-structures/</loc>
-    <lastmod>2022-05-11T17:18:48+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/post/2022-05-11-link-imbalance/</loc>
     <lastmod>2022-05-11T17:18:48+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -208,13 +222,6 @@
   <url>
     <loc>https://yantonov.com/tags/nalsd/</loc>
     <lastmod>2021-10-04T12:33:47+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/course/</loc>
-    <lastmod>2021-08-10T02:15:23+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1249,14 +1256,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/podcast/</loc>
+    <loc>https://yantonov.com/categories/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/podcast/</loc>
+    <loc>https://yantonov.com/tags/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
