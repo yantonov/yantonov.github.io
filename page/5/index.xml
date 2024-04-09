@@ -5,10 +5,21 @@
     <link>https://yantonov.com/</link>
     <description>Recent content on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Sep 2022 22:46:09 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 00:23:49 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Church numerals</title>
+      <link>https://yantonov.com/post/2014-11-13-church-numerals/</link>
+      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2014-11-13-church-numerals/</guid>
+      <description>Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
+Summary:
+type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</description>
+    </item>
     
     <item>
       <title>Programmable completion for git and mercurial</title>

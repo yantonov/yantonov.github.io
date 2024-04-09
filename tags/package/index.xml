@@ -11,6 +11,18 @@
     
     
     <item>
+      <title>The scripting language</title>
+      <link>https://yantonov.com/post/2024-04-10-the-scripting-language/</link>
+      <pubDate>Wed, 10 Apr 2024 00:23:49 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2024-04-10-the-scripting-language/</guid>
+      <description>source
+Recap: use main language of the project to write scripts.
+Additional couple of remarks:
+ at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning.</description>
+    </item>
+    
+    <item>
       <title>Advanced data structures MIT course</title>
       <link>https://yantonov.com/post/2022-09-16-advanced-data-structures-mit-course/</link>
       <pubDate>Fri, 16 Sep 2022 22:46:09 +0200</pubDate>
@@ -209,17 +221,6 @@ In a couple of words:
       <guid>https://yantonov.com/post/2020-10-24-leaning-n-classes-from-m-n-samples/</guid>
       <description>Interesting and promissing approach to reduce number of samples during learning NN.
 Arxiv link.</description>
-    </item>
-    
-    <item>
-      <title>Send notification to yandex station</title>
-      <link>https://yantonov.com/post/2020-09-20-send-notification-to-yandex-station/</link>
-      <pubDate>Sun, 20 Sep 2020 19:34:38 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-09-20-send-notification-to-yandex-station/</guid>
-      <description>A couple of repositories which helps to send voice message to yandex station.
-Unfortunately it is impossible to do it using official api.
- yashhik yandexstation  </description>
     </item>
     
   </channel>

@@ -5,10 +5,20 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 16 Sep 2022 22:46:09 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2024 00:23:49 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resilience4j</title>
+      <link>https://yantonov.com/post/2019-12-22-resilience4j/</link>
+      <pubDate>Sun, 22 Dec 2019 18:53:44 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2019-12-22-resilience4j/</guid>
+      <description>Resilience4j is a lightweight fault tolerance library which provides higher-order functions to enhance any functional interface, lambda expression or method reference with a Circuit Breaker, Rate Limiter, Retry or Bulkhead.
+Nice example of functional composition with pragmatic library with minimum number of dependencies.</description>
+    </item>
     
     <item>
       <title>Stacked diffs versus pull requests</title>
@@ -207,17 +217,6 @@ nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
       <description>There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
  Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
 Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.</description>
-    </item>
-    
-    <item>
-      <title>Bye bye mercurial</title>
-      <link>https://yantonov.com/post/2016-03-12-bye-bye-mercurial/</link>
-      <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2016-03-12-bye-bye-mercurial/</guid>
-      <description>Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
-P.s. here is a simple script aimed to convert hg repo to git,
-maybe it will be helpful</description>
     </item>
     
   </channel>

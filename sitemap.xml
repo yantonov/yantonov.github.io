@@ -4,20 +4,41 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/post/2022-09-16-advanced-data-structures-mit-course/</loc>
-    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
+    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/programming/</loc>
+    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2024-04-10-the-scripting-language/</loc>
+    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2022-09-16-advanced-data-structures-mit-course/</loc>
     <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -39,13 +60,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/data-structures/</loc>
-    <lastmod>2022-09-16T22:46:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
     <lastmod>2022-09-16T22:46:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -109,13 +123,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/nasd/</loc>
-    <lastmod>2022-07-10T14:04:28+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/programming/</loc>
     <lastmod>2022-07-10T14:04:28+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
