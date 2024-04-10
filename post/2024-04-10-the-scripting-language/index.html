@@ -21,44 +21,20 @@
     
     
     <meta name="description" content="source
-Recap: use main language of the project to write scripts.
+TLDR: use main language of the project to write scripts.
+&#43;1 &#43;2 :)
 Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning." />
-    <meta name="generator" content="Hugo 0.61.0 with theme pure" />
+at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&amp;rsquo;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc)." />
+    <meta name="generator" content="Hugo 0.124.1 with theme pure" />
     <title>The scripting language - (map solve problems)</title>
     
     
-    <link rel="stylesheet" href="https://yantonov.com/css/style.min.544edf4e480fd84dba4b535b9c42ace7af9a975d149b3f584c0e3a6f120cee55.css">
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.e64d754037c0ee0ec4e20ab1d6f07740ace61729bc03850559b8caa21ae4a597.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
-    <meta property="og:title" content="The scripting language" />
-<meta property="og:description" content="source
-Recap: use main language of the project to write scripts.
-Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://yantonov.com/post/2024-04-10-the-scripting-language/" />
-<meta property="article:published_time" content="2024-04-10T00:23:49+02:00" />
-<meta property="article:modified_time" content="2024-04-10T00:23:49+02:00" />
-<meta itemprop="name" content="The scripting language">
-<meta itemprop="description" content="source
-Recap: use main language of the project to write scripts.
-Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning.">
-<meta itemprop="datePublished" content="2024-04-10T00:23:49&#43;02:00" />
-<meta itemprop="dateModified" content="2024-04-10T00:23:49&#43;02:00" />
-<meta itemprop="wordCount" content="89">
 
-
-
-<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="The scripting language"/>
-<meta name="twitter:description" content="source
-Recap: use main language of the project to write scripts.
-Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning."/>
-
+    
     <!--[if lte IE 9]>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
       <![endif]-->
@@ -67,6 +43,7 @@ Additional couple of remarks:
         <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
       <![endif]-->
+
   </head>
 
   
@@ -156,7 +133,7 @@ Additional couple of remarks:
     <h3 class="widget-title"> Categories</h3>
     <div class="widget-body">
         <ul class="category-list">
-            <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer science</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">2</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">17</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
@@ -255,7 +232,7 @@ Additional couple of remarks:
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/command-line/" class="tag-list-link">command-line</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/command-line/" class="tag-list-link">command line</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -267,7 +244,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/computer-vision/" class="tag-list-link">computer-vision</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/computer-vision/" class="tag-list-link">computer vision</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -283,7 +260,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/congestion-control/" class="tag-list-link">congestion-control</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/congestion-control/" class="tag-list-link">congestion control</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -299,7 +276,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/continuous-delivery/" class="tag-list-link">continuous-delivery</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/continuous-delivery/" class="tag-list-link">continuous delivery</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -319,11 +296,11 @@ Additional couple of remarks:
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/data-structures/" class="tag-list-link">data-structures</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/data-structures/" class="tag-list-link">data structures</a><span
                     class="tag-list-count">4</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/deep-learning/" class="tag-list-link">deep-learning</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/deep-learning/" class="tag-list-link">deep learning</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -339,7 +316,7 @@ Additional couple of remarks:
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/distributed-systems/" class="tag-list-link">distributed-systems</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/distributed-systems/" class="tag-list-link">distributed systems</a><span
                     class="tag-list-count">3</span></li>
             
             
@@ -387,7 +364,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/fault-tolerance/" class="tag-list-link">fault-tolerance</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/fault-tolerance/" class="tag-list-link">fault tolerance</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -475,7 +452,7 @@ Additional couple of remarks:
                     class="tag-list-count">3</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/kalman-filter/" class="tag-list-link">kalman-filter</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/kalman-filter/" class="tag-list-link">kalman filter</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -483,7 +460,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/lambda-calculus/" class="tag-list-link">lambda-calculus</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/lambda-calculus/" class="tag-list-link">lambda calculus</a><span
                     class="tag-list-count">2</span></li>
             
             
@@ -499,7 +476,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/linked-list/" class="tag-list-link">linked-list</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/linked-list/" class="tag-list-link">linked list</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -523,7 +500,7 @@ Additional couple of remarks:
                     class="tag-list-count">5</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/machine-learning/" class="tag-list-link">machine-learning</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/machine-learning/" class="tag-list-link">machine learning</a><span
                     class="tag-list-count">4</span></li>
             
             
@@ -583,12 +560,12 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/neural-network/" class="tag-list-link">neural network</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/neural-netrowk/" class="tag-list-link">neural-netrowk</a><span
                     class="tag-list-count">1</span></li>
-            
-            
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/neural-network/" class="tag-list-link">neural-network</a><span
-                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/notification/" class="tag-list-link">notification</a><span
@@ -615,7 +592,7 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/pattern-recognition/" class="tag-list-link">pattern-recognition</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/pattern-recognition/" class="tag-list-link">pattern recognition</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -751,11 +728,11 @@ Additional couple of remarks:
                     class="tag-list-count">1</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/system-design/" class="tag-list-link">system-design</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/system-design/" class="tag-list-link">system design</a><span
                     class="tag-list-count">2</span></li>
             
             
-            <li class="tag-list-item"><a href="https://yantonov.com/tags/tagless-final/" class="tag-list-link">tagless-final</a><span
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/tagless-final/" class="tag-list-link">tagless final</a><span
                     class="tag-list-count">1</span></li>
             
             
@@ -977,20 +954,23 @@ Additional couple of remarks:
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/2024-04-10-the-scripting-language/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 89 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 92 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
       <p><a href="https://joaomagfreitas.link/scripts-should-be-written-using-the-project-main-language/">source</a></p>
-<p>Recap: use main language of the project to write scripts.</p>
+<p>TLDR: use main language of the project to write scripts.<br>
++1
++2
+:)</p>
 <p>Additional couple of remarks:</p>
 <ol>
 <li>at some moment you can think about writing tests;</li>
-<li>at some moment you need to reuse something else from the project (also it's possible to duplicate\reimplement something from the project using scripting language);</li>
+<li>at some moment you need to reuse something else from the project (also it&rsquo;s possible to duplicate\reimplement something from the project using scripting language);</li>
 <li>at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).</li>
 </ol>
-<p>That's why it's better to write additional logic not using a script but using the main language from the very beginning.</p>
+<p>That&rsquo;s why it&rsquo;s better to write additional logic not using a script but using the main language from the very beginning.</p>
 
     </div>
     <div class="article-footer">
@@ -1097,8 +1077,8 @@ Additional couple of remarks:
     })
     hljs.initHighlightingOnLoad();
 </script>
-<script src="https://yantonov.com/js/application.min.bdeb64b910570b6c41badc6a05b7afb0c8ad9efd8525de3c7257d59e786326a3.js"></script>
-<script src="https://yantonov.com/js/plugin.min.51ff8c7317566f82259170fa36e09c4493adc9b9378b427a01ad3f017ebac7dd.js"></script>
+<script src="https://yantonov.com/js/application.min.e4989ab4dc212027af8773861b05b6bc333a1217f6b0a1b3377a3a3dbd454483.js"></script>
+<script src="https://yantonov.com/js/plugin.min.ee01f0915da127c8f127f6384fd08c677a9a87f16e6b265d282abf291b5065d9.js"></script>
 
 <script>
     (function (window) {
@@ -1116,7 +1096,7 @@ Additional couple of remarks:
         window.INSIGHT_CONFIG = INSIGHT_CONFIG;
     })(window);
 </script>
-<script type="text/javascript" src="https://yantonov.com/js/insight.min.a343cd9a5a7698336b28ef3a7c16a3a1b1d2d5fb17dc8ed04022bbe08cc5459073a15bdafa3a8a58cdd56080784bdd69fa70b1ae8597565c799c57ed00f0e120.js" defer></script>
+<script type="text/javascript" src="https://yantonov.com/js/insight.min.716b0c6a00b68ccc31a2b65345f3412f4246ffa94a90f8e25d525528b4504f9937880692bbe619023233caba5d0a17ebe23d7cfb57cd3a88f23ea337ad5e4d00.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
 <script>
     tocbot.init({
@@ -1140,7 +1120,7 @@ Additional couple of remarks:
         return;
 
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
+    var disqus_shortname = 'yantonov';
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();

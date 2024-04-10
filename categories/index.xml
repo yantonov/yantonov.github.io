@@ -5,6 +5,7 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Wed, 10 Apr 2024 00:23:49 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
@@ -17,9 +18,10 @@
       
       <guid>https://yantonov.com/post/2024-04-10-the-scripting-language/</guid>
       <description>source
-Recap: use main language of the project to write scripts.
+TLDR: use main language of the project to write scripts.
++1 +2 :)
 Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).  That&#39;s why it&#39;s better to write additional logic not using a script but using the main language from the very beginning.</description>
+at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&amp;rsquo;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).</description>
     </item>
     
     <item>
@@ -39,8 +41,8 @@ Additional couple of remarks:
       <guid>https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/</guid>
       <description>If you face this issue working with WSL, the root cause of the problem is invalid current directory.
 How to fix it:
- open powershell select home directory   wsl -d DISTRO --cd ~ where DISTRO is the name of the distribution, that can be obtained
- wsl -l Source</description>
+open powershell select home directory wsl -d DISTRO --cd ~ where DISTRO is the name of the distribution, that can be obtained
+wsl -l Source</description>
     </item>
     
     <item>
@@ -59,7 +61,7 @@ How to fix it:
       
       <guid>https://yantonov.com/post/2022-06-04-about-static-types/</guid>
       <description>A couple of notes about static and dynamic types
- Literature review on the benefits of static types This is how science happens  </description>
+Literature review on the benefits of static types This is how science happens </description>
     </item>
     
     <item>
@@ -69,7 +71,7 @@ How to fix it:
       
       <guid>https://yantonov.com/post/2022-05-12-usecase-for-git-refs/</guid>
       <description>Here you can read about
- an excellent example of how to use git refs in practice. a nice way to track the experiments (ML related for example).  </description>
+an excellent example of how to use git refs in practice. a nice way to track the experiments (ML related for example). </description>
     </item>
     
     <item>
@@ -79,7 +81,7 @@ How to fix it:
       
       <guid>https://yantonov.com/post/2022-05-11-link-imbalance/</guid>
       <description>Interesting reading about link imbalance:
- Metastable Failures in Distributed Systems Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale  </description>
+Metastable Failures in Distributed Systems Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale </description>
     </item>
     
     <item>
@@ -90,7 +92,7 @@ How to fix it:
       <guid>https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/</guid>
       <description>Here is a nice instruction how to migrate wsl to another drive.
 A couple of nuances:
- When you export the image there is no need to define the version of WSL. But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter. To define the default user you should use the command that may vary depending on the os version.</description>
+When you export the image there is no need to define the version of WSL. But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter. To define the default user you should use the command that may vary depending on the os version.</description>
     </item>
     
     <item>
@@ -100,7 +102,7 @@ A couple of nuances:
       
       <guid>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</guid>
       <description>Here is the list of general/algo/system design questions:
- coding-interview-university build-your-own-x tech-interview-handbook how-to-secure-anything javascript-algorithms how-web-works algorithms-javascript system-design-primer awesome-interview-questions olshansk-interview  Golang 11. learngo
+coding-interview-university build-your-own-x tech-interview-handbook how-to-secure-anything javascript-algorithms how-web-works algorithms-javascript system-design-primer awesome-interview-questions olshansk-interview Golang 11. learngo
 Javascript 12. clean-code-javascript 13. javascript-questions
 source</description>
     </item>
@@ -156,8 +158,8 @@ A nice example of analyzing a source code in python.</description>
       
       <guid>https://yantonov.com/post/2021-03-06-docker-error-error-getting-credentials/</guid>
       <description>Aaaah! Today I faced a strange error message from docker.
- =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
- In ~/.docker/config.json change credsStore to credStore Source</description>
+=&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;#34;docker-credential-desktop.exe&amp;#34;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
+In ~/.docker/config.json change credsStore to credStore Source</description>
     </item>
     
     <item>
@@ -168,7 +170,7 @@ A nice example of analyzing a source code in python.</description>
       <guid>https://yantonov.com/post/2021-02-13-serve-dotfiles-directly-from-a-git-repository/</guid>
       <description>Here is an interesting article which explains another way to store dotfiles.
 In a couple of words:
- store dotfiles into a git repository clone your git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links)  The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
+store dotfiles into a git repository clone your git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links) The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
     </item>
     
     <item>
@@ -199,7 +201,7 @@ Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</de
       
       <guid>https://yantonov.com/post/2020-10-31-entity-component-system/</guid>
       <description>Entity–component–system (ECS) is an architectural pattern that is mostly used in game development. Main points:
- every entity has unique id; every logic aspect is a component - raw data linked to the corresponding entity by id; system performs actions on entities having corresponding aspects/components; diffenent components can be stored separately; systems can track entities by using observer pattern.  More details can be found here.</description>
+every entity has unique id; every logic aspect is a component - raw data linked to the corresponding entity by id; system performs actions on entities having corresponding aspects/components; diffenent components can be stored separately; systems can track entities by using observer pattern. More details can be found here.</description>
     </item>
     
     <item>
@@ -210,7 +212,7 @@ Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</de
       <guid>https://yantonov.com/post/2020-10-30-about-passing-dependencies-through-deep-call-stack/</guid>
       <description>Here is another approach to pass dependencies through deep call stack.
 In a couple of words:
- deeply nested code not executes immediately but returns a function for the later lazy evaluation; the correponding function accepts the required environment; at the top level call the function returned from the nested code and pass the environment to it. Documentation.  </description>
+deeply nested code not executes immediately but returns a function for the later lazy evaluation; the correponding function accepts the required environment; at the top level call the function returned from the nested code and pass the environment to it. Documentation. </description>
     </item>
     
     <item>
