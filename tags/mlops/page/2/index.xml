@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mlops on (map solve problems)</title>
+    <title>mlops on (map solve problems)</title>
     <link>https://yantonov.com/tags/mlops/</link>
-    <description>Recent content in Mlops on (map solve problems)</description>
+    <description>Recent content in mlops on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Thu, 12 May 2022 10:39:49 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +18,7 @@
       <guid>https://yantonov.com/post/2020-09-20-send-notification-to-yandex-station/</guid>
       <description>A couple of repositories which helps to send voice message to yandex station.
 Unfortunately it is impossible to do it using official api.
-yashhik yandexstation </description>
+ yashhik yandexstation  </description>
     </item>
     
     <item>
@@ -49,9 +48,9 @@ source</description>
       <pubDate>Thu, 03 Sep 2020 19:26:10 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-09-03-clean-python-setup/</guid>
-      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&amp;rsquo;s packages installation and creating clean and reproducible enviroment.
+      <description>Great article &amp;ldquo;A hygienic Python setup for Linux, Mac, and WSL&amp;rdquo; about python&#39;s packages installation and creating clean and reproducible enviroment.
 In a couple of words:
-pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools. Thanks Angela Bassa for the article&amp;rsquo;s link.</description>
+ pyenv to control python interpreter version pipenv / poetry to control virtual environment settings. pipx to install python cli tools.  Thanks Angela Bassa for the article&#39;s link.</description>
     </item>
     
     <item>
@@ -116,7 +115,7 @@ But env module, for example looks overcomplicated but tecnhically provides reade
       <guid>https://yantonov.com/post/2020-03-30-docker-memory-limit/</guid>
       <description>There are some options to control application memory consumption.
 Docker has a couple of flags to control application inside the container.
-&amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here Moreover, there is a cgroups limit at the os level. To check it
+ &amp;ndash;memory flag defines non swap memory limit &amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory) Details can be found here  Moreover, there is a cgroups limit at the os level. To check it
 cat /sys/fs/cgroup/memory/memory.limit_in_bytes When you try to check is, in some situations you can see some huge magic number</description>
     </item>
     
@@ -148,7 +147,7 @@ Facebook tried to use it and results seem very promising.</description>
       <pubDate>Wed, 26 Feb 2020 15:58:08 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-02-26-fix-flash-drive-block-size/</guid>
-      <description>Let&amp;rsquo;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
+      <description>Let&#39;s suppose you want to format flash drive but while you are trying to start formatting you see an error like this &amp;lsquo;The driver descriptor says the physical block size is 2048 bytes, but Linux says it is 512 bytes&amp;rsquo;.
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
@@ -180,7 +179,7 @@ source</description>
       <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</guid>
-      <description>Here is the description of a bunch of JVM&amp;rsquo;s flags and some recommendations how to use them.</description>
+      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
     </item>
     
     <item>
@@ -190,7 +189,7 @@ source</description>
       
       <guid>https://yantonov.com/post/2020-01-02-commit-convensions/</guid>
       <description>A couple of links about commit convensions:
-commit generator Convensional commit specification </description>
+ commit generator Convensional commit specification  </description>
     </item>
     
     <item>
