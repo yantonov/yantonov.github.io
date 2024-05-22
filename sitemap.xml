@@ -4,7 +4,49 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/go/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2024-05-22-go-profile-guided-optimization-example/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/performance/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/profiling/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2024-05-22T14:35:57+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,21 +73,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/categories/programming/</loc>
-    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2024-04-10T00:23:49+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -696,13 +724,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/go/</loc>
-    <lastmod>2020-08-27T17:47:15+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/golang/</loc>
     <lastmod>2020-08-27T17:47:15+05:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -949,13 +970,6 @@
   
   <url>
     <loc>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</loc>
-    <lastmod>2020-01-11T14:37:13+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/performance/</loc>
     <lastmod>2020-01-11T14:37:13+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1242,14 +1256,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/kalman-filter/</loc>
+    <loc>https://yantonov.com/post/2017-03-22-kalman-filter/</loc>
     <lastmod>2017-03-22T05:19:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/post/2017-03-22-kalman-filter/</loc>
+    <loc>https://yantonov.com/tags/kalman-filter/</loc>
     <lastmod>2017-03-22T05:19:56+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1270,14 +1284,14 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/podcast/</loc>
+    <loc>https://yantonov.com/tags/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/podcast/</loc>
+    <loc>https://yantonov.com/categories/podcast/</loc>
     <lastmod>2017-01-21T21:31:02+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

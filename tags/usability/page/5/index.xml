@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>usability on (map solve problems)</title>
+    <title>Usability on (map solve problems)</title>
     <link>https://yantonov.com/tags/usability/</link>
-    <description>Recent content in usability on (map solve problems)</description>
+    <description>Recent content in Usability on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
     <lastBuildDate>Tue, 28 Oct 2014 21:08:23 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/usability/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Export files changed at revision from mercurial</title>
+      <link>https://yantonov.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</link>
+      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</guid>
+      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
+Mercurial vcs has archive command which let you to export selected files at given revision:
+hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
+hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename.</description>
+    </item>
     
     <item>
       <title>Church numerals</title>
@@ -41,7 +54,7 @@ First problem - eager evaluation. General commands for git and mercurial are cal
       <description>Foreword:
 Sometimes you need to edit PATH variable.
 Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
-GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;rsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
 So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
 Moreover, after update to Mac Os X 10.</description>
     </item>
@@ -65,7 +78,7 @@ Let see how its works:
       <guid>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</guid>
       <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
 To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!-- *nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
     </item>
     
     <item>
@@ -77,10 +90,10 @@ To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute a
       <description>Here are some usefull git aliases which i use on a daily basis:
 Output samples are generated using clojure repository
 List of one line commits
-ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  List of commits with changed files
-ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat  List of commits without colors
-lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;  Commits with dates
-ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  Commits with short dates</description>
+ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; List of commits with changed files
+ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat List of commits without colors
+lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot; Commits with dates
+ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; Commits with short dates</description>
     </item>
     
     <item>
