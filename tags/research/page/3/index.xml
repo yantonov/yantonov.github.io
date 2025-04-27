@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Research on (map solve problems)</title>
+    <title>research on (map solve problems)</title>
     <link>https://yantonov.com/tags/research/</link>
-    <description>Recent content in Research on (map solve problems)</description>
+    <description>Recent content in research on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
     <lastBuildDate>Sun, 13 Sep 2015 15:29:49 +0500</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/research/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to decrease rust binary size</title>
+      <link>https://yantonov.com/post/2019-12-29-how-to-decrease-rust-binary-size/</link>
+      <pubDate>Sun, 29 Dec 2019 00:54:49 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2019-12-29-how-to-decrease-rust-binary-size/</guid>
+      <description>Here are some instructions which help you decrease rust binary size.</description>
+    </item>
     
     <item>
       <title>Distributed consensus</title>
@@ -38,7 +46,7 @@ Nice example of functional composition with pragmatic library with minimum numbe
       <guid>https://yantonov.com/post/2019-12-21-stacked-diffs-versus-pull-requests/</guid>
       <description>Here is an interesting article &amp;lsquo;Stacked Diffs Versus Pull Requests&amp;rsquo; written by Jackson Gabbard.
 Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):
-In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.</description>
+ In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip; I didn&#39;t think a lot about it before, but it definitely seems realistic.</description>
     </item>
     
     <item>
@@ -68,10 +76,11 @@ download</description>
       
       <guid>https://yantonov.com/post/2019-12-19-about-distributed-transactions/</guid>
       <description>A couple of articles about distributed transactions and scalability:
-Online Event Processing Achieving consistency where distributed transactions have failed [link]
+  Online Event Processing Achieving consistency where distributed transactions have failed [link]
 written by Martin Kleppmann [twitter], Alastair R. Beresford [twitter], and Boerge Svingen [twitter]
-Life beyond Distributed Transactions: an Apostate’s Opinion [link]
-written by Pat Helland [twitter]</description>
+  Life beyond Distributed Transactions: an Apostate’s Opinion [link]
+written by Pat Helland [twitter]
+  </description>
     </item>
     
     <item>
@@ -101,7 +110,7 @@ source</description>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
-      <description>Here is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
+      <description>Here is html version of Simon Marlow&#39;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -141,7 +150,7 @@ echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf &amp;amp;
       
       <guid>https://yantonov.com/post/2017-05-03-neural-turing-machines/</guid>
       <description>[https://arxiv.org/abs/1410.5401](Neural Turing Machines)
-We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
+ We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.</description>
     </item>
     
     <item>
@@ -168,7 +177,7 @@ We extend the capabilities of neural networks by coupling them to external memor
       <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
       
       <guid>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts. Happy listening!</description>
+      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
     </item>
     
     <item>
@@ -179,7 +188,7 @@ We extend the capabilities of neural networks by coupling them to external memor
       <guid>https://yantonov.com/post/2017-01-06-bye-octopress-hello-hugo/</guid>
       <description>This tiny blog has just been migrated from octropress to hugo.
 Pros:
-service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed Generator is written in go lang :-), maybe for someone this is an additional argument.
+ service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
 Cons: &amp;hellip; cant see, at least now
 Good day!</description>
     </item>
@@ -192,10 +201,10 @@ Good day!</description>
       <guid>https://yantonov.com/post/2017-01-05-install-matplotlib-on-mac-sierra/</guid>
       <description>During matplotlib installation (for python3) some error may occured:
 &amp;lsquo;The following required packages can not be built:
-freetype png&amp;rsquo; Thats why some additional steps may be required:
-install homebrew
-install pkg-config
-brew install pkg-config install freetype brew install freetype install matplotlib pip3 install matplotlib Enjoy!</description>
+ freetype png&amp;rsquo;  Thats why some additional steps may be required:
+  install homebrew
+  install pkg-config
+  brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</description>
     </item>
     
     <item>
@@ -206,15 +215,6 @@ brew install pkg-config install freetype brew install freetype install matplotli
       <guid>https://yantonov.com/post/2016-12-10-can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</guid>
       <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
 nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
-    </item>
-    
-    <item>
-      <title>2Q a low overhead high performance buffer managemenent replacement algorithm</title>
-      <link>https://yantonov.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</link>
-      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</guid>
-      <description>Excellent article which shows how to apply pareto rule for caching strategies.</description>
     </item>
     
   </channel>
