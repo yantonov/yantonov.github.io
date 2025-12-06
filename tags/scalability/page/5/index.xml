@@ -11,6 +11,15 @@
     
     
     <item>
+      <title>Unconventional review</title>
+      <link>https://yantonov.com/post/2015-01-19-unconventional-review/</link>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2015-01-19-unconventional-review/</guid>
+      <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
+    </item>
+    
+    <item>
       <title>Multi-queue replacement algorithm for second level buffer caches</title>
       <link>https://yantonov.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
       <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>

@@ -5,10 +5,19 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Dec 2025 22:54:56 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 00:17:59 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What is intelligence?</title>
+      <link>https://yantonov.com/post/2025-12-07-what-is-intelligence/</link>
+      <pubDate>Sun, 07 Dec 2025 00:17:59 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2025-12-07-what-is-intelligence/</guid>
+      <description>Book</description>
+    </item>
     
     <item>
       <title>Congnitive bias</title>
@@ -209,17 +218,6 @@ In a couple of words:
       <guid>https://yantonov.com/post/2020-12-15-academic-salaries/</guid>
       <description>Interesting statistics about academic salaries
 Source</description>
-    </item>
-    
-    <item>
-      <title>How to fix Lenovo X1 Carbon 8th gen sound problem on Windows 10</title>
-      <link>https://yantonov.com/post/2020-11-14-how-to-fix-lenovo-x1-carbon-8th-gen-sound-problem-on-windows-10/</link>
-      <pubDate>Sat, 14 Nov 2020 11:30:58 +0100</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-11-14-how-to-fix-lenovo-x1-carbon-8th-gen-sound-problem-on-windows-10/</guid>
-      <description>If you faced with a sound problem (the sound just disappeared), and nothing helps (general troubleshooting, updating drivers, uninstalling audio devices etc, you can try to install Lenovo drivers.
-Unfortunately it is not easy to find exactly this drivers. (the link to them is located at the second page of the corresponding topic at Levono forums)
-Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</description>
     </item>
     
   </channel>

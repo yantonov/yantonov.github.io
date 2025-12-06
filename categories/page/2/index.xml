@@ -5,10 +5,21 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 06 Dec 2025 22:54:56 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 00:17:59 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How to fix Lenovo X1 Carbon 8th gen sound problem on Windows 10</title>
+      <link>https://yantonov.com/post/2020-11-14-how-to-fix-lenovo-x1-carbon-8th-gen-sound-problem-on-windows-10/</link>
+      <pubDate>Sat, 14 Nov 2020 11:30:58 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2020-11-14-how-to-fix-lenovo-x1-carbon-8th-gen-sound-problem-on-windows-10/</guid>
+      <description>If you faced with a sound problem (the sound just disappeared), and nothing helps (general troubleshooting, updating drivers, uninstalling audio devices etc, you can try to install Lenovo drivers.
+Unfortunately it is not easy to find exactly this drivers. (the link to them is located at the second page of the corresponding topic at Levono forums)
+Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</description>
+    </item>
     
     <item>
       <title>Entity component system</title>
@@ -211,16 +222,6 @@ source</description>
       
       <guid>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</guid>
       <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
-    </item>
-    
-    <item>
-      <title>Commit convensions</title>
-      <link>https://yantonov.com/post/2020-01-02-commit-convensions/</link>
-      <pubDate>Thu, 02 Jan 2020 22:07:01 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-01-02-commit-convensions/</guid>
-      <description>A couple of links about commit convensions:
- commit generator Convensional commit specification  </description>
     </item>
     
   </channel>

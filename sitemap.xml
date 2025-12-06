@@ -4,14 +4,49 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2025-12-06T22:54:56+01:00</lastmod>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/book/</loc>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2025-12-06T22:54:56+01:00</lastmod>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/intelligence/</loc>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2025-12-07-what-is-intelligence/</loc>
+    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -32,20 +67,6 @@
   
   <url>
     <loc>https://yantonov.com/categories/misc/</loc>
-    <lastmod>2025-12-06T22:54:56+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2025-12-06T22:54:56+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2025-12-06T22:54:56+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
