@@ -10,6 +10,17 @@
     
     
     <item>
+      <title>8 bit css nes style framework</title>
+      <link>https://yantonov.com/post/2019-12-29-8-bit-css-nes-style-framework/</link>
+      <pubDate>Sun, 29 Dec 2019 12:39:07 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2019-12-29-8-bit-css-nes-style-framework/</guid>
+      <description>Here is nice collection of 8-bit ui controls.
+Framework based on css, so you can used it with any js code.
+Source.</description>
+    </item>
+    
+    <item>
       <title>How to decrease rust binary size</title>
       <link>https://yantonov.com/post/2019-12-29-how-to-decrease-rust-binary-size/</link>
       <pubDate>Sun, 29 Dec 2019 00:54:49 +0500</pubDate>
@@ -204,16 +215,6 @@ Good day!</description>
   install homebrew
   install pkg-config
   brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</description>
-    </item>
-    
-    <item>
-      <title>Can not connect to hidden wifi (ubuntu 16.04 lts)</title>
-      <link>https://yantonov.com/post/2016-12-10-can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</link>
-      <pubDate>Sat, 10 Dec 2016 21:38:41 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2016-12-10-can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</guid>
-      <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
-nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
     </item>
     
   </channel>

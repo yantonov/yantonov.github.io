@@ -11,6 +11,16 @@
     
     
     <item>
+      <title>Congnitive bias</title>
+      <link>https://yantonov.com/post/2025-12-06-congnitive-bias/</link>
+      <pubDate>Sat, 06 Dec 2025 22:54:56 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2025-12-06-congnitive-bias/</guid>
+      <description>A brief and visual description of cognitive distortions.
+Blog</description>
+    </item>
+    
+    <item>
       <title>Things that go wrong with disk i o</title>
       <link>https://yantonov.com/post/2025-04-27-things-that-go-wrong-with-disk-i-o/</link>
       <pubDate>Sun, 27 Apr 2025 08:31:13 +0200</pubDate>
@@ -210,16 +220,6 @@ Source</description>
       <description>If you faced with a sound problem (the sound just disappeared), and nothing helps (general troubleshooting, updating drivers, uninstalling audio devices etc, you can try to install Lenovo drivers.
 Unfortunately it is not easy to find exactly this drivers. (the link to them is located at the second page of the corresponding topic at Levono forums)
 Source (Lenovo forums page) link Drivers page (especially for 8th gen): link</description>
-    </item>
-    
-    <item>
-      <title>Entity component system</title>
-      <link>https://yantonov.com/post/2020-10-31-entity-component-system/</link>
-      <pubDate>Sat, 31 Oct 2020 13:09:03 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-10-31-entity-component-system/</guid>
-      <description>Entity–component–system (ECS) is an architectural pattern that is mostly used in game development. Main points:
- every entity has unique id; every logic aspect is a component - raw data linked to the corresponding entity by id; system performs actions on entities having corresponding aspects/components; diffenent components can be stored separately; systems can track entities by using observer pattern.  More details can be found here.</description>
     </item>
     
   </channel>
