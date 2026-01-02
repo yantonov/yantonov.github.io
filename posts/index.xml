@@ -5,10 +5,20 @@
     <link>https://yantonov.com/posts/</link>
     <description>Recent content in Posts on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Dec 2025 00:17:59 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 19:40:36 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git: duplicated refs with different case</title>
+      <link>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</link>
+      <pubDate>Fri, 02 Jan 2026 19:40:36 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</guid>
+      <description>Some file system are case insensitive, other are not. When you try to checkout git repository, it&#39;s possible to face this kind of error:
+ error: You&#39;re on a case-insensitive filesystem, and the remote you are trying to fetch from has references that only differ in casing. It is impossible to store such references with the &amp;lsquo;files&amp;rsquo; backend. You can either accept this as-is, in which case you won&#39;t be able to store all remote references on disk.</description>
+    </item>
     
     <item>
       <title>What is intelligence?</title>
@@ -208,16 +218,6 @@ A nice example of analyzing a source code in python.</description>
       <description>Here is an interesting article which explains another way to store dotfiles.
 In a couple of words:
  store dotfiles into a git repository clone your git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links)  The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
-    </item>
-    
-    <item>
-      <title>Academic salaries</title>
-      <link>https://yantonov.com/post/2020-12-15-academic-salaries/</link>
-      <pubDate>Tue, 15 Dec 2020 22:36:54 +0100</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-12-15-academic-salaries/</guid>
-      <description>Interesting statistics about academic salaries
-Source</description>
     </item>
     
   </channel>

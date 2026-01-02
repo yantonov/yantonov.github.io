@@ -4,7 +4,63 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/git/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/ops/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/scm/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/vcs/</loc>
+    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,28 +73,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/intelligence/</loc>
-    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2025-12-07T00:17:59+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2025-12-07T00:17:59+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -144,13 +179,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/lang/</loc>
-    <lastmod>2024-04-10T00:23:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/ops/</loc>
     <lastmod>2024-04-10T00:23:49+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -269,13 +297,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/git/</loc>
-    <lastmod>2022-05-12T10:39:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/mlops/</loc>
     <lastmod>2022-05-12T10:39:49+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -283,21 +304,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/scm/</loc>
-    <lastmod>2022-05-12T10:39:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/post/2022-05-12-usecase-for-git-refs/</loc>
-    <lastmod>2022-05-12T10:39:49+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/vcs/</loc>
     <lastmod>2022-05-12T10:39:49+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

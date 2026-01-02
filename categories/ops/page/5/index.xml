@@ -5,10 +5,22 @@
     <link>https://yantonov.com/categories/ops/</link>
     <description>Recent content in ops on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 10 Apr 2024 00:23:49 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 19:40:36 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/ops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Run automation instruments script from the command line</title>
+      <link>https://yantonov.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</link>
+      <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>
+      
+      <guid>https://yantonov.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</guid>
+      <description>To run ui test from command line you can use instruments app as described here.
+instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate Since xcode 6 Automation.tracetemplate can be found:
+/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate </description>
+    </item>
     
     <item>
       <title>Unconventional review</title>

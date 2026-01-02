@@ -5,10 +5,20 @@
     <link>https://yantonov.com/categories/</link>
     <description>Recent content in Categories on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 07 Dec 2025 00:17:59 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 19:40:36 +0100</lastBuildDate>
     
         <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Academic salaries</title>
+      <link>https://yantonov.com/post/2020-12-15-academic-salaries/</link>
+      <pubDate>Tue, 15 Dec 2020 22:36:54 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2020-12-15-academic-salaries/</guid>
+      <description>Interesting statistics about academic salaries
+Source</description>
+    </item>
     
     <item>
       <title>How to fix Lenovo X1 Carbon 8th gen sound problem on Windows 10</title>
@@ -213,15 +223,6 @@ source</description>
       
       <guid>https://yantonov.com/post/2020-01-11-bridge-from-clojure-to-python/</guid>
       <description>Here is the library that allows you to call python code from clojure.</description>
-    </item>
-    
-    <item>
-      <title>JVM tuning guidelines</title>
-      <link>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</link>
-      <pubDate>Sat, 11 Jan 2020 14:37:13 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-01-11-jvm-tuning-guidelines/</guid>
-      <description>Here is the description of a bunch of JVM&#39;s flags and some recommendations how to use them.</description>
     </item>
     
   </channel>
