@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>About promotion</title>
+      <link>https://yantonov.com/post/2026-03-21-about-promotion/</link>
+      <pubDate>Sat, 21 Mar 2026 23:19:05 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2026-03-21-about-promotion/</guid>
+      <description>Nobody Gets Promoted for Simplicity</description>
+    </item>
+    
+    <item>
       <title>Git: duplicated refs with different case</title>
       <link>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</link>
       <pubDate>Fri, 02 Jan 2026 19:40:36 +0100</pubDate>
@@ -206,17 +215,6 @@ A nice example of analyzing a source code in python.</description>
       <description>Aaaah! Today I faced a strange error message from docker.
  =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
  In ~/.docker/config.json change credsStore to credStore Source</description>
-    </item>
-    
-    <item>
-      <title>Serve dotfiles directly from a git repository</title>
-      <link>https://yantonov.com/post/2021-02-13-serve-dotfiles-directly-from-a-git-repository/</link>
-      <pubDate>Sat, 13 Feb 2021 19:59:18 +0100</pubDate>
-      
-      <guid>https://yantonov.com/post/2021-02-13-serve-dotfiles-directly-from-a-git-repository/</guid>
-      <description>Here is an interesting article which explains another way to store dotfiles.
-In a couple of words:
- store dotfiles into a git repository clone your git repository using a bare more and make working directory pointing to ${HOME} use dotfiles directly from the repository (without symbolic links)  The only disadvantage is that all dotfiles must be inside one repository. It is not scalable approach in that sense that typically configuration files for the different programs are splitted into multiple repositories.</description>
     </item>
     
   </channel>
