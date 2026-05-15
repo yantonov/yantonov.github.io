@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Behavior trees</title>
+      <link>https://yantonov.com/post/2026-05-15-behavior-trees/</link>
+      <pubDate>Fri, 15 May 2026 10:41:16 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2026-05-15-behavior-trees/</guid>
+      <description>There are two typical ways to handle model state transitions:
+ state-machines (known typically from computer science) behavior trees (adopted heavily by game industry)  [Here]((https://queenofsquiggles.github.io/guides/fsm-vs-bt/) is a nice article that:
+ explains high level concept highlights pros and cons provides simple speculative examples  The paper &amp;lsquo;A robust layered control system for a mobile robot&amp;rsquo; written by Rodney Brooks that created the foundation that was adopted and generalized later by game industry to model behavior of non-player characters.</description>
+    </item>
+    
+    <item>
       <title>About promotion</title>
       <link>https://yantonov.com/post/2026-03-21-about-promotion/</link>
       <pubDate>Sat, 21 Mar 2026 23:19:05 +0100</pubDate>
@@ -205,17 +216,6 @@ You can find some details about using Powershell here</description>
       <guid>https://yantonov.com/post/2021-04-12-forbid-using-a-function-in-python/</guid>
       <description>Here is an example of flake8 plugin that prevents you from using numpy random fn.
 A nice example of analyzing a source code in python.</description>
-    </item>
-    
-    <item>
-      <title>Docker error: error getting credentials</title>
-      <link>https://yantonov.com/post/2021-03-06-docker-error-error-getting-credentials/</link>
-      <pubDate>Sat, 06 Mar 2021 21:57:43 +0100</pubDate>
-      
-      <guid>https://yantonov.com/post/2021-03-06-docker-error-error-getting-credentials/</guid>
-      <description>Aaaah! Today I faced a strange error message from docker.
- =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
- In ~/.docker/config.json change credsStore to credStore Source</description>
     </item>
     
   </channel>

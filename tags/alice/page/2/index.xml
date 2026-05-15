@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Docker error: error getting credentials</title>
+      <link>https://yantonov.com/post/2021-03-06-docker-error-error-getting-credentials/</link>
+      <pubDate>Sat, 06 Mar 2021 21:57:43 +0100</pubDate>
+      
+      <guid>https://yantonov.com/post/2021-03-06-docker-error-error-getting-credentials/</guid>
+      <description>Aaaah! Today I faced a strange error message from docker.
+ =&amp;gt; ERROR [internal] load metadata for docker.io/library/python:3.8-slim-buster 0.6s ------ &amp;gt; [internal] load metadata for docker.io/library/python:3.8-slim-buster: ------ failed to solve with frontend dockerfile.v0: failed to create LLB definition: rpc error: code = Unknown desc = error getting credentials - err: exec: &amp;quot;docker-credential-desktop.exe&amp;quot;: executable file not found in $PATH, out: `` Thanks to Bertrand C for the solution.
+ In ~/.docker/config.json change credsStore to credStore Source</description>
+    </item>
+    
+    <item>
       <title>Serve dotfiles directly from a git repository</title>
       <link>https://yantonov.com/post/2021-02-13-serve-dotfiles-directly-from-a-git-repository/</link>
       <pubDate>Sat, 13 Feb 2021 19:59:18 +0100</pubDate>
@@ -214,17 +225,6 @@ Facebook tried to use it and results seem very promising.</description>
 Moreover, partitions can not be removed using neigher gnome disk nor gparted.
 In that case you can use fdisk with privileged access:
 fdisk /dev/sdX To show partition you can use &amp;lsquo;p&amp;rsquo; command, to remove partition - &amp;lsquo;q&amp;rsquo; command.</description>
-    </item>
-    
-    <item>
-      <title>Open source continuous delivery server written in go lang</title>
-      <link>https://yantonov.com/post/2020-01-11-open-source-continuous-delivery-server-written-in-go-lang/</link>
-      <pubDate>Sat, 11 Jan 2020 21:02:43 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2020-01-11-open-source-continuous-delivery-server-written-in-go-lang/</guid>
-      <description>Here is the site of the project.
-Custom pipelines can be defined as code.
-source</description>
     </item>
     
   </channel>
