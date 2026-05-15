@@ -5,10 +5,19 @@
     <link>https://yantonov.com/tags/fp/</link>
     <description>Recent content in fp on (map solve problems)</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 23 Aug 2020 22:30:16 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 19:50:51 +0200</lastBuildDate>
     
         <atom:link href="https://yantonov.com/tags/fp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Functional programming jargon</title>
+      <link>https://yantonov.com/post/2026-05-15-functional-programming-jargon/</link>
+      <pubDate>Fri, 15 May 2026 19:50:51 +0200</pubDate>
+      
+      <guid>https://yantonov.com/post/2026-05-15-functional-programming-jargon/</guid>
+      <description>An article that explains popular terms related to functional programming.</description>
+    </item>
     
     <item>
       <title>Behavior trees</title>
@@ -206,16 +215,6 @@ Just check it and spend a couple of minutes to think about it.</description>
 By default Windows uses Powershell not bash, but you may prefer to explicitly choose bash as a shell.
 See Github action documentation
 You can find some details about using Powershell here</description>
-    </item>
-    
-    <item>
-      <title>Forbid using a function in python</title>
-      <link>https://yantonov.com/post/2021-04-12-forbid-using-a-function-in-python/</link>
-      <pubDate>Mon, 12 Apr 2021 10:59:36 +0200</pubDate>
-      
-      <guid>https://yantonov.com/post/2021-04-12-forbid-using-a-function-in-python/</guid>
-      <description>Here is an example of flake8 plugin that prevents you from using numpy random fn.
-A nice example of analyzing a source code in python.</description>
     </item>
     
   </channel>
