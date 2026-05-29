@@ -1,204 +1,370 @@
+```go-html-template
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>install on (map solve problems)</title>
+    <title>Install on (map solve problems)</title>
     <link>https://yantonov.com/tags/install/</link>
-    <description>Recent content in install on (map solve problems)</description>
+    <description>Recent content in Install on (map solve problems)</description>
+
     <generator>Hugo -- gohugo.io</generator>
+
+    
+    <language>en</language>
+    
+
+    
+
+    
     <lastBuildDate>Thu, 03 Sep 2020 19:26:10 +0500</lastBuildDate>
     
-        <atom:link href="https://yantonov.com/tags/install/index.xml" rel="self" type="application/rss+xml" />
+
     
+    <atom:link href="https://yantonov.com/tags/install/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+    <item>
+      <title>Path to learn haskell</title>
+      <link>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</link>
+      <guid>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</guid>
+      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
+      <description>&lt;p&gt;Some haskell resources &lt;a href=&#34;http://bitemyapp.com/posts/2014-12-31-functional-education.html&#34;&gt;recommended&lt;/a&gt; by @bytemyapp.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.seas.upenn.edu/~cis194/spring13/&#34;&gt;CIS 194: Introduction to Haskell (Spring 2013)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/NICTA/course/&#34;&gt;NICTA course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.scs.stanford.edu/14sp-cs240h/&#34;&gt;Stanford CS240h Spring 2014&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bitemyapp/learnhaskell&#34;&gt;Path to learning haskell&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
     
     <item>
       <title>Find the length of the loop</title>
       <link>https://yantonov.com/post/2015-02-21-find-the-length-of-the-loop/</link>
-      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-02-21-find-the-length-of-the-loop/</guid>
-      <description>One of the popular interivew tasks&amp;hellip;
-You are given a head of a linked list. Its known list contains cycle. The goal is to determine the length of the loop.
-Here is straghtforward solution in haskell
-{-data Node a instance Eq a =&amp;gt; Eq (Node a) next :: Node a -&amp;gt; Node a -} data Phase = TryFindLoop | FindLength deriving (Eq) loopSize :: Eq a =&amp;gt; Node a -&amp;gt; Int loopSize a = slowAndFast a a 0 TryFindLoop where slowAndFast :: (Eq node) =&amp;gt; Node node -&amp;gt; Node node -&amp;gt; Int -&amp;gt; Phase -&amp;gt; Int slowAndFast slow fast len phase = let nextSlow = next slow nextPreFast = next fast nextFast = next nextPreFast in if (slow == nextPreFast || slow == nextFast) then if (phase == FindLength) then if (nextPreFast == nextFast) then 1 else 2*(len+1) - len - (if slow == nextFast then 0 else 1) else slowAndFast nextSlow nextSlow 0 FindLength else slowAndFast nextSlow nextFast (len + 1) phase Complexity: time o(n), memory o(1)</description>
+      <pubDate>Sat, 21 Feb 2015 16:06:23 +0500</pubDate>
+      <description>&lt;p&gt;&lt;em&gt;One of the popular interivew tasks&amp;hellip;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You are given a head of a &lt;a href=&#34;http://en.wikipedia.org/wiki/Linked_list&#34;&gt;linked list&lt;/a&gt;. Its known list contains cycle. The goal is to determine the length of the loop.&lt;/p&gt;
+&lt;p&gt;Here is straghtforward solution in haskell&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;{-
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;data Node a
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;instance Eq a =&amp;gt; Eq (Node a)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;next :: Node a -&amp;gt; Node a
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;data&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Phase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TryFindLoop&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;|&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FindLength&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;deriving&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;Eq&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;loopSize&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Eq&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Node&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;loopSize&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; slowAndFast a a &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;TryFindLoop&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;where&lt;/span&gt; slowAndFast &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;Eq&lt;/span&gt; node) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                       &lt;span style=&#34;color:#66d9ef&#34;&gt;Node&lt;/span&gt; node &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Node&lt;/span&gt; node &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Phase&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        slowAndFast slow fast len phase &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;let&lt;/span&gt; nextSlow &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; next slow
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              nextPreFast &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; next fast
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              nextFast &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; next nextPreFast &lt;span style=&#34;color:#66d9ef&#34;&gt;in&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (slow &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; nextPreFast &lt;span style=&#34;color:#f92672&#34;&gt;||&lt;/span&gt; slow &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; nextFast) &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (phase &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FindLength&lt;/span&gt;) &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (nextPreFast &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; nextFast) &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;              &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;(len&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; len &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; slow &lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt; nextFast &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt; slowAndFast nextSlow nextSlow &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;FindLength&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;          &lt;span style=&#34;color:#66d9ef&#34;&gt;else&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            slowAndFast nextSlow nextFast (len &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) phase
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Complexity: time o(n), memory o(1)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Ultra leiningen plugin</title>
       <link>https://yantonov.com/post/2015-02-03-ultra-leiningen-plugin/</link>
-      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-02-03-ultra-leiningen-plugin/</guid>
-      <description>There is nice leiningen plugin named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your clojure&amp;lsquo;s repl interaction.
-Main features:
- colorized output of data structures (using solarized theme) clear test output better stacktraces java object introspection.  </description>
+      <pubDate>Tue, 03 Feb 2015 23:25:06 +0500</pubDate>
+      <description>&lt;p&gt;There is nice leiningen &lt;a href=&#34;http://blog.venanti.us/ultra/&#34;&gt;plugin&lt;/a&gt; named &amp;ldquo;Ultra&amp;rdquo; which can significantly improve your &lt;a href=&#34;http://clojure.org&#34;&gt;clojure&lt;/a&gt;&amp;rsquo;s repl interaction.&lt;/p&gt;
+&lt;p&gt;Main features:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;colorized output of data structures (using &lt;a href=&#34;https://github.com/altercation/solarized&#34;&gt;solarized&lt;/a&gt; theme)&lt;/li&gt;
+&lt;li&gt;clear test output&lt;/li&gt;
+&lt;li&gt;better stacktraces&lt;/li&gt;
+&lt;li&gt;java object introspection.&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Conditional get for rss hackers</title>
       <link>https://yantonov.com/post/2015-01-25-conditional-get-for-rss-hackers/</link>
-      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-01-25-conditional-get-for-rss-hackers/</guid>
-      <description>Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this article.
-p.s. fyi header field definitions rfc2616</description>
+      <pubDate>Sun, 25 Jan 2015 16:30:47 +0500</pubDate>
+      <description>&lt;p&gt;Dont forget about Last-Modified/If-Modified-Since, ETag/If-None-Match headers while retrieving rss feeds. Details can be found in this &lt;a href=&#34;http://fishbowl.pastiche.org/2002/10/21/http_conditional_get_for_rss_hackers/%22&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;p.s. fyi header field definitions &lt;a href=&#34;http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html&#34;&gt;rfc2616&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Run automation instruments script from the command line</title>
       <link>https://yantonov.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</link>
-      <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-01-24-run-automation-instruments-script-from-the-command-line/</guid>
-      <description>To run ui test from command line you can use instruments app as described here.
-instruments -w deviceID -t defaultTemplateFilePath targetAppName \  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :
-/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate Since xcode 6 Automation.tracetemplate can be found:
-/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate </description>
+      <pubDate>Sat, 24 Jan 2015 13:38:03 +0500</pubDate>
+      <description>&lt;p&gt;To run ui test from command line you can use instruments app as described &lt;a href=&#34;https://developer.apple.com/library/ios/documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/UsingtheAutomationInstrument/UsingtheAutomationInstrument.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  instruments -w deviceID -t defaultTemplateFilePath targetAppName &lt;span style=&#34;color:#ae81ff&#34;&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  -e UIASCRIPT scriptFilePath -e UIARESULTSPATH resultsFolderPath
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The problem is defaultTemplateFilePath depends on xcode version. Documentation says Automation.tracetemplate is located here :&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Instruments/PlugIns/AutomationInstrument.bundle/Contents/Resources/Automation.tracetemplate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Since xcode 6 Automation.tracetemplate can be found:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;/Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/PlugIns/AutomationInstrument.xrplugin/Contents/Resources/Automation.tracetemplate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
       <title>Unconventional review</title>
       <link>https://yantonov.com/post/2015-01-19-unconventional-review/</link>
-      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-01-19-unconventional-review/</guid>
-      <description>I have just found a couple of nice articles about review of popular javascript frameworks angular and react. Recommend to read it.</description>
+      <pubDate>Mon, 19 Jan 2015 00:50:46 +0500</pubDate>
+      <description>&lt;p&gt;I have just found a couple of nice articles about review of popular javascript frameworks &lt;a href=&#34;http://www.letscodejavascript.com/v3/blog/2015/01/angular_review&#34;&gt;angular&lt;/a&gt; and &lt;a href=&#34;http://www.letscodejavascript.com/v3/blog/2014/09/react_review&#34;&gt;react&lt;/a&gt;. Recommend to read it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Multi-queue replacement algorithm for second level buffer caches</title>
       <link>https://yantonov.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</link>
-      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-12-13-multi-queue-replacement-algorithm-for-second-level-buffer-caches/</guid>
-      <description>I have read a nice article written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.
-I highly recommend to read it.</description>
+      <pubDate>Sat, 13 Dec 2014 13:09:21 +0500</pubDate>
+      <description>&lt;p&gt;I have read a nice &lt;a href=&#34;https://www.usenix.org/legacy/event/usenix01/full_papers/zhou/zhou.pdf&#34; title=&#34;Multi-queue replacement algorithm for second level buffer caches&#34;&gt;article&lt;/a&gt; written by Yuanyian Zhou and James F. Philbin &amp;ldquo;Multi-queue replacement algorithm for second level buffer caches&amp;rdquo;. Authors compares well known implementations LRU, MRU, LFU etc and introduces new, more efficient method based on multiple queues, which performs better than other described implementations.&lt;br&gt;
+I highly recommend to read it.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>List non latin file names in git</title>
       <link>https://yantonov.com/post/2014-12-07-list-non-latin-file-names-in-git/</link>
-      <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-12-07-list-non-latin-file-names-in-git/</guid>
-      <description>Imagine you have commited file which name contain non latin letters.
-git init test-repo cd test-repo echo &amp;#34;test&amp;#34; &amp;gt; тест.тэхэтэ git add . git commit -m &amp;#34;initial commit&amp;#34; Ok, lets list files changed at revision
-git log -p Here you can see escaped file name, and obvious its hard to read.
-diff --git &amp;quot;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\ new file mode 100644 index 0000000..9daeafb --- /dev/null +++ &amp;quot;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202 @@ -0,0 +1 @@ +test To handle this case there is config options &amp;lsquo;core.</description>
+      <pubDate>Sun, 07 Dec 2014 23:32:31 +0500</pubDate>
+      <description>&lt;p&gt;Imagine you have commited file which name contain non latin letters.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init test-repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd test-repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt; &amp;gt; тест.тэхэтэ
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;initial commit&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Ok, lets list files changed at revision&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git log -p
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here you can see escaped file name, and obvious its hard to read.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;diff --git &amp;#34;a/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\
+new file mode 100644
+index 0000000..9daeafb
+--- /dev/null
++++ &amp;#34;b/\321\202\320\265\321\201\321\202.\321\202\321\215\321\205\321\215\321\202
+@@ -0,0 +1 @@
++test
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To handle this case there is config options &amp;lsquo;core.quotepath&amp;rsquo;
+The documentations (man git-config 1) says:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Export files changed at revision from mercurial</title>
       <link>https://yantonov.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</link>
-      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-12-07-export-files-changed-at-revision-from-mercurial/</guid>
-      <description>Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.
-Mercurial vcs has archive command which let you to export selected files at given revision:
-hg archive --type files --rev $REVISION -I list_of_files To list files changed at revision:
-hg log -r $REVISION --template &amp;#39;{files}\n&amp;#39; | sed &amp;#39;s/\n / -I /g&amp;#39; Here end of line character is used to handle the case of using space character in filename.</description>
+      <pubDate>Sun, 07 Dec 2014 22:59:45 +0500</pubDate>
+      <description>&lt;p&gt;Sometimes (more precisely - rarely) you need to export files changed at given revision as directory tree instead of patch file.&lt;/p&gt;
+&lt;p&gt;Mercurial vcs has archive command which let you to export selected files at given revision:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hg archive --type files --rev $REVISION -I list_of_files
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;To list files changed at revision:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hg log -r $REVISION --template &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;{files}\n&amp;#39;&lt;/span&gt; | sed &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;s/\n / -I /g&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here end of line character is used to handle the case of using space character in filename.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Church numerals</title>
       <link>https://yantonov.com/post/2014-11-13-church-numerals/</link>
-      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-11-13-church-numerals/</guid>
-      <description>Church numerals is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.
-Summary:
-type Church a = (a -&amp;gt; a) -&amp;gt; a -&amp;gt; a zero, cone, ctwo :: Church a zero s z = z one s z = s z two s = s .</description>
+      <pubDate>Thu, 13 Nov 2014 08:17:25 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;http://en.wikipedia.org/wiki/Church_encoding&#34;&gt;Church numerals&lt;/a&gt; is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &amp;ldquo;data&amp;rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.&lt;/p&gt;
+&lt;p&gt;Summary:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-haskell&#34; data-lang=&#34;haskell&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Church&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; (a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; a) &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; a
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;zero&lt;/span&gt;, cone, ctwo &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Church&lt;/span&gt; a
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;zero&lt;/span&gt; s z &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; z
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt; s z &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; s z
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;two&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; s
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;three&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; s &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; s
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;nth&lt;/span&gt; n s z &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; iterate s z &lt;span style=&#34;color:#f92672&#34;&gt;!!&lt;/span&gt; n
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt;,mul,pow  &lt;span style=&#34;color:#f92672&#34;&gt;::&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Church&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Church&lt;/span&gt; a &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;Church&lt;/span&gt; a
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;add&lt;/span&gt; x y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;\&lt;/span&gt;s z &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; x s (y s z)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- a little bit easy to understand&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mul1&lt;/span&gt; x y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;\&lt;/span&gt;s z &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; x (y s) z
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- the same as&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mul&lt;/span&gt; x y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt; y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pow&lt;/span&gt; x y &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;\&lt;/span&gt;s z &lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt; y (x s) (x s z)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;-- pretty print&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c2i&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x (&lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;) &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;-- Church to int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;c2s&lt;/span&gt; x &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; x (&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;*&amp;#39;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;:&lt;/span&gt;) &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#75715e&#34;&gt;-- Church to String&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Links:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Programmable completion for git and mercurial</title>
       <link>https://yantonov.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</link>
-      <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-11-09-programmable-completion-for-git-and-mercurial/</guid>
-      <description>Some time ago i read excellent post about emacs library pcomplete.
-The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.
-First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation.</description>
+      <pubDate>Sun, 09 Nov 2014 22:52:36 +0500</pubDate>
+      <description>&lt;p&gt;Some time ago i read excellent &lt;a href=&#34;http://tsdh.wordpress.com/2013/05/31/eshell-completion-for-git-bzr-and-hg/&#34;&gt;post&lt;/a&gt; about emacs library &lt;a href=&#34;http://www.emacswiki.org/emacs/ProgrammableCompletion&#34;&gt;pcomplete&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The author described implementation of completion for git, mercurial version control system using this library. Article is really usefull, i used code as is, its easy and provides all you need, but later i have some problem with it.&lt;/p&gt;
+&lt;p&gt;First problem - eager evaluation. General commands for git and mercurial are calculated once. Great, there is no reason to call external process like git or hg multiple times but precalculation occured at script evaluation. You may not want to start eshell, so call hg or git is not needed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PATH variable for gui programs (Mac Os)</title>
       <link>https://yantonov.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</link>
-      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-11-04-path-variable-for-gui-programs-mac-os/</guid>
-      <description>Foreword:
-Sometimes you need to edit PATH variable.
-Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine only in terminal.
-GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;lsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.
-So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.
-Moreover, after update to Mac Os X 10.</description>
+      <pubDate>Tue, 04 Nov 2014 19:22:34 +0500</pubDate>
+      <description>&lt;p&gt;&lt;strong&gt;Foreword&lt;/strong&gt;:&lt;br&gt;
+Sometimes you need to edit PATH variable.&lt;br&gt;
+Of course you edit .bash_profile, .bashrc, .profile or other scripts and this works fine &lt;strong&gt;only in terminal&lt;/strong&gt;.&lt;br&gt;
+GUI apps at Mac Os use its own PATH variable (moreover has its own environment), which can be set using &amp;rsquo;launchctl setenv PATH &amp;lt;PATH_VALUE&amp;gt;&amp;rsquo;.&lt;br&gt;
+So you need to setup PATH for GUI apps correctly, and do not forget about PATH var for terminal.&lt;/p&gt;
+&lt;p&gt;Moreover, after update to Mac Os X 10.10 Yosemite i was wondering about this:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git rerere</title>
       <link>https://yantonov.com/post/2014-11-04-git-rerere/</link>
-      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-11-04-git-rerere/</guid>
-      <description>There is some usefull git command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.
-Let see how its works:
-# create test repo git init rerere # move to it cd rerere # enable rerere - reuse recorded resolution (its disabled by default) git config rerere.</description>
+      <pubDate>Tue, 04 Nov 2014 14:26:21 +0500</pubDate>
+      <description>&lt;p&gt;There is some usefull &lt;a href=&#34;https://git-scm.com&#34;&gt;git&lt;/a&gt; command rerere (reuse recorded resolution). Sometimes especially for long lived branch you need to resolve same conflicts again and again. This command let you save the results of conflict resolution and apply it again when needed.&lt;/p&gt;
+&lt;p&gt;Let see how its works:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# create test repo&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init rerere
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# move to it&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd rerere
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# enable rerere - reuse recorded resolution (its disabled by default)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config rerere.enabled true
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# add some file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;test&amp;#34;&lt;/span&gt; &amp;gt; readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;initial&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# add some changes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;line1&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# save first revision hash (used only to avoid hardcoded hash sums)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;initialRevision&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;git log HEAD^1 --pretty&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;format:&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;%H&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# create second branch based on initial revision&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# (simulate one long lived branch)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b first $initialRevision
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;line2&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# create third branch based again on initial revision&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# (simulate one more long lived branch)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout -b second $initialRevision
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;line2&amp;#34;&lt;/span&gt; &amp;gt;&amp;gt; readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;2 again&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# move to master&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git checkout master
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# merge with first long lived branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge first
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# resolve conflict and preserve line1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;test\nline1&amp;#34;&lt;/span&gt; &amp;gt; readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git add .
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git commit -m &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;first merge&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# now watch for output:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# &amp;#39;Recorded resolution for &amp;#39;readme.txt&amp;#39;.&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# git saves conflict resolution for readme.txt file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# now lets merge with second branch&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# the same conflict has here&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git merge second
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# look at the output&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# &amp;#39;Resolved &amp;#39;readme.txt&amp;#39; using previous resolution.&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat readme.txt
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# you can see the results of saved resolution without conflict markers&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# means : &amp;#34;test\nline1&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is pretty usefull for example, for package versions (pom files, project.clj), because such file fragments are strictly localized.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Platform specific build event</title>
       <link>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</link>
-      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-11-03-platform-specific-build-event/</guid>
-      <description>Sometimes you need to build .net solution/project on different platforms (for example while developing xamarin based application). In that case pre/post build events may contain platform specific instructions.
-To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:
-&amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--windows specifics --&amp;gt; copy $(TargetPath) $(ProjectDir)../Assemblies /Y &amp;lt;/PostBuildEvent&amp;gt; &amp;lt;PostBuildEvent Condition=&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&amp;gt; &amp;lt;!--*nix, mac specifics --&amp;gt; cp -f $(TargetPath) $(ProjectDir).</description>
+      <pubDate>Mon, 03 Nov 2014 13:43:28 +0500</pubDate>
+      <description>&lt;p&gt;Sometimes you need to build .net solution/project on different platforms (for example while developing &lt;a href=&#34;http://xamarin.com/&#34; title=&#34;xamarin&#34;&gt;xamarin&lt;/a&gt; based application). In that case pre/post build events may contain platform specific instructions.&lt;/p&gt;
+&lt;p&gt;To handle this situation you can use &amp;lsquo;Condition&amp;rsquo; attribute and &amp;lsquo;OS&amp;rsquo; variable, for example, like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-xml&#34; data-lang=&#34;xml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;PostBuildEvent&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Condition=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Windows_NT&amp;#39; &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!--  windows specifics --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  copy $(TargetPath)  $(ProjectDir)../Assemblies /Y
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/PostBuildEvent&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;PostBuildEvent&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Condition=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34; &amp;#39;$(OS)&amp;#39; == &amp;#39;Unix&amp;#39; &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#75715e&#34;&gt;&amp;lt;!--  *nix, mac specifics  --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  cp -f $(TargetPath) $(ProjectDir)../Assemblies
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;/PostBuildEvent&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If OS macro is undefined, you can explicitly define it at project level (projectName.cproj) like this:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git log aliases</title>
       <link>https://yantonov.com/post/2014-10-31-git-log-aliases/</link>
-      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-10-31-git-log-aliases/</guid>
-      <description>Here are some usefull git aliases which i use on a daily basis:
-Output samples are generated using clojure repository
-List of one line commits
-ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  List of commits with changed files
-ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat  List of commits without colors
-lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;  Commits with dates
-ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;  Commits with short dates</description>
+      <pubDate>Fri, 31 Oct 2014 00:10:22 +0500</pubDate>
+      <description>&lt;p&gt;Here are some usefull &lt;a href=&#34;http://git-scm.com&#34;&gt;git&lt;/a&gt; &lt;a href=&#34;https://git.wiki.kernel.org/index.php/Aliases&#34;&gt;aliases&lt;/a&gt; which i use on a daily basis:&lt;br&gt;
+Output samples are generated using clojure &lt;a href=&#34;https://github.com/clojure/clojure.git&#34;&gt;repository&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;List of one line commits&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ls = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://yantonov.com/images/git-log-aliases/ls.png&#34; alt=&#34;ls&#34;&gt;&lt;/p&gt;
+&lt;p&gt;List of commits with changed files&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ll = log --pretty=format:&#39;%Cred%h%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39; --decorate --numstat
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://yantonov.com/images/git-log-aliases/ll.png&#34; alt=&#34;ll&#34;&gt;&lt;/p&gt;
+&lt;p&gt;List of commits without colors&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;lnc = log --pretty=format:&amp;quot;%h\\ %s\\ [%cn]&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://yantonov.com/images/git-log-aliases/lnc.png&#34; alt=&#34;lnc&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Commits with dates&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ldt = log --all --pretty=format:&#39;%Cred%h%Creset %Cgreen%ad%Creset -%C(yellow)%d%Creset %s %C(bold blue)&amp;lt;%an&amp;gt;%Creset&#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;https://yantonov.com/images/git-log-aliases/ldt.png&#34; alt=&#34;ldt&#34;&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Stackoverflow reputation problem</title>
       <link>https://yantonov.com/post/2014-10-28-stackoverflow-reputation-problem/</link>
-      <pubDate>Tue, 28 Oct 2014 21:08:23 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-10-28-stackoverflow-reputation-problem/</guid>
-      <description>Some time ago i wrote gist which described how to install ghc from source on ubuntu. Today i see question on stackoverflow.com connected with my gist. I have fixed gist immediately and think about leaving comment to person who had some difficulties with it. I log on using google account and try to leave comment and &amp;hellip; i cant do it because my repuration is too low (this is just new account).</description>
+      <pubDate>Tue, 28 Oct 2014 21:08:23 +0500</pubDate>
+      <description>&lt;p&gt;Some time ago i wrote &lt;a href=&#34;https://gist.github.com/yantonov/10083524&#34;&gt;gist&lt;/a&gt; which described how to install ghc from source on ubuntu. Today i see question on &lt;a href=&#34;http://stackoverflow.com&#34;&gt;stackoverflow.com&lt;/a&gt; connected with my gist. I have fixed gist immediately and think about leaving comment to person who had some difficulties with it. I log on using google account and try to leave comment and &amp;hellip; i cant do it because my repuration is too low (this is just new account). What ?!? This is service for questions and answers, why i have such strange limitation connected with main purpose of this resource. Completely disappointed.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Mac os environment variables</title>
       <link>https://yantonov.com/post/2014-10-27-mac-os-environment-variables/</link>
-      <pubDate>Mon, 27 Oct 2014 02:36:04 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-10-27-mac-os-environment-variables/</guid>
-      <description>Suppose you install some program into your home directory (i had installed mercurial from source). To use it you have to patch PATH variable.
-To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:
-export PATH=$ADDITIONAL_PATH:$PATH It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal).</description>
+      <pubDate>Mon, 27 Oct 2014 02:36:04 +0500</pubDate>
+      <description>&lt;p&gt;Suppose you install some program into your home directory (i had installed &lt;a href=&#34;http://mercurial.selenic.com/&#34; title=&#34;mercurial&#34;&gt;mercurial&lt;/a&gt; from source). To use it you have to patch PATH variable.&lt;/p&gt;
+&lt;p&gt;To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$ADDITIONAL_PATH:$PATH
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal). In my case i cant access mercurial from &lt;a href=&#34;http://www.gnu.org/software/emacs/&#34; title=&#34;emacs&#34;&gt;emacs&lt;/a&gt; launched from spotlight.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Hello world</title>
       <link>https://yantonov.com/post/2014-10-27-hello-world/</link>
-      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2014-10-27-hello-world/</guid>
-      <description>hello world :-)</description>
+      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
+      <description>&lt;p&gt;hello world :-)&lt;/p&gt;</description>
     </item>
     
   </channel>
 </rss>
+```

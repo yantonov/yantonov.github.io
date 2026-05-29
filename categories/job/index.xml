@@ -1,221 +1,286 @@
+```go-html-template
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>job on (map solve problems)</title>
+    <title>Job on (map solve problems)</title>
     <link>https://yantonov.com/categories/job/</link>
-    <description>Recent content in job on (map solve problems)</description>
+    <description>Recent content in Job on (map solve problems)</description>
+
     <generator>Hugo -- gohugo.io</generator>
+
+    
+    <language>en</language>
+    
+
+    
+
+    
     <lastBuildDate>Sat, 21 Mar 2026 23:19:05 +0100</lastBuildDate>
     
-        <atom:link href="https://yantonov.com/categories/job/index.xml" rel="self" type="application/rss+xml" />
+
     
+    <atom:link href="https://yantonov.com/categories/job/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+    <item>
+      <title>Sum of digits without modulo</title>
+      <link>https://yantonov.com/post/2026-05-29-sum-of-digits-without-modulo/</link>
+      <guid>https://yantonov.com/post/2026-05-29-sum-of-digits-without-modulo/</guid>
+      <pubDate>Fri, 29 May 2026 11:38:00 +0200</pubDate>
+      <description>&lt;p&gt;Sometimes you need to calculate the sum of digits of an integer.&lt;/p&gt;
+&lt;p&gt;A straightforward approach is:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;sumDigits&lt;/span&gt;(&lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; num) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; result &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; 0;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;while&lt;/span&gt; (num &lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; 0) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        result &lt;span style=&#34;color:#f92672&#34;&gt;+=&lt;/span&gt; num &lt;span style=&#34;color:#f92672&#34;&gt;%&lt;/span&gt; 10;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        num &lt;span style=&#34;color:#f92672&#34;&gt;/=&lt;/span&gt; 10;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; result;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This implementation performs both a modulo (&lt;code&gt;%&lt;/code&gt;) and an integer division (&lt;code&gt;/&lt;/code&gt;) on every iteration.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Reformulating the Problem&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For simplicity, assume:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;0 &amp;lt;= num &amp;lt;= 9999
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Represent the number as:&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Functional programming jargon</title>
       <link>https://yantonov.com/post/2026-05-15-functional-programming-jargon/</link>
-      <pubDate>Fri, 15 May 2026 19:50:51 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2026-05-15-functional-programming-jargon/</guid>
-      <description>An article that explains popular terms related to functional programming.</description>
+      <pubDate>Fri, 15 May 2026 19:50:51 +0200</pubDate>
+      <description>&lt;p&gt;An &lt;a href=&#34;https://github.com/hemanth/functional-programming-jargon&#34;&gt;article&lt;/a&gt; that explains popular terms related to functional programming.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Behavior trees</title>
       <link>https://yantonov.com/post/2026-05-15-behavior-trees/</link>
-      <pubDate>Fri, 15 May 2026 10:41:16 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2026-05-15-behavior-trees/</guid>
-      <description>There are two typical ways to handle model state transitions:
- state-machines (known typically from computer science) behavior trees (adopted heavily by game industry)  [Here]((https://queenofsquiggles.github.io/guides/fsm-vs-bt/) is a nice article that:
- explains high level concept highlights pros and cons provides simple speculative examples  The paper &amp;lsquo;A robust layered control system for a mobile robot&amp;rsquo; written by Rodney Brooks that created the foundation that was adopted and generalized later by game industry to model behavior of non-player characters.</description>
+      <pubDate>Fri, 15 May 2026 10:41:16 +0200</pubDate>
+      <description>&lt;p&gt;There are two typical ways to handle model state transitions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;state-machines (known typically from computer science)&lt;/li&gt;
+&lt;li&gt;behavior trees (adopted heavily by game industry)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;[Here]((&lt;a href=&#34;https://queenofsquiggles.github.io/guides/fsm-vs-bt/&#34;&gt;https://queenofsquiggles.github.io/guides/fsm-vs-bt/&lt;/a&gt;) is a nice article that:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;explains high level concept&lt;/li&gt;
+&lt;li&gt;highlights pros and cons&lt;/li&gt;
+&lt;li&gt;provides simple speculative examples&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The &lt;a href=&#34;https://people.csail.mit.edu/brooks/papers/AIM-864.pdf&#34;&gt;paper&lt;/a&gt; &amp;lsquo;A robust layered control system for a mobile robot&amp;rsquo; written by &lt;a href=&#34;https://en.wikipedia.org/wiki/Rodney_Brooks&#34;&gt;Rodney Brooks&lt;/a&gt; that created the foundation that was adopted and generalized later by game industry to model behavior of non-player characters.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About promotion</title>
       <link>https://yantonov.com/post/2026-03-21-about-promotion/</link>
-      <pubDate>Sat, 21 Mar 2026 23:19:05 +0100</pubDate>
-      
       <guid>https://yantonov.com/post/2026-03-21-about-promotion/</guid>
-      <description>Nobody Gets Promoted for Simplicity</description>
+      <pubDate>Sat, 21 Mar 2026 23:19:05 +0100</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://terriblesoftware.org/2026/03/03/nobody-gets-promoted-for-simplicity/&#34;&gt;Nobody Gets Promoted for Simplicity&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Git: duplicated refs with different case</title>
       <link>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</link>
-      <pubDate>Fri, 02 Jan 2026 19:40:36 +0100</pubDate>
-      
       <guid>https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/</guid>
-      <description>Some file system are case insensitive, other are not. When you try to checkout git repository, it&#39;s possible to face this kind of error:
- error: You&#39;re on a case-insensitive filesystem, and the remote you are trying to fetch from has references that only differ in casing. It is impossible to store such references with the &amp;lsquo;files&amp;rsquo; backend. You can either accept this as-is, in which case you won&#39;t be able to store all remote references on disk.</description>
+      <pubDate>Fri, 02 Jan 2026 19:40:36 +0100</pubDate>
+      <description>&lt;p&gt;Some file system are case insensitive, other are not.
+When you try to checkout git repository, it&amp;rsquo;s possible to face this kind of error:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;error: You&amp;rsquo;re on a case-insensitive filesystem, and the remote you are
+trying to fetch from has references that only differ in casing. It
+is impossible to store such references with the &amp;lsquo;files&amp;rsquo; backend. You
+can either accept this as-is, in which case you won&amp;rsquo;t be able to
+store all remote references on disk. Or you can alternatively
+migrate your repository to use the &amp;lsquo;reftable&amp;rsquo; backend with the
+following command:&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>What is intelligence?</title>
       <link>https://yantonov.com/post/2025-12-07-what-is-intelligence/</link>
-      <pubDate>Sun, 07 Dec 2025 00:17:59 +0100</pubDate>
-      
       <guid>https://yantonov.com/post/2025-12-07-what-is-intelligence/</guid>
-      <description>Book</description>
+      <pubDate>Sun, 07 Dec 2025 00:17:59 +0100</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://whatisintelligence.antikythera.org/&#34;&gt;Book&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Congnitive bias</title>
       <link>https://yantonov.com/post/2025-12-06-congnitive-bias/</link>
-      <pubDate>Sat, 06 Dec 2025 22:54:56 +0100</pubDate>
-      
       <guid>https://yantonov.com/post/2025-12-06-congnitive-bias/</guid>
-      <description>A brief and visual description of cognitive distortions.
-Blog</description>
+      <pubDate>Sat, 06 Dec 2025 22:54:56 +0100</pubDate>
+      <description>&lt;p&gt;A brief and visual description of cognitive distortions.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://flinkliv.com/pages/cognitive-bias.html&#34;&gt;Blog&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Things that go wrong with disk IO</title>
       <link>https://yantonov.com/post/2025-04-27-things-that-go-wrong-with-disk-io/</link>
-      <pubDate>Sun, 27 Apr 2025 08:31:13 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2025-04-27-things-that-go-wrong-with-disk-io/</guid>
-      <description>Things that you should now about disk IO.
-source</description>
+      <pubDate>Sun, 27 Apr 2025 08:31:13 +0200</pubDate>
+      <description>&lt;p&gt;Things that you should now about disk IO.&lt;br&gt;
+&lt;a href=&#34;https://notes.eatonphil.com/2025-03-27-things-that-go-wrong-with-disk-io.html&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Go profile guided optimization example</title>
       <link>https://yantonov.com/post/2024-05-22-go-profile-guided-optimization-example/</link>
-      <pubDate>Wed, 22 May 2024 14:35:57 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2024-05-22-go-profile-guided-optimization-example/</guid>
-      <description>Here is a nice example how to use profile guided optimization for Go languange.</description>
+      <pubDate>Wed, 22 May 2024 14:35:57 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://blog.cloudflare.com/reclaiming-cpu-for-free-with-pgo&#34;&gt;Here&lt;/a&gt; is a nice example how to use profile guided optimization for Go languange.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>The scripting language</title>
       <link>https://yantonov.com/post/2024-04-10-the-scripting-language/</link>
-      <pubDate>Wed, 10 Apr 2024 00:23:49 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2024-04-10-the-scripting-language/</guid>
-      <description>source
-TLDR: use main language of the project to write scripts.
-+1 +2 :)
-Additional couple of remarks:
- at some moment you can think about writing tests; at some moment you need to reuse something else from the project (also it&#39;s possible to duplicate\reimplement something from the project using scripting language); at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).</description>
+      <pubDate>Wed, 10 Apr 2024 00:23:49 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://joaomagfreitas.link/scripts-should-be-written-using-the-project-main-language/&#34;&gt;source&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TLDR: use main language of the project to write scripts.&lt;br&gt;
++1
++2
+:)&lt;/p&gt;
+&lt;p&gt;Additional couple of remarks:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;at some moment you can think about writing tests;&lt;/li&gt;
+&lt;li&gt;at some moment you need to reuse something else from the project (also it&amp;rsquo;s possible to duplicate\reimplement something from the project using scripting language);&lt;/li&gt;
+&lt;li&gt;at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;That&amp;rsquo;s why it&amp;rsquo;s better to write additional logic not using a script but using the main language from the very beginning.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Advanced data structures MIT course</title>
       <link>https://yantonov.com/post/2022-09-16-advanced-data-structures-mit-course/</link>
-      <pubDate>Fri, 16 Sep 2022 22:46:09 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-09-16-advanced-data-structures-mit-course/</guid>
-      <description>MIT course</description>
+      <pubDate>Fri, 16 Sep 2022 22:46:09 +0200</pubDate>
+      <description>&lt;p&gt;MIT &lt;a href=&#34;https://courses.csail.mit.edu/6.851/spring21/&#34;&gt;course&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>WSL network name cannot be found</title>
       <link>https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/</link>
-      <pubDate>Fri, 09 Sep 2022 22:22:48 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-09-09-wsl-network-name-cannot-be-found/</guid>
-      <description>If you face this issue working with WSL, the root cause of the problem is invalid current directory.
-How to fix it:
- open powershell select home directory   wsl -d DISTRO --cd ~ where DISTRO is the name of the distribution, that can be obtained
- wsl -l Source</description>
+      <pubDate>Fri, 09 Sep 2022 22:22:48 +0200</pubDate>
+      <description>&lt;p&gt;If you face this issue working with WSL, the root cause of the problem is invalid current directory.&lt;/p&gt;
+&lt;p&gt;How to fix it:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;open powershell&lt;/li&gt;
+&lt;li&gt;select home directory&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    wsl -d DISTRO --cd ~
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;where DISTRO is the name of the distribution, that can be obtained&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    wsl -l
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/microsoft/WSL/issues/7850&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About RFC\ADR\design docs</title>
       <link>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</link>
-      <pubDate>Sun, 10 Jul 2022 14:04:28 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</guid>
-      <description>Nice article about the topic.</description>
+      <pubDate>Sun, 10 Jul 2022 14:04:28 +0200</pubDate>
+      <description>&lt;p&gt;Nice &lt;a href=&#34;https://blog.pragmaticengineer.com/rfcs-and-design-docs/&#34;&gt;article&lt;/a&gt; about the topic.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About static types</title>
       <link>https://yantonov.com/post/2022-06-04-about-static-types/</link>
-      <pubDate>Sat, 04 Jun 2022 20:04:06 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-06-04-about-static-types/</guid>
-      <description>A couple of notes about static and dynamic types
- Literature review on the benefits of static types This is how science happens  </description>
+      <pubDate>Sat, 04 Jun 2022 20:04:06 +0200</pubDate>
+      <description>&lt;p&gt;A couple of notes about static and dynamic types&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://danluu.com/empirical-pl/&#34;&gt;Literature review on the benefits of static types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.hillelwayne.com/post/this-is-how-science-happens/&#34;&gt;This is how science happens&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Usecase for git refs</title>
       <link>https://yantonov.com/post/2022-05-12-usecase-for-git-refs/</link>
-      <pubDate>Thu, 12 May 2022 10:39:49 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-05-12-usecase-for-git-refs/</guid>
-      <description>Here you can read about
- an excellent example of how to use git refs in practice. a nice way to track the experiments (ML related for example).  </description>
+      <pubDate>Thu, 12 May 2022 10:39:49 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://dvc.org/blog/experiment-refs&#34;&gt;Here&lt;/a&gt; you can read about&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;an excellent example of how to use git refs in practice.&lt;/li&gt;
+&lt;li&gt;a nice way to track the experiments (ML related for example).&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Link imbalance</title>
       <link>https://yantonov.com/post/2022-05-11-link-imbalance/</link>
-      <pubDate>Wed, 11 May 2022 17:18:48 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-05-11-link-imbalance/</guid>
-      <description>Interesting reading about link imbalance:
- Metastable Failures in Distributed Systems Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale  </description>
+      <pubDate>Wed, 11 May 2022 17:18:48 +0200</pubDate>
+      <description>&lt;p&gt;Interesting reading about link imbalance:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3458336.3465286&#34;&gt;Metastable Failures in Distributed Systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://engineering.fb.com/2014/11/14/production-engineering/solving-the-mystery-of-link-imbalance-a-metastable-failure-state-at-scale/&#34;&gt;Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Move WSL to another drive</title>
       <link>https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/</link>
-      <pubDate>Thu, 07 Apr 2022 10:22:12 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/</guid>
-      <description>Here is a nice instruction how to migrate wsl to another drive.
-A couple of nuances:
- When you export the image there is no need to define the version of WSL. But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter. To define the default user you should use the command that may vary depending on the os version.</description>
+      <pubDate>Thu, 07 Apr 2022 10:22:12 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://avinal.space/posts/development/wsl1.html&#34;&gt;Here&lt;/a&gt; is a nice instruction how to migrate wsl to another drive.&lt;/p&gt;
+&lt;p&gt;A couple of nuances:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;When you export the image there is no need to define the version of WSL.
+But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter.&lt;/li&gt;
+&lt;li&gt;To define the default user you should use the command that may vary depending on the os version. For example, for Ubuntu 20.04 the command looks like ubuntu 2004, not ubuntu.&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
       <title>Github repositories that help you to prepare for the next interview</title>
       <link>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</link>
-      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</guid>
-      <description>Here is the list of general/algo/system design questions:
- coding-interview-university build-your-own-x tech-interview-handbook how-to-secure-anything javascript-algorithms how-web-works algorithms-javascript system-design-primer awesome-interview-questions olshansk-interview  Golang 11. learngo
-Javascript 12. clean-code-javascript 13. javascript-questions
-source</description>
+      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
+      <description>&lt;p&gt;Here is the list of general/algo/system design questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jwasham/coding-interview-university&#34;&gt;coding-interview-university&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/danistefanovic/build-your-own-x&#34;&gt;build-your-own-x&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yangshun/tech-interview-handbook&#34;&gt;tech-interview-handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/veeral-patel/how-to-secure-anything&#34;&gt;how-to-secure-anything&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/javascript-algorithms&#34;&gt;javascript-algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vasanthk/how-web-works&#34;&gt;how-web-works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Javascript&#34;&gt;algorithms-javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/donnemartin/system-design-primer&#34;&gt;system-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DopplerHQ/awesome-interview-questions&#34;&gt;awesome-interview-questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Olshansk/interview&#34;&gt;olshansk-interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Golang
+11. &lt;a href=&#34;https://github.com/inancgumus/learngo&#34;&gt;learngo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Javascript
+12. &lt;a href=&#34;https://github.com/ryanmcdermott/clean-code-javascript&#34;&gt;clean-code-javascript&lt;/a&gt;
+13. &lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dev.to/olanetsoft/12-github-repositories-to-help-you-ace-your-job-interview-2a08&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Geometric deep learning</title>
       <link>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</link>
-      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</guid>
-      <description>Geometric deep learning course. This DL generalization allows transferring prior physical knowledge to NN architectures.
-Book at arxiv.org
-Full playlist (including tutorial and seminar records)</description>
+      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
+      <description>&lt;p&gt;Geometric deep learning &lt;a href=&#34;https://geometricdeeplearning.com/lectures/&#34;&gt;course&lt;/a&gt;. This DL generalization allows transferring prior physical knowledge to NN architectures.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.13478&#34;&gt;Book&lt;/a&gt; at arxiv.org&lt;/p&gt;
+&lt;p&gt;Full &lt;a href=&#34;https://www.youtube.com/playlist?list=PL3uSJlS7NpskaTGJ9t89T4LAhigIlWXVG&#34;&gt;playlist&lt;/a&gt; (including tutorial and seminar records)&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>About rx observables</title>
       <link>https://yantonov.com/post/2021-07-23-about-rx-observables/</link>
-      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
-      
       <guid>https://yantonov.com/post/2021-07-23-about-rx-observables/</guid>
-      <description>Information for reflection :)
-Here is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).
-Just check it and spend a couple of minutes to think about it.</description>
-    </item>
-    
-    <item>
-      <title>Github actions and windows</title>
-      <link>https://yantonov.com/post/2021-04-16-github-actions-and-windows/</link>
-      <pubDate>Fri, 16 Apr 2021 07:42:29 +0200</pubDate>
-      
-      <guid>https://yantonov.com/post/2021-04-16-github-actions-and-windows/</guid>
-      <description>Be careful while using Github actions for Windows.
-By default Windows uses Powershell not bash, but you may prefer to explicitly choose bash as a shell.
-See Github action documentation
-You can find some details about using Powershell here</description>
+      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
+      <description>&lt;p&gt;Information for reflection :)&lt;br&gt;
+&lt;a href=&#34;https://github.com/edgeandnode/eventuals&#34;&gt;Here&lt;/a&gt; is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).&lt;br&gt;
+Just check it and spend a couple of minutes to think about it.&lt;/p&gt;</description>
     </item>
     
   </channel>
 </rss>
+```

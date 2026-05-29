@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>
+        Sum of digits - (map solve problems)
+      </title>
+        <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    
+    <meta name="theme-color" content="#000000" />
+    
+    <meta http-equiv="window-target" content="_top" />
+    
+    
+    <meta name="description" content="Sum of Digits Without Modulo
+Sometimes you need to calculate the sum of digits of an integer.
+A straightforward approach is:
+int sumDigits(int num) { int result = 0; while (num &gt; 0) { result &#43;= num % 10; num /= 10; } return result; } This implementation performs both a modulo (%) and an integer division (/) on every iteration.
+Reformulating the Problem For simplicity, assume:
+0 &lt;= num &lt;= 9999 Represent the number as:
+" />
+    <meta name="generator" content="Hugo 0.162.1 with theme pure" />
+    <title>Sum of digits - (map solve problems)</title>
+    
+    
+    <link rel="stylesheet" href="http://localhost:1313/css/style.min.142fadc7793bd505f5673afdc91581dd8fff401c2ad4dc09f37366d775340826.css">
+    
+    <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
+
+    
+    <!--[if lte IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+      <![endif]-->
+
+    <!--[if lt IE 9]>
+        <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+      <![endif]-->
+
+  </head>
+
+  
+  
+
+  <body class="main-center theme-black" itemscope itemtype="http://schema.org/WebPage"><header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <div class="slimContent">
+      <div class="navbar-header">
+        <div class="profile-block text-center">
+          <a id="avatar" href="/" target="">
+            <img class="img-circle img-rotate" src="http://localhost:1313/avatar.png" width="200" height="200">
+          </a>
+          <h2 id="name" class="hidden-xs hidden-sm">Yury Antonov</h2>
+          <h3 id="title" class="hidden-xs hidden-sm hidden-md">software engineer</h3>
+          <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i>Milky Way Galaxy</small>
+        </div><div class="search" id="search-form-wrap">
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i
+                        class="icon icon-search"></i></button>
+            </span>
+        </div>
+        <div class="ins-search">
+            <div class="ins-search-mask"></div>
+            <div class="ins-search-container">
+                <div class="ins-input-wrapper">
+                    <input type="text" class="ins-search-input" placeholder="Type something..."
+                        x-webkit-speech />
+                    <button type="button" class="close ins-close ins-selectable" data-dismiss="modal"
+                        aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="ins-section-wrapper">
+                    <div class="ins-section-container"></div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+        <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+        <ul class="nav navbar-nav main-nav">
+            <li class="menu-item menu-item-home">
+                <a href="/">
+                    <i class="icon icon-home-fill"></i>
+                  <span class="menu-title">Home</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-categories">
+                <a href="/categories">
+                    <i class="icon icon-folder"></i>
+                  <span class="menu-title">Categories</span>
+                </a>
+            </li>
+            <li class="menu-item menu-item-tags">
+                <a href="/tags">
+                    <i class="icon icon-tags"></i>
+                  <span class="menu-title">Tags</span>
+                </a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            <div class="content"><p>enjoy~</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+      <div class="widget">
+    <h3 class="widget-title"> Categories</h3>
+    <div class="widget-body">
+        <ul class="category-list">
+            <li class="category-list-item"><a href="http://localhost:1313/categories/book/" class="category-list-link">book</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/computer-science/" class="category-list-link">computer science</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/cs/" class="category-list-link">cs</a><span class="category-list-count">2</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">44</span></li>
+            <li class="category-list-item"><a href="http://localhost:1313/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
+        </ul>
+    </div>
+</div>
+      <div class="widget">
+    <h3 class="widget-title"> Tags</h3>
+    <div class="widget-body">
+        <ul class="tag-list">
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/.net/" class="tag-list-link">.net</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/adr/" class="tag-list-link">adr</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ai/" class="tag-list-link">ai</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/algo/" class="tag-list-link">algo</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/algorithm/" class="tag-list-link">algorithm</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/alias/" class="tag-list-link">alias</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/alice/" class="tag-list-link">alice</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/angular/" class="tag-list-link">angular</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/api/" class="tag-list-link">api</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/architecture/" class="tag-list-link">architecture</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/article/" class="tag-list-link">article</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/audio/" class="tag-list-link">audio</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/automation/" class="tag-list-link">automation</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/behaviour-tree/" class="tag-list-link">behaviour-tree</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/blog/" class="tag-list-link">blog</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/book/" class="tag-list-link">book</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/cache/" class="tag-list-link">cache</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/caching/" class="tag-list-link">caching</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/cd/" class="tag-list-link">cd</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ci/" class="tag-list-link">ci</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/cli/" class="tag-list-link">cli</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/clojure/" class="tag-list-link">clojure</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/command-line/" class="tag-list-link">command line</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/commit/" class="tag-list-link">commit</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/communication/" class="tag-list-link">communication</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/composition/" class="tag-list-link">composition</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/computer-vision/" class="tag-list-link">computer vision</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/concurrency/" class="tag-list-link">concurrency</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/config/" class="tag-list-link">config</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/configuration/" class="tag-list-link">configuration</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/congestion-control/" class="tag-list-link">congestion control</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/connection/" class="tag-list-link">connection</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/consensus/" class="tag-list-link">consensus</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/context/" class="tag-list-link">context</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/continuous-delivery/" class="tag-list-link">continuous delivery</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/course/" class="tag-list-link">course</a><span
+                    class="tag-list-count">6</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/crdt/" class="tag-list-link">crdt</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/cs/" class="tag-list-link">cs</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/css/" class="tag-list-link">css</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/data-structures/" class="tag-list-link">data structures</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/deep-learning/" class="tag-list-link">deep learning</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/dependency/" class="tag-list-link">dependency</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/deploy/" class="tag-list-link">deploy</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/design/" class="tag-list-link">design</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/disk/" class="tag-list-link">disk</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/distributed-systems/" class="tag-list-link">distributed systems</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/docker/" class="tag-list-link">docker</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/dotfiles/" class="tag-list-link">dotfiles</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/drivers/" class="tag-list-link">drivers</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/economics/" class="tag-list-link">economics</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/emacs/" class="tag-list-link">emacs</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/email/" class="tag-list-link">email</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/encoding/" class="tag-list-link">encoding</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/enheritance/" class="tag-list-link">enheritance</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/environment/" class="tag-list-link">environment</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/error/" class="tag-list-link">error</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/export/" class="tag-list-link">export</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/fault-tolerance/" class="tag-list-link">fault tolerance</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/filename/" class="tag-list-link">filename</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/finite-state-machine/" class="tag-list-link">finite-state-machine</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/flash/" class="tag-list-link">flash</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/form/" class="tag-list-link">form</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/formula/" class="tag-list-link">formula</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/fp/" class="tag-list-link">fp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/fprog/" class="tag-list-link">fprog</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/fsm/" class="tag-list-link">fsm</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/fun/" class="tag-list-link">fun</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/functional-programming/" class="tag-list-link">functional-programming</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/gamedev/" class="tag-list-link">gamedev</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/git/" class="tag-list-link">git</a><span
+                    class="tag-list-count">7</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/github/" class="tag-list-link">github</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/go/" class="tag-list-link">go</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/golang/" class="tag-list-link">golang</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/hardware/" class="tag-list-link">hardware</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/haskell/" class="tag-list-link">haskell</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/health/" class="tag-list-link">health</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/http/" class="tag-list-link">http</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ide/" class="tag-list-link">ide</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/install/" class="tag-list-link">install</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/intelligence/" class="tag-list-link">intelligence</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/interface/" class="tag-list-link">interface</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/interview/" class="tag-list-link">interview</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/io/" class="tag-list-link">io</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ios/" class="tag-list-link">ios</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/javascript/" class="tag-list-link">javascript</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/jvm/" class="tag-list-link">jvm</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/kalman-filter/" class="tag-list-link">kalman filter</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/keyboard/" class="tag-list-link">keyboard</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/lambda-calculus/" class="tag-list-link">lambda calculus</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/lang/" class="tag-list-link">lang</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/leetcode/" class="tag-list-link">leetcode</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/leiningen/" class="tag-list-link">leiningen</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/library/" class="tag-list-link">library</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/limit/" class="tag-list-link">limit</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/linked-list/" class="tag-list-link">linked list</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/links/" class="tag-list-link">links</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/linux/" class="tag-list-link">linux</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/lisp/" class="tag-list-link">lisp</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/logic/" class="tag-list-link">logic</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/mac/" class="tag-list-link">mac</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/machine-learning/" class="tag-list-link">machine learning</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/macos/" class="tag-list-link">macos</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/math/" class="tag-list-link">math</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/matplotlib/" class="tag-list-link">matplotlib</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/memory/" class="tag-list-link">memory</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/mercurial/" class="tag-list-link">mercurial</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/merge/" class="tag-list-link">merge</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/microphone/" class="tag-list-link">microphone</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/microservice/" class="tag-list-link">microservice</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/mlops/" class="tag-list-link">mlops</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/mock/" class="tag-list-link">mock</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/monad/" class="tag-list-link">monad</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/nalsd/" class="tag-list-link">nalsd</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/nasd/" class="tag-list-link">nasd</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/nautilus/" class="tag-list-link">nautilus</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/network/" class="tag-list-link">network</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/neural-network/" class="tag-list-link">neural network</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/neural-netrowk/" class="tag-list-link">neural-netrowk</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/notification/" class="tag-list-link">notification</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/observable/" class="tag-list-link">observable</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ops/" class="tag-list-link">ops</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/optimization/" class="tag-list-link">optimization</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/package/" class="tag-list-link">package</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/parallel/" class="tag-list-link">parallel</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/pattern-recognition/" class="tag-list-link">pattern recognition</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/paxos/" class="tag-list-link">paxos</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/performance/" class="tag-list-link">performance</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/plugin/" class="tag-list-link">plugin</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/podcast/" class="tag-list-link">podcast</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/probability/" class="tag-list-link">probability</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/problem/" class="tag-list-link">problem</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/profiling/" class="tag-list-link">profiling</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/project/" class="tag-list-link">project</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/promo/" class="tag-list-link">promo</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/promotion/" class="tag-list-link">promotion</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/python/" class="tag-list-link">python</a><span
+                    class="tag-list-count">5</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/raft/" class="tag-list-link">raft</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/react/" class="tag-list-link">react</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/repl/" class="tag-list-link">repl</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/research/" class="tag-list-link">research</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/review/" class="tag-list-link">review</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/rfc/" class="tag-list-link">rfc</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/rss/" class="tag-list-link">rss</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/rust/" class="tag-list-link">rust</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/rx/" class="tag-list-link">rx</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/salary/" class="tag-list-link">salary</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/scala/" class="tag-list-link">scala</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/scalability/" class="tag-list-link">scalability</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/scm/" class="tag-list-link">scm</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/script/" class="tag-list-link">script</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/setup/" class="tag-list-link">setup</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/shell/" class="tag-list-link">shell</a><span
+                    class="tag-list-count">4</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/shortcut/" class="tag-list-link">shortcut</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/sound/" class="tag-list-link">sound</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/specification/" class="tag-list-link">specification</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/sqlite/" class="tag-list-link">sqlite</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ssh/" class="tag-list-link">ssh</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/stackoverflow/" class="tag-list-link">stackoverflow</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/state-machine/" class="tag-list-link">state-machine</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/static/" class="tag-list-link">static</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/station/" class="tag-list-link">station</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/stub/" class="tag-list-link">stub</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/system-design/" class="tag-list-link">system design</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/tagless-final/" class="tag-list-link">tagless final</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/task/" class="tag-list-link">task</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/tcp/" class="tag-list-link">tcp</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/tdd/" class="tag-list-link">tdd</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/terminal/" class="tag-list-link">terminal</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/test/" class="tag-list-link">test</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/tip/" class="tag-list-link">tip</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/tool/" class="tag-list-link">tool</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/trick/" class="tag-list-link">trick</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/troubleshooting/" class="tag-list-link">troubleshooting</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/trunk/" class="tag-list-link">trunk</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/types/" class="tag-list-link">types</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/typescript/" class="tag-list-link">typescript</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ubuntu/" class="tag-list-link">ubuntu</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ui/" class="tag-list-link">ui</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/unix/" class="tag-list-link">unix</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/usability/" class="tag-list-link">usability</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/ux/" class="tag-list-link">ux</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/vcs/" class="tag-list-link">vcs</a><span
+                    class="tag-list-count">8</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/watch/" class="tag-list-link">watch</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/watchers/" class="tag-list-link">watchers</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/web/" class="tag-list-link">web</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/webpack/" class="tag-list-link">webpack</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/webrtc/" class="tag-list-link">webrtc</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/wifi/" class="tag-list-link">wifi</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/windows/" class="tag-list-link">windows</a><span
+                    class="tag-list-count">3</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/workflow/" class="tag-list-link">workflow</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/wsl/" class="tag-list-link">wsl</a><span
+                    class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/xamarin/" class="tag-list-link">xamarin</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
+            <li class="tag-list-item"><a href="http://localhost:1313/tags/yandex/" class="tag-list-link">yandex</a><span
+                    class="tag-list-count">1</span></li>
+            
+        </ul>
+
+    </div>
+</div>
+      
+<div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+        <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://localhost:1313/post/2026-05-29-sum-of-digits/" class="title">Sum of digits</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-05-29 11:38:00 &#43;0200 CEST" itemprop="datePublished">2026-05-29</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://localhost:1313/post/2026-05-15-functional-programming-jargon/" class="title">Functional programming jargon</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-05-15 19:50:51 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://localhost:1313/post/2026-05-15-behavior-trees/" class="title">Behavior trees</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-05-15 10:41:16 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://localhost:1313/post/2026-03-21-about-promotion/" class="title">About promotion</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-03-21 23:19:05 &#43;0100 CET" itemprop="datePublished">2026-03-21</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="http://localhost:1313/post/2026-01-02-git-duplicated-refs-with-different-case/" class="title">Git: duplicated refs with different case</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-01-02 19:40:36 &#43;0100 CET" itemprop="datePublished">2026-01-02</time>
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+  </div>
+</aside>
+
+    
+    
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <h4 class="toc-title">Catalogue</h4>
+    <nav id="toc" class="js-toc toc">
+
+    </nav>
+  </div>
+</aside>
+<main class="main" role="main"><div class="content">
+  <article id="-" class="article article-type-" itemscope
+    itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2026-05-29-sum-of-digits/"
+    >Sum of digits</a
+  >
+</h1>
+
+      <div class="article-meta">
+        
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="http://localhost:1313/post/2026-05-29-sum-of-digits/" class="article-date">
+  <time datetime="2026-05-29 11:38:00 &#43;0200 CEST" itemprop="datePublished">2026-05-29</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/programming/"> programming </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/leetcode/"> leetcode </a>
+    <a class="article-tag-link" href="/tags/optimization/"> optimization </a>
+    <a class="article-tag-link" href="/tags/math/"> math </a>
+    <a class="article-tag-link" href="/tags/formula/"> formula </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/post/2026-05-29-sum-of-digits/#comments"
+            class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 377 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 2 minutes </span>
+      </div>
+    </div>
+    <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
+      <p><em>Sum of Digits Without Modulo</em></p>
+<p>Sometimes you need to calculate the sum of digits of an integer.</p>
+<p>A straightforward approach is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sumDigits</span>(<span style="color:#66d9ef">int</span> num) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> 0;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (num <span style="color:#f92672">&gt;</span> 0) {
+</span></span><span style="display:flex;"><span>        result <span style="color:#f92672">+=</span> num <span style="color:#f92672">%</span> 10;
+</span></span><span style="display:flex;"><span>        num <span style="color:#f92672">/=</span> 10;
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> result;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This implementation performs both a modulo (<code>%</code>) and an integer division (<code>/</code>) on every iteration.</p>
+<h2 id="reformulating-the-problem">Reformulating the Problem</h2>
+<p>For simplicity, assume:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>0 &lt;= num &lt;= 9999
+</span></span></code></pre></div><p>Represent the number as:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num = a + 10b + 100c + 1000d
+</span></span></code></pre></div><p>where <code>a</code>, <code>b</code>, <code>c</code>, and <code>d</code> are decimal digits.</p>
+<p>The desired result is:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>sum = a + b + c + d
+</span></span></code></pre></div><p>Notice that:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num
+</span></span><span style="display:flex;"><span>    = a + 10b + 100c + 1000d
+</span></span><span style="display:flex;"><span>    = (a + b + c + d)
+</span></span><span style="display:flex;"><span>      + (9b + 99c + 999d)
+</span></span></code></pre></div><p>Therefore:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num - sum
+</span></span><span style="display:flex;"><span>    = 9b + 99c + 999d
+</span></span><span style="display:flex;"><span>    = 9(b + 11c + 111d)
+</span></span></code></pre></div><p>Expanding further:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num - sum
+</span></span><span style="display:flex;"><span>    = 9(b + c + 10c + d + 10d + 100d)
+</span></span><span style="display:flex;"><span>    = 9((100d + 10c + b) + (10d + c) + d)
+</span></span></code></pre></div><p>Now observe that integer division naturally produces these terms:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num / 10   = b + 10c + 100d
+</span></span><span style="display:flex;"><span>num / 100  = c + 10d
+</span></span><span style="display:flex;"><span>num / 1000 = d
+</span></span></code></pre></div><p>Adding them together gives:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num / 10 + num / 100 + num / 1000
+</span></span><span style="display:flex;"><span>    = (100d + 10c + b)
+</span></span><span style="display:flex;"><span>      + (10d + c)
+</span></span><span style="display:flex;"><span>      + d
+</span></span></code></pre></div><p>Hence:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>num - sum
+</span></span><span style="display:flex;"><span>    = 9 * (num / 10 + num / 100 + num / 1000)
+</span></span></code></pre></div><p>and finally:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>sum
+</span></span><span style="display:flex;"><span>    = num - 9 * (num / 10 + num / 100 + num / 1000)
+</span></span></code></pre></div><p>which translates directly into code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sumDigits</span>(<span style="color:#66d9ef">int</span> num) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> num
+</span></span><span style="display:flex;"><span>         <span style="color:#f92672">-</span> 9 <span style="color:#f92672">*</span> (num <span style="color:#f92672">/</span> 10
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">+</span> num <span style="color:#f92672">/</span> 100
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">+</span> num <span style="color:#f92672">/</span> 1000);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h2 id="discussion">Discussion</h2>
+<p>Compared to the conventional loop, this approach:</p>
+<ul>
+<li>Eliminates modulo operations entirely.</li>
+<li>Uses a fixed number of divisions.</li>
+<li>Avoids iteration.</li>
+<li>Works for numbers in the range <code>0..9999</code>.</li>
+</ul>
+<p>The same idea generalizes to larger fixed-width numbers:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>sumDigits(num) =
+</span></span><span style="display:flex;"><span>    num - 9 * Σ(num / 10^k),  k = 1 .. n - 1
+</span></span></code></pre></div><p>Whether this is actually faster depends on the target CPU, compiler, and the number of digits involved, but it is an interesting algebraic transformation of the classic digit-sum algorithm.</p>
+
+    </div>
+    <div class="article-footer">
+<blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    <li class="post-copyright-link hidden-xs">
+      <strong>Permalink: </strong>
+      <a href="http://localhost:1313/post/2026-05-29-sum-of-digits/" title="Sum of digits" target="_blank" rel="external">http://localhost:1313/post/2026-05-29-sum-of-digits/</a>
+    </li>
+    <li class="post-copyright-license">
+      <strong>License: </strong>
+        
+    </li>
+  </ul>
+</blockquote>
+
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="/" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="http://localhost:1313/avatar.png" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="/" target="_blank"><span class="text-dark">Yury Antonov</span><small class="ml-1x">software engineer</small></a></h3>
+        <div>machine learning addicted software engineer</div>
+      </div>
+    </figure>
+  </div>
+</div>
+
+    </div>
+  </article>
+<section id="comments">
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+</section>
+
+</div><nav class="bar bar-footer clearfix" data-stick-bottom>
+    <div class="bar-inner">
+        <ul class="pager pull-left">
+            <li class="prev">
+                <a href="http://localhost:1313/post/2026-05-15-functional-programming-jargon/" title="Functional programming jargon"><i
+                        class="icon icon-angle-left"
+                        aria-hidden="true"></i><span>&nbsp;&nbsp;Older</span></a>
+            </li>
+            
+            <li class="toggle-toc">
+                <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false"
+                    title="Catalogue" role="button">
+                    <span>[&nbsp;</span><span>Catalogue</span>
+                    <i class="text-collapsed icon icon-anchor"></i>
+                    <i class="text-in icon icon-close"></i>
+                    <span>]</span>
+                </a>
+            </li>
+        </ul>
+        <div class="bar-right">
+            <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter"
+                data-mobile-sites="weibo,qq,qzone"></div>
+        </div>
+    </div>
+</nav>
+
+
+</main><footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+<ul class="social-links">
+    <li><a href="https://github.com/yantonov" target="_blank" title="github" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-github"></i></a></li>
+    <li><a href="https://yantonov.com/homepage" target="_blank" title="link" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-link"></i></a></li>
+    <li><a href="https://linkedin.com/in/y-antonov" target="_blank" title="linkedin" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-linkedin"></i></a></li>
+    <li><a href="http://localhost:1313/index.xml" target="_blank" title="rss" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-rss"></i></a></li>
+    <li><a href="https://twitter.com/yantonov" target="_blank" title="twitter" data-toggle=tooltip data-placement=top >
+            <i class="icon icon-twitter"></i></a></li>
+</ul>
+  <div class="copyright">
+    &copy;2014  -
+    2026
+    <div class="publishby">
+        Theme by <a href="https://github.com/yantonov" target="_blank"> yantonov </a>base on<a href="https://github.com/yantonov/hugo-theme-pure" target="_blank"> pure</a>.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            showMathMenu: false, //disables context menu
+            tex2jax: {
+            inlineMath: [ ['$','$'], ['\\(','\\)'] ]
+           }
+    });
+</script>
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script><script>
+    hljs.configure({
+        tabReplace: '    ', 
+        classPrefix: ''     
+        
+    })
+    hljs.initHighlightingOnLoad();
+</script>
+<script src="http://localhost:1313/js/application.min.e4989ab4dc212027af8773861b05b6bc333a1217f6b0a1b3377a3a3dbd454483.js"></script>
+<script src="http://localhost:1313/js/plugin.min.55cc3498567c2081a6895075033d3f95a086b09c2dbbf31cc4bc3bba415f0bd6.js"></script>
+
+<script>
+    (function (window) {
+        var INSIGHT_CONFIG = {
+            TRANSLATION: {
+                POSTS: 'Posts',
+                PAGES: 'Pages',
+                CATEGORIES: 'Categories',
+                TAGS: 'Tags',
+                UNTITLED: '(Untitled)',
+            },
+            ROOT_URL: 'http:\/\/localhost:1313\/',
+            CONTENT_URL: 'http:\/\/localhost:1313\/\/searchindex.json ',
+        };
+        window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+    })(window);
+</script>
+<script type="text/javascript" src="http://localhost:1313/js/insight.min.716b0c6a00b68ccc31a2b65345f3412f4246ffa94a90f8e25d525528b4504f9937880692bbe619023233caba5d0a17ebe23d7cfb57cd3a88f23ea337ad5e4d00.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+<script>
+    tocbot.init({
+        
+        tocSelector: '.js-toc',
+        
+        contentSelector: '.js-toc-content',
+        
+        headingSelector: 'h1, h2, h3',
+        
+        hasInnerContainers: true,
+    });
+</script>
+
+
+<script>
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'yantonov';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+  </body>
+</html>

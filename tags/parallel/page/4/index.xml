@@ -1,220 +1,367 @@
+```go-html-template
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>parallel on (map solve problems)</title>
+    <title>Parallel on (map solve problems)</title>
     <link>https://yantonov.com/tags/parallel/</link>
-    <description>Recent content in parallel on (map solve problems)</description>
+    <description>Recent content in Parallel on (map solve problems)</description>
+
     <generator>Hugo -- gohugo.io</generator>
+
+    
+    <language>en</language>
+    
+
+    
+
+    
     <lastBuildDate>Wed, 13 Dec 2017 22:56:24 +0500</lastBuildDate>
     
-        <atom:link href="https://yantonov.com/tags/parallel/index.xml" rel="self" type="application/rss+xml" />
+
     
+    <atom:link href="https://yantonov.com/tags/parallel/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+    <item>
+      <title>Neural turing machines</title>
+      <link>https://yantonov.com/post/2017-05-03-neural-turing-machines/</link>
+      <guid>https://yantonov.com/post/2017-05-03-neural-turing-machines/</guid>
+      <pubDate>Wed, 03 May 2017 03:16:05 +0500</pubDate>
+      <description>&lt;p&gt;[https://arxiv.org/abs/1410.5401](Neural Turing Machines)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Lispy css</title>
       <link>https://yantonov.com/post/2017-04-13-lispy-css/</link>
-      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2017-04-13-lispy-css/</guid>
-      <description>Write css rules with lispy syntax using lass.</description>
+      <pubDate>Thu, 13 Apr 2017 20:49:57 +0500</pubDate>
+      <description>&lt;p&gt;Write css rules with lispy syntax using &lt;a href=&#34;http://quickdocs.org/lass/&#34; title=&#34;lass&#34;&gt;lass&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>kalman filter</title>
       <link>https://yantonov.com/post/2017-03-22-kalman-filter/</link>
-      <pubDate>Wed, 22 Mar 2017 05:19:56 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2017-03-22-kalman-filter/</guid>
-      <description>Concise explanation of Kalman filter</description>
+      <pubDate>Wed, 22 Mar 2017 05:19:56 +0500</pubDate>
+      <description>&lt;p&gt;Concise explanation of &lt;a href=&#34;http://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/&#34;&gt;Kalman filter&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>functional programming related podcasts</title>
       <link>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</link>
-      <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2017-01-21-functional-programming-related-podcasts/</guid>
-      <description>List{:target=&amp;rdquo;_blank&amp;rdquo;} of functional programming related podcasts. Happy listening!</description>
+      <pubDate>Sat, 21 Jan 2017 21:31:02 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://fpcasts.com&#34; title=&#34;fpcasts&#34;&gt;List&lt;/a&gt;{:target=&amp;quot;_blank&amp;quot;} of functional programming related podcasts.
+Happy listening!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bye octopress, hello hugo</title>
       <link>https://yantonov.com/post/2017-01-06-bye-octopress-hello-hugo/</link>
-      <pubDate>Fri, 06 Jan 2017 13:02:38 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2017-01-06-bye-octopress-hello-hugo/</guid>
-      <description>This tiny blog has just been migrated from octropress to hugo.
-Pros:
- service code and content (blog posts) are not mixed easy installation and configuration/customization process no more any troubles with ruby (on mac in particular) speed  Generator is written in go lang :-), maybe for someone this is an additional argument.
-Cons: &amp;hellip; cant see, at least now
-Good day!</description>
+      <pubDate>Fri, 06 Jan 2017 13:02:38 +0500</pubDate>
+      <description>&lt;p&gt;This tiny blog has just been migrated from &lt;a href=&#34;http://octopress.org&#34;&gt;octropress&lt;/a&gt; to &lt;a href=&#34;http://gohugo.io&#34;&gt;hugo&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Pros:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;service code and content (blog posts) are not mixed&lt;/li&gt;
+&lt;li&gt;easy installation and configuration/customization process&lt;/li&gt;
+&lt;li&gt;no more any troubles with ruby (on mac in particular)&lt;/li&gt;
+&lt;li&gt;speed&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Generator is written in go lang :-), maybe for someone this is an additional argument.&lt;/p&gt;
+&lt;p&gt;Cons:
+&amp;hellip; cant see, at least now&lt;/p&gt;
+&lt;p&gt;Good day!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Install matplotlib on mac sierra</title>
       <link>https://yantonov.com/post/2017-01-05-install-matplotlib-on-mac-sierra/</link>
-      <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2017-01-05-install-matplotlib-on-mac-sierra/</guid>
-      <description>During matplotlib installation (for python3) some error may occured:
-&amp;lsquo;The following required packages can not be built:
- freetype png&amp;rsquo;  Thats why some additional steps may be required:
-  install homebrew
-  install pkg-config
-  brew install pkg-config install freetype  brew install freetype install matplotlib  pip3 install matplotlib Enjoy!</description>
+      <pubDate>Thu, 05 Jan 2017 22:38:37 +0500</pubDate>
+      <description>&lt;p&gt;During matplotlib installation (for python3) some error may occured:&lt;br&gt;
+&amp;lsquo;The following required packages can not be built:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;freetype&lt;/li&gt;
+&lt;li&gt;png&amp;rsquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thats why some additional steps may be required:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;install &lt;a href=&#34;http://brew.sh&#34;&gt;homebrew&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;install pkg-config&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install pkg-config
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;install freetype&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;brew install freetype
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;install matplotlib&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;pip3 install matplotlib
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Enjoy!&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Can not connect to hidden wifi (ubuntu 16.04 lts)</title>
       <link>https://yantonov.com/post/2016-12-10-can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</link>
-      <pubDate>Sat, 10 Dec 2016 21:38:41 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2016-12-10-can-not-connect-to-hidden-wifi-ubuntu-16.04-lts/</guid>
-      <description>Problem: its impossible to connect to hidden wifi network (connect button is disabled) Solution: execute in terminal (where sid - wifi network id):
-nmcli c up id &amp;lt;sid&amp;gt; bug status</description>
+      <pubDate>Sat, 10 Dec 2016 21:38:41 +0500</pubDate>
+      <description>&lt;p&gt;Problem: its impossible to connect to hidden wifi network (connect button is disabled)
+Solution: execute in terminal (where sid - wifi network id):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;nmcli c up id &amp;lt;sid&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1542733&#34;&gt;bug status&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2Q a low overhead high performance buffer managemenent replacement algorithm</title>
       <link>https://yantonov.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</link>
-      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2016-07-31-2q-a-low-overhead-high-performance-buffer-managemenent-replacement-algorithm/</guid>
-      <description>Excellent article which shows how to apply pareto rule for caching strategies.</description>
+      <pubDate>Sun, 31 Jul 2016 11:29:56 +0500</pubDate>
+      <description>&lt;p&gt;Excellent &lt;a href=&#34;http://www.vldb.org/conf/1994/P439.PDF&#34; title=&#34;2Q a low overhead high performance buffer managemenent replacement algorithm&#34;&gt;article&lt;/a&gt; which shows how to apply pareto rule for caching strategies.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Strange shift key behaviour when renaming files in ubuntu</title>
       <link>https://yantonov.com/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</link>
-      <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2016-05-10-strange-shift-key-behaviour-when-renaming-files-in-ubuntu/</guid>
-      <description>There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:
- Choose any file to rename During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.  Clarification: Current shortcut to change layout LShift+RShift.
-Solution: Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.</description>
+      <pubDate>Tue, 10 May 2016 08:45:32 +0500</pubDate>
+      <description>&lt;p&gt;There is a really puzzling behaviour in Nautilus regarding my Shift key. Consider the following scenario:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose any file to rename&lt;/li&gt;
+&lt;li&gt;During renaming i can type just fine unless i need a capital letter. If i type a capital letter (using shift) then focus shifts to some file at the same folder.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Clarification: Current shortcut to change layout LShift+RShift.&lt;/p&gt;
+&lt;p&gt;Solution:
+Change shortcut to, for example, LCtrl + LShift (System Settings -&amp;gt; Text Entry)and the problem disappears.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Bye bye mercurial</title>
       <link>https://yantonov.com/post/2016-03-12-bye-bye-mercurial/</link>
-      <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2016-03-12-bye-bye-mercurial/</guid>
-      <description>Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is gitlab which provides free private repositories as well as bitbucket.
-P.s. here is a simple script aimed to convert hg repo to git,
-maybe it will be helpful</description>
+      <pubDate>Sat, 12 Mar 2016 19:54:21 +0500</pubDate>
+      <description>&lt;p&gt;Has just migrated all my mercurial repositories to git. Its a little bit sad, but it will increase uniformity. More over there is &lt;a href=&#34;https://gitlab.com&#34; title=&#34;gitlab&#34;&gt;gitlab&lt;/a&gt; which provides free private repositories as well as &lt;a href=&#34;https://bitbucket.org&#34; title=&#34;bitbucket&#34;&gt;bitbucket&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;P.s. &lt;a href=&#34;https://raw.githubusercontent.com/yantonov/mercurial-tools/master/scripts/hg2git.sh&#34; title=&#34;hg2git&#34;&gt;here&lt;/a&gt; is a simple script aimed to convert hg repo to git,&lt;br&gt;
+maybe it will be helpful&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Delete package from Mac OS</title>
       <link>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</link>
-      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-10-14-delete-package-from-mac-os/</guid>
-      <description>Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.
-There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can google it) which described the process.
-To automate the process i have wrote this script uninstall-pkg.sh
-#!/bin/sh  # this script allow you to uninstall given pkg file # ATTENTIONS!</description>
+      <pubDate>Wed, 14 Oct 2015 15:46:08 +0500</pubDate>
+      <description>&lt;p&gt;Sometimes you may want to delete some package (*.pkg) from your Mac OS installaction. Its assumed, you dont have uninstaller.&lt;/p&gt;
+&lt;p&gt;There is no official way to uninstall package, but you can do it manually using &amp;lsquo;pkgutil&amp;rsquo; tool. There is some articles (you can &lt;a href=&#34;https://www.google.ru/webhp?sourceid=chrome-instant&amp;amp;ion=1&amp;amp;espv=2&amp;amp;ie=UTF-8#newwindow=1&amp;amp;q=delete+pkg+from+mac+os&#34;&gt;google it&lt;/a&gt;) which described the process.&lt;/p&gt;
+&lt;p&gt;To automate the process i have wrote this script
+uninstall-pkg.sh&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# this script allow you to uninstall given pkg file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# ATTENTIONS!&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# all delete operation are interactive, but in any way&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# USE THIS SCRIPT FOR YOUR OWN RISK&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;SCRIPT&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;basename $0&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;WD&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pwd&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;PACKAGE_NAME&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$1
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; -z &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$PACKAGE_NAME&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[ERROR] - package is not defined&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Usage: &lt;/span&gt;$SCRIPT&lt;span style=&#34;color:#e6db74&#34;&gt; &amp;lt;package-name&amp;gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    exit &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;installed_packages&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pkgutil --pkgs | grep $PACKAGE_NAME&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt; -z &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$installed_packages&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;then&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[ERROR] - package &amp;#39;&lt;/span&gt;$PACKAGE_NAME&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; not found&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    exit &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;fi&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; p in &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pkgutil --pkgs | grep $PACKAGE_NAME&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Delete package: &amp;#39;&lt;/span&gt;$p&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; [y/n/other key to break] ?:&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    read -n &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; selection
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$selection&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        y&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[INFO] - Process package: &amp;#39;&lt;/span&gt;$p&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            volume&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pkgutil --pkg-info $p | grep -E &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;volume:&amp;#39;&lt;/span&gt; | cut -d &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt; -f 2&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            location&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pkgutil --pkg-info $p | grep -E &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;location:&amp;#39;&lt;/span&gt; | cut -d &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; &amp;#39;&lt;/span&gt; -f 2&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            package_path&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$volume$location&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;[INFO] - Go to package install location: $package_path&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            cd $package_path
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;[INFO] - Iterate package files:&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; f in &lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;pkgutil --only-files --files $p&lt;span style=&#34;color:#e6db74&#34;&gt;`&lt;/span&gt;; &lt;span style=&#34;color:#66d9ef&#34;&gt;do&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Delete file: &amp;#39;&lt;/span&gt;$f&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; ? [y/n/other key to skip package]:&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                read -n &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; file_cmd
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;$file_cmd&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt; in
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    y&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        sudo rm -i $f
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[INFO] - file &amp;#39;&lt;/span&gt;$f&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; deleted.&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    n&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[INFO] - file &amp;#39;&lt;/span&gt;$f&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39; skipped&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    *&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;[INFO] - skip all files in package &amp;#39;&lt;/span&gt;$p&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                        break
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                &lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        n&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;[INFO] - ok, i will skip package &amp;#39;&lt;/span&gt;%p&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        *&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;[INFO] - quit&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            exit &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            ;;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;esac&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;done&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd $WD
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/yantonov/sh/blob/master/mac/uninstall-pkg.sh&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Distributed systems papers</title>
       <link>https://yantonov.com/post/2015-10-01-distributed-systems-papers/</link>
-      <pubDate>Thu, 01 Oct 2015 15:49:22 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-10-01-distributed-systems-papers/</guid>
-      <description>List of papers on distributed systems</description>
+      <pubDate>Thu, 01 Oct 2015 15:49:22 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://courses.engr.illinois.edu/cs525/sp2015/sched.htm&#34;&gt;List&lt;/a&gt; of papers on distributed systems&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Deep learning resouces</title>
       <link>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</link>
-      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-09-13-deep-learning-resouces/</guid>
-      <description>Videos  Deep Learning and Neural Networks with Kevin Duh: course page NY Course by Yann LeCun: 2014 version, 2015 version ICML 2013 Deep Learning Tutorial by Yann Lecun (slides) Geoffery Hinton’s cousera course on Neural Networks for Machine Learning Large Scale Visual Recognition Challenge 2014, arxiv paper GTC Deep Learning 2015 Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), slides My youtube playlist Yaser Abu-Mostafa’s Learning from Data course (youtube playlist) Stanford CS224d: Deep Learning for Natural Language Processing: syllabus, youtube playlist, reddit Neural Networks for Machine Perception: vimeo Deep Learning for NLP (without magic): page, better page, video1, video2, youtube playlist Introduction to Deep Learning with Python: video, slides, code Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube playlist), course page, torch practicals NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: video, slides  Links  Deeplearning.</description>
+      <pubDate>Sun, 13 Sep 2015 15:29:49 +0500</pubDate>
+      <description>&lt;h3 id=&#34;videos&#34;&gt;Videos&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Deep Learning and Neural Networks with Kevin Duh: &lt;a href=&#34;http://cl.naist.jp/~kevinduh/a/deep2014/&#34;&gt;course page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NY Course by Yann LeCun: &lt;a href=&#34;http://techtalks.tv/deep_learning_nyu_spring_2014/&#34;&gt;2014 version&lt;/a&gt;, &lt;a href=&#34;http://techtalks.tv/deep-learning-nyu-spring-2015/&#34;&gt;2015 version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ICML 2013 &lt;a href=&#34;http://techtalks.tv/talks/deep-learning/58122/&#34;&gt;Deep Learning Tutorial&lt;/a&gt; by Yann Lecun (&lt;a href=&#34;http://www.cs.nyu.edu/~yann/talks/lecun-ranzato-icml2013.pdf&#34;&gt;slides&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Geoffery Hinton’s cousera course on &lt;a href=&#34;https://www.coursera.org/course/neuralnets&#34;&gt;Neural Networks for Machine Learning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Large Scale Visual Recognition Challenge &lt;a href=&#34;http://image-net.org/challenges/LSVRC/2014/eccv2014&#34;&gt;2014&lt;/a&gt;, arxiv &lt;a href=&#34;http://arxiv.org/abs/1409.0575&#34;&gt;paper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GTC Deep Learning &lt;a href=&#34;http://on-demand-gtc.gputechconf.com/gtcnew/on-demand-gtc.php&#34;&gt;2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hugo Larochelle Neural Networks [class[(https://www.youtube.com/playlist?list=PL6Xpj9I5qXYEcOhn7TqghAJ6NAPrNmUBH), &lt;a href=&#34;http://info.usherbrooke.ca/hlarochelle/cours/ift725_A2013/contenu.html&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;My youtube &lt;a href=&#34;https://www.youtube.com/playlist?list=PLFyHXClT3SSh792hH9FuWLHb1zeKrUdaI&#34;&gt;playlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yaser Abu-Mostafa’s Learning from Data &lt;a href=&#34;https://work.caltech.edu/telecourse.html&#34;&gt;course&lt;/a&gt; (youtube &lt;a href=&#34;https://www.youtube.com/playlist?list=PLD63A284B7615313A&#34;&gt;playlist&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Stanford CS224d: Deep Learning for Natural Language Processing: &lt;a href=&#34;http://cs224d.stanford.edu/syllabus.html&#34;&gt;syllabus&lt;/a&gt;, youtube &lt;a href=&#34;https://www.youtube.com/playlist?list=PLFyHXClT3SShCsk058_lY5uPjWo6bQRmv&#34;&gt;playlist&lt;/a&gt;, &lt;a href=&#34;http://www.reddit.com/r/CS224d&#34;&gt;reddit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Neural Networks for Machine Perception: &lt;a href=&#34;https://vimeo.com/77050653&#34;&gt;vimeo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Deep Learning for NLP (without magic): &lt;a href=&#34;http://www.socher.org/index.php/DeepLearningTutorial/DeepLearningTutorial&#34;&gt;page&lt;/a&gt;, &lt;a href=&#34;http://nlp.stanford.edu/courses/NAACL2013/&#34;&gt;better page&lt;/a&gt;, &lt;a href=&#34;http://techtalks.tv/talks/deep-learning-for-nlp-without-magic-part-1/58414/&#34;&gt;video1&lt;/a&gt;, &lt;a href=&#34;http://techtalks.tv/talks/deep-learning-for-nlp-without-magic-part-2/58415/&#34;&gt;video2&lt;/a&gt;, youtube &lt;a href=&#34;https://www.youtube.com/playlist?list=PL4617D0E28A5781B0&#34;&gt;playlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to Deep Learning with Python: &lt;a href=&#34;https://www.youtube.com/watch?v=S75EdAcXHKk&#34;&gt;video&lt;/a&gt;, &lt;a href=&#34;http://www.slideshare.net/indicods/deep-learning-with-python-and-the-theano-library&#34;&gt;slides&lt;/a&gt;, &lt;a href=&#34;https://github.com/Newmu/Theano-Tutorials&#34;&gt;code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Machine Learning course with emphasis on Deep Learning by Nando de Freitas (youtube &lt;a href=&#34;https://www.youtube.com/playlist?list=PLE6Wd9FR--EfW8dtjAuPoTuPcqmOV53Fu&#34;&gt;playlist&lt;/a&gt;), course &lt;a href=&#34;https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/&#34;&gt;page&lt;/a&gt;, torch &lt;a href=&#34;https://github.com/oxford-cs-ml-2015/&#34;&gt;practicals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NIPS 2013 Deep Learning for Computer Vision Tutorial – Rob Fergus: &lt;a href=&#34;https://www.youtube.com/watch?v=qgx57X0fBdA&#34;&gt;video&lt;/a&gt;, &lt;a href=&#34;http://media.nips.cc/Conferences/2013/Video/Tutorial1A.pdf&#34;&gt;slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;links&#34;&gt;Links&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;http://deeplearning.net/&#34;&gt;Deeplearning.net&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;NVidia’s Deep Learning &lt;a href=&#34;https://developer.nvidia.com/deep-learning&#34;&gt;portal&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;books&#34;&gt;Books&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Learning Deep Architectures for AI, Bengio (&lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/papers/ftml_book.pdf&#34;&gt;pdf&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Neural Nets and Deep Learning (&lt;a href=&#34;http://neuralnetworksanddeeplearning.com/&#34;&gt;html&lt;/a&gt;, &lt;a href=&#34;https://github.com/mnielsen/neural-networks-and-deep-learning&#34;&gt;github&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Deep Learning, Bengio, Goodfellow, Courville (&lt;a href=&#34;http://www.iro.umontreal.ca/~bengioy/dlbook/&#34;&gt;html&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Neural Nets and Learning Machines, Haykin, 2008 (&lt;a href=&#34;http://www.amazon.com/Neural-Networks-Learning-Machines-3rd/dp/0131471392/ref=sr_1_2?s=books&amp;amp;ie=UTF8&amp;amp;qid=1430937795&amp;amp;sr=1-2&#34;&gt;amazon&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;papers&#34;&gt;Papers&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;ImageNet Classification with Deep Convolutional Neural Networks, Alex Krizhevsky, Ilya Sutskever, Geoffrey E Hinton, NIPS 2012 (&lt;a href=&#34;http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Why does unsupervised pre-training help deep learning? (&lt;a href=&#34;http://machinelearning.wustl.edu/mlpapers/paper_files/AISTATS2010_ErhanCBV10.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Hinton06 – Autoencoders (&lt;a href=&#34;http://www.cs.toronto.edu/~rsalakhu/papers/science.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Deep Learning using Linear Support Vector machines (&lt;a href=&#34;http://deeplearning.net/wp-content/uploads/2013/03/dlsvm.pdf&#34;&gt;paper&lt;/a&gt;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.jeremydjacksonphd.com/?p=28&#34;&gt;Source&lt;/a&gt; contains additional materials.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Crdt reading list</title>
       <link>https://yantonov.com/post/2015-08-02-crdt-reading-list/</link>
-      <pubDate>Sun, 02 Aug 2015 12:14:54 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-08-02-crdt-reading-list/</guid>
-      <description>CRDT reading list</description>
+      <pubDate>Sun, 02 Aug 2015 12:14:54 +0500</pubDate>
+      <description>&lt;p&gt;CRDT &lt;a href=&#34;http://christophermeiklejohn.com/crdt/2014/07/22/readings-in-crdts.html&#34;&gt;reading list&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Y combinator</title>
       <link>https://yantonov.com/post/2015-06-07-y-combinator/</link>
-      <pubDate>Sun, 07 Jun 2015 17:50:14 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-06-07-y-combinator/</guid>
-      <description>Mike Vanier wrote great article about Y-combinator.</description>
+      <pubDate>Sun, 07 Jun 2015 17:50:14 +0500</pubDate>
+      <description>&lt;p&gt;Mike Vanier wrote great &lt;a href=&#34;http://mvanier.livejournal.com/2897.html&#34;&gt;article&lt;/a&gt; about Y-combinator.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Functional composition and transducers</title>
       <link>https://yantonov.com/post/2015-04-12-functional-composition-and-transducers/</link>
-      <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-04-12-functional-composition-and-transducers/</guid>
-      <description>Another Rich Hickey&#39;s great talk about functional composition in general and transducers in particular.</description>
+      <pubDate>Sun, 12 Apr 2015 09:19:18 +0500</pubDate>
+      <description>&lt;p&gt;Another Rich Hickey&amp;rsquo;s great &lt;a href=&#34;http://www.youtube.com/watch?v=6mTbuzafcII&#34; title=&#34;transducers&#34;&gt;talk&lt;/a&gt; about functional composition in general and transducers in particular.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CS231n Convolutional neural networks for visual recognition</title>
       <link>https://yantonov.com/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</link>
-      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-03-29-cs231n-convolutional-neural-networks-for-visual-recognition/</guid>
-      <description>Course Project Reports</description>
+      <pubDate>Sun, 29 Mar 2015 15:56:41 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;http://cs231n.stanford.edu/reports.html&#34;&gt;Course Project Reports&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>CS229 Machine Learning</title>
       <link>https://yantonov.com/post/2015-03-29-cs229-machine-learning/</link>
-      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-03-29-cs229-machine-learning/</guid>
-      <description>Final Projects 2012
-Final Projects 2013
-Final Projects 2014</description>
+      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;http://cs229.stanford.edu/projects2012.html&#34;&gt;Final Projects 2012&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cs229.stanford.edu/projects2013.html&#34;&gt;Final Projects 2013&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cs229.stanford.edu/projects2014.html&#34;&gt;Final Projects 2014&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Stand up every 20 minutes (mac os)</title>
       <link>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</link>
-      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</guid>
-      <description>Foreword : Inspired by excellent post
-Initial task: creating notification every 20 minutes can be decomposed into two parts:
- create notification scheduled launch  First subtask can be solved using this trivial script.
-standup.sh:
-#!/bin/sh  # stand up notification osascript -e &amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39; say &amp;#34;Stand up&amp;#34; Second subtask (scheduled launch) can be solved using: daemon and agent mechanism.
-Create file: com.example.stand.up.plist and place it into ~/Library/LaunchAgents/.</description>
+      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
+      <description>&lt;p&gt;&lt;em&gt;Foreword&lt;/em&gt; : Inspired by &lt;a href=&#34;http://blog.jdevelop.com/software/lifehack/health/standing/linux/2015/02/25/standing-task-20.html&#34;&gt;excellent post&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Initial task: creating notification every 20 minutes can be decomposed into two parts:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;create notification&lt;/li&gt;
+&lt;li&gt;scheduled launch&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;First subtask can be solved using this trivial script.&lt;/p&gt;
+&lt;p&gt;standup.sh:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/sh
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# stand up notification&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;osascript -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;say &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Stand up&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Second subtask (scheduled launch) can be solved using: &lt;a href=&#34;http://launchd.info/&#34;&gt;daemon and agent mechanism&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Create file: com.example.stand.up.plist and place it into &lt;strong&gt;~/Library/LaunchAgents/&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Replicated SQLite</title>
       <link>https://yantonov.com/post/2015-02-23-replicated-sqlite/</link>
-      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
-      
       <guid>https://yantonov.com/post/2015-02-23-replicated-sqlite/</guid>
-      <description>Replicated SQLite using the Raft consensus protocol written in Go #sqlite #raft #consensus #golang
-It seems, its time to start learning go</description>
-    </item>
-    
-    <item>
-      <title>Path to learn haskell</title>
-      <link>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</link>
-      <pubDate>Sat, 21 Feb 2015 17:44:29 +0500</pubDate>
-      
-      <guid>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</guid>
-      <description>Some haskell resources recommended by @bytemyapp.
- CIS 194: Introduction to Haskell (Spring 2013) NICTA course Stanford CS240h Spring 2014 Path to learning haskell  </description>
+      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/otoolep/rqlite&#34;&gt;Replicated SQLite&lt;/a&gt; using the Raft consensus protocol written in &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt;  #sqlite #raft #consensus #golang&lt;/p&gt;
+&lt;p&gt;It seems, its time to start learning go&lt;/p&gt;</description>
     </item>
     
   </channel>
 </rss>
+```
