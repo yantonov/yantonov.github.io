@@ -133,7 +133,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">22</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">44</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -234,6 +234,10 @@
                     class="tag-list-count">2</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/cloud/" class="tag-list-link">cloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/command-line/" class="tag-list-link">command line</a><span
                     class="tag-list-count">1</span></li>
             
@@ -316,6 +320,10 @@
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/deploy/" class="tag-list-link">deploy</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/deployment/" class="tag-list-link">deployment</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/design/" class="tag-list-link">design</a><span
@@ -874,6 +882,10 @@
                     class="tag-list-count">8</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/version/" class="tag-list-link">version</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/watch/" class="tag-list-link">watch</a><span
                     class="tag-list-count">1</span></li>
             
@@ -915,7 +927,7 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/yandex/" class="tag-list-link">yandex</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
         </ul>
 
@@ -926,6 +938,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/" class="title">Simplifying sidecar management through bundled releases</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-06-02 08:51:26 &#43;0200 &#43;0200" itemprop="datePublished">2026-06-02</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -966,16 +988,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/" class="title">Git: duplicated refs with different case</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-01-02 19:40:36 &#43;0100 &#43;0100" itemprop="datePublished">2026-01-02</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -991,6 +1003,57 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2024-04-10-the-scripting-language/"
+    >The scripting language</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        <p><a href="https://joaomagfreitas.link/scripts-should-be-written-using-the-project-main-language/">source</a></p>
+<p>TLDR: use main language of the project to write scripts.<br>
++1
++2
+:)</p>
+<p>Additional couple of remarks:</p>
+<ol>
+<li>at some moment you can think about writing tests;</li>
+<li>at some moment you need to reuse something else from the project (also it&rsquo;s possible to duplicate\reimplement something from the project using scripting language);</li>
+<li>at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).</li>
+</ol>
+<p>That&rsquo;s why it&rsquo;s better to write additional logic not using a script but using the main language from the very beginning.</p>
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/post/2024-04-10-the-scripting-language/" class="">
+  <time datetime="2024-04-10 00:23:49 &#43;0200 &#43;0200" itemprop="datePublished">2024-04-10</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/programming/"> programming </a>
+  <a class="article-category-link" href="/categories/ops/"> ops </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/lang/"> lang </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2024-04-10-the-scripting-language/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 114 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -1089,8 +1152,8 @@
         <h1 itemprop="name">
   <a
     class="article-title"
-    href="/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/"
-    >About RFC\ADR\design docs</a
+    href="/post/2022-07-10-about-rfc-adr-design-docs/"
+    >About RFC, ADR, design docs</a
   >
 </h1>
 
@@ -1101,7 +1164,7 @@
       <p class="article-meta">
 <span class="article-date">
   <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/" class="">
+<a href="https://yantonov.com/post/2022-07-10-about-rfc-adr-design-docs/" class="">
   <time datetime="2022-07-10 14:04:28 &#43;0200 &#43;0200" itemprop="datePublished">2022-07-10</time>
 </a>
 </span>
@@ -1118,7 +1181,7 @@
     <a class="article-tag-link" href="/tags/system-design/"> system design </a>
   </span>
 
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/#comments" class="article-comment-link">Comments</a></span>
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2022-07-10-about-rfc-adr-design-docs/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 5 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </p>
@@ -1402,51 +1465,6 @@ But for the import you should do it (if you use version 2 for example), by using
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2021-08-10-geometric-deep-learning/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 25 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/post/2021-07-23-about-rx-observables/"
-    >About rx observables</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        <p>Information for reflection :)<br>
-<a href="https://github.com/edgeandnode/eventuals">Here</a> is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).<br>
-Just check it and spend a couple of minutes to think about it.</p>
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/post/2021-07-23-about-rx-observables/" class="">
-  <time datetime="2021-07-23 00:09:36 &#43;0200 &#43;0200" itemprop="datePublished">2021-07-23</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/programming/"> programming </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/concurrency/"> concurrency </a>
-    <a class="article-tag-link" href="/tags/observable/"> observable </a>
-    <a class="article-tag-link" href="/tags/rx/"> rx </a>
-    <a class="article-tag-link" href="/tags/ui/"> ui </a>
-    <a class="article-tag-link" href="/tags/rust/"> rust </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2021-07-23-about-rx-observables/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 35 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </p>
     </article></div>

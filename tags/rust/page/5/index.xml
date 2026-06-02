@@ -24,6 +24,15 @@
 
     
     <item>
+      <title>Replicated SQLite</title>
+      <link>https://yantonov.com/post/2015-02-23-replicated-sqlite/</link>
+      <guid>https://yantonov.com/post/2015-02-23-replicated-sqlite/</guid>
+      <pubDate>Mon, 23 Feb 2015 23:31:28 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/otoolep/rqlite&#34;&gt;Replicated SQLite&lt;/a&gt; using the Raft consensus protocol written in &lt;a href=&#34;http://golang.org&#34;&gt;Go&lt;/a&gt;  #sqlite #raft #consensus #golang&lt;/p&gt;
+&lt;p&gt;It seems, its time to start learning go&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Path to learn haskell</title>
       <link>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</link>
       <guid>https://yantonov.com/post/2015-02-21-path-to-learn-haskell/</guid>

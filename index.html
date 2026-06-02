@@ -133,7 +133,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">22</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">44</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -234,6 +234,10 @@
                     class="tag-list-count">2</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/cloud/" class="tag-list-link">cloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/command-line/" class="tag-list-link">command line</a><span
                     class="tag-list-count">1</span></li>
             
@@ -316,6 +320,10 @@
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/deploy/" class="tag-list-link">deploy</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/deployment/" class="tag-list-link">deployment</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/design/" class="tag-list-link">design</a><span
@@ -874,6 +882,10 @@
                     class="tag-list-count">8</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/version/" class="tag-list-link">version</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/watch/" class="tag-list-link">watch</a><span
                     class="tag-list-count">1</span></li>
             
@@ -915,7 +927,7 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/yandex/" class="tag-list-link">yandex</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
         </ul>
 
@@ -926,6 +938,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/" class="title">Simplifying sidecar management through bundled releases</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-06-02 08:51:26 &#43;0200 &#43;0200" itemprop="datePublished">2026-06-02</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -966,16 +988,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/" class="title">Git: duplicated refs with different case</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-01-02 19:40:36 &#43;0100 &#43;0100" itemprop="datePublished">2026-01-02</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -991,6 +1003,59 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/"
+    >Simplifying sidecar management through bundled releases</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        <p>Many internal Yandex Cloud services rely on sidecar components and shared configurations to provide cross-cutting functionality such as:</p>
+<ul>
+<li>Log aggregation</li>
+<li>Common metrics collection</li>
+<li>Authorization</li>
+<li>Other platform-level capabilities</li>
+</ul>
+<p>Managing these components can become challenging as the number of services and configurations grows. To simplify debugging, improve transparency, and make changes easier to track, the following approach was introduced.</p>
+<p><strong>Versioned Component Bundles</strong></p>
+<ol>
+<li>
+<p>Individual components (sidecars, enriched configurations, and similar artifacts) are developed, released, and versioned independently.</p>
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/" class="">
+  <time datetime="2026-06-02 08:51:26 &#43;0200 &#43;0200" itemprop="datePublished">2026-06-02</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/ops/"> ops </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/version/"> version </a>
+    <a class="article-tag-link" href="/tags/deployment/"> deployment </a>
+    <a class="article-tag-link" href="/tags/yandex/"> yandex </a>
+    <a class="article-tag-link" href="/tags/cloud/"> cloud </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 211 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope
@@ -1389,57 +1454,6 @@ following command:</p>
 
         <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2024-05-22-go-profile-guided-optimization-example/#comments" class="article-comment-link">Comments</a></span>
 		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 14 words</span>
-		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
-      </p>
-    </article>
-    <article
-      class="article article-type-page"
-      itemscope
-      itemtype="http://schema.org/BlogPosting"
-    >
-      <div class="article-header">
-        <h1 itemprop="name">
-  <a
-    class="article-title"
-    href="/post/2024-04-10-the-scripting-language/"
-    >The scripting language</a
-  >
-</h1>
-
-      </div>
-      <div class="article-entry text-muted" itemprop="description">
-        <p><a href="https://joaomagfreitas.link/scripts-should-be-written-using-the-project-main-language/">source</a></p>
-<p>TLDR: use main language of the project to write scripts.<br>
-+1
-+2
-:)</p>
-<p>Additional couple of remarks:</p>
-<ol>
-<li>at some moment you can think about writing tests;</li>
-<li>at some moment you need to reuse something else from the project (also it&rsquo;s possible to duplicate\reimplement something from the project using scripting language);</li>
-<li>at some moment you can think about integrating functionality implemented inside the script to the main project (admin endpoint\UI\background job\etc).</li>
-</ol>
-<p>That&rsquo;s why it&rsquo;s better to write additional logic not using a script but using the main language from the very beginning.</p>
-      </div>
-      <p class="article-meta">
-<span class="article-date">
-  <i class="icon icon-calendar-check"></i>&nbsp;
-<a href="https://yantonov.com/post/2024-04-10-the-scripting-language/" class="">
-  <time datetime="2024-04-10 00:23:49 &#43;0200 &#43;0200" itemprop="datePublished">2024-04-10</time>
-</a>
-</span>
-<span class="article-category">
-  <i class="icon icon-folder"></i>&nbsp;
-  <a class="article-category-link" href="/categories/programming/"> programming </a>
-  <a class="article-category-link" href="/categories/ops/"> ops </a>
-</span>  
-  <span class="article-tag">
-    <i class="icon icon-tags"></i>&nbsp;
-    <a class="article-tag-link" href="/tags/lang/"> lang </a>
-  </span>
-
-        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2024-04-10-the-scripting-language/#comments" class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 114 words</span>
 		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
       </p>
     </article></div>

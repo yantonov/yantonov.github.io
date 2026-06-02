@@ -133,7 +133,7 @@
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">22</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">19</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">20</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">44</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -234,6 +234,10 @@
                     class="tag-list-count">2</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/cloud/" class="tag-list-link">cloud</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/command-line/" class="tag-list-link">command line</a><span
                     class="tag-list-count">1</span></li>
             
@@ -316,6 +320,10 @@
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/deploy/" class="tag-list-link">deploy</a><span
                     class="tag-list-count">2</span></li>
+            
+            
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/deployment/" class="tag-list-link">deployment</a><span
+                    class="tag-list-count">1</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/design/" class="tag-list-link">design</a><span
@@ -874,6 +882,10 @@
                     class="tag-list-count">8</span></li>
             
             
+            <li class="tag-list-item"><a href="https://yantonov.com/tags/version/" class="tag-list-link">version</a><span
+                    class="tag-list-count">1</span></li>
+            
+            
             <li class="tag-list-item"><a href="https://yantonov.com/tags/watch/" class="tag-list-link">watch</a><span
                     class="tag-list-count">1</span></li>
             
@@ -915,7 +927,7 @@
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/yandex/" class="tag-list-link">yandex</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
         </ul>
 
@@ -926,6 +938,16 @@
     <h3 class="widget-title">Recent Posts</h3>
     <div class="widget-body">
         <ul class="recent-post-list list-unstyled no-thumbnail">
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
+                        <a href="https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/" class="title">Simplifying sidecar management through bundled releases</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-06-02 08:51:26 &#43;0200 &#43;0200" itemprop="datePublished">2026-06-02</time>
+                    </p>
+                </div>
+            </li>
             <li>
                 <div class="item-inner">
                     <p class="item-title">
@@ -966,16 +988,6 @@
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2026-01-02-git-duplicated-refs-with-different-case/" class="title">Git: duplicated refs with different case</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-01-02 19:40:36 &#43;0100 &#43;0100" itemprop="datePublished">2026-01-02</time>
-                    </p>
-                </div>
-            </li>
         </ul>
     </div>
 </div>
@@ -991,6 +1003,72 @@
     
     
     
+    <article
+      class="article article-type-page"
+      itemscope
+      itemtype="http://schema.org/BlogPosting"
+    >
+      <div class="article-header">
+        <h1 itemprop="name">
+  <a
+    class="article-title"
+    href="/post/2014-11-13-church-numerals/"
+    >Church numerals</a
+  >
+</h1>
+
+      </div>
+      <div class="article-entry text-muted" itemprop="description">
+        <p><a href="http://en.wikipedia.org/wiki/Church_encoding">Church numerals</a> is a great example of introducing abstraction in terms of composition of functions. This concept demonstrates that &ldquo;data&rdquo; (naturals numbers in particular) and operations on data can be defined in the same way - using higher-order functions.</p>
+<p>Summary:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#66d9ef">type</span> <span style="color:#66d9ef">Church</span> a <span style="color:#f92672">=</span> (a <span style="color:#f92672">-&gt;</span> a) <span style="color:#f92672">-&gt;</span> a <span style="color:#f92672">-&gt;</span> a
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">zero</span>, cone, ctwo <span style="color:#f92672">::</span> <span style="color:#66d9ef">Church</span> a
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">zero</span> s z <span style="color:#f92672">=</span> z
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">one</span> s z <span style="color:#f92672">=</span> s z
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">two</span> s <span style="color:#f92672">=</span> s <span style="color:#f92672">.</span> s
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">three</span> s <span style="color:#f92672">=</span> s <span style="color:#f92672">.</span> s <span style="color:#f92672">.</span> s
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">nth</span> n s z <span style="color:#f92672">=</span> iterate s z <span style="color:#f92672">!!</span> n
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">add</span>,mul,pow  <span style="color:#f92672">::</span> <span style="color:#66d9ef">Church</span> a <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Church</span> a <span style="color:#f92672">-&gt;</span> <span style="color:#66d9ef">Church</span> a
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">add</span> x y <span style="color:#f92672">=</span> <span style="color:#a6e22e">\</span>s z <span style="color:#f92672">-&gt;</span> x s (y s z)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- a little bit easy to understand</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mul1</span> x y <span style="color:#f92672">=</span> <span style="color:#a6e22e">\</span>s z <span style="color:#f92672">-&gt;</span> x (y s) z
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- the same as</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">mul</span> x y <span style="color:#f92672">=</span> x <span style="color:#f92672">.</span> y
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">pow</span> x y <span style="color:#f92672">=</span> <span style="color:#a6e22e">\</span>s z <span style="color:#f92672">-&gt;</span> y (x s) (x s z)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">-- pretty print</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">c2i</span> x <span style="color:#f92672">=</span> x (<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>) <span style="color:#ae81ff">0</span> <span style="color:#75715e">-- Church to int</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">c2s</span> x <span style="color:#f92672">=</span> x (<span style="color:#e6db74">&#39;*&#39;</span><span style="color:#66d9ef">:</span>) <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#75715e">-- Church to String</span>
+</span></span></code></pre></div><p>Links:</p>
+      </div>
+      <p class="article-meta">
+<span class="article-date">
+  <i class="icon icon-calendar-check"></i>&nbsp;
+<a href="https://yantonov.com/post/2014-11-13-church-numerals/" class="">
+  <time datetime="2014-11-13 08:17:25 &#43;0500 &#43;0500" itemprop="datePublished">2014-11-13</time>
+</a>
+</span>
+<span class="article-category">
+  <i class="icon icon-folder"></i>&nbsp;
+  <a class="article-category-link" href="/categories/computer-science/"> computer science </a>
+</span>  
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>&nbsp;
+    <a class="article-tag-link" href="/tags/lambda-calculus/"> lambda calculus </a>
+    <a class="article-tag-link" href="/tags/haskell/"> haskell </a>
+    <a class="article-tag-link" href="/tags/fprog/"> fprog </a>
+  </span>
+
+        <span class="post-comment"><i class="icon icon-comment"></i> &nbsp;<a href="/post/2014-11-13-church-numerals/#comments" class="article-comment-link">Comments</a></span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 190 words</span>
+		<span class="post-readcount hidden-xs" itemprop="timeRequired">Read Time: 1 minutes </span>
+      </p>
+    </article>
     <article
       class="article article-type-page"
       itemscope

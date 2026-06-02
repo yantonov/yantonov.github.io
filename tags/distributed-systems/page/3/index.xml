@@ -24,6 +24,16 @@
 
     
     <item>
+      <title>Addict</title>
+      <link>https://yantonov.com/post/2020-03-01-addict/</link>
+      <guid>https://yantonov.com/post/2020-03-01-addict/</guid>
+      <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
+      <description>&lt;p&gt;There is a nice python library &lt;a href=&#34;https://github.com/mewwts/addict&#34;&gt;addict&lt;/a&gt; which is interesting for a couple of reasons.&lt;/p&gt;
+&lt;p&gt;First of all, it simplifies creating a nested dictionary (see &lt;a href=&#34;https://github.com/mewwts/addict/blob/master/README.md&#34;&gt;readme&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Secondly, it represents an another nice example of using python magic methods.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Copa</title>
       <link>https://yantonov.com/post/2020-02-27-copa/</link>
       <guid>https://yantonov.com/post/2020-02-27-copa/</guid>
@@ -217,14 +227,6 @@ Verify that if you have enough available watchers in your system. If this value 
 &lt;p&gt;Ubuntu users (and possibly others):&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo fs.inotify.max_user_watches&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;524288&lt;/span&gt; | sudo tee -a /etc/sysctl.conf &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo sysctl -p
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://webpack.github.io/docs/troubleshooting.html#windows-paths&#34; title=&#34;Webpack Has not enough watchers&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>CVRP 2017 Papers</title>
-      <link>https://yantonov.com/post/2017-08-16-cvrp-2017-papers/</link>
-      <guid>https://yantonov.com/post/2017-08-16-cvrp-2017-papers/</guid>
-      <pubDate>Wed, 16 Aug 2017 15:34:17 +0500</pubDate>
-      <description>&lt;p&gt;&lt;a href=&#34;http://openaccess.thecvf.com/CVPR2017.py&#34;&gt;Papers&lt;/a&gt; from CVRP 2017&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -15,13 +15,23 @@
     
 
     
-    <lastBuildDate>Fri, 29 May 2026 11:38:00 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 08:51:26 +0200</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>About rx observables</title>
+      <link>https://yantonov.com/post/2021-07-23-about-rx-observables/</link>
+      <guid>https://yantonov.com/post/2021-07-23-about-rx-observables/</guid>
+      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
+      <description>&lt;p&gt;Information for reflection :)&lt;br&gt;
+&lt;a href=&#34;https://github.com/edgeandnode/eventuals&#34;&gt;Here&lt;/a&gt; is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).&lt;br&gt;
+Just check it and spend a couple of minutes to think about it.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Github actions and windows</title>
@@ -252,16 +262,6 @@ Details can be found &lt;a href=&#34;https://docs.docker.com/config/containers/r
 To check it&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat /sys/fs/cgroup/memory/memory.limit_in_bytes
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When you try to check is, in some situations you can see some huge magic number&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Addict</title>
-      <link>https://yantonov.com/post/2020-03-01-addict/</link>
-      <guid>https://yantonov.com/post/2020-03-01-addict/</guid>
-      <pubDate>Sun, 01 Mar 2020 12:31:37 +0500</pubDate>
-      <description>&lt;p&gt;There is a nice python library &lt;a href=&#34;https://github.com/mewwts/addict&#34;&gt;addict&lt;/a&gt; which is interesting for a couple of reasons.&lt;/p&gt;
-&lt;p&gt;First of all, it simplifies creating a nested dictionary (see &lt;a href=&#34;https://github.com/mewwts/addict/blob/master/README.md&#34;&gt;readme&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Secondly, it represents an another nice example of using python magic methods.&lt;/p&gt;</description>
     </item>
     
   </channel>
