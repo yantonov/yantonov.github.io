@@ -22,6 +22,20 @@
 
     
     <item>
+      <title>Webpack has not enough watchers</title>
+      <link>https://yantonov.com/post/2017-09-13-webpack-has-not-enough-watchers/</link>
+      <guid>https://yantonov.com/post/2017-09-13-webpack-has-not-enough-watchers/</guid>
+      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
+      <description>&lt;p&gt;Not enough watchers
+Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /proc/sys/fs/inotify/max_user_watches
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.&lt;/p&gt;
+&lt;p&gt;Ubuntu users (and possibly others):&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo fs.inotify.max_user_watches&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;524288&lt;/span&gt; | sudo tee -a /etc/sysctl.conf &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo sysctl -p
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://webpack.github.io/docs/troubleshooting.html#windows-paths&#34; title=&#34;Webpack Has not enough watchers&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>CVRP 2017 Papers</title>
       <link>https://yantonov.com/post/2017-08-16-cvrp-2017-papers/</link>
       <guid>https://yantonov.com/post/2017-08-16-cvrp-2017-papers/</guid>
@@ -333,30 +347,6 @@ uninstall-pkg.sh&lt;/p&gt;
       <description>&lt;p&gt;&lt;a href=&#34;http://cs229.stanford.edu/projects2012.html&#34;&gt;Final Projects 2012&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://cs229.stanford.edu/projects2013.html&#34;&gt;Final Projects 2013&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;http://cs229.stanford.edu/projects2014.html&#34;&gt;Final Projects 2014&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Stand up every 20 minutes (mac os)</title>
-      <link>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</link>
-      <guid>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</guid>
-      <pubDate>Fri, 27 Feb 2015 00:33:33 +0500</pubDate>
-      <description>&lt;p&gt;&lt;em&gt;Foreword&lt;/em&gt; : Inspired by &lt;a href=&#34;http://blog.jdevelop.com/software/lifehack/health/standing/linux/2015/02/25/standing-task-20.html&#34;&gt;excellent post&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Initial task: creating notification every 20 minutes can be decomposed into two parts:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;create notification&lt;/li&gt;
-&lt;li&gt;scheduled launch&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;First subtask can be solved using this trivial script.&lt;/p&gt;
-&lt;p&gt;standup.sh:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/bin/sh
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# stand up notification&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;osascript -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;display notification &amp;#34;Stand up&amp;#34; with title &amp;#34;Healthy programmer&amp;#34;&amp;#39;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;say &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Stand up&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Second subtask (scheduled launch) can be solved using: &lt;a href=&#34;http://launchd.info/&#34;&gt;daemon and agent mechanism&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Create file: com.example.stand.up.plist and place it into &lt;strong&gt;~/Library/LaunchAgents/&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

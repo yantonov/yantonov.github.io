@@ -4,14 +4,84 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2026-06-02T08:51:26+02:00</lastmod>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/agent/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/ai/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/amdahl/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2026-06-02T08:51:26+02:00</lastmod>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/parallelism/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/productivity/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/programming/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/release/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</loc>
+    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,21 +108,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/posts/</loc>
-    <lastmod>2026-06-02T08:51:26+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/</loc>
-    <lastmod>2026-06-02T08:51:26+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/</loc>
     <lastmod>2026-06-02T08:51:26+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -95,13 +151,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/optimization/</loc>
-    <lastmod>2026-05-29T11:38:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/programming/</loc>
     <lastmod>2026-05-29T11:38:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -1671,13 +1720,6 @@
   <url>
     <loc>https://yantonov.com/tags/links/</loc>
     <lastmod>2015-10-01T15:49:22+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/ai/</loc>
-    <lastmod>2015-09-13T15:29:49+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

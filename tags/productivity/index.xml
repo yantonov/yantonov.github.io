@@ -2,9 +2,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cs on (map solve problems)</title>
-    <link>https://yantonov.com/categories/cs/</link>
-    <description>Recent content in Cs on (map solve problems)</description>
+    <title>Productivity on (map solve problems)</title>
+    <link>https://yantonov.com/tags/productivity/</link>
+    <description>Recent content in Productivity on (map solve problems)</description>
 
     <generator>Hugo -- gohugo.io</generator>
 
@@ -15,13 +15,40 @@
     
 
     
-    <lastBuildDate>Fri, 15 May 2026 19:50:51 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:57:41 +0200</lastBuildDate>
     
 
     
-    <atom:link href="https://yantonov.com/categories/cs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yantonov.com/tags/productivity/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Writing code vs shipping code</title>
+      <link>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</link>
+      <guid>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:57:41 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://muratbuffalo.blogspot.com/2026/06/writing-code-vs-shipping-code.html&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Simplifying sidecar management through bundled releases</title>
+      <link>https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/</link>
+      <guid>https://yantonov.com/post/2026-06-02-simplifying-sidecar-management-through-bundled-releases/</guid>
+      <pubDate>Tue, 02 Jun 2026 08:51:26 +0200</pubDate>
+      <description>&lt;p&gt;Many internal Yandex Cloud services rely on sidecar components and shared configurations to provide cross-cutting functionality such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Log aggregation&lt;/li&gt;
+&lt;li&gt;Common metrics collection&lt;/li&gt;
+&lt;li&gt;Authorization&lt;/li&gt;
+&lt;li&gt;Other platform-level capabilities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Managing these components can become challenging as the number of services and configurations grows. To simplify debugging, improve transparency, and make changes easier to track, the following approach was introduced.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Versioned Component Bundles&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Individual components (sidecars, enriched configurations, and similar artifacts) are developed, released, and versioned independently.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Sum of digits without modulo</title>
@@ -178,9 +205,9 @@ following command:&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>About RFC\ADR\design docs</title>
-      <link>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</link>
-      <guid>https://yantonov.com/post/2022-07-10-about-rfc%5Cadr%5Cdesign-docs/</guid>
+      <title>About RFC, ADR, design docs</title>
+      <link>https://yantonov.com/post/2022-07-10-about-rfc-adr-design-docs/</link>
+      <guid>https://yantonov.com/post/2022-07-10-about-rfc-adr-design-docs/</guid>
       <pubDate>Sun, 10 Jul 2022 14:04:28 +0200</pubDate>
       <description>&lt;p&gt;Nice &lt;a href=&#34;https://blog.pragmaticengineer.com/rfcs-and-design-docs/&#34;&gt;article&lt;/a&gt; about the topic.&lt;/p&gt;</description>
     </item>
@@ -259,26 +286,6 @@ But for the import you should do it (if you use version 2 for example), by using
 12. &lt;a href=&#34;https://github.com/ryanmcdermott/clean-code-javascript&#34;&gt;clean-code-javascript&lt;/a&gt;
 13. &lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://dev.to/olanetsoft/12-github-repositories-to-help-you-ace-your-job-interview-2a08&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Geometric deep learning</title>
-      <link>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</link>
-      <guid>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</guid>
-      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
-      <description>&lt;p&gt;Geometric deep learning &lt;a href=&#34;https://geometricdeeplearning.com/lectures/&#34;&gt;course&lt;/a&gt;. This DL generalization allows transferring prior physical knowledge to NN architectures.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.13478&#34;&gt;Book&lt;/a&gt; at arxiv.org&lt;/p&gt;
-&lt;p&gt;Full &lt;a href=&#34;https://www.youtube.com/playlist?list=PL3uSJlS7NpskaTGJ9t89T4LAhigIlWXVG&#34;&gt;playlist&lt;/a&gt; (including tutorial and seminar records)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>About rx observables</title>
-      <link>https://yantonov.com/post/2021-07-23-about-rx-observables/</link>
-      <guid>https://yantonov.com/post/2021-07-23-about-rx-observables/</guid>
-      <pubDate>Fri, 23 Jul 2021 00:09:36 +0200</pubDate>
-      <description>&lt;p&gt;Information for reflection :)&lt;br&gt;
-&lt;a href=&#34;https://github.com/edgeandnode/eventuals&#34;&gt;Here&lt;/a&gt; is a nice Rust library that provides concepts of eventuals (observable snapshot of the most up-to-date value).&lt;br&gt;
-Just check it and spend a couple of minutes to think about it.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -24,6 +24,24 @@
 
     
     <item>
+      <title>Docker memory limit</title>
+      <link>https://yantonov.com/post/2020-03-30-docker-memory-limit/</link>
+      <guid>https://yantonov.com/post/2020-03-30-docker-memory-limit/</guid>
+      <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
+      <description>&lt;p&gt;There are some options to control application memory consumption.&lt;/p&gt;
+&lt;p&gt;Docker has a couple of flags to control application inside the container.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ndash;memory flag defines non swap memory limit&lt;/li&gt;
+&lt;li&gt;&amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory)
+Details can be found &lt;a href=&#34;https://docs.docker.com/config/containers/resource_constraints/#--memory-swap-details&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Moreover, there is a cgroups limit at the os level.
+To check it&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat /sys/fs/cgroup/memory/memory.limit_in_bytes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When you try to check is, in some situations you can see some huge magic number&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Addict</title>
       <link>https://yantonov.com/post/2020-03-01-addict/</link>
       <guid>https://yantonov.com/post/2020-03-01-addict/</guid>
@@ -213,20 +231,6 @@ written by Pat Helland [&lt;a href=&#34;https://twitter.com/PatHelland&#34;&gt;t
       <guid>https://yantonov.com/post/2017-12-08-velocity-conference-2017/</guid>
       <pubDate>Fri, 08 Dec 2017 19:28:08 +0500</pubDate>
       <description>&lt;p&gt;&lt;a href=&#34;https://conferences.oreilly.com/velocity/vl-eu/public/schedule/proceedings/&#34;&gt;Slides and videos&lt;/a&gt; from the Velocity conference 2017.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Webpack has not enough watchers</title>
-      <link>https://yantonov.com/post/2017-09-13-webpack-has-not-enough-watchers/</link>
-      <guid>https://yantonov.com/post/2017-09-13-webpack-has-not-enough-watchers/</guid>
-      <pubDate>Wed, 13 Sep 2017 14:34:45 +0500</pubDate>
-      <description>&lt;p&gt;Not enough watchers
-Verify that if you have enough available watchers in your system. If this value is too low, the file watcher in Webpack won’t recognize the changes:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /proc/sys/fs/inotify/max_user_watches
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Arch users, add fs.inotify.max_user_watches=524288 to /etc/sysctl.d/99-sysctl.conf and then execute sysctl &amp;ndash;system.&lt;/p&gt;
-&lt;p&gt;Ubuntu users (and possibly others):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;echo fs.inotify.max_user_watches&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;524288&lt;/span&gt; | sudo tee -a /etc/sysctl.conf &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo sysctl -p
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://webpack.github.io/docs/troubleshooting.html#windows-paths&#34; title=&#34;Webpack Has not enough watchers&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -15,13 +15,23 @@
     
 
     
-    <lastBuildDate>Tue, 02 Jun 2026 08:51:26 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:57:41 +0200</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Geometric deep learning</title>
+      <link>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</link>
+      <guid>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</guid>
+      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
+      <description>&lt;p&gt;Geometric deep learning &lt;a href=&#34;https://geometricdeeplearning.com/lectures/&#34;&gt;course&lt;/a&gt;. This DL generalization allows transferring prior physical knowledge to NN architectures.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.13478&#34;&gt;Book&lt;/a&gt; at arxiv.org&lt;/p&gt;
+&lt;p&gt;Full &lt;a href=&#34;https://www.youtube.com/playlist?list=PL3uSJlS7NpskaTGJ9t89T4LAhigIlWXVG&#34;&gt;playlist&lt;/a&gt; (including tutorial and seminar records)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>About rx observables</title>
@@ -244,24 +254,6 @@ Initially it seems this library provides granular typeclasses which provides dev
 &lt;p&gt;But &lt;a href=&#34;https://github.com/TinkoffCreditSystems/tofu/tree/master/env&#34;&gt;env&lt;/a&gt; module, for example looks overcomplicated but tecnhically provides reader monad.
 Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity.
 Why env contains any side effect specifics?&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Docker memory limit</title>
-      <link>https://yantonov.com/post/2020-03-30-docker-memory-limit/</link>
-      <guid>https://yantonov.com/post/2020-03-30-docker-memory-limit/</guid>
-      <pubDate>Mon, 30 Mar 2020 08:16:41 +0500</pubDate>
-      <description>&lt;p&gt;There are some options to control application memory consumption.&lt;/p&gt;
-&lt;p&gt;Docker has a couple of flags to control application inside the container.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&amp;ndash;memory flag defines non swap memory limit&lt;/li&gt;
-&lt;li&gt;&amp;ndash;memory-swap flag defines total memory limit (swap + non swap memory)
-Details can be found &lt;a href=&#34;https://docs.docker.com/config/containers/resource_constraints/#--memory-swap-details&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Moreover, there is a cgroups limit at the os level.
-To check it&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    cat /sys/fs/cgroup/memory/memory.limit_in_bytes
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When you try to check is, in some situations you can see some huge magic number&lt;/p&gt;</description>
     </item>
     
   </channel>

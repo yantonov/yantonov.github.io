@@ -15,13 +15,21 @@
     
 
     
-    <lastBuildDate>Fri, 29 May 2026 11:38:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 12:57:41 +0200</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Writing code vs shipping code</title>
+      <link>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</link>
+      <guid>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</guid>
+      <pubDate>Wed, 10 Jun 2026 12:57:41 +0200</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;https://muratbuffalo.blogspot.com/2026/06/writing-code-vs-shipping-code.html&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Simplifying sidecar management through bundled releases</title>
@@ -278,16 +286,6 @@ But for the import you should do it (if you use version 2 for example), by using
 12. &lt;a href=&#34;https://github.com/ryanmcdermott/clean-code-javascript&#34;&gt;clean-code-javascript&lt;/a&gt;
 13. &lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://dev.to/olanetsoft/12-github-repositories-to-help-you-ace-your-job-interview-2a08&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Geometric deep learning</title>
-      <link>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</link>
-      <guid>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</guid>
-      <pubDate>Tue, 10 Aug 2021 02:15:23 +0200</pubDate>
-      <description>&lt;p&gt;Geometric deep learning &lt;a href=&#34;https://geometricdeeplearning.com/lectures/&#34;&gt;course&lt;/a&gt;. This DL generalization allows transferring prior physical knowledge to NN architectures.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://arxiv.org/abs/2104.13478&#34;&gt;Book&lt;/a&gt; at arxiv.org&lt;/p&gt;
-&lt;p&gt;Full &lt;a href=&#34;https://www.youtube.com/playlist?list=PL3uSJlS7NpskaTGJ9t89T4LAhigIlWXVG&#34;&gt;playlist&lt;/a&gt; (including tutorial and seminar records)&lt;/p&gt;</description>
     </item>
     
   </channel>
