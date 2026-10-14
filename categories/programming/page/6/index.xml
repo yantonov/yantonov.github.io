@@ -1,0 +1,36 @@
+```go-html-template
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on (map solve problems)</title>
+    <link>https://yantonov.com/categories/programming/</link>
+    <description>Recent content in Programming on (map solve problems)</description>
+
+    <generator>Hugo -- gohugo.io</generator>
+
+    
+    <language>en</language>
+    
+
+    
+
+    
+    <lastBuildDate>Wed, 10 Jun 2026 12:57:41 +0200</lastBuildDate>
+    
+
+    
+    <atom:link href="https://yantonov.com/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+
+    
+    <item>
+      <title>Hello world</title>
+      <link>https://yantonov.com/post/2014-10-27-hello-world/</link>
+      <guid>https://yantonov.com/post/2014-10-27-hello-world/</guid>
+      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
+      <description>&lt;p&gt;hello world :-)&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
+```

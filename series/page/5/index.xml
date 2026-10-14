@@ -22,6 +22,16 @@
 
     
     <item>
+      <title>CS229 Machine Learning</title>
+      <link>https://yantonov.com/post/2015-03-29-cs229-machine-learning/</link>
+      <guid>https://yantonov.com/post/2015-03-29-cs229-machine-learning/</guid>
+      <pubDate>Sun, 29 Mar 2015 15:49:56 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;http://cs229.stanford.edu/projects2012.html&#34;&gt;Final Projects 2012&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cs229.stanford.edu/projects2013.html&#34;&gt;Final Projects 2013&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;http://cs229.stanford.edu/projects2014.html&#34;&gt;Final Projects 2014&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Stand up every 20 minutes (mac os)</title>
       <link>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</link>
       <guid>https://yantonov.com/post/2015-02-27-stand-up-every-20-minutes-mac-os/</guid>
@@ -386,14 +396,6 @@ Output samples are generated using clojure &lt;a href=&#34;https://github.com/cl
 &lt;p&gt;To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$ADDITIONAL_PATH:$PATH
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal). In my case i cant access mercurial from &lt;a href=&#34;http://www.gnu.org/software/emacs/&#34; title=&#34;emacs&#34;&gt;emacs&lt;/a&gt; launched from spotlight.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Hello world</title>
-      <link>https://yantonov.com/post/2014-10-27-hello-world/</link>
-      <guid>https://yantonov.com/post/2014-10-27-hello-world/</guid>
-      <pubDate>Mon, 27 Oct 2014 01:19:36 +0500</pubDate>
-      <description>&lt;p&gt;hello world :-)&lt;/p&gt;</description>
     </item>
     
   </channel>

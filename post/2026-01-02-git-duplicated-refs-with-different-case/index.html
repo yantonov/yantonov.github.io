@@ -22,12 +22,13 @@
     
     <meta name="description" content="Some file system are case insensitive, other are not. When you try to checkout git repository, it&rsquo;s possible to face this kind of error:
 error: You&rsquo;re on a case-insensitive filesystem, and the remote you are trying to fetch from has references that only differ in casing. It is impossible to store such references with the &lsquo;files&rsquo; backend. You can either accept this as-is, in which case you won&rsquo;t be able to store all remote references on disk. Or you can alternatively migrate your repository to use the &lsquo;reftable&rsquo; backend with the following command:
+git refs migrate --ref-format=reftable Please keep in mind that not all implementations of Git support this new format yet. So if you use tools other than Git to access this repository it may not be an option to migrate to reftables.
 " />
-    <meta name="generator" content="Hugo 0.162.1 with theme pure" />
+    <meta name="generator" content="Hugo 0.168.0 with theme pure" />
     <title>Git: duplicated refs with different case - (map solve problems)</title>
     
     
-    <link rel="stylesheet" href="https://yantonov.com/css/style.min.142fadc7793bd505f5673afdc91581dd8fff401c2ad4dc09f37366d775340826.css">
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.fcd6391440eebd58acf4247ec86fd0ec82ef9b72e236a7a337f30bfde97c8151.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -135,7 +136,7 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">22</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">45</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -173,7 +174,7 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/alias/" class="tag-list-link">alias</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/alice/" class="tag-list-link">alice</a><span
@@ -273,7 +274,7 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/config/" class="tag-list-link">config</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/configuration/" class="tag-list-link">configuration</a><span
@@ -441,7 +442,7 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/git/" class="tag-list-link">git</a><span
-                    class="tag-list-count">7</span></li>
+                    class="tag-list-count">8</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/github/" class="tag-list-link">github</a><span
@@ -959,6 +960,16 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/post/2026-10-14-git-find-all-alias-definitions-and-their-sources/" class="title">Git find all alias definitions and their sources</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-10-14 15:07:05 &#43;0200 CEST" itemprop="datePublished">2026-10-14</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/" class="title">Writing code vs shipping code</a>
                     </p>
                     <p class="item-date">
@@ -993,16 +1004,6 @@ error: You&rsquo;re on a case-insensitive filesystem, and the remote you are try
                     </p>
                     <p class="item-date">
                         <time datetime="2026-05-15 19:50:51 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2026-05-15-behavior-trees/" class="title">Behavior trees</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-05-15 10:41:16 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
                     </p>
                 </div>
             </li>

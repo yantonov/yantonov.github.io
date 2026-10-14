@@ -4,7 +4,63 @@
   
   <url>
     <loc>https://yantonov.com/</loc>
-    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/alias/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/config/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/git/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/post/2026-10-14-git-find-all-alias-definitions-and-their-sources/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/categories/ops/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/posts/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://yantonov.com/tags/</loc>
+    <lastmod>2026-10-14T15:07:05+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,21 +87,7 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/categories/</loc>
-    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/tags/parallelism/</loc>
-    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/posts/</loc>
     <lastmod>2026-06-10T12:57:41+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -73,13 +115,6 @@
   </url>
   
   <url>
-    <loc>https://yantonov.com/tags/</loc>
-    <lastmod>2026-06-10T12:57:41+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/</loc>
     <lastmod>2026-06-10T12:57:41+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -95,13 +130,6 @@
   
   <url>
     <loc>https://yantonov.com/tags/deployment/</loc>
-    <lastmod>2026-06-02T08:51:26+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/categories/ops/</loc>
     <lastmod>2026-06-02T08:51:26+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -243,13 +271,6 @@
   <url>
     <loc>https://yantonov.com/tags/promotion/</loc>
     <lastmod>2026-03-21T23:19:05+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/git/</loc>
-    <lastmod>2026-01-02T19:40:36+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -2126,20 +2147,6 @@
   <url>
     <loc>https://yantonov.com/tags/xamarin/</loc>
     <lastmod>2014-11-03T13:43:28+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/alias/</loc>
-    <lastmod>2014-10-31T00:10:22+05:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://yantonov.com/tags/config/</loc>
-    <lastmod>2014-10-31T00:10:22+05:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

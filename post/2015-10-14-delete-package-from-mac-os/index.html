@@ -25,11 +25,11 @@ There is no official way to uninstall package, but you can do it manually using 
 To automate the process i have wrote this script uninstall-pkg.sh
 #!/bin/sh # this script allow you to uninstall given pkg file # ATTENTIONS! # all delete operation are interactive, but in any way # USE THIS SCRIPT FOR YOUR OWN RISK SCRIPT=`basename $0` WD=`pwd` PACKAGE_NAME=$1 if [ -z &#34;$PACKAGE_NAME&#34; ]; then echo &#34;[ERROR] - package is not defined&#34; echo &#34;Usage: $SCRIPT &lt;package-name&gt;&#34; exit 0 fi installed_packages=`pkgutil --pkgs | grep $PACKAGE_NAME` if [ -z &#34;$installed_packages&#34; ]; then echo &#34;[ERROR] - package &#39;$PACKAGE_NAME&#39; not found&#34; exit 0 fi for p in `pkgutil --pkgs | grep $PACKAGE_NAME`; do echo &#34;Delete package: &#39;$p&#39; [y/n/other key to break] ?:&#34; read -n 1 selection echo &#34;&#34; case &#34;$selection&#34; in y) echo &#34;[INFO] - Process package: &#39;$p&#39;&#34; volume=`pkgutil --pkg-info $p | grep -E &#39;volume:&#39; | cut -d &#39; &#39; -f 2` location=`pkgutil --pkg-info $p | grep -E &#39;location:&#39; | cut -d &#39; &#39; -f 2` package_path=&#34;$volume$location&#34; echo &#39;[INFO] - Go to package install location: $package_path&#39; cd $package_path echo &#39;[INFO] - Iterate package files:&#39; for f in `pkgutil --only-files --files $p`; do echo &#39;Delete file: &#39;$f&#39; ? [y/n/other key to skip package]:&#39; read -n 1 file_cmd echo &#34;&#34; case &#34;$file_cmd&#34; in y) sudo rm -i $f echo &#34;[INFO] - file &#39;$f&#39; deleted.&#34; ;; n) echo &#34;[INFO] - file &#39;$f&#39; skipped&#34; ;; *) echo &#34;[INFO] - skip all files in package &#39;$p&#39;&#34; break ;; esac done ;; n) echo &#39;[INFO] - ok, i will skip package &#39;%p&#39;&#39; ;; *) echo &#39;[INFO] - quit&#39; exit 0 ;; esac done cd $WD source
 " />
-    <meta name="generator" content="Hugo 0.162.1 with theme pure" />
+    <meta name="generator" content="Hugo 0.168.0 with theme pure" />
     <title>Delete package from Mac OS - (map solve problems)</title>
     
     
-    <link rel="stylesheet" href="https://yantonov.com/css/style.min.142fadc7793bd505f5673afdc91581dd8fff401c2ad4dc09f37366d775340826.css">
+    <link rel="stylesheet" href="https://yantonov.com/css/style.min.fcd6391440eebd58acf4247ec86fd0ec82ef9b72e236a7a337f30bfde97c8151.css">
     
     <link rel="stylesheet" href="https://cdn.staticfile.org/highlight.js/9.15.10/styles/github.min.css" async>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css" async>
@@ -137,7 +137,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             <li class="category-list-item"><a href="https://yantonov.com/categories/computer-science/" class="category-list-link">computer-science</a><span class="category-list-count">22</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/job/" class="category-list-link">job</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/misc/" class="category-list-link">misc</a><span class="category-list-count">3</span></li>
-            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">20</span></li>
+            <li class="category-list-item"><a href="https://yantonov.com/categories/ops/" class="category-list-link">ops</a><span class="category-list-count">21</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/podcast/" class="category-list-link">podcast</a><span class="category-list-count">1</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/programming/" class="category-list-link">programming</a><span class="category-list-count">45</span></li>
             <li class="category-list-item"><a href="https://yantonov.com/categories/statistics/" class="category-list-link">statistics</a><span class="category-list-count">1</span></li>
@@ -175,7 +175,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/alias/" class="tag-list-link">alias</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/alice/" class="tag-list-link">alice</a><span
@@ -275,7 +275,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/config/" class="tag-list-link">config</a><span
-                    class="tag-list-count">1</span></li>
+                    class="tag-list-count">2</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/configuration/" class="tag-list-link">configuration</a><span
@@ -443,7 +443,7 @@ To automate the process i have wrote this script uninstall-pkg.sh
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/git/" class="tag-list-link">git</a><span
-                    class="tag-list-count">7</span></li>
+                    class="tag-list-count">8</span></li>
             
             
             <li class="tag-list-item"><a href="https://yantonov.com/tags/github/" class="tag-list-link">github</a><span
@@ -961,6 +961,16 @@ To automate the process i have wrote this script uninstall-pkg.sh
             <li>
                 <div class="item-inner">
                     <p class="item-title">
+                        <a href="https://yantonov.com/post/2026-10-14-git-find-all-alias-definitions-and-their-sources/" class="title">Git find all alias definitions and their sources</a>
+                    </p>
+                    <p class="item-date">
+                        <time datetime="2026-10-14 15:07:05 &#43;0200 CEST" itemprop="datePublished">2026-10-14</time>
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="item-inner">
+                    <p class="item-title">
                         <a href="https://yantonov.com/post/2026-06-10-writing-code-vs-shipping-code/" class="title">Writing code vs shipping code</a>
                     </p>
                     <p class="item-date">
@@ -995,16 +1005,6 @@ To automate the process i have wrote this script uninstall-pkg.sh
                     </p>
                     <p class="item-date">
                         <time datetime="2026-05-15 19:50:51 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
-                    </p>
-                </div>
-            </li>
-            <li>
-                <div class="item-inner">
-                    <p class="item-title">
-                        <a href="https://yantonov.com/post/2026-05-15-behavior-trees/" class="title">Behavior trees</a>
-                    </p>
-                    <p class="item-date">
-                        <time datetime="2026-05-15 10:41:16 &#43;0200 CEST" itemprop="datePublished">2026-05-15</time>
                     </p>
                 </div>
             </li>

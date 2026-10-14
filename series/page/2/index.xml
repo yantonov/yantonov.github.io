@@ -22,6 +22,32 @@
 
     
     <item>
+      <title>Github repositories that help you to prepare for the next interview</title>
+      <link>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</link>
+      <guid>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</guid>
+      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
+      <description>&lt;p&gt;Here is the list of general/algo/system design questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jwasham/coding-interview-university&#34;&gt;coding-interview-university&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/danistefanovic/build-your-own-x&#34;&gt;build-your-own-x&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/yangshun/tech-interview-handbook&#34;&gt;tech-interview-handbook&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/veeral-patel/how-to-secure-anything&#34;&gt;how-to-secure-anything&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/javascript-algorithms&#34;&gt;javascript-algorithms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vasanthk/how-web-works&#34;&gt;how-web-works&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Javascript&#34;&gt;algorithms-javascript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/donnemartin/system-design-primer&#34;&gt;system-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/DopplerHQ/awesome-interview-questions&#34;&gt;awesome-interview-questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Olshansk/interview&#34;&gt;olshansk-interview&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Golang
+11. &lt;a href=&#34;https://github.com/inancgumus/learngo&#34;&gt;learngo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Javascript
+12. &lt;a href=&#34;https://github.com/ryanmcdermott/clean-code-javascript&#34;&gt;clean-code-javascript&lt;/a&gt;
+13. &lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://dev.to/olanetsoft/12-github-repositories-to-help-you-ace-your-job-interview-2a08&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Geometric deep learning</title>
       <link>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</link>
       <guid>https://yantonov.com/post/2021-08-10-geometric-deep-learning/</guid>
@@ -240,18 +266,6 @@ definitely it can be used in production, and moreover this is an excellent bunch
       <pubDate>Sat, 22 Aug 2020 22:21:49 +0500</pubDate>
       <description>&lt;p&gt;&lt;a href=&#34;http://www.sheshbabu.com/posts/rust-module-system/&#34;&gt;Here&lt;/a&gt; is a great article about rust module system.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://t.me/this_week_in_rust&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Tofu</title>
-      <link>https://yantonov.com/post/2020-08-22-tofu/</link>
-      <guid>https://yantonov.com/post/2020-08-22-tofu/</guid>
-      <pubDate>Sat, 22 Aug 2020 16:26:20 +0500</pubDate>
-      <description>&lt;p&gt;Recently I had a look at &lt;a href=&#34;https://github.com/TinkoffCreditSystems/tofu&#34;&gt;tofu&lt;/a&gt; library.&lt;br&gt;
-Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.&lt;/p&gt;
-&lt;p&gt;But &lt;a href=&#34;https://github.com/TinkoffCreditSystems/tofu/tree/master/env&#34;&gt;env&lt;/a&gt; module, for example looks overcomplicated but tecnhically provides reader monad.
-Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity.
-Why env contains any side effect specifics?&lt;/p&gt;</description>
     </item>
     
   </channel>

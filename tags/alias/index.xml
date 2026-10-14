@@ -15,13 +15,28 @@
     
 
     
-    <lastBuildDate>Fri, 31 Oct 2014 00:10:22 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 15:07:05 +0200</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/tags/alias/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Git find all alias definitions and their sources</title>
+      <link>https://yantonov.com/post/2026-10-14-git-find-all-alias-definitions-and-their-sources/</link>
+      <guid>https://yantonov.com/post/2026-10-14-git-find-all-alias-definitions-and-their-sources/</guid>
+      <pubDate>Wed, 14 Oct 2026 15:07:05 +0200</pubDate>
+      <description>&lt;p&gt;To list all definitions of a Git alias and identify their source config files:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --show-origin --get-all alias.co
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--show-origin&lt;/code&gt;: Shows the config file where each alias is defined.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;--get-all&lt;/code&gt;: Displays all definitions, including duplicates.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;alias.co&lt;/code&gt;: The alias to inspect.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Useful for debugging conflicting aliases across &lt;strong&gt;local&lt;/strong&gt;, &lt;strong&gt;global&lt;/strong&gt;, and &lt;strong&gt;system&lt;/strong&gt; Git configurations.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Writing code vs shipping code</title>
@@ -47,7 +62,40 @@
 &lt;p&gt;&lt;strong&gt;Versioned Component Bundles&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;Individual components (sidecars, enriched configurations, and similar artifacts) are developed, released, and versioned independently.&lt;/p&gt;</description>
+&lt;p&gt;Individual components (sidecars, enriched configurations, and similar artifacts) are developed, released, and versioned independently.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Periodically, a &lt;strong&gt;bundle&lt;/strong&gt; is created and assigned its own version.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Each bundle references a specific version of every included component:&lt;/p&gt;
+&lt;table&gt;
+	&lt;thead&gt;
+			&lt;tr&gt;
+					&lt;th&gt;Component&lt;/th&gt;
+					&lt;th&gt;Version&lt;/th&gt;
+			&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Component A&lt;/td&gt;
+					&lt;td&gt;v1&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Component B&lt;/td&gt;
+					&lt;td&gt;v2&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;
+					&lt;td&gt;Component C&lt;/td&gt;
+					&lt;td&gt;v3&lt;/td&gt;
+			&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;From a user&amp;rsquo;s perspective, only the bundle version matters. Instead of managing versions of individual components, users simply upgrade the bundle (for example, from &lt;code&gt;v1&lt;/code&gt; to &lt;code&gt;v2&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -123,7 +171,13 @@ is impossible to store such references with the &amp;lsquo;files&amp;rsquo; back
 can either accept this as-is, in which case you won&amp;rsquo;t be able to
 store all remote references on disk. Or you can alternatively
 migrate your repository to use the &amp;lsquo;reftable&amp;rsquo; backend with the
-following command:&lt;/p&gt;</description>
+following command:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git refs migrate --ref-format=reftable 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Please keep in mind that not all implementations of Git support this
+new format yet. So if you use tools other than Git to access this
+repository it may not be an option to migrate to reftables.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -260,32 +314,6 @@ following command:&lt;/p&gt;</description>
 But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter.&lt;/li&gt;
 &lt;li&gt;To define the default user you should use the command that may vary depending on the os version. For example, for Ubuntu 20.04 the command looks like ubuntu 2004, not ubuntu.&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Github repositories that help you to prepare for the next interview</title>
-      <link>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</link>
-      <guid>https://yantonov.com/post/2021-10-04-github-repositories-that-help-you-to-prepare-for-the-next-interview/</guid>
-      <pubDate>Mon, 04 Oct 2021 12:33:47 +0200</pubDate>
-      <description>&lt;p&gt;Here is the list of general/algo/system design questions:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/jwasham/coding-interview-university&#34;&gt;coding-interview-university&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/danistefanovic/build-your-own-x&#34;&gt;build-your-own-x&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/yangshun/tech-interview-handbook&#34;&gt;tech-interview-handbook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/veeral-patel/how-to-secure-anything&#34;&gt;how-to-secure-anything&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/javascript-algorithms&#34;&gt;javascript-algorithms&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/vasanthk/how-web-works&#34;&gt;how-web-works&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Javascript&#34;&gt;algorithms-javascript&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/donnemartin/system-design-primer&#34;&gt;system-design-primer&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/DopplerHQ/awesome-interview-questions&#34;&gt;awesome-interview-questions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/Olshansk/interview&#34;&gt;olshansk-interview&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Golang
-11. &lt;a href=&#34;https://github.com/inancgumus/learngo&#34;&gt;learngo&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Javascript
-12. &lt;a href=&#34;https://github.com/ryanmcdermott/clean-code-javascript&#34;&gt;clean-code-javascript&lt;/a&gt;
-13. &lt;a href=&#34;https://github.com/lydiahallie/javascript-questions&#34;&gt;javascript-questions&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://dev.to/olanetsoft/12-github-repositories-to-help-you-ace-your-job-interview-2a08&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

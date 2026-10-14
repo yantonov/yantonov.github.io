@@ -22,6 +22,18 @@
 
     
     <item>
+      <title>Tofu</title>
+      <link>https://yantonov.com/post/2020-08-22-tofu/</link>
+      <guid>https://yantonov.com/post/2020-08-22-tofu/</guid>
+      <pubDate>Sat, 22 Aug 2020 16:26:20 +0500</pubDate>
+      <description>&lt;p&gt;Recently I had a look at &lt;a href=&#34;https://github.com/TinkoffCreditSystems/tofu&#34;&gt;tofu&lt;/a&gt; library.&lt;br&gt;
+Initially it seems this library provides granular typeclasses which provides developer to implement high level logic and substitute corresponding lower level implementation as proposed by tagless final approach.&lt;/p&gt;
+&lt;p&gt;But &lt;a href=&#34;https://github.com/TinkoffCreditSystems/tofu/tree/master/env&#34;&gt;env&lt;/a&gt; module, for example looks overcomplicated but tecnhically provides reader monad.
+Definitely this is an acceptable approach, but it seems that monix task dependency introduce all this complexity.
+Why env contains any side effect specifics?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Docker memory limit</title>
       <link>https://yantonov.com/post/2020-03-30-docker-memory-limit/</link>
       <guid>https://yantonov.com/post/2020-03-30-docker-memory-limit/</guid>
@@ -154,7 +166,8 @@ Nice example of functional composition with pragmatic library with minimum numbe
 &lt;p&gt;Important note about the quality of the codebase (in context of stacked diff, i.e. trunk based development):&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;In this model, every commit must pass lint. It must pass unit tests. It must build. Every commit should have a test plan. A description. A meaningful title. Every. Single. Commit. This level of discipline means the code quality bar is fundamentally higher than the Pull Request world&amp;hellip;
-I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.&lt;/p&gt;</description>
+I didn&amp;rsquo;t think a lot about it before, but it definitely seems realistic.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
     <item>
@@ -221,14 +234,6 @@ written by Pat Helland [&lt;a href=&#34;https://twitter.com/PatHelland&#34;&gt;t
       <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
       <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
       <description>&lt;p&gt;&lt;a href=&#34;http://chimera.labs.oreilly.com/books/1230000000929/index.html&#34;&gt;Here&lt;/a&gt; is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Velocity conference 2017</title>
-      <link>https://yantonov.com/post/2017-12-08-velocity-conference-2017/</link>
-      <guid>https://yantonov.com/post/2017-12-08-velocity-conference-2017/</guid>
-      <pubDate>Fri, 08 Dec 2017 19:28:08 +0500</pubDate>
-      <description>&lt;p&gt;&lt;a href=&#34;https://conferences.oreilly.com/velocity/vl-eu/public/schedule/proceedings/&#34;&gt;Slides and videos&lt;/a&gt; from the Velocity conference 2017.&lt;/p&gt;</description>
     </item>
     
   </channel>
