@@ -15,13 +15,24 @@
     
 
     
-    <lastBuildDate>Wed, 14 Oct 2026 15:07:05 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:06:54 +0100</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Mac os environment variables</title>
+      <link>https://yantonov.com/post/2014-10-27-mac-os-environment-variables/</link>
+      <guid>https://yantonov.com/post/2014-10-27-mac-os-environment-variables/</guid>
+      <pubDate>Mon, 27 Oct 2014 02:36:04 +0500</pubDate>
+      <description>&lt;p&gt;Suppose you install some program into your home directory (i had installed &lt;a href=&#34;http://mercurial.selenic.com/&#34; title=&#34;mercurial&#34;&gt;mercurial&lt;/a&gt; from source). To use it you have to patch PATH variable.&lt;/p&gt;
+&lt;p&gt;To achieve this, you needed to modify, for example, local .profile file (its undesirable to modify global config like etc/profile). So your .profile file contains something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export PATH&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;$ADDITIONAL_PATH:$PATH
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;It wokrs great from terminal. But you cant use variable defined such way from programs launched throught spotlight, because all apps started from gui interface of Mac Os has its own list of environemnt variables (independent from terminal). In my case i cant access mercurial from &lt;a href=&#34;http://www.gnu.org/software/emacs/&#34; title=&#34;emacs&#34;&gt;emacs&lt;/a&gt; launched from spotlight.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello world</title>

@@ -15,13 +15,26 @@
     
 
     
-    <lastBuildDate>Wed, 14 Oct 2026 15:07:05 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:06:54 +0100</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Handling enter during ime composition</title>
+      <link>https://yantonov.com/post/2026-10-30-handling-enter-during-ime-composition/</link>
+      <guid>https://yantonov.com/post/2026-10-30-handling-enter-during-ime-composition/</guid>
+      <pubDate>Fri, 30 Oct 2026 17:06:54 +0100</pubDate>
+      <description>&lt;p&gt;When implementing form submission on Enter, it is important to account for Input Method Editors (IMEs), which are commonly used to enter Chinese, Japanese, and Korean text.&lt;/p&gt;
+&lt;p&gt;During text composition, Enter may confirm a selected character or word. Submitting the form on that same keystroke can save incomplete text. Checking isComposing prevents the handler from submitting while composition is active. In React, this flag is accessed through nativeEvent:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-typescript&#34; data-lang=&#34;typescript&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Enter&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;!&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;nativeEvent&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;isComposing&lt;/span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;save&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&#34;https://t.me/mypillowbook/609&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Git find all alias definitions and their sources</title>
@@ -299,20 +312,6 @@ repository it may not be an option to migrate to reftables.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;a href=&#34;https://dl.acm.org/doi/pdf/10.1145/3458336.3465286&#34;&gt;Metastable Failures in Distributed Systems&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://engineering.fb.com/2014/11/14/production-engineering/solving-the-mystery-of-link-imbalance-a-metastable-failure-state-at-scale/&#34;&gt;Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Move WSL to another drive</title>
-      <link>https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/</link>
-      <guid>https://yantonov.com/post/2022-04-07-move-wsl-to-another-drive/</guid>
-      <pubDate>Thu, 07 Apr 2022 10:22:12 +0200</pubDate>
-      <description>&lt;p&gt;&lt;a href=&#34;https://avinal.space/posts/development/wsl1.html&#34;&gt;Here&lt;/a&gt; is a nice instruction how to migrate wsl to another drive.&lt;/p&gt;
-&lt;p&gt;A couple of nuances:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;When you export the image there is no need to define the version of WSL.
-But for the import you should do it (if you use version 2 for example), by using the version parameter, otherwise, you will get a confusing error about an incorrect parameter.&lt;/li&gt;
-&lt;li&gt;To define the default user you should use the command that may vary depending on the os version. For example, for Ubuntu 20.04 the command looks like ubuntu 2004, not ubuntu.&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     

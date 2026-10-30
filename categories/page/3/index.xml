@@ -15,13 +15,22 @@
     
 
     
-    <lastBuildDate>Wed, 14 Oct 2026 15:07:05 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 17:06:54 +0100</lastBuildDate>
     
 
     
     <atom:link href="https://yantonov.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
 
+    
+    <item>
+      <title>Rust module system</title>
+      <link>https://yantonov.com/post/2020-08-22-rust-module-system/</link>
+      <guid>https://yantonov.com/post/2020-08-22-rust-module-system/</guid>
+      <pubDate>Sat, 22 Aug 2020 22:21:49 +0500</pubDate>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.sheshbabu.com/posts/rust-module-system/&#34;&gt;Here&lt;/a&gt; is a great article about rust module system.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://t.me/this_week_in_rust&#34;&gt;Source&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Tofu</title>
@@ -228,14 +237,6 @@ written by Pat Helland [&lt;a href=&#34;https://twitter.com/PatHelland&#34;&gt;t
       <pubDate>Sat, 15 Jun 2019 14:15:36 +0500</pubDate>
       <description>&lt;p&gt;Simple probabilistic data structure used to count distinct values.&lt;br&gt;
 &lt;a href=&#34;https://research.neustar.biz/2012/07/09/sketch-of-the-day-k-minimum-values/&#34;&gt;source&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Parallel and concurrenct programming in haskell</title>
-      <link>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</link>
-      <guid>https://yantonov.com/post/2017-12-13-parallel-and-concurrenct-programming-in-haskell/</guid>
-      <pubDate>Wed, 13 Dec 2017 22:56:24 +0500</pubDate>
-      <description>&lt;p&gt;&lt;a href=&#34;http://chimera.labs.oreilly.com/books/1230000000929/index.html&#34;&gt;Here&lt;/a&gt; is html version of Simon Marlow&amp;rsquo;s book &amp;lsquo;Parallel and Concurrent Programming in Haskell&amp;rsquo;.&lt;/p&gt;</description>
     </item>
     
   </channel>
